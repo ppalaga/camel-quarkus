@@ -57,6 +57,12 @@
                 <version>${quarkus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>io.quarkus</groupId>
+                        <artifactId>quarkus-camel-*</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <dependency>

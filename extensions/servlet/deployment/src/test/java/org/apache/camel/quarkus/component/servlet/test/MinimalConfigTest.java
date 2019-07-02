@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.quarkus.camel.component.servlet.test;
+package org.apache.camel.quarkus.component.servlet.test;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.hamcrest.core.IsEqual;
@@ -39,11 +39,16 @@ public class MinimalConfigTest {
     @Test
     public void minimal() {
         RestAssured.when().get("/rest-get").then().body(IsEqual.equalTo("GET: /rest-get"));
-        RestAssured.when().post("/rest-post").then().body(IsEqual.equalTo("POST: /rest-post"));
-        RestAssured.when().get("/hello").then().body(IsEqual.equalTo("GET: /hello"));
+//        RestAssured.when().post("/rest-post").then().body(IsEqual.equalTo("POST: /rest-post"));
+//        RestAssured.when().get("/hello").then().body(IsEqual.equalTo("GET: /hello"));
     }
 
     public static class Routes extends RouteBuilder {
+
+        public Routes() {
+            super();
+            log.warn("new Routes()", new RuntimeException());
+        }
 
         @Override
         public void configure() {
@@ -53,13 +58,8 @@ public class MinimalConfigTest {
                     .route()
                     .setBody(constant("GET: /rest-get"))
                     .endRest()
-                    .post("/rest-post")
-                    .route()
-                    .setBody(constant("POST: /rest-post"))
-                    .endRest();
+                    ;
 
-            from("servlet://hello?matchOnUriPrefix=true")
-                    .setBody(constant("GET: /hello"));
         }
     }
 

@@ -136,6 +136,7 @@ public class FastCamelRuntime implements CamelRuntime {
 
     public void doStart() throws Exception {
         fireEvent(StartingEvent.class, new StartingEvent());
+        log.warn("== Starting context");
         context.start();
         fireEvent(StartedEvent.class, new StartedEvent());
 
