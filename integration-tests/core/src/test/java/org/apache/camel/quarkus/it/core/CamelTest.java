@@ -14,8 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.quarkus.it.camel.core;
+package org.apache.camel.quarkus.it.core;
 
+import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.is;
 
 import java.net.URI;
@@ -28,13 +29,19 @@ import io.restassured.RestAssured;
 
 @QuarkusTest
 @QuarkusTestResource(InfinispanServerTestResource.class)
-public class CamelInfinispanTest {
+public class CamelTest {
+    @Test
+    public void testRoutes() {
+        RestAssured.when().get("/test/routes").then().body(containsString("timer"));
+    }
 
     @Test
-    public void testInfinispan() throws Exception {
-        RestAssured.with().body("Hello Infinispan").post(new URI("http://localhost:8999/put")).then();
+    public void testProperties() {
+        RestAssured.when().get("/test/property/camel.context.name").then().body(is("quarkus-camel-example"));
+    }
 
-        RestAssured.when().get(new URI("http://localhost:8999/get"))
-                .then().body(is("Hello Infinispan"));
+    @Test
+    public void testNetty4Http() throws Exception {
+        RestAssured.when().get(new URI("http://localhost:8999/foo")).then().body(is("Netty Hello World"));
     }
 }

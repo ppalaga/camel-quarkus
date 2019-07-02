@@ -14,10 +14,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.quarkus.it.camel.core;
+package org.apache.camel.quarkus.it.core;
 
-import io.quarkus.test.junit.SubstrateTest;
+import javax.ws.rs.ApplicationPath;
+import javax.ws.rs.core.Application;
 
-@SubstrateTest
-public class CamelITCase extends CamelTest {
+@ApplicationPath("/test")
+public class CamelApplication extends Application {
 }

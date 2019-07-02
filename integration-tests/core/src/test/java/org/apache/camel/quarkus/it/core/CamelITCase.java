@@ -14,13 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.quarkus.it.camel.core;
-
-import org.junit.jupiter.api.Disabled;
+package org.apache.camel.quarkus.it.core;
 
 import io.quarkus.test.junit.SubstrateTest;
 
-@Disabled("See https://github.com/quarkusio/quarkus/issues/2351")
 @SubstrateTest
-public class CamelInfinispanITCase extends CamelInfinispanTest {
+public class CamelITCase extends CamelTest {
 }
