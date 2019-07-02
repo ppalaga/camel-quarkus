@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.quarkus.camel.component.servlet.test;
+package org.apache.camel.quarkus.component.servlet.test;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.hamcrest.core.IsEqual;
@@ -27,7 +27,7 @@ import org.junit.jupiter.api.extension.RegisterExtension;
 import io.quarkus.test.QuarkusUnitTest;
 import io.restassured.RestAssured;
 
-public class NoDefaultServletTest {
+public class CustomDefaultServletClassTest {
 
     @RegisterExtension
     static final QuarkusUnitTest config = new QuarkusUnitTest()
@@ -35,14 +35,14 @@ public class NoDefaultServletTest {
                     .addClasses(Routes.class)
                     .addAsResource(
                             new StringAsset(
-                                    "quarkus.camel.servlet.my-servlet.url-patterns=/my-path/*\n"
-                                            + "quarkus.camel.servlet.my-servlet.servlet-class=" + CustomServlet.class.getName()
-                                            + "\n"),
+                                    "quarkus.camel.servlet.url-patterns=/*\n"
+                                            + "quarkus.camel.servlet.servlet-name=my-named-servlet\n"
+                                            + "quarkus.camel.servlet.servlet-class=" + CustomServlet.class.getName() + "\n"),
                             "application.properties"));
 
     @Test
-    public void noDefaultServlet() {
-        RestAssured.when().get("/my-path/custom").then()
+    public void customDefaultServletClass() {
+        RestAssured.when().get("/custom").then()
                 .body(IsEqual.equalTo("GET: /custom"))
                 .and().header("x-servlet-class-name", CustomServlet.class.getName());
     }
@@ -50,7 +50,7 @@ public class NoDefaultServletTest {
     public static class Routes extends RouteBuilder {
         @Override
         public void configure() {
-            from("servlet://custom?servletName=my-servlet")
+            from("servlet://custom?servletName=my-named-servlet")
                     .setBody(constant("GET: /custom"));
         }
     }
