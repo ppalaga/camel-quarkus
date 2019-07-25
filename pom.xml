@@ -41,7 +41,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <camel.version>3.0.0-M2</camel.version>
-        <quarkus.version>0.19.1</quarkus.version>
+        <quarkus.version>999-SRC-revision-51609a11a819a6cc82732f55abdeebe19303e127</quarkus.version>
 
         <version.compiler.plugin>3.8.0</version.compiler.plugin>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -300,40 +300,5 @@
                 </plugins>
             </build>
         </profile>
-
-        <profile>
-            <id>quarkus-snapshots</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <properties>
-                <quarkus.version>999-SNAPSHOT</quarkus.version>
-            </properties>
-            <repositories>
-                <repository>
-                    <id>oss-snapshots-repo</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                    <releases>
-                        <enabled>false</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </repository>
-            </repositories>
-            <pluginRepositories>
-                <pluginRepository>
-                    <id>oss-snapshots-repo</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-                    <releases>
-                        <enabled>false</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </pluginRepository>
-            </pluginRepositories>
-        </profile>
     </profiles>
-
 </project>
