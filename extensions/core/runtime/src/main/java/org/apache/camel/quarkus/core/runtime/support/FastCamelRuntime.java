@@ -130,7 +130,7 @@ public class FastCamelRuntime implements CamelRuntime {
         fireEvent(StartedEvent.class, new StartedEvent());
 
         if (runtimeConfig.dumpRoutes) {
-            dumpRoutes();
+            //dumpRoutes();
         }
     }
 
@@ -166,8 +166,8 @@ public class FastCamelRuntime implements CamelRuntime {
         }
 
         model.startRouteDefinitions();
-        // context.adapt(FastCamelContext.class).clearModel(); Disabled, see https://github.com/apache/camel-quarkus/issues/69
-        // builders.clear();
+        context.adapt(FastCamelContext.class).clearModel();
+        builders.clear();
     }
 
     protected CamelContext createContext() {
