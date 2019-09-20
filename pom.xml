@@ -36,6 +36,19 @@
     <url>http://camel.apache.org</url>
     <inceptionYear>2019</inceptionYear>
 
+  <distributionManagement>
+    <repository>
+      <id>apache.releases.https</id>
+      <name>Apache Release Distribution Repository</name>
+      <url>file:///home/ppalaga/zzz/repo</url>
+    </repository>
+    <snapshotRepository>
+      <id>apache.snapshots.https</id>
+      <name>${distMgmtSnapshotsName}</name>
+      <url>file:///home/ppalaga/zzz/repo</url>
+    </snapshotRepository>
+  </distributionManagement>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -170,8 +183,8 @@
     </mailingLists>
 
     <scm>
-        <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-quarkus.git</connection>
-        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-quarkus.git</developerConnection>
+        <connection>scm:git:file:///home/ppalaga/orgs/quarkus/camel-quarkus-builds/camel-quarkus/.git</connection>
+        <developerConnection>scm:git:file:///home/ppalaga/orgs/quarkus/camel-quarkus-builds/camel-quarkus/.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=camel-quarkus.git;a=summary</url>
         <tag>HEAD</tag>
     </scm>
