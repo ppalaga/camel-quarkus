@@ -83,6 +83,28 @@
                         </goals>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-aws-eks-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-aws-s3-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-aws-sns-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-aws-sqs-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>

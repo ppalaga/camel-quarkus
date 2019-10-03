@@ -81,6 +81,23 @@
                         </goals>
                     </execution>
                 </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-direct-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-log-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-jdbc-deployment</artifactId>
+                        <version>${project.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
