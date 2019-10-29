@@ -111,13 +111,18 @@ public class QuarkusPlatformHttpConsumer extends DefaultConsumer {
 
         newRoute.handler(
             ctx -> {
+                final Exchange exchange = toExchange(ctx);
                 try {
-                    final Exchange e = toExchange(ctx);
-                    getProcessor().process(e);
-                    writeResponse(ctx, e, getEndpoint().getHeaderFilterStrategy());
+                    createUoW(exchange);
+                    getAsyncProcessor().process(
+                        exchange,
+                        doneSync -> writeResponse(ctx, exchange, getEndpoint().getHeaderFilterStrategy())
+                    );
                 } catch (Exception e) {
                     LOG.debugf(e, "Could not handle '%s'", path);
                     ctx.fail(e);
+                } finally {
+                    doneUoW(exchange);
                 }
             }
         );
