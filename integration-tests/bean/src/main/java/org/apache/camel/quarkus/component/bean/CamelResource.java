@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.component.bean;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -32,6 +33,12 @@ public class CamelResource {
     @Inject
     ProducerTemplate template;
 
+    @Inject
+    Counter counter;
+
+    @Inject
+    AppScopedRouteBuilder routeBuilder;
+
     @Path("/process-order")
     @POST
     @Consumes(MediaType.TEXT_PLAIN)
@@ -39,4 +46,47 @@ public class CamelResource {
     public String processOrder(String statement) {
         return template.requestBody("direct:process-order", statement, String.class);
     }
+
+    @Path("/increment")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String increment() {
+        return template.requestBody("direct:counter", null, String.class);
+    }
+
+    @Path("/counter")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public int counter() {
+        return counter.getValue();
+    }
+
+    @Path("/config-property")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String configProperty() {
+        return template.requestBody("direct:config-property", null, String.class);
+    }
+
+    @Path("/route-builder-instance-counter")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public int routeBuilderInstanceCounter() {
+        return AppScopedRouteBuilder.INSTANCE_COUNTER.get();
+    }
+
+    @Path("/route-builder-configure-counter")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public int routeBuilderConfigureCounter() {
+        return AppScopedRouteBuilder.CONFIGURE_COUNTER.get();
+    }
+
+    @Path("/route-builder-injected-count")
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public int routeBuilderInjectedCount() {
+        return routeBuilder.getCounter().getValue();
+    }
+
 }

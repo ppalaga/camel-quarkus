@@ -31,4 +31,39 @@ public class BeanTest {
                 .body(equalTo("{success=true, lines=[(id=1,item=nuts), (id=2,item=bolts)]}"));
     }
 
+    @Test
+    public void inject() {
+
+        /* Ensure that @Inject works */
+        RestAssured.when().get("/bean/counter").then().body(equalTo("0"));
+        RestAssured.when().get("/bean/route-builder-injected-count").then().body(equalTo("0"));
+        RestAssured.when().get("/bean/increment").then().body(equalTo("1"));
+        RestAssured.when().get("/bean/counter").then().body(equalTo("1"));
+        RestAssured.when().get("/bean/route-builder-injected-count").then().body(equalTo("1"));
+        RestAssured.when().get("/bean/increment").then().body(equalTo("2"));
+        RestAssured.when().get("/bean/counter").then().body(equalTo("2"));
+        RestAssured.when().get("/bean/route-builder-injected-count").then().body(equalTo("2"));
+
+        /* Ensure that @ConfigProperty works */
+        RestAssured.when()
+                .get("/bean/config-property")
+                .then()
+                .statusCode(200)
+                .body(equalTo("myFooValue = foo"));
+
+        /* Ensure that the bean was not instantiated multiple times */
+        RestAssured.when()
+                .get("/bean/route-builder-instance-counter")
+                .then()
+                .statusCode(200)
+                .body(equalTo("1"));
+
+        /* Ensure that the RoutesBuilder.configure() was not called multiple times */
+        RestAssured.when()
+                .get("/bean/route-builder-configure-counter")
+                .then()
+                .statusCode(200)
+                .body(equalTo("1"));
+    }
+
 }

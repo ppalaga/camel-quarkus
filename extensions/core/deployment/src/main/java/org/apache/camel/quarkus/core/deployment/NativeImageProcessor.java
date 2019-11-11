@@ -185,9 +185,11 @@ class NativeImageProcessor {
             // Register routes as reflection aware as camel-main main use reflection
             // to bind beans to the registry
             //
-            CamelSupport.getRouteBuilderClasses(view).forEach(name -> {
-                reflectiveClass.produce(new ReflectiveClassBuildItem(true, false, name));
-            });
+            CamelSupport.getRouteBuilderClasses(view)
+                    .map(ClassInfo::toString)
+                    .forEach(name -> {
+                        reflectiveClass.produce(new ReflectiveClassBuildItem(true, false, name));
+                    });
 
             reflectiveClass.produce(new ReflectiveClassBuildItem(
                     true,

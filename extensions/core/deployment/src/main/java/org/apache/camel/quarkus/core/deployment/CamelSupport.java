@@ -71,7 +71,7 @@ public final class CamelSupport {
                 .filter(Files::isRegularFile);
     }
 
-    public static Stream<String> getRouteBuilderClasses(IndexView view) {
+    public static Stream<ClassInfo> getRouteBuilderClasses(IndexView view) {
         Set<ClassInfo> allKnownImplementors = new HashSet<>();
         allKnownImplementors.addAll(
                 view.getAllKnownImplementors(DotName.createSimple(RoutesBuilder.class.getName())));
@@ -84,7 +84,8 @@ public final class CamelSupport {
                 .stream()
                 .filter(CamelSupport::isConcrete)
                 .filter(CamelSupport::isPublic)
-                .map(ClassInfo::toString);
+        // .map(ClassInfo::toString)
+        ;
     }
 
     public static Stream<CamelServiceInfo> services(ApplicationArchivesBuildItem applicationArchivesBuildItem) {

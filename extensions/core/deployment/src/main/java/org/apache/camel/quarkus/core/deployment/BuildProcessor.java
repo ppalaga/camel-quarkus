@@ -16,11 +16,15 @@
  */
 package org.apache.camel.quarkus.core.deployment;
 
+import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.arc.deployment.BeanContainerBuildItem;
+import io.quarkus.arc.deployment.BeanRegistrationPhaseBuildItem;
+import io.quarkus.arc.processor.BeanInfo;
 import io.quarkus.deployment.Capabilities;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
@@ -46,6 +50,8 @@ import org.apache.camel.quarkus.core.Flags;
 import org.apache.camel.quarkus.core.UploadAttacher;
 import org.apache.camel.quarkus.support.common.CamelCapabilities;
 import org.apache.camel.spi.Registry;
+import org.jboss.jandex.ClassInfo;
+import org.jboss.jandex.DotName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -191,9 +197,17 @@ class BuildProcessor {
         public List<CamelRoutesBuilderBuildItem> collectRoutes(
                 CombinedIndexBuildItem combinedIndex,
                 CamelMainRecorder recorder,
+                BeanRegistrationPhaseBuildItem arcBeans,
                 RecorderContext recorderContext) {
 
+            final Set<DotName> arcBeanClasses = arcBeans.getBeanProcessor().getBeanDeployment().getBeans().stream()
+                    .map(BeanInfo::getImplClazz)
+                    .map(ClassInfo::name)
+                    .collect(Collectors.toSet());
+
             return CamelSupport.getRouteBuilderClasses(combinedIndex.getIndex())
+                    .filter(ci -> !arcBeanClasses.contains(ci.name()))
+                    .map(ClassInfo::toString)
                     .map(recorderContext::<RoutesBuilder> newInstance)
                     .map(CamelRoutesBuilderBuildItem::new)
                     .collect(Collectors.toList());
