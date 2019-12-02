@@ -18,9 +18,6 @@ package org.apache.camel.quarkus.component.tagsoup.it;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.ls.DOMImplementationLS;
-import org.w3c.dom.ls.LSSerializer;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathFactory;
