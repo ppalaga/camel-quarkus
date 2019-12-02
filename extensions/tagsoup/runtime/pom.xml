@@ -30,7 +30,7 @@
     <name>Camel Quarkus :: TagSoup :: Runtime</name>
 
     <properties>
-        <firstVersion>0.3.0</firstVersion>
+        <firstVersion>0.5.0</firstVersion>
     </properties>
 
     <dependencyManagement>
