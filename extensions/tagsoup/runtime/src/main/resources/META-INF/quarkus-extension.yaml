@@ -21,6 +21,8 @@ description: "Camel TagSoup support"
 metadata:
   keywords:
   - "camel"
+  - "tagsoup"
+  - "tidymarkup"
   guide: "https://quarkus.io/guides/camel"
   categories:
   - "integration"
