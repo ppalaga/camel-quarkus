@@ -60,8 +60,6 @@ class AwsKinesisProcessor {
                 Endpoint.class.getCanonicalName(),
                 Region.class.getCanonicalName(),
                 Service.class.getCanonicalName(),
-                CredentialScope.class.getCanonicalName(),
-                KinesisConfiguration.class.getCanonicalName(),
-                KinesisFirehoseConfiguration.class.getCanonicalName()));
+                CredentialScope.class.getCanonicalName()));
     }
 }
