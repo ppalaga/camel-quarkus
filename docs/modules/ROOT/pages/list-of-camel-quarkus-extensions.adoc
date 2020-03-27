@@ -18,7 +18,7 @@ In case you are missing some Camel feature in the list:
 == Camel Components
 
 // components: START
-Number of Camel components: 145 in 110 JAR artifacts (0 deprecated)
+Number of Camel components: 147 in 112 JAR artifacts (0 deprecated)
 
 [width="100%",cols="4,1,1,5",options="header"]
 |===
@@ -580,6 +580,10 @@ Level | Since | Description
 | link:https://camel.apache.org/components/latest/telegram-component.html[Telegram] (camel-quarkus-telegram) +
 `telegram:type` | Native +
  Stable | 1.0.0-M4 | The telegram component provides access to the Telegram Bot API.
+
+| link:https://camel.apache.org/components/latest/tika-component.html[Tika] (camel-quarkus-tika) +
+`tika:operation` | Native +
+ Stable | 1.0.0-M6 | This component integrates with Apache Tika to extract content and metadata from thousands of file types.
 
 | link:https://camel.apache.org/components/latest/timer-component.html[Timer] (camel-quarkus-timer) +
 `timer:timerName` | Native +

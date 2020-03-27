@@ -154,11 +154,12 @@ jobs:
               braintree
               compression
               graphql
-              mustache
+              mustache              
               pdf
               qute
               stream
               tarfile
+              tika
           - category: Networking
             test-modules: >
               ftp
