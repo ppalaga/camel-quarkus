@@ -25,6 +25,8 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
+import static org.hamcrest.Matchers.containsStringIgnoringCase;
+
 @QuarkusTest
 class TikaTest {
 
@@ -36,9 +38,8 @@ class TikaTest {
                 .body(Files.readAllBytes(document))
                 .post("/tika/post") //
                 .then()
-                .statusCode(200);
-        //                .body(is("test")); todo
-
+                .statusCode(201)
+                .body(containsStringIgnoringCase("test_quarkus_tika"));
     }
 
 }

@@ -16,6 +16,8 @@
  */
 package org.apache.camel.quarkus.component.tika.it;
 
+import java.net.URI;
+
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
@@ -23,6 +25,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 import org.apache.camel.ProducerTemplate;
 import org.jboss.logging.Logger;
@@ -40,8 +43,11 @@ public class TikaResource {
     @POST
     @Consumes(MediaType.APPLICATION_OCTET_STREAM)
     @Produces(MediaType.TEXT_PLAIN)
-    public String post(byte[] message) throws Exception {
-        Object o = producerTemplate.requestBody("tika:parse", message);
-        return "";
+    public Response post(byte[] message) throws Exception {
+        final String response = producerTemplate.requestBody("tika:parse", message, String.class);
+        return Response
+                .created(new URI("https://camel.apache.org/"))
+                .entity(response)
+                .build();
     }
 }
