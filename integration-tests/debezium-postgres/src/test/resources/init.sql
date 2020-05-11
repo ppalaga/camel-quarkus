@@ -1,0 +1,3 @@
+CREATE TABLE COMPANY(
+   NAME           TEXT    NOT NULL
+);
