@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <!--
 
     Licensed to the Apache Software Foundation (ASF) under one or more
@@ -50,7 +50,6 @@
         <module>couchbase</module>
         <module>debezium-mongodb</module>
         <module>debezium-mysql</module>
-        <module>debezium-postgres</module>
         <module>debezium-sqlserver</module>
         <module>google-bigquery</module>
         <module>google-pubsub</module>

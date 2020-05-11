@@ -31,6 +31,7 @@ core:
   - core-main-xml-io
   - core-main-xml-jaxb
 database:
+  - debezium-postgres
   - couchdb
   - influxdb
   - jdbc
