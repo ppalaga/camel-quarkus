@@ -1,0 +1,3 @@
+CREATE TABLE camel(
+    ID INT PRIMARY KEY     NOT NULL, species TEXT NOT NULL
+);

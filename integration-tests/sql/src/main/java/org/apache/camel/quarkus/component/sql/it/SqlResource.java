@@ -24,8 +24,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -38,29 +38,63 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import io.agroal.api.AgroalDataSource;
-import io.quarkus.agroal.DataSource;
+import io.agroal.api.configuration.supplier.AgroalDataSourceConfigurationSupplier;
+import io.agroal.api.security.NamePrincipal;
+import io.agroal.api.security.SimplePassword;
+import org.apache.camel.CamelContext;
 import org.apache.camel.ProducerTemplate;
+import org.apache.camel.component.sql.SqlComponent;
 import org.springframework.util.LinkedCaseInsensitiveMap;
 
 @Path("/sql")
 @ApplicationScoped
 public class SqlResource {
 
-    @Inject
-    @DataSource("camel-sql")
+    public static final String DB_NAME = "postgresDB";
+    public static final String DB_USERNAME = "user";
+    public static final String DB_PASSWORD = "changeit";
+    public static final String PROPERTY_HOSTNAME = "quarkus.postgres.hostname";
+    public static final String PROPERTY_PORT = "quarkus.postgres.port";
+
+    private static final String DB_CONNECTION = "jdbc:postgresql://{{" + PROPERTY_HOSTNAME + "}}:{{" + PROPERTY_PORT + "}}/"
+            + DB_NAME;
+
+    //    @Inject
+    //    @DataSource("camel-sql")
     AgroalDataSource dataSource;
+
+    @Inject
+    CamelContext context;
 
     @Inject
     ProducerTemplate producerTemplate;
 
-    @PostConstruct
-    public void postConstruct() throws SQLException {
+    void onStart(@Observes org.apache.camel.quarkus.core.CamelMainEvents.BeforeConfigure ev) throws SQLException {
+        SqlComponent sqlComponent = context.getComponent("sql", SqlComponent.class);
+        String jdbcUrl = context.getPropertiesComponent().resolveProperty(DB_CONNECTION).get();
+        AgroalDataSourceConfigurationSupplier configurationSupplier = new AgroalDataSourceConfigurationSupplier()
+                .connectionPoolConfiguration(cp -> cp.connectionFactoryConfiguration(cf -> cf.jdbcUrl(jdbcUrl)
+                        .principal(new NamePrincipal(DB_USERNAME))
+                        .credential(new SimplePassword(DB_PASSWORD)))
+                        .maxSize(10));
+
+        dataSource = AgroalDataSource.from(configurationSupplier);
+        sqlComponent.setDataSource(dataSource);
+        //        postConstruct();
+    }
+
+    void beforeStop(@Observes org.apache.camel.quarkus.core.CamelMainEvents.BeforeStop ev) {
+        if (dataSource != null) {
+            dataSource.close();
+        }
+
+    }
+
+    private void postConstruct() throws SQLException {
         try (Connection conn = dataSource.getConnection()) {
             try (Statement statement = conn.createStatement()) {
                 statement.execute("DROP TABLE IF EXISTS camel");
-                statement.execute("CREATE TABLE camel (id int AUTO_INCREMENT, species VARCHAR(255))");
-                statement.execute(
-                        "CREATE ALIAS ADD_NUMS FOR \"org.apache.camel.quarkus.component.sql.it.storedproc.NumberAddStoredProcedure.addNumbers\"");
+                statement.execute("CREATE TABLE camel (ID INT PRIMARY KEY     NOT NULL, species TEXT NOT NULL)");
             }
         }
     }
@@ -86,7 +120,7 @@ public class SqlResource {
         params.put("species", species);
 
         producerTemplate.requestBodyAndHeaders(
-                "sql:INSERT INTO camel (species) VALUES (:#species)", null,
+                "sql:INSERT INTO camel (id, species) VALUES ('1', :#species)", null,
                 params);
 
         return Response

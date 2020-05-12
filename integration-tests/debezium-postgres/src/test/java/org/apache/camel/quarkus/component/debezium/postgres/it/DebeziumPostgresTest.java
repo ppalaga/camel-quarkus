@@ -16,10 +16,17 @@
  */
 package org.apache.camel.quarkus.component.debezium.postgres.it;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
+import org.junit.Assert;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -39,42 +46,54 @@ class DebeziumPostgresTest {
     private static String CITY_1 = "Prague";
     private static String CITY_2 = "Paris";
 
-    @Test
-    @Order(1)
-    public void insert() {
-        insert(COMPANY_1, CITY_1);
+    Connection connection;
+
+    int port;
+    String hostname;
+
+    @BeforeEach
+    public void before() throws SQLException {
+        if (connection == null) {
+            String jdbcUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + DebeziumPostgresResource.DB_NAME + "?user="
+                    + DebeziumPostgresResource.DB_USERNAME + "&password=" + DebeziumPostgresResource.DB_PASSWORD;
+            connection = DriverManager.getConnection(jdbcUrl);
+        }
     }
 
-    public void insert(String name, String city) {
-        //execute insert
-        RestAssured.given() //
-                .contentType(ContentType.TEXT)
-                .body("INSERT INTO COMPANY (name, city) VALUES ('" + name + "', '" + city + "')")
-                .post("/debezium-postgres/executeUpdate")
-                .then()
-                .statusCode(200)
-                .body(is("1"));
+    @AfterEach
+    public void after() throws SQLException {
+        if (connection != null) {
+            connection.close();
+        }
+    }
+
+    @Test
+    @Order(1)
+    public void insert() throws SQLException {
+        int res = executeUpdate("INSERT INTO COMPANY (name, city) VALUES ('" + COMPANY_1 + "', '" + CITY_1 + "')");
+        Assert.assertEquals(1, res);
 
         //validate event in queue
         RestAssured.get("/debezium-postgres/getEvent")
                 .then()
                 .statusCode(200)
-                .body(containsString(name));
+                .body(containsString(COMPANY_1));
     }
 
     @Test
     @Order(2)
-    public void testUpdate() {
-        //insert second company
-        insert(COMPANY_2, CITY_2);
+    public void testUpdate() throws SQLException {
+        int res = executeUpdate("INSERT INTO COMPANY (name, city) VALUES ('" + COMPANY_2 + "', '" + CITY_2 + "')");
+        Assert.assertEquals(1, res);
 
-        RestAssured.given() //
-                .contentType(ContentType.TEXT)
-                .body("UPDATE COMPANY SET name = '" + COMPANY_2 + "_changed' WHERE city = '" + CITY_2 + "'")
-                .post("/debezium-postgres/executeUpdate")
+        //validate event in queue
+        RestAssured.get("/debezium-postgres/getEvent")
                 .then()
                 .statusCode(200)
-                .body(is("1"));
+                .body(containsString(COMPANY_2));
+
+        res = executeUpdate("UPDATE COMPANY SET name = '" + COMPANY_2 + "_changed' WHERE city = '" + CITY_2 + "'");
+        Assert.assertEquals(1, res);
 
         //validate event with delete is in queue
         RestAssured.get("/debezium-postgres/getEvent")
@@ -90,20 +109,25 @@ class DebeziumPostgresTest {
 
     @Test
     @Order(3)
-    public void tesDelete() {
-        RestAssured.given() //
-                .contentType(ContentType.TEXT)
-                .body("DELETE FROM COMPANY WHERE city = '" + CITY_2 + "'")
-                .post("/debezium-postgres/executeUpdate")
-                .then()
-                .statusCode(200)
-                .body(is("1"));
+    public void testDelete() throws SQLException {
+        int res = executeUpdate("DELETE FROM COMPANY");
+        Assert.assertEquals(2, res);
 
         //validate event with delete is in queue
         RestAssured.get("/debezium-postgres/getEvent")
                 .then()
                 .statusCode(204)
                 .body(is(emptyOrNullString()));
+        RestAssured.get("/debezium-postgres/getEvent")
+                .then()
+                .statusCode(204)
+                .body(is(emptyOrNullString()));
+    }
+
+    private int executeUpdate(String sql) throws SQLException {
+        try (Statement statement = connection.createStatement()) {
+            return statement.executeUpdate(sql);
+        }
     }
 
 }

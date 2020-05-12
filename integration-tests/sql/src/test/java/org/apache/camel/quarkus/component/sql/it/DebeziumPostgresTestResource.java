@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.apache.camel.quarkus.component.debezium.postgres.it;
+package org.apache.camel.quarkus.component.sql.it;
 
 import java.util.Map;
 
@@ -27,6 +27,7 @@ import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.utility.TestcontainersConfiguration;
 
 public class DebeziumPostgresTestResource implements ContainerResourceLifecycleManager {
+
     private static final Logger LOGGER = LoggerFactory.getLogger(DebeziumPostgresTestResource.class);
 
     private static final int POSTGRES_PORT = 5432;
@@ -40,16 +41,16 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
 
         try {
             postgresContainer = new PostgreSQLContainer<>(POSTGRES_IMAGE)
-                    .withUsername(DebeziumPostgresResource.DB_USERNAME)
-                    .withPassword(DebeziumPostgresResource.DB_PASSWORD)
-                    .withDatabaseName(DebeziumPostgresResource.DB_NAME)
+                    .withUsername(SqlResource.DB_USERNAME)
+                    .withPassword(SqlResource.DB_PASSWORD)
+                    .withDatabaseName(SqlResource.DB_NAME)
                     .withInitScript("init.sql");
 
             postgresContainer.start();
 
             return CollectionHelper.mapOf(
-                    DebeziumPostgresResource.PROPERTY_HOSTNAME, postgresContainer.getContainerIpAddress(),
-                    DebeziumPostgresResource.PROPERTY_PORT, postgresContainer.getMappedPort(POSTGRES_PORT) + "");
+                    SqlResource.PROPERTY_HOSTNAME, postgresContainer.getContainerIpAddress(),
+                    SqlResource.PROPERTY_PORT, postgresContainer.getMappedPort(POSTGRES_PORT) + "");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -64,13 +65,5 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
         } catch (Exception e) {
             // ignored
         }
-    }
-
-    @Override
-    public void inject(Object testInstance) {
-        DebeziumPostgresTest postgresTest = (DebeziumPostgresTest) testInstance;
-
-        postgresTest.port = postgresContainer.getMappedPort(POSTGRES_PORT);
-        postgresTest.hostname = postgresContainer.getContainerIpAddress();
     }
 }
