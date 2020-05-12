@@ -31,6 +31,7 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
     private static final Logger LOGGER = LoggerFactory.getLogger(DebeziumPostgresTestResource.class);
 
     private static final int POSTGRES_PORT = 5432;
+    private static final String POSTGRES_IMAGE = "debezium/postgres:11";
 
     private PostgreSQLContainer<?> postgresContainer;
 
@@ -39,21 +40,17 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
         LOGGER.info(TestcontainersConfiguration.getInstance().toString());
 
         try {
-            postgresContainer = new PostgreSQLContainer<>("debezium/postgres:11")
-                    .withNetworkAliases("postgres")
-                    .withUsername("postgres")
-                    .withPassword("postgres")
-                    .withDatabaseName("postgres")
+            postgresContainer = new PostgreSQLContainer<>(POSTGRES_IMAGE)
+                    .withUsername(DebeziumPostgresResource.DB_USERNAME)
+                    .withPassword(DebeziumPostgresResource.DB_PASSWORD)
+                    .withDatabaseName(DebeziumPostgresResource.DB_NAME)
                     .withInitScript("init.sql");
 
             postgresContainer.start();
 
             return CollectionHelper.mapOf(
-                    "database.hostname", postgresContainer.getContainerIpAddress(),
-                    "database.port",
-                    postgresContainer.getMappedPort(POSTGRES_PORT) + "",
-                    "url", postgresContainer.getContainerIpAddress() + ":" + postgresContainer.getMappedPort(POSTGRES_PORT)
-                            + "/postgres");
+                    DebeziumPostgresResource.PROPERTY_HOSTNAME, postgresContainer.getContainerIpAddress(),
+                    DebeziumPostgresResource.PROPERTY_PORT, postgresContainer.getMappedPort(POSTGRES_PORT) + "");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

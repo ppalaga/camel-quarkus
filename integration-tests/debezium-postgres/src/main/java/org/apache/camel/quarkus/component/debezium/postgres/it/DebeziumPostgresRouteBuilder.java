@@ -12,15 +12,14 @@ public class DebeziumPostgresRouteBuilder extends RouteBuilder {
     public void configure() {
 
         from("debezium-postgres:localhost?"
-                + "databaseHostname={{database.hostname}}"
-                + "&databasePort={{database.port}}"
-                + "&databaseUser=postgres"
-                + "&databasePassword=postgres"
-                + "&databaseDbname=postgres"
+                + "databaseHostname={{" + DebeziumPostgresResource.PROPERTY_HOSTNAME + "}}"
+                + "&databasePort={{" + DebeziumPostgresResource.PROPERTY_PORT + "}}"
+                + "&databaseUser=" + DebeziumPostgresResource.DB_USERNAME
+                + "&databasePassword=" + DebeziumPostgresResource.DB_PASSWORD
+                + "&databaseDbname=" + DebeziumPostgresResource.DB_NAME
                 + "&databaseServerName=qa"
                 //                + "&offsetStorageFileName=test.backup")//                + "&offsetStorage=")
                 + "&offsetStorage=org.apache.kafka.connect.storage.MemoryOffsetBackingStore")
-                        .log("event created")
-                        .to("seda:event");
+                        .to("direct:event");
     }
 }

@@ -20,29 +20,90 @@ import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.emptyOrNullString;
+import static org.hamcrest.Matchers.is;
 
 @QuarkusTest
 @QuarkusTestResource(DebeziumPostgresTestResource.class)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class DebeziumPostgresTest {
 
+    private static String COMPANY_1 = "Best Company";
+    private static String COMPANY_2 = "Even Better Company";
+    private static String CITY_1 = "Prague";
+    private static String CITY_2 = "Paris";
+
     @Test
-    public void test() throws Exception {
+    @Order(1)
+    public void insert() {
+        insert(COMPANY_1, CITY_1);
+    }
+
+    public void insert(String name, String city) {
         //execute insert
         RestAssured.given() //
                 .contentType(ContentType.TEXT)
-                .body("INSERT INTO COMPANY (name) VALUES ('AAA')")
-                .post("/debezium-postgres/insert")
+                .body("INSERT INTO COMPANY (name, city) VALUES ('" + name + "', '" + city + "')")
+                .post("/debezium-postgres/executeUpdate")
                 .then()
-                .statusCode(204);
+                .statusCode(200)
+                .body(is("1"));
 
         //validate event in queue
         RestAssured.get("/debezium-postgres/getEvent")
                 .then()
                 .statusCode(200)
-                .body(containsString("AAA"));
+                .body(containsString(name));
+    }
+
+    @Test
+    @Order(2)
+    public void testUpdate() {
+        //insert second company
+        insert(COMPANY_2, CITY_2);
+
+        RestAssured.given() //
+                .contentType(ContentType.TEXT)
+                .body("UPDATE COMPANY SET name = '" + COMPANY_2 + "_changed' WHERE city = '" + CITY_2 + "'")
+                .post("/debezium-postgres/executeUpdate")
+                .then()
+                .statusCode(200)
+                .body(is("1"));
+
+        //validate event with delete is in queue
+        RestAssured.get("/debezium-postgres/getEvent")
+                .then()
+                .statusCode(204)
+                .body(is(emptyOrNullString()));
+        //validate event with create is in queue
+        RestAssured.get("/debezium-postgres/getEvent")
+                .then()
+                .statusCode(200)
+                .body(containsString(COMPANY_2 + "_changed"));
+    }
+
+    @Test
+    @Order(3)
+    public void tesDelete() {
+        RestAssured.given() //
+                .contentType(ContentType.TEXT)
+                .body("DELETE FROM COMPANY WHERE city = '" + CITY_2 + "'")
+                .post("/debezium-postgres/executeUpdate")
+                .then()
+                .statusCode(200)
+                .body(is("1"));
+
+        //validate event with delete is in queue
+        RestAssured.get("/debezium-postgres/getEvent")
+                .then()
+                .statusCode(204)
+                .body(is(emptyOrNullString()));
     }
 
 }

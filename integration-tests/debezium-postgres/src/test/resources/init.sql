@@ -1,3 +1,4 @@
 CREATE TABLE COMPANY(
-   NAME           TEXT    NOT NULL
+    NAME           TEXT  PRIMARY KEY   NOT NULL,
+    CITY           TEXT    NOT NULL
 );
