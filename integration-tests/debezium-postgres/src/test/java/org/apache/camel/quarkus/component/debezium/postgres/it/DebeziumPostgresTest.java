@@ -80,7 +80,7 @@ class DebeziumPostgresTest {
                 .body(containsString(COMPANY_1));
     }
 
-    @Test
+    //    @Test
     @Order(2)
     public void testUpdate() throws SQLException {
         int res = executeUpdate("INSERT INTO COMPANY (name, city) VALUES ('" + COMPANY_2 + "', '" + CITY_2 + "')");
@@ -107,7 +107,7 @@ class DebeziumPostgresTest {
                 .body(containsString(COMPANY_2 + "_changed"));
     }
 
-    @Test
+    //    @Test
     @Order(3)
     public void testDelete() throws SQLException {
         int res = executeUpdate("DELETE FROM COMPANY");
