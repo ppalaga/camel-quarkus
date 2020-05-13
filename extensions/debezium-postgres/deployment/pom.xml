@@ -52,11 +52,11 @@
             <groupId>org.apache.camel.quarkus</groupId>
             <artifactId>camel-quarkus-debezium-postgres</artifactId>
         </dependency>
-        <dependency>
+<!--         <dependency>
             <groupId>org.apache.camel.quarkus</groupId>
             <artifactId>camel-quarkus-kafka-deployment</artifactId>
         </dependency>
-    </dependencies>
+ -->    </dependencies>
 
     <build>
         <plugins>

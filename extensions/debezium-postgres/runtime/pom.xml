@@ -68,11 +68,11 @@
 <!--            <artifactId>connect-json</artifactId>-->
 <!--&lt;!&ndash;            <version>2.4.0</version>&ndash;&gt;-->
 <!--        </dependency>-->
-        <dependency>
+<!--         <dependency>
             <groupId>org.apache.camel.quarkus</groupId>
             <artifactId>camel-quarkus-kafka</artifactId>
         </dependency>
-    </dependencies>
+ -->    </dependencies>
 
     <build>
         <plugins>

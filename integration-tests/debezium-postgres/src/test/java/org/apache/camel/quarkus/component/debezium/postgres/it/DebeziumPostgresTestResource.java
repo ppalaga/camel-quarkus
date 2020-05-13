@@ -17,6 +17,8 @@
 
 package org.apache.camel.quarkus.component.debezium.postgres.it;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.Map;
 
 import org.apache.camel.quarkus.testcontainers.ContainerResourceLifecycleManager;
@@ -33,6 +35,7 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
     private static final String POSTGRES_IMAGE = "debezium/postgres:11";
 
     private PostgreSQLContainer<?> postgresContainer;
+    private Connection connection;
 
     @Override
     public Map<String, String> start() {
@@ -47,6 +50,11 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
 
             postgresContainer.start();
 
+            final String jdbcUrl = "jdbc:postgresql://" + postgresContainer.getContainerIpAddress() + ":"
+                    + postgresContainer.getMappedPort(POSTGRES_PORT) + "/" + DebeziumPostgresResource.DB_NAME + "?user="
+                    + DebeziumPostgresResource.DB_USERNAME + "&password=" + DebeziumPostgresResource.DB_PASSWORD;
+            connection = DriverManager.getConnection(jdbcUrl);
+
             return CollectionHelper.mapOf(
                     DebeziumPostgresResource.PROPERTY_HOSTNAME, postgresContainer.getContainerIpAddress(),
                     DebeziumPostgresResource.PROPERTY_PORT, postgresContainer.getMappedPort(POSTGRES_PORT) + "");
@@ -58,6 +66,10 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
     @Override
     public void stop() {
         try {
+            if (connection != null) {
+                connection.close();
+                ;
+            }
             if (postgresContainer != null) {
                 postgresContainer.stop();
             }
@@ -68,9 +80,7 @@ public class DebeziumPostgresTestResource implements ContainerResourceLifecycleM
 
     @Override
     public void inject(Object testInstance) {
-        DebeziumPostgresTest postgresTest = (DebeziumPostgresTest) testInstance;
-
-        postgresTest.port = postgresContainer.getMappedPort(POSTGRES_PORT);
-        postgresTest.hostname = postgresContainer.getContainerIpAddress();
+        ((DebeziumPostgresTest) testInstance).connection = this.connection;
     }
+
 }

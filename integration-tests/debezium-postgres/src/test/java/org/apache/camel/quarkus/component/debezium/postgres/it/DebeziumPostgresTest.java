@@ -17,7 +17,6 @@
 package org.apache.camel.quarkus.component.debezium.postgres.it;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -25,8 +24,6 @@ import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import org.junit.Assert;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -47,25 +44,6 @@ class DebeziumPostgresTest {
     private static String CITY_2 = "Paris";
 
     Connection connection;
-
-    int port;
-    String hostname;
-
-    @BeforeEach
-    public void before() throws SQLException {
-        if (connection == null) {
-            String jdbcUrl = "jdbc:postgresql://" + hostname + ":" + port + "/" + DebeziumPostgresResource.DB_NAME + "?user="
-                    + DebeziumPostgresResource.DB_USERNAME + "&password=" + DebeziumPostgresResource.DB_PASSWORD;
-            connection = DriverManager.getConnection(jdbcUrl);
-        }
-    }
-
-    @AfterEach
-    public void after() throws SQLException {
-        if (connection != null) {
-            connection.close();
-        }
-    }
 
     @Test
     @Order(1)

@@ -59,7 +59,7 @@ public class CamelKafkaResource {
         try (KafkaConsumer<Integer, String> consumer = CamelKafkaSupport.createConsumer(topicName)) {
             ConsumerRecord<Integer, String> record = consumer.poll(Duration.ofSeconds(60)).iterator().next();
             return Json.createObjectBuilder()
-                    .add("topicName", record.topic())MemoryOffsetBackingStore
+                    .add("topicName", record.topic())
                     .add("partition", record.partition())
                     .add("offset", record.offset())
                     .add("key", record.key())

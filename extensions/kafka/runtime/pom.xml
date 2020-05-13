@@ -55,8 +55,8 @@
             <artifactId>camel-quarkus-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.camel.quarkus</groupId>
-            <artifactId>camel-quarkus-kafka</artifactId>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-kafka</artifactId>
         </dependency>
     </dependencies>
 
