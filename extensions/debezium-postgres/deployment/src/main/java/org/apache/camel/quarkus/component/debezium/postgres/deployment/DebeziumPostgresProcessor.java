@@ -39,7 +39,8 @@ class DebeziumPostgresProcessor {
 
         String[] dtos = index.getKnownClasses().stream()
                 .map(ci -> ci.name().toString())
-                .filter(n -> n.startsWith("org.apache.kafka"))
+                .filter(n -> n.startsWith("org.apache.kafka.connect.json") || n.startsWith("io.debezium.connector")
+                        || n.startsWith("org.apache.kafka"))
                 .sorted()
                 .peek(System.out::println)
                 .toArray(String[]::new);
@@ -61,6 +62,7 @@ class DebeziumPostgresProcessor {
     @BuildStep
     void addDependencies(BuildProducer<IndexDependencyBuildItem> indexDependency) {
         indexDependency.produce(new IndexDependencyBuildItem("org.apache.kafka", "connect-json"));
-        //            indexDependency.produce(new IndexDependencyBuildItem("io.debezium", "debezium-connector-postgres"));
+        indexDependency.produce(new IndexDependencyBuildItem("org.apache.kafka", "connect-runtime"));
+        indexDependency.produce(new IndexDependencyBuildItem("io.debezium", "debezium-connector-postgres"));
     }
 }

@@ -63,10 +63,14 @@
                 </exclusion>
             </exclusions>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.kafka</groupId>-->
+<!--            <artifactId>connect-json</artifactId>-->
+<!--&lt;!&ndash;            <version>2.4.0</version>&ndash;&gt;-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>org.apache.kafka</groupId>
-            <artifactId>connect-json</artifactId>
-<!--            <version>2.4.0</version>-->
+            <groupId>org.apache.camel.quarkus</groupId>
+            <artifactId>camel-quarkus-kafka</artifactId>
         </dependency>
     </dependencies>
 

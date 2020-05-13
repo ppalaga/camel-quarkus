@@ -18,7 +18,8 @@ public class DebeziumPostgresRouteBuilder extends RouteBuilder {
                 + "&databasePassword=" + DebeziumPostgresResource.DB_PASSWORD
                 + "&databaseDbname=" + DebeziumPostgresResource.DB_NAME
                 + "&databaseServerName=qa"
-                //                + "&offsetStorageFileName=test.backup")//                + "&offsetStorage=")
+                //                + "&offsetStorageFileName=test.backup")
+                //                + "&offsetStorage=")
                 + "&offsetStorage=org.apache.kafka.connect.storage.MemoryOffsetBackingStore")
                         .to("direct:event");
     }

@@ -22,7 +22,6 @@ import io.quarkus.deployment.builditem.CombinedIndexBuildItem;
 import io.quarkus.deployment.builditem.ExtensionSslNativeSupportBuildItem;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.IndexDependencyBuildItem;
-import io.quarkus.deployment.builditem.nativeimage.NativeImageProxyDefinitionBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
 import org.jboss.jandex.IndexView;
 
@@ -45,10 +44,10 @@ class InfluxdbProcessor {
         extensionSslNativeSupport.produce(new ExtensionSslNativeSupportBuildItem(FEATURE));
     }
 
-    @BuildStep
-    void clientProxies(BuildProducer<NativeImageProxyDefinitionBuildItem> proxies) {
-        proxies.produce(new NativeImageProxyDefinitionBuildItem("org.influxdb.impl.InfluxDBService"));
-    }
+    //    @BuildStep
+    //    void clientProxies(BuildProducer<NativeImageProxyDefinitionBuildItem> proxies) {
+    //        proxies.produce(new NativeImageProxyDefinitionBuildItem("org.influxdb.impl.InfluxDBService"));
+    //    }
 
     @BuildStep
     ReflectiveClassBuildItem registerForReflection(CombinedIndexBuildItem combinedIndex) {
