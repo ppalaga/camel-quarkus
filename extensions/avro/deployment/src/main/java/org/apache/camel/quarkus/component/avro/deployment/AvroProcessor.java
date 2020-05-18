@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import javax.inject.Inject;
 
@@ -36,14 +37,14 @@ import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.ObjectSubstitutionBuildItem;
 import io.quarkus.deployment.builditem.ObjectSubstitutionBuildItem.Holder;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
+import io.quarkus.runtime.RuntimeValue;
 import org.apache.avro.Schema;
 import org.apache.avro.SchemaParseException;
 import org.apache.avro.generic.GenericContainer;
 import org.apache.camel.quarkus.component.avro.AvroDataFormatProducer;
 import org.apache.camel.quarkus.component.avro.AvroRecorder;
-import org.apache.camel.quarkus.component.avro.AvroSchemaRegistry;
-import org.apache.camel.quarkus.component.avro.AvroSchemaRegistrySubstitution;
 import org.apache.camel.quarkus.component.avro.BuildTimeAvroDataFormat;
+import org.apache.camel.quarkus.component.avro.SchemaSubstitution;
 import org.jboss.jandex.AnnotationInstance;
 import org.jboss.jandex.DotName;
 import org.jboss.jandex.FieldInfo;
@@ -94,8 +95,7 @@ class AvroProcessor {
 
     @BuildStep
     void overrideAvroSchemaRegistrySerialization(BuildProducer<ObjectSubstitutionBuildItem> substitutions) {
-        Holder<AvroSchemaRegistry, byte[]> holder = new Holder(AvroSchemaRegistry.class, byte[].class,
-                AvroSchemaRegistrySubstitution.class);
+        Holder<Schema, byte[]> holder = new Holder(Schema.class, byte[].class, SchemaSubstitution.class);
         substitutions.produce(new ObjectSubstitutionBuildItem(holder));
     }
 
@@ -103,7 +103,7 @@ class AvroProcessor {
     @BuildStep
     void recordAvroSchemaRegistryInitialization(BeanArchiveIndexBuildItem beanArchiveIndex,
             BeanContainerBuildItem beanContainer, AvroRecorder avroRecorder) {
-        AvroSchemaRegistry avroSchemaRegistry = new AvroSchemaRegistry();
+        final RuntimeValue<Map<String, Schema>> avroSchemaRegistry = avroRecorder.createSchemaRegistry();
         IndexView index = beanArchiveIndex.getIndex();
         for (AnnotationInstance annotation : index.getAnnotations(BUILD_TIME_AVRO_DATAFORMAT_ANNOTATION)) {
             String schemaResourceName = annotation.value().asString();
@@ -111,11 +111,11 @@ class AvroProcessor {
             String injectedFieldId = fieldInfo.declaringClass().name() + "." + fieldInfo.name();
             try (InputStream is = Thread.currentThread().getContextClassLoader().getResourceAsStream(schemaResourceName)) {
                 Schema avroSchema = new Schema.Parser().parse(is);
-                avroSchemaRegistry.put(injectedFieldId, avroSchema);
+                avroRecorder.addSchema(injectedFieldId, avroSchema, avroSchemaRegistry);
                 LOG.debug("Parsed the avro schema at build time from resource named " + schemaResourceName);
             } catch (SchemaParseException | IOException ex) {
                 final String message = "An issue occured while parsing schema resource on field " + injectedFieldId;
-                throw new BuildTimeAvroSchemaParseException(message, ex);
+                throw new RuntimeException(message, ex);
             }
         }
         avroRecorder.recordDataFormatProducerRegistryInitialization(beanContainer.getValue(), avroSchemaRegistry);

@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.component.avro;
 import java.lang.reflect.Field;
 import java.lang.reflect.Member;
 import java.lang.reflect.Modifier;
+import java.util.Map;
 
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.spi.InjectionPoint;
@@ -30,9 +31,9 @@ import org.apache.camel.dataformat.avro.AvroDataFormat;
 @Singleton
 public class AvroDataFormatProducer {
 
-    private volatile AvroSchemaRegistry schemaRegistry;
+    private volatile Map<String, Schema> schemaRegistry;
 
-    public void setAvroSchemaRegistry(AvroSchemaRegistry schemaRegistry) {
+    public void setAvroSchemaRegistry(Map<String, Schema> schemaRegistry) {
         this.schemaRegistry = schemaRegistry;
     }
 

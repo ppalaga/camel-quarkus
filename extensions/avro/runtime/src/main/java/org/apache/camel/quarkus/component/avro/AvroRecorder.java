@@ -16,14 +16,28 @@
  */
 package org.apache.camel.quarkus.component.avro;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import io.quarkus.arc.runtime.BeanContainer;
+import io.quarkus.runtime.RuntimeValue;
 import io.quarkus.runtime.annotations.Recorder;
+import org.apache.avro.Schema;
 
 @Recorder
 public class AvroRecorder {
 
-    public void recordDataFormatProducerRegistryInitialization(BeanContainer beanContainer, AvroSchemaRegistry schemaRegistry) {
-        beanContainer.instance(AvroDataFormatProducer.class).setAvroSchemaRegistry(schemaRegistry);
+    public RuntimeValue<Map<String, Schema>> createSchemaRegistry() {
+        return new RuntimeValue<Map<String, Schema>>(new HashMap<>());
+    }
+
+    public void addSchema(String key, Schema schema, RuntimeValue<Map<String, Schema>> registry) {
+        registry.getValue().put(key, schema);
+    }
+
+    public void recordDataFormatProducerRegistryInitialization(BeanContainer beanContainer,
+            RuntimeValue<Map<String, Schema>> schemaRegistry) {
+        beanContainer.instance(AvroDataFormatProducer.class).setAvroSchemaRegistry(schemaRegistry.getValue());
     }
 
 }

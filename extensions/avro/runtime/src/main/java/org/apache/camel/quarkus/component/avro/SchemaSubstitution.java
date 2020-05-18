@@ -16,24 +16,42 @@
  */
 package org.apache.camel.quarkus.component.avro;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 import io.quarkus.runtime.ObjectSubstitution;
-import org.apache.commons.lang3.SerializationUtils;
+import org.apache.avro.Schema;
 
 /**
  * {@code AvroSchemaRegistrySubstitution} offers a way to bypass Quarkus
  * default serialization. This workaround has been introduced as Quarkus default
  * serialization used to failed with {@code org.apache.avro.Schema}.
  */
-public class AvroSchemaRegistrySubstitution implements ObjectSubstitution<AvroSchemaRegistry, byte[]> {
+public class SchemaSubstitution implements ObjectSubstitution<Schema, byte[]> {
 
     @Override
-    public byte[] serialize(AvroSchemaRegistry registry) {
-        return SerializationUtils.serialize(registry);
+    public byte[] serialize(Schema schema) {
+        final ByteArrayOutputStream baos = new ByteArrayOutputStream(512);
+        try (ObjectOutputStream out = new ObjectOutputStream(baos)) {
+            out.writeObject(schema);
+        } catch (final IOException ex) {
+            throw new RuntimeException("Could not serialize " + Schema.class.getName() + " " + schema, ex);
+        }
+        return baos.toByteArray();
     }
 
     @Override
-    public AvroSchemaRegistry deserialize(byte[] registryBytes) {
-        return SerializationUtils.deserialize(registryBytes);
+    public Schema deserialize(byte[] registryBytes) {
+        final InputStream inputStream = new ByteArrayInputStream(registryBytes);
+        try (ObjectInputStream in = new ObjectInputStream(inputStream)) {
+            return (Schema) in.readObject();
+        } catch (final ClassNotFoundException | IOException ex) {
+            throw new RuntimeException("Could not deserialize " + Schema.class.getName(), ex);
+        }
     }
 
 }
