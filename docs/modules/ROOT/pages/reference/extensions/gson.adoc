@@ -4,6 +4,11 @@
 [[gson]]
 = Gson
 :page-aliases: extensions/gson.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-gson
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Marshal POJOs to JSON and back.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

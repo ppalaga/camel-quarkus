@@ -4,6 +4,11 @@
 [[iec60870]]
 = IEC 60870 Client
 :page-aliases: extensions/iec60870.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-iec60870
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: IEC 60870 supervisory control and data acquisition (SCADA) client using NeoSCADA implementation.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

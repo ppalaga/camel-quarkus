@@ -4,6 +4,11 @@
 [[braintree]]
 = Braintree
 :page-aliases: extensions/braintree.adoc
+:cq-since: 1.2.0
+:cq-artifact-id: camel-quarkus-braintree
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Process payments using Braintree Payments.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

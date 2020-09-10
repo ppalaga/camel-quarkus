@@ -4,6 +4,11 @@
 [[saxon]]
 = XQuery
 :page-aliases: extensions/saxon.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-saxon
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Query and/or transform XML payloads using XQuery and Saxon.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

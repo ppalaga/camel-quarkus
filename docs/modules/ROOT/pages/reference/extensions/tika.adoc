@@ -4,6 +4,11 @@
 [[tika]]
 = Tika
 :page-aliases: extensions/tika.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-tika
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Parse documents and extract metadata and text using Apache Tika.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

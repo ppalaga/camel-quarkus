@@ -4,6 +4,11 @@
 [[salesforce]]
 = Salesforce
 :page-aliases: extensions/salesforce.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-salesforce
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Communicate with Salesforce using Java DTOs.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

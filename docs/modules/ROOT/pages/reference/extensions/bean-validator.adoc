@@ -4,6 +4,11 @@
 [[bean-validator]]
 = Bean Validator
 :page-aliases: extensions/bean-validator.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-bean-validator
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Validate the message body using the Java Bean Validation API.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

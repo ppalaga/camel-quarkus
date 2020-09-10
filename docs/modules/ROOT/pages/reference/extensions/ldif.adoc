@@ -4,6 +4,11 @@
 [[ldif]]
 = LDIF
 :page-aliases: extensions/ldif.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-ldif
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Perform updates on an LDAP server from an LDIF body content.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

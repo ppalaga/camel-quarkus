@@ -4,6 +4,11 @@
 [[consul]]
 = Consul
 :page-aliases: extensions/consul.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-consul
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Integrate with Consul service discovery and configuration store.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

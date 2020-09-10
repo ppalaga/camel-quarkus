@@ -4,6 +4,11 @@
 [[netty]]
 = Netty
 :page-aliases: extensions/netty.adoc
+:cq-since: 0.4.0
+:cq-artifact-id: camel-quarkus-netty
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Socket level networking using TCP or UDP with the Netty 4.x.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.4.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

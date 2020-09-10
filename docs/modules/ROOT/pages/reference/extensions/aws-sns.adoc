@@ -4,6 +4,11 @@
 [[aws-sns]]
 = AWS Simple Notification System (SNS)
 :page-aliases: extensions/aws-sns.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-aws-sns
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send messages to an AWS Simple Notification Topic.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

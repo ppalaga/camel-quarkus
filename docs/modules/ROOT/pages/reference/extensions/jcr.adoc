@@ -4,6 +4,11 @@
 [[jcr]]
 = JCR
 :page-aliases: extensions/jcr.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jcr
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Read and write nodes to/from a JCR compliant content repository.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

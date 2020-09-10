@@ -4,6 +4,11 @@
 [[msv]]
 = MSV
 :page-aliases: extensions/msv.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-msv
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Validate XML payloads using Multi-Schema Validator (MSV).
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

@@ -4,6 +4,11 @@
 [[nats]]
 = Nats
 :page-aliases: extensions/nats.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-nats
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive messages from NATS messaging system.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,11 @@
 [[etcd]]
 = Etcd Keys
 :page-aliases: extensions/etcd.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-etcd
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Get, set or delete keys in etcd key-value store.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

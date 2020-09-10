@@ -4,6 +4,11 @@
 [[mustache]]
 = Mustache
 :page-aliases: extensions/mustache.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-mustache
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Transform messages using a Mustache template.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

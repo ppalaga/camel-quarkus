@@ -4,6 +4,11 @@
 [[jira]]
 = Jira
 :page-aliases: extensions/jira.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-jira
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Interact with JIRA issue tracker.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

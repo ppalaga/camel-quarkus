@@ -4,6 +4,11 @@
 [[debezium-postgres]]
 = Debezium PostgresSQL Connector
 :page-aliases: extensions/debezium-postgres.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-debezium-postgres
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Capture changes from a PostgresSQL database.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

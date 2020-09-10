@@ -4,6 +4,11 @@
 [[direct]]
 = Direct
 :page-aliases: extensions/direct.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-direct
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Call another endpoint from the same Camel Context synchronously.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

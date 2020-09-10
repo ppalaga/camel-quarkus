@@ -4,6 +4,11 @@
 [[aws2-msk]]
 = AWS 2 Managed Streaming for Apache Kafka (MSK)
 :page-aliases: extensions/aws2-msk.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws2-msk
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage AWS MSK instances using AWS SDK version 2.x.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

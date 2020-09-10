@@ -4,6 +4,11 @@
 [[rest-openapi]]
 = REST OpenApi
 :page-aliases: extensions/rest-openapi.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-rest-openapi
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Configure REST producers based on an OpenAPI specification document delegating to a component implementing the RestProducerFactory interface.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

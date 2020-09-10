@@ -4,6 +4,11 @@
 [[http]]
 = HTTP
 :page-aliases: extensions/http.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-http
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send requests to external HTTP servers using Apache HTTP Client 4.x.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

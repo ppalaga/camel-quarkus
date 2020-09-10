@@ -4,6 +4,11 @@
 [[mail]]
 = Mail
 :page-aliases: extensions/mail.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-mail
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive emails using imap, pop3 and smtp protocols. Marshal Camel messages with attachments into MIME-Multipart messages and back.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

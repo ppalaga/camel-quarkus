@@ -4,6 +4,11 @@
 [[servlet]]
 = Servlet
 :page-aliases: extensions/servlet.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-servlet
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Serve HTTP requests by a Servlet.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

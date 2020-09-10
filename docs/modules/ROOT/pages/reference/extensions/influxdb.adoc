@@ -4,6 +4,11 @@
 [[influxdb]]
 = InfluxDB
 :page-aliases: extensions/influxdb.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-influxdb
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Interact with InfluxDB, a time series database.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

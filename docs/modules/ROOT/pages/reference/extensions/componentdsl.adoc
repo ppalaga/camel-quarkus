@@ -4,6 +4,11 @@
 [[componentdsl]]
 = Component DSL
 :page-aliases: extensions/componentdsl.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-componentdsl
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Create Camel components with a fluent Java DSL
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

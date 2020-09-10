@@ -4,6 +4,11 @@
 [[xml-jaxp]]
 = XML JAXP
 :page-aliases: extensions/xml-jaxp.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-xml-jaxp
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Tokenize XML payloads using the specified path expression.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

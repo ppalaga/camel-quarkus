@@ -4,6 +4,11 @@
 [[twitter]]
 = Twitter
 :page-aliases: extensions/twitter.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-twitter
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send tweets and receive tweets, direct messages and access Twitter Search
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

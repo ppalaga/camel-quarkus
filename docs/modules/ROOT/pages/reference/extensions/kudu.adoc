@@ -4,6 +4,11 @@
 [[kudu]]
 = Kudu
 :page-aliases: extensions/kudu.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-kudu
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Interact with Apache Kudu, a free and open source column-oriented data store of the Apache Hadoop ecosystem.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

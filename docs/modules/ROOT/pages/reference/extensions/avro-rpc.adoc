@@ -4,6 +4,11 @@
 [[avro-rpc]]
 = Avro RPC
 :page-aliases: extensions/avro-rpc.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-avro-rpc
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Produce or consume Apache Avro RPC services.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

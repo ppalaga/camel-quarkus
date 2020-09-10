@@ -4,6 +4,11 @@
 [[core]]
 = Core
 :page-aliases: extensions/core.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-core
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Camel core functionality and basic Camel languages: Constant, ExchangeProperty, Header, Ref, Ref, Simple and Tokeinze
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

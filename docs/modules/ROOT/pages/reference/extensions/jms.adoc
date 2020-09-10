@@ -4,6 +4,11 @@
 [[jms]]
 = JMS
 :page-aliases: extensions/jms.adoc
+:cq-since: 1.2.0
+:cq-artifact-id: camel-quarkus-jms
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Sent and receive messages to/from a JMS Queue or Topic.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

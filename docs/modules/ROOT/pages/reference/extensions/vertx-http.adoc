@@ -4,6 +4,11 @@
 [[vertx-http]]
 = Vert.x HTTP Client
 :page-aliases: extensions/vertx-http.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-vertx-http
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Camel HTTP client support with Vert.x
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

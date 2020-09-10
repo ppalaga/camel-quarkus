@@ -4,6 +4,11 @@
 [[cometd]]
 = CometD
 :page-aliases: extensions/cometd.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-cometd
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

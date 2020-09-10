@@ -4,6 +4,11 @@
 [[aws-ecs]]
 = AWS Elastic Container Service (ECS)
 :page-aliases: extensions/aws-ecs.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws-ecs
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage AWS ECS cluster instances.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

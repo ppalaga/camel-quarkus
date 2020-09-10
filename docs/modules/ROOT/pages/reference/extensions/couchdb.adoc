@@ -4,6 +4,11 @@
 [[couchdb]]
 = CouchDB
 :page-aliases: extensions/couchdb.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-couchdb
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Consume changesets for inserts, updates and deletes in a CouchDB database, as well as get, save, update and delete documents from a CouchDB database.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

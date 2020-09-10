@@ -4,6 +4,11 @@
 [[aws2-kinesis]]
 = AWS 2 Kinesis
 :page-aliases: extensions/aws2-kinesis.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-aws2-kinesis
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Consume and produce records from AWS Kinesis Streams using AWS SDK version 2.x.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

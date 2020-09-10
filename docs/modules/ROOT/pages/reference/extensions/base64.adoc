@@ -4,6 +4,11 @@
 [[base64]]
 = Base64
 :page-aliases: extensions/base64.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-base64
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Encode and decode data using Base64.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

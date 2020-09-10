@@ -4,6 +4,11 @@
 [[jackson]]
 = Jackson
 :page-aliases: extensions/jackson.adoc
+:cq-since: 0.3.0
+:cq-artifact-id: camel-quarkus-jackson
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Marshal POJOs to JSON and back.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.3.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

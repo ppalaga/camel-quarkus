@@ -4,6 +4,11 @@
 [[jsonapi]]
 = JSonApi
 :page-aliases: extensions/jsonapi.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jsonapi
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Marshal and unmarshal JSON:API resources using JSONAPI-Converter library.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

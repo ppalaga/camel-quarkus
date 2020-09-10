@@ -4,6 +4,11 @@
 [[rabbitmq]]
 = RabbitMQ
 :page-aliases: extensions/rabbitmq.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-rabbitmq
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive messages from RabbitMQ instances.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

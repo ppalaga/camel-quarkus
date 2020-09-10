@@ -4,6 +4,11 @@
 [[ahc-ws]]
 = Async HTTP Client (AHC) Websocket
 :page-aliases: extensions/ahc-ws.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-ahc-ws
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Exchange data with external Websocket servers using Async Http Client.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

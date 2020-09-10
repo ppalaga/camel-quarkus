@@ -4,6 +4,11 @@
 [[fhir]]
 = FHIR
 :page-aliases: extensions/fhir.adoc
+:cq-since: 0.3.0
+:cq-artifact-id: camel-quarkus-fhir
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Exchange information in the healthcare domain using the FHIR (Fast Healthcare Interoperability Resources) standard. Marshall and unmarshall FHIR objects to/from JSON. Marshall and unmarshall FHIR objects to/from XML.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.3.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

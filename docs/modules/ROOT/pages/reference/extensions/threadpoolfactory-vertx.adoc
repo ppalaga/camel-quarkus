@@ -4,6 +4,11 @@
 [[threadpoolfactory-vertx]]
 = ThreadPoolFactory Vert.x
 :page-aliases: extensions/threadpoolfactory-vertx.adoc
+:cq-since: 1.0.0-CR4
+:cq-artifact-id: camel-quarkus-threadpoolfactory-vertx
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: ThreadPoolFactory for camel-core using Vert.x
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0-CR4## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

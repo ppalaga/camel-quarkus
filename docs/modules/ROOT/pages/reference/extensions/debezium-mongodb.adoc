@@ -4,6 +4,11 @@
 [[debezium-mongodb]]
 = Debezium MongoDB Connector
 :page-aliases: extensions/debezium-mongodb.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-debezium-mongodb
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Capture changes from a MongoDB database.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

@@ -4,6 +4,11 @@
 [[xml-jaxb]]
 = XML JAXB
 :page-aliases: extensions/xml-jaxb.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-xml-jaxb
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: An XML stack for parsing XML route definitions. A legacy alternative to the fast an light weight camel-quarkus-xml-io
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

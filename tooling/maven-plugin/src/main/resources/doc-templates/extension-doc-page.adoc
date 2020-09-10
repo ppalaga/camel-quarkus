@@ -1,6 +1,11 @@
 [[[=artifactIdBase]]]
 = [=name]
 :page-aliases: extensions/[=artifactIdBase].adoc
+:cq-since: [=firstVersion]
+:cq-artifact-id: camel-quarkus-[=artifactIdBase]
+:cq-native-supported: [=nativeSupported?then('true', 'false')]
+:cq-status: [=nativeSupported?then('Stable', 'Preview')]
+:cq-description: [=description]
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##[=firstVersion]## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-[=nativeSupported?then('', 'un')]supported]##[=nativeSupported?then('', 'un')]supported##

@@ -4,6 +4,11 @@
 [[wordpress]]
 = Wordpress
 :page-aliases: extensions/wordpress.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-wordpress
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Manage posts and users using Wordpress API.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

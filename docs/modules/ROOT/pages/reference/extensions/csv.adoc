@@ -4,6 +4,11 @@
 [[csv]]
 = CSV
 :page-aliases: extensions/csv.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-csv
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Handle CSV (Comma Separated Values) payloads.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

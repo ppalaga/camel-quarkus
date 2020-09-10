@@ -4,6 +4,11 @@
 [[openstack]]
 = OpenStack
 :page-aliases: extensions/openstack.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-openstack
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Interact with OpenStack APIs
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

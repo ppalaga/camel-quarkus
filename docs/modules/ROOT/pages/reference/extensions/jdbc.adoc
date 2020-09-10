@@ -4,6 +4,11 @@
 [[jdbc]]
 = JDBC
 :page-aliases: extensions/jdbc.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-jdbc
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Access databases through SQL and JDBC.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

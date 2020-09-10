@@ -4,6 +4,11 @@
 [[azure-storage-queue]]
 = Azure Storage Queue Service
 :page-aliases: extensions/azure-storage-queue.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-azure-storage-queue
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: The azure-storage-queue component is used for storing and retrieving the messages to/from Azure Storage Queue using Azure SDK v12.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

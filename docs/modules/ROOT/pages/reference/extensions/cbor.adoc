@@ -4,6 +4,11 @@
 [[cbor]]
 = CBOR
 :page-aliases: extensions/cbor.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-cbor
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Unmarshal a CBOR payload to POJO and back.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

@@ -4,6 +4,11 @@
 [[caffeine-lrucache]]
 = Caffeine LRUCache
 :page-aliases: extensions/caffeine-lrucache.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-caffeine-lrucache
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: An LRUCacheFactory implementation based on Caffeine
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

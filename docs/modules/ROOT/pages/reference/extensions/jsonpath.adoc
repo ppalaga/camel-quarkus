@@ -4,6 +4,11 @@
 [[jsonpath]]
 = JSON Path
 :page-aliases: extensions/jsonpath.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-jsonpath
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Evaluate a JsonPath expression against a JSON message body.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

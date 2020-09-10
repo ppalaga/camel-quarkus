@@ -4,6 +4,11 @@
 [[flink]]
 = Flink
 :page-aliases: extensions/flink.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-flink
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Send DataSet jobs to an Apache Flink cluster.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

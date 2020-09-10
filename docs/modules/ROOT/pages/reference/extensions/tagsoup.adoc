@@ -4,6 +4,11 @@
 [[tagsoup]]
 = TagSoup (a.k.a. TidyMarkup)
 :page-aliases: extensions/tagsoup.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-tagsoup
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Parse (potentially invalid) HTML into valid HTML or DOM.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

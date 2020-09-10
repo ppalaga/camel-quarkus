@@ -4,6 +4,11 @@
 [[bindy]]
 = Bindy
 :page-aliases: extensions/bindy.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-bindy
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Marshal and unmarshal Java beans from and to flat payloads (such as CSV, delimited, fixed length formats, or FIX messages).
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

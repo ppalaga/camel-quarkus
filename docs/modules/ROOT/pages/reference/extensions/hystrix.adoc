@@ -4,6 +4,11 @@
 [[hystrix]]
 = Hystrix
 :page-aliases: extensions/hystrix.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-hystrix
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Circuit Breaker EIP using Netflix Hystrix
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

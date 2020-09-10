@@ -4,6 +4,11 @@
 [[google-drive]]
 = Google Drive
 :page-aliases: extensions/google-drive.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-google-drive
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage files in Google Drive.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

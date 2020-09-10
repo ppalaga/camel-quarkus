@@ -4,6 +4,11 @@
 [[ical]]
 = iCal
 :page-aliases: extensions/ical.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-ical
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Marshal and unmarshal iCal (.ics) documents to/from model objects provided by the iCal4j library.
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##
