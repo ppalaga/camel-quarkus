@@ -102,7 +102,7 @@ public class PrepareCatalogQuarkusMojo extends AbstractMojo {
                                     model.setTitle(title);
                                     model.setDescription(ext.getDescription().orElseThrow(() -> new RuntimeException(
                                             "description is missing in " + ext.getRuntimePomXmlPath())));
-                                    model.setDeprecated(title.contains("(deprecated)"));
+                                    model.setDeprecated(CqUtils.isDeprecated(title, models));
                                     model.setLabel(ext.getLabel().orElse("quarkus"));
                                     update(model, ext, nativeSupported);
                                     serialize(catalogPath, model);

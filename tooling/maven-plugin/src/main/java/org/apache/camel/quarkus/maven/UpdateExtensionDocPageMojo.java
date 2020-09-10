@@ -88,9 +88,12 @@ public class UpdateExtensionDocPageMojo extends AbstractDocGeneratorMojo {
         model.put("artifactIdBase", ext.getRuntimeArtifactIdBase());
         model.put("firstVersion", ext.getFirstVersion().get());
         model.put("nativeSupported", ext.isNativeSupported());
-        model.put("name", ext.getName().get());
-        model.put("intro", loadSection(basePath, "intro.adoc", charset,
-                CqUtils.getDescription(models, ext.getDescription().orElse(null), getLog())));
+        final String title = ext.getName().get();
+        model.put("name", title);
+        final String description = CqUtils.getDescription(models, ext.getDescription().orElse(null), getLog());
+        model.put("description", description);
+        model.put("deprecated", CqUtils.isDeprecated(title, models));
+        model.put("intro", loadSection(basePath, "intro.adoc", charset, description));
         model.put("models", models);
         model.put("usage", loadSection(basePath, "usage.adoc", charset, null));
         model.put("configuration", loadSection(basePath, "configuration.adoc", charset, null));
