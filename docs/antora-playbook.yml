@@ -32,3 +32,6 @@ output:
   dir: ./target/site
 urls:
   redirect_facility: httpd
+asciidoc:
+  extensions:
+    - ./extensions/cq-reference-table.js
