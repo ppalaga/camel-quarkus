@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Configure REST producers based on an OpenAPI specification document delegating to a component implementing the RestProducerFactory interface.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Expose REST services and their OpenAPI Specification or call external REST services.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

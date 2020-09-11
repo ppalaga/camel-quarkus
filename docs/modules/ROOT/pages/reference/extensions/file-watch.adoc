@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Get notified about file events in a directory using java.nio.file.WatchService.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

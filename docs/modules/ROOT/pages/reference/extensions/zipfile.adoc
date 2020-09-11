@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Compression and decompress streams using java.util.zip.ZipStream.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Store and Retrieve data from/to AWS SDB service.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##
