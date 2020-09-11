@@ -4,6 +4,12 @@
 [[infinispan]]
 = Infinispan
 :page-aliases: extensions/infinispan.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-infinispan
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Read and write from/to Infinispan distributed key/value store and data grid.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

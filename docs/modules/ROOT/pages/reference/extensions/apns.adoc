@@ -4,6 +4,12 @@
 [[apns]]
 = APNS
 :page-aliases: extensions/apns.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-apns
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Send notifications to Apple iOS devices.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

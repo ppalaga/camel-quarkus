@@ -4,6 +4,12 @@
 [[slack]]
 = Slack
 :page-aliases: extensions/slack.adoc
+:cq-since: 0.3.0
+:cq-artifact-id: camel-quarkus-slack
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive messages to/from Slack.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.3.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

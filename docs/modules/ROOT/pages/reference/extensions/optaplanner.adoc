@@ -4,6 +4,12 @@
 [[optaplanner]]
 = OptaPlanner
 :page-aliases: extensions/optaplanner.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-optaplanner
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Solve planning problems with OptaPlanner.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

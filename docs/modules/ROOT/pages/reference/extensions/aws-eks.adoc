@@ -4,6 +4,12 @@
 [[aws-eks]]
 = AWS Elastic Kubernetes Service (EKS)
 :page-aliases: extensions/aws-eks.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-aws-eks
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage AWS EKS cluster instances.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,12 @@
 [[beanstalk]]
 = Beanstalk
 :page-aliases: extensions/beanstalk.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-beanstalk
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Retrieve and post-process Beanstalk jobs.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

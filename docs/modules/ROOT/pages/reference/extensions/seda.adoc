@@ -4,6 +4,12 @@
 [[seda]]
 = SEDA
 :page-aliases: extensions/seda.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-seda
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Asynchronously call another endpoint from any Camel Context in the same JVM.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

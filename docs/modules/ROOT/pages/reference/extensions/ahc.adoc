@@ -4,6 +4,12 @@
 [[ahc]]
 = Async HTTP Client (AHC)
 :page-aliases: extensions/ahc.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-ahc
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Call external HTTP services using Async Http Client.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,12 @@
 [[xml-io]]
 = XML IO
 :page-aliases: extensions/xml-io.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-xml-io
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: An XML stack for parsing XML route definitions. A fast an light weight alternative to camel-quarkus-xml-jaxp
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

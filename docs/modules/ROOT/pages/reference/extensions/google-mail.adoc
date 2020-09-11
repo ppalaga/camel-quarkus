@@ -4,6 +4,12 @@
 [[google-mail]]
 = Google Mail
 :page-aliases: extensions/google-mail.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-google-mail
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage messages in Google Mail. Poll for incoming messages in Google Mail.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

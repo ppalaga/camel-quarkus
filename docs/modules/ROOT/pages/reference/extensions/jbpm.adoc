@@ -4,6 +4,12 @@
 [[jbpm]]
 = JBPM
 :page-aliases: extensions/jbpm.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jbpm
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Interact with jBPM workflow engine over REST.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

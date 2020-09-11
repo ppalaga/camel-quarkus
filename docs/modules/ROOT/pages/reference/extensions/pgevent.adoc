@@ -4,6 +4,12 @@
 [[pgevent]]
 = PostgresSQL Event
 :page-aliases: extensions/pgevent.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-pgevent
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Send and receive PostgreSQL events via LISTEN and NOTIFY commands.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

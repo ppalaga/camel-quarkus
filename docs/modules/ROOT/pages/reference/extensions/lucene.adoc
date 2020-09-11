@@ -4,6 +4,12 @@
 [[lucene]]
 = Lucene
 :page-aliases: extensions/lucene.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-lucene
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Perform inserts or queries against Apache Lucene databases.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

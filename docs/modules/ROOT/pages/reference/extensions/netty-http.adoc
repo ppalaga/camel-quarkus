@@ -4,6 +4,12 @@
 [[netty-http]]
 = Netty HTTP
 :page-aliases: extensions/netty-http.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-netty-http
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Netty HTTP server and client using the Netty 4.x.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

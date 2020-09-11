@@ -4,6 +4,12 @@
 [[dozer]]
 = Dozer
 :page-aliases: extensions/dozer.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-dozer
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Map between Java beans using the Dozer mapping library.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

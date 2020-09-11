@@ -4,6 +4,12 @@
 [[jgroups-raft]]
 = JGroups raft
 :page-aliases: extensions/jgroups-raft.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jgroups-raft
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Exchange messages with JGroups-raft clusters.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

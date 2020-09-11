@@ -4,6 +4,12 @@
 [[aws2-translate]]
 = AWS 2 Translate
 :page-aliases: extensions/aws2-translate.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws2-translate
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Translate texts using AWS Translate and AWS SDK version 2.x.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

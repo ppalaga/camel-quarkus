@@ -4,6 +4,12 @@
 [[ganglia]]
 = Ganglia
 :page-aliases: extensions/ganglia.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-ganglia
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Send metrics to Ganglia monitoring system.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

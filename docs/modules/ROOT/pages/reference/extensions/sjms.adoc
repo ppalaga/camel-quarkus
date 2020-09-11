@@ -4,6 +4,12 @@
 [[sjms]]
 = Simple JMS
 :page-aliases: extensions/sjms.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-sjms
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive messages to/from a JMS Queue or Topic using plain JMS 1.x API.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

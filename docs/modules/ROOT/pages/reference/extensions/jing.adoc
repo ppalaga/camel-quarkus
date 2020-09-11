@@ -4,6 +4,12 @@
 [[jing]]
 = Jing
 :page-aliases: extensions/jing.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jing
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Validate XML against a RelaxNG schema (XML Syntax or Compact Syntax) using Jing library.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

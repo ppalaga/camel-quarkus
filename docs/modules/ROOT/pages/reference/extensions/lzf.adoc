@@ -4,6 +4,12 @@
 [[lzf]]
 = LZF Deflate Compression
 :page-aliases: extensions/lzf.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-lzf
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Compress and decompress streams using LZF deflate algorithm.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,12 @@
 [[google-calendar]]
 = Google Calendar
 :page-aliases: extensions/google-calendar.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-google-calendar
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Perform various operations on a Google Calendar. Poll for changes in a Google Calendar.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

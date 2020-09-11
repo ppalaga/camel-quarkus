@@ -4,6 +4,12 @@
 [[ftp]]
 = FTP
 :page-aliases: extensions/ftp.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-ftp
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Upload and download files to/from FTP or SFTP servers.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

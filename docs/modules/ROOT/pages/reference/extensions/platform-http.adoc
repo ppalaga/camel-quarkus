@@ -4,6 +4,12 @@
 [[platform-http]]
 = Platform HTTP
 :page-aliases: extensions/platform-http.adoc
+:cq-since: 0.3.0
+:cq-artifact-id: camel-quarkus-platform-http
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Expose HTTP endpoints using the HTTP server available in the current platform.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.3.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

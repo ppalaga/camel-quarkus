@@ -4,6 +4,12 @@
 [[ignite]]
 = Ignite Cache
 :page-aliases: extensions/ignite.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-ignite
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Perform cache operations on an Ignite cache or consume changes from a continuous query.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

@@ -4,6 +4,12 @@
 [[pg-replication-slot]]
 = PostgresSQL Replication Slot
 :page-aliases: extensions/pg-replication-slot.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-pg-replication-slot
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Poll for PostgreSQL Write-Ahead Log (WAL) records using Streaming Replication Slots.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

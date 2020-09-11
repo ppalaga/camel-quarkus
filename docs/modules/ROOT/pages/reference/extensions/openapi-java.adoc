@@ -4,6 +4,12 @@
 [[openapi-java]]
 = OpenAPI Java
 :page-aliases: extensions/openapi-java.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-openapi-java
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Rest-dsl support for using OpenAPI doc
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

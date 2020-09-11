@@ -4,6 +4,12 @@
 [[as2]]
 = AS2
 :page-aliases: extensions/as2.adoc
+:cq-since: 1.0.0-CR4
+:cq-artifact-id: camel-quarkus-as2
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Transfer data securely and reliably using the AS2 protocol (RFC4130).
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0-CR4## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

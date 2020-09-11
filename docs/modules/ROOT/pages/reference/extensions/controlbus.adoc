@@ -4,6 +4,12 @@
 [[controlbus]]
 = Control Bus
 :page-aliases: extensions/controlbus.adoc
+:cq-since: 0.4.0
+:cq-artifact-id: camel-quarkus-controlbus
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage and monitor Camel routes.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.4.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

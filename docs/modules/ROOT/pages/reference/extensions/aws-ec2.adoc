@@ -4,6 +4,12 @@
 [[aws-ec2]]
 = AWS Elastic Compute Cloud (EC2)
 :page-aliases: extensions/aws-ec2.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws-ec2
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage AWS EC2 instances.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

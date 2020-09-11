@@ -4,6 +4,12 @@
 [[aws-kms]]
 = AWS Key Management Service (KMS)
 :page-aliases: extensions/aws-kms.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws-kms
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage keys stored in AWS KMS instances.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

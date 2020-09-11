@@ -4,6 +4,12 @@
 [[ognl]]
 = OGNL
 :page-aliases: extensions/ognl.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-ognl
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Evaluate an Apache Commons Object Graph Navigation Library (OGNL) expression against the Camel Exchange.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

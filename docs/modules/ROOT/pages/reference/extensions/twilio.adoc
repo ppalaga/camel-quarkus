@@ -4,6 +4,12 @@
 [[twilio]]
 = Twilio
 :page-aliases: extensions/twilio.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-twilio
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Interact with Twilio REST APIs using Twilio Java SDK.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

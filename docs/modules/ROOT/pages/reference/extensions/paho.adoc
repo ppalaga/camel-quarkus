@@ -4,6 +4,12 @@
 [[paho]]
 = Paho
 :page-aliases: extensions/paho.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-paho
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Communicate with MQTT message brokers using Eclipse Paho MQTT Client.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

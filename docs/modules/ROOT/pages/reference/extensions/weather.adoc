@@ -4,6 +4,12 @@
 [[weather]]
 = Weather
 :page-aliases: extensions/weather.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-weather
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Poll the weather information from Open Weather Map.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

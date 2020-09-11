@@ -4,6 +4,12 @@
 [[splunk-hec]]
 = Splunk HEC
 :page-aliases: extensions/splunk-hec.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-splunk-hec
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: The splunk component allows to publish events in Splunk using the HTTP Event Collector.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

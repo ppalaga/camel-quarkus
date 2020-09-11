@@ -4,6 +4,12 @@
 [[quickfix]]
 = QuickFix
 :page-aliases: extensions/quickfix.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-quickfix
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Open a Financial Interchange (FIX) session using an embedded QuickFix/J engine.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

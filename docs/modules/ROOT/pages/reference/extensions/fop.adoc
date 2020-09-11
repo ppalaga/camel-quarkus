@@ -4,6 +4,12 @@
 [[fop]]
 = FOP
 :page-aliases: extensions/fop.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-fop
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Render messages into PDF and other output formats supported by Apache FOP.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

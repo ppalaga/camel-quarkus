@@ -4,6 +4,12 @@
 [[jooq]]
 = JOOQ
 :page-aliases: extensions/jooq.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-jooq
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Store and retrieve Java objects from an SQL database using JOOQ.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

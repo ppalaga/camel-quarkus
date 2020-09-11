@@ -4,6 +4,12 @@
 [[file-watch]]
 = File Watch
 :page-aliases: extensions/file-watch.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-file-watch
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Get notified about file events in a directory using java.nio.file.WatchService.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

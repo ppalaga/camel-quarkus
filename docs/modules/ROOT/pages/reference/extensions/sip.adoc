@@ -4,6 +4,12 @@
 [[sip]]
 = SIP
 :page-aliases: extensions/sip.adoc
+:cq-since: 1.1.0
+:cq-artifact-id: camel-quarkus-sip
+:cq-native-supported: false
+:cq-status: Preview
+:cq-description: Send and receive messages using the SIP protocol (used in telecommunications).
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

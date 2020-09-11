@@ -4,6 +4,12 @@
 [[zip-deflater]]
 = Zip Deflate Compression
 :page-aliases: extensions/zip-deflater.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-zip-deflater
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Compress and decompress streams using java.util.zip.Deflater, java.util.zip.Inflater or java.util.zip.GZIPStream.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

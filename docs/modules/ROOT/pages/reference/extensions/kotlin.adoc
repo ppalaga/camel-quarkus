@@ -4,6 +4,12 @@
 [[kotlin]]
 = Kotlin
 :page-aliases: extensions/kotlin.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-kotlin
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Write Camel integration routes in Kotlin
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

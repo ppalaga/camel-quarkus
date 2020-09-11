@@ -4,6 +4,12 @@
 [[kubernetes]]
 = Kubernetes
 :page-aliases: extensions/kubernetes.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-kubernetes
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Perform operations against Kubernetes API
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

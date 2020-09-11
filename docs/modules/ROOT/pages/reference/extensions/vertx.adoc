@@ -4,6 +4,12 @@
 [[vertx]]
 = Vert.x
 :page-aliases: extensions/vertx.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-vertx
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Send and receive messages to/from Vert.x Event Bus.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,12 @@
 [[scheduler]]
 = Scheduler
 :page-aliases: extensions/scheduler.adoc
+:cq-since: 0.4.0
+:cq-artifact-id: camel-quarkus-scheduler
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Generate messages in specified intervals using java.util.concurrent.ScheduledExecutorService.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.4.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

@@ -4,6 +4,12 @@
 [[aws-swf]]
 = AWS Simple Workflow (SWF)
 :page-aliases: extensions/aws-swf.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws-swf
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Manage workflows in the AWS Simple Workflow service.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

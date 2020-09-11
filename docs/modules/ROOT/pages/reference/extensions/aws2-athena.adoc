@@ -4,6 +4,12 @@
 [[aws2-athena]]
 = AWS 2 Athena
 :page-aliases: extensions/aws2-athena.adoc
+:cq-since: 1.0.0
+:cq-artifact-id: camel-quarkus-aws2-athena
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Access AWS Athena service using AWS SDK version 2.x.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

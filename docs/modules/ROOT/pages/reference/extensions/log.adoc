@@ -4,6 +4,12 @@
 [[log]]
 = Log
 :page-aliases: extensions/log.adoc
+:cq-since: 0.2.0
+:cq-artifact-id: camel-quarkus-log
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Log messages to the underlying logging mechanism.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.2.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

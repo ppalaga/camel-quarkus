@@ -4,6 +4,12 @@
 [[tarfile]]
 = Tar File
 :page-aliases: extensions/tarfile.adoc
+:cq-since: 0.3.0
+:cq-artifact-id: camel-quarkus-tarfile
+:cq-native-supported: true
+:cq-status: Stable
+:cq-description: Archive files into tarballs or extract files from tarballs.
+:cq-deprecated: false
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##0.3.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##
