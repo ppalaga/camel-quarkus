@@ -13,7 +13,7 @@ Camel Quarkus also takes advantage of the many performance improvements made in 
 
 You can define Camel routes using the Java DSL, XML & Kotlin (see the xref:user-guide/examples.adoc[examples]).
 
-=== Where to go next?
+== Where to go next?
 
 * xref:user-guide/index.adoc[User guide]
 * xref:contributor-guide/index.adoc[Contributor guide]
