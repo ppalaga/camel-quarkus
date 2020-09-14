@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Transfer data securely and reliably using the AS2 protocol (RFC4130).
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.0.0-CR4## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##

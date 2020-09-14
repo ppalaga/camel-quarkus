@@ -7,6 +7,7 @@
 :cq-status: [=nativeSupported?then('Stable', 'Preview')]
 :cq-description: [=description]
 :cq-deprecated: [=deprecated?then('true', 'false')]
+:cq-targetRuntime: [=nativeSupported?then('Native', 'JVM')]
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##[=firstVersion]## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-[=nativeSupported?then('', 'un')]supported]##[=nativeSupported?then('', 'un')]supported##

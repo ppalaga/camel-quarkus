@@ -10,6 +10,7 @@
 :cq-status: Preview
 :cq-description: Use ElSql to define SQL queries. Extends the SQL Component.
 :cq-deprecated: false
+:cq-targetRuntime: JVM
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

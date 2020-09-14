@@ -10,6 +10,7 @@
 :cq-status: Preview
 :cq-description: Read and write nodes to/from a JCR compliant content repository.
 :cq-deprecated: false
+:cq-targetRuntime: JVM
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-unsupported]##unsupported##

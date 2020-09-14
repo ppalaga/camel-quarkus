@@ -10,6 +10,7 @@
 :cq-status: Stable
 :cq-description: Parse fixed width and delimited files using the FlatPack library.
 :cq-deprecated: false
+:cq-targetRuntime: Native
 
 [.badges]
 [.badge-key]##Since Camel Quarkus##[.badge-version]##1.1.0## [.badge-key]##JVM##[.badge-supported]##supported## [.badge-key]##Native##[.badge-supported]##supported##
