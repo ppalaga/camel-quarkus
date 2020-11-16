@@ -77,7 +77,6 @@
         <module>groovy</module>
         <module>guava-eventbus</module>
         <module>hazelcast</module>
-        <module>hbase</module>
         <module>hdfs</module>
         <module>hl7</module>
         <module>iec60870</module>
