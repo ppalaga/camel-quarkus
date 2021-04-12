@@ -1,7 +1,7 @@
 = First steps
 :page-aliases: first-steps.adoc
 
-The following guide outlines various ways to create a Camel Quarkus project.
+This guide outlines various ways to create a Camel Quarkus project.
 
 == Prerequisites
 
