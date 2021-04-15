@@ -125,6 +125,7 @@ messaging-networking1:
   - activemq
   - amqp
   - kafka
+  - kafka-sasl
   - messaging
   - nats
   - splunk
