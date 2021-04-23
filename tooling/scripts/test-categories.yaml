@@ -24,6 +24,8 @@ cache-networking3:
   - http
   - jsch
   - ssh
+  - kafka
+  - kafka-sasl
   - hazelcast
   - ipfs
   - mllp
@@ -124,8 +126,7 @@ dozer-social-azure:
 messaging-networking1:
   - activemq
   - amqp
-  - kafka
-  - kafka-sasl
+  - kafka-sasl-ssl
   - kafka-ssl
   - messaging
   - nats
