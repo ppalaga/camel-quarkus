@@ -198,7 +198,6 @@
         <module>integration-tests-support</module>
         <module>integration-tests</module>
         <module>integration-tests-aws2</module>
-        <module>docs</module>
     </modules>
 
     <developers>
