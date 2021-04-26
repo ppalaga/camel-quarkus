@@ -621,7 +621,11 @@
                                 <goals>
                                     <goal>enforce</goal>
                                 </goals>
-                                <configuration>
+				<configuration>
+                                    <skip>true</skip>
+                                    <requireMavenVersion>
+                                        <version>3.6.2</version>
+                                    </requireMavenVersion>
                                     <rules>
                                         <requireJavaVersion>
                                             <version>11</version>
