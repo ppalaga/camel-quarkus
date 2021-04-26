@@ -41,7 +41,7 @@
             <dependency>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-junit5-internal</artifactId>
-                <version>${quarkus.version}</version>
+                <version>${quarkus-bom-test.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

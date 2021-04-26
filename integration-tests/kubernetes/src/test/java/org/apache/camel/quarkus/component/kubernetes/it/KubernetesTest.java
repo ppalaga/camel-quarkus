@@ -19,22 +19,22 @@ package org.apache.camel.quarkus.component.kubernetes.it;
 import io.fabric8.kubernetes.api.model.Container;
 import io.fabric8.kubernetes.api.model.Pod;
 import io.fabric8.kubernetes.api.model.PodBuilder;
-import io.fabric8.kubernetes.client.server.mock.KubernetesServer;
+import io.fabric8.kubernetes.client.server.mock.KubernetesMockServer;
 import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
-import io.quarkus.test.kubernetes.client.KubernetesServerTestResource;
-import io.quarkus.test.kubernetes.client.KubernetesTestServer;
+import io.quarkus.test.kubernetes.client.KubernetesMockServerTestResource;
+import io.quarkus.test.kubernetes.client.MockServer;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.is;
 
 @QuarkusTest
-@QuarkusTestResource(KubernetesServerTestResource.class)
+@QuarkusTestResource(KubernetesMockServerTestResource.class)
 public class KubernetesTest {
 
-    @KubernetesTestServer
-    private KubernetesServer mockServer;
+    @MockServer
+    private KubernetesMockServer mockServer;
 
     @Test
     public void testKubernetesComponent() {

@@ -38,6 +38,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import io.agroal.api.AgroalDataSource;
+import io.quarkus.agroal.DataSource;
 import org.apache.camel.ProducerTemplate;
 import org.apache.camel.quarkus.component.sql.it.model.Camel;
 import org.springframework.util.LinkedCaseInsensitiveMap;
@@ -47,6 +48,7 @@ import org.springframework.util.LinkedCaseInsensitiveMap;
 public class SqlResource {
 
     @Inject
+    @DataSource("camel-sql")
     AgroalDataSource dataSource;
 
     @Inject

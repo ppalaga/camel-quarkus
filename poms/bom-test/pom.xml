@@ -48,7 +48,7 @@
             <dependency>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-bom-test</artifactId>
-                <version>${quarkus.version}</version>
+                <version>${quarkus-bom-test.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
