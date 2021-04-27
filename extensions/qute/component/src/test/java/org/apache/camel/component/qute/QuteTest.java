@@ -21,8 +21,10 @@ import org.apache.camel.Processor;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.builder.RouteBuilder;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
+@Disabled("https://issues.redhat.com/browse/ENTESB-16303")
 public class QuteTest extends QuteTestBase {
 
     @Test

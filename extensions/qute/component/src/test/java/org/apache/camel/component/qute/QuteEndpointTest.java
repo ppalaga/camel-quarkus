@@ -18,7 +18,9 @@ package org.apache.camel.component.qute;
 
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.builder.RouteBuilder;
+import org.junit.jupiter.api.Disabled;
 
+@Disabled("https://issues.redhat.com/browse/ENTESB-16303")
 public class QuteEndpointTest extends QuteTest {
 
     @Override
