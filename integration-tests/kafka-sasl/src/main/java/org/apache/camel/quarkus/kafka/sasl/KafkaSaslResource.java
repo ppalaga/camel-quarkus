@@ -59,9 +59,7 @@ public class KafkaSaslResource {
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject post(@PathParam("topicName") String topicName, String message) throws Exception {
         Properties props = (Properties) producerProperties.clone();
-        KafkaTestSupport.setKafkaConfigProperty(props, CommonClientConfigs.SECURITY_PROTOCOL_CONFIG);
-        KafkaTestSupport.setKafkaConfigProperty(props, SaslConfigs.SASL_MECHANISM);
-        KafkaTestSupport.setKafkaConfigProperty(props, SaslConfigs.SASL_JAAS_CONFIG);
+        configureSasl(props);
 
         try (Producer<Integer, String> producer = new KafkaProducer<>(props)) {
             RecordMetadata meta = producer.send(new ProducerRecord<>(topicName, 1, message)).get();
@@ -79,9 +77,7 @@ public class KafkaSaslResource {
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject get(@PathParam("topicName") String topicName) {
         Properties props = (Properties) consumerProperties.clone();
-        KafkaTestSupport.setKafkaConfigProperty(props, CommonClientConfigs.SECURITY_PROTOCOL_CONFIG);
-        KafkaTestSupport.setKafkaConfigProperty(props, SaslConfigs.SASL_MECHANISM);
-        KafkaTestSupport.setKafkaConfigProperty(props, SaslConfigs.SASL_JAAS_CONFIG);
+        configureSasl(props);
 
         try (KafkaConsumer<Integer, String> consumer = new KafkaConsumer<>(props)) {
             consumer.subscribe(Collections.singletonList(topicName));
@@ -96,4 +92,14 @@ public class KafkaSaslResource {
                     .build();
         }
     }
+
+    private void configureSasl(Properties props) {
+        KafkaTestSupport.setKafkaConfigFromProperty(props, CommonClientConfigs.SECURITY_PROTOCOL_CONFIG,
+                "camel.component.kafka.security-protocol");
+        KafkaTestSupport.setKafkaConfigFromProperty(props, SaslConfigs.SASL_JAAS_CONFIG,
+                "camel.component.kafka.sasl-jaas-config");
+        KafkaTestSupport.setKafkaConfigFromProperty(props, SaslConfigs.SASL_MECHANISM,
+                "camel.component.kafka.sasl-mechanism");
+    }
+
 }

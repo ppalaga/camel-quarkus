@@ -28,7 +28,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @QuarkusTest
 @QuarkusTestResource(KafkaSaslTestResource.class)
-public class KafkaSaslBindingTest {
+public class KafkaSaslTest {
 
     @Test
     void testKafkaBridge() {

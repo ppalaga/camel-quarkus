@@ -20,12 +20,11 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Paths;
-import java.util.Collections;
 import java.util.Map;
 
 import com.github.dockerjava.api.command.InspectContainerResponse;
 import org.apache.camel.quarkus.test.support.kafka.KafkaTestResource;
-import org.apache.kafka.clients.CommonClientConfigs;
+import org.apache.camel.util.CollectionHelper;
 import org.testcontainers.containers.KafkaContainer;
 import org.testcontainers.containers.wait.strategy.Wait;
 import org.testcontainers.shaded.org.apache.commons.io.FileUtils;
@@ -34,23 +33,23 @@ import org.testcontainers.utility.MountableFile;
 
 public class KafkaSaslTestResource extends KafkaTestResource {
 
-    private static final File TMP_DIR = Paths.get(System.getProperty("java.io.tmpdir"), "k8s-sb", "kafka").toFile();
+    private static final File TMP_DIR = Paths.get(System.getProperty("java.io.tmpdir"), "kafka").toFile();
     private SaslKafkaContainer container;
 
     @Override
     public Map<String, String> start() {
-        // Set up the service binding directory
+        // Set up the SSL key / trust store directory
         try {
             TMP_DIR.mkdirs();
 
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-            URL resource = classLoader.getResource("k8s-sb/kafka");
+            URL resource = classLoader.getResource("config");
             File serviceBindings = new File(resource.getPath());
 
-            for (File serviceBinding : serviceBindings.listFiles()) {
-                URL serviceBindingResource = classLoader.getResource("k8s-sb/kafka/" + serviceBinding.getName());
+            for (File keyStore : serviceBindings.listFiles()) {
+                URL serviceBindingResource = classLoader.getResource("config/" + keyStore.getName());
                 FileUtils.copyInputStreamToFile(serviceBindingResource.openStream(),
-                        Paths.get(TMP_DIR.getPath(), serviceBinding.getName()).toFile());
+                        Paths.get(TMP_DIR.getPath(), keyStore.getName()).toFile());
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -58,8 +57,16 @@ public class KafkaSaslTestResource extends KafkaTestResource {
 
         container = new SaslKafkaContainer(KAFKA_IMAGE_NAME);
         container.start();
-        return Collections.singletonMap("kafka." + CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG,
-                container.getBootstrapServers());
+
+        String jaasConfig = "org.apache.kafka.common.security.plain.PlainLoginModule required "
+                + "username=\"alice\" "
+                + "password=\"alice-secret\";";
+
+        return CollectionHelper.mapOf(
+                "camel.component.kafka.brokers", container.getBootstrapServers(),
+                "camel.component.kafka.sasl-mechanism", "PLAIN",
+                "camel.component.kafka.sasl-jaas-config", jaasConfig,
+                "camel.component.kafka.security-protocol", "SASL_PLAINTEXT");
     }
 
     @Override
@@ -67,7 +74,7 @@ public class KafkaSaslTestResource extends KafkaTestResource {
         if (this.container != null) {
             try {
                 this.container.stop();
-                FileUtils.deleteDirectory(TMP_DIR.getParentFile());
+                FileUtils.deleteDirectory(TMP_DIR);
             } catch (Exception e) {
                 // Ignored
             }

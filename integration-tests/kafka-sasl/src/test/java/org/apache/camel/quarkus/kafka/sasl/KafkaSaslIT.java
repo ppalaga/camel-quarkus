@@ -19,5 +19,5 @@ package org.apache.camel.quarkus.kafka.sasl;
 import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
-public class KafkaSaslIT extends KafkaSaslBindingTest {
+public class KafkaSaslIT extends KafkaSaslTest {
 }
