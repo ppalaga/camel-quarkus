@@ -39,6 +39,7 @@ cloud:
   - grpc
   - pubnub
   - protobuf
+  - simple
   - smallrye-reactive-messaging
 core-main-validation:
   - core
