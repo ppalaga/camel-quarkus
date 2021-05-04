@@ -113,6 +113,7 @@ xml-json-olingo4:
   - lumberjack
   - optaplanner
   - stax
+  - xpath
 dozer-social-azure:
   - crypto
   - dozer
