@@ -71,7 +71,6 @@ database:
   - mongodb
   - nitrite
   - pgevent
-  - pg-replication-slot
   - sql
 dataformats:
   - avro
@@ -112,6 +111,7 @@ xml-json-olingo4:
   - geocoder
   - lumberjack
   - optaplanner
+  - pg-replication-slot
   - stax
   - xpath
 dozer-social-azure:
