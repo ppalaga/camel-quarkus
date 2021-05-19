@@ -5,7 +5,7 @@
 :cq-native-supported: false
 :cq-status: Preview
 :cq-description: Send notifications to Apple iOS devices.
-:cq-deprecated: false
+:cq-deprecated: true
 :cq-jvm-since: 1.1.0
 :cq-native-since: n/a
 

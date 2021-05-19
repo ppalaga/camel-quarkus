@@ -5749,6 +5749,21 @@
                 <version>${debezium.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.minio</groupId>
+                <artifactId>minio</artifactId>
+                <version>${minio.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.opencensus</groupId>
+                <artifactId>opencensus-api</artifactId>
+                <version>${opencensus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.perfmark</groupId>
+                <artifactId>perfmark-api</artifactId>
+                <version>${perfmark.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>io.quarkiverse.freemarker</groupId>
                 <artifactId>quarkus-freemarker</artifactId>
                 <version>${quarkiverse.freemarker.version}</version>
@@ -5879,6 +5894,16 @@
                 <version>${xmlgraphics-commons.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper-jute</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.asynchttpclient</groupId>
                 <artifactId>async-http-client</artifactId>
                 <version>${ahc.version}</version>
@@ -5947,6 +5972,21 @@
                 <groupId>org.javassist</groupId>
                 <artifactId>javassist</artifactId>
                 <version>${javassist.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-script-util</artifactId>
+                <version>${kotlin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-scripting-jvm</artifactId>
+                <version>${kotlin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-scripting-jvm-host</artifactId>
+                <version>${kotlin.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.jruby.jcodings</groupId>
