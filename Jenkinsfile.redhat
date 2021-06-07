@@ -33,7 +33,7 @@ pipeline {
         stage('Core Tests') {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "cd extensions-core && ../mvnw ${MAVEN_PARAMS} clean test "
+                    sh "cd extensions-core && ../mvnw ${MAVEN_PARAMS} clean test -fae"
                 }
             }
             post {
@@ -57,7 +57,7 @@ pipeline {
                                 modulesToTest << dirs[0] + "/" + dirs[1] + "/integration-test"
                             }
                         }
-                        sh "./mvnw ${MAVEN_PARAMS} test -pl '${modulesToTest.join(",")}'"
+                        sh "./mvnw ${MAVEN_PARAMS} test -pl '${modulesToTest.join(",")}' -fae"
                     }
                 }
             }
@@ -80,7 +80,7 @@ pipeline {
                             mavenProjectArgs += " -pl '!" + it + "'"
                         }
 
-                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify $mavenProjectArgs"
+                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify $mavenProjectArgs -fae"
                     }
                 }
             }
