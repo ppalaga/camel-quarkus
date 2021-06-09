@@ -74,7 +74,7 @@ pipeline {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     script {
                         // TODO: Investigate why these itests fail
-                        def disabledItests = ['fhir', 'github', 'master', 'solr', 'splunk']
+                        def disabledItests = ['fhir', 'github', 'master', 'solr']
                         def mavenProjectArgs = ""
                         disabledItests.each {
                             mavenProjectArgs += " -pl '!" + it + "'"
