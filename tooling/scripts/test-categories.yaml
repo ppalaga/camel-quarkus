@@ -197,3 +197,18 @@ saas:
   - slack
   - twilio
   - js-dsl
+foundation-new:
+  - browse
+  - controlbus
+  - core-annotations
+  - core-languages
+  - customized-log-component
+  - direct
+  - log
+  - mock
+  - ref
+  - scheduler
+  - seda
+  - stream
+  - timer
+  - type-converter
