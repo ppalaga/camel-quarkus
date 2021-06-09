@@ -1,0 +1,8 @@
+=== Camel annotations
+
+The following Camel annotations are not supported in this version of Camel Quarkus:
+
+* `@org.apache.camel.EndpointInject`
+* `@org.apache.camel.Produce`
+* `@org.apache.camel.Consume`
+
