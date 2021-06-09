@@ -39,6 +39,18 @@ Please refer to the above links for usage and configuration details.
 
 Check the xref:user-guide/index.adoc[User guide] for more information about writing Camel Quarkus applications.
 
+== Camel Quarkus limitations
+
+=== Camel annotations
+
+The following Camel annotations are not supported in this version of Camel Quarkus:
+
+* `@org.apache.camel.EndpointInject`
+* `@org.apache.camel.Produce`
+* `@org.apache.camel.Consume`
+
+
+
 == Additional Camel Quarkus configuration
 
 === Simple language
