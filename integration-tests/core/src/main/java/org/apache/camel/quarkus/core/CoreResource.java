@@ -16,18 +16,16 @@
  */
 package org.apache.camel.quarkus.core;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.nio.charset.StandardCharsets;
 import java.util.stream.Collectors;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
-import javax.json.Json;
-import javax.json.JsonObject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -39,72 +37,20 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.CamelContextAware;
 import org.apache.camel.ExtendedCamelContext;
 import org.apache.camel.NoSuchLanguageException;
-import org.apache.camel.ProducerTemplate;
-import org.apache.camel.Route;
-import org.apache.camel.builder.LambdaRouteBuilder;
-import org.apache.camel.builder.TemplatedRouteBuilder;
 import org.apache.camel.catalog.RuntimeCamelCatalog;
-import org.apache.camel.component.log.LogComponent;
 import org.apache.camel.impl.engine.DefaultHeadersMapFactory;
 import org.apache.camel.model.ModelCamelContext;
 import org.apache.camel.spi.Registry;
 import org.apache.camel.support.LRUCacheFactory;
-import org.apache.camel.support.processor.DefaultExchangeFormatter;
 import org.apache.camel.support.startup.DefaultStartupStepRecorder;
-import org.apache.commons.io.IOUtils;
 
-@Path("/test")
+@Path("/core")
 @ApplicationScoped
 public class CoreResource {
     @Inject
     Registry registry;
     @Inject
     CamelContext context;
-
-    @Inject
-    ProducerTemplate producerTemplate;
-
-    @Path("/registry/log/exchange-formatter")
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public JsonObject exchangeFormatterConfig() {
-        LogComponent component = registry.lookupByNameAndType("log", LogComponent.class);
-        DefaultExchangeFormatter def = (DefaultExchangeFormatter) component.getExchangeFormatter();
-
-        JsonObject result = Json.createObjectBuilder()
-                .add("show-all", def.isShowAll())
-                .add("multi-line", def.isMultiline())
-                .build();
-
-        return result;
-    }
-
-    @javax.enterprise.inject.Produces
-    public LambdaRouteBuilder myOtherRoute() {
-        return rb -> rb.from("timer:bar").routeId("bar").to("log:bar");
-    }
-
-    @Path("/routes/lookup-routes")
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String lookupRoutes() {
-        // there should be 2 routes, the one with LambdaRouteBuilder method above and from CoreRoutes.java
-        return context.getRoutes().stream().map(Route::getId).sorted().collect(Collectors.joining(","));
-    }
-
-    @Path("/routes/template/{id}/{greeting}")
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String routeTemplate(@PathParam("id") String id, @PathParam("greeting") String greeting) {
-        String uuid = context.getUuidGenerator().generateUuid();
-        TemplatedRouteBuilder.builder(context, id)
-                .routeId(uuid)
-                .parameter("uuid", uuid)
-                .parameter("greeting", greeting)
-                .add();
-
-        return context.createFluentProducerTemplate().toF("direct:%s", uuid).request(String.class);
-    }
 
     @Path("/registry/lookup-registry")
     @GET
@@ -176,7 +122,7 @@ public class CoreResource {
 
     @Path("/catalog/{type}/{name}")
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
     public Response catalog(@PathParam("type") String type, @PathParam("name") String name) throws IOException {
         final CamelRuntimeCatalog catalog = (CamelRuntimeCatalog) context.getExtension(RuntimeCamelCatalog.class);
 
@@ -214,12 +160,17 @@ public class CoreResource {
     @Path("/resources/{name : (.+)?}")
     @GET
     @Produces(MediaType.TEXT_PLAIN)
-    public String getResource(@PathParam("name") String name) throws IOException {
+    public byte[] getResource(@PathParam("name") String name) throws IOException {
         try (InputStream is = this.getClass().getClassLoader().getResourceAsStream(name)) {
             if (is == null) {
                 return null;
             }
-            return IOUtils.toString(is, StandardCharsets.UTF_8);
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            int c;
+            while ((c = is.read()) >= 0) {
+                out.write(c);
+            }
+            return out.toByteArray();
         }
     }
 
@@ -273,5 +224,4 @@ public class CoreResource {
     public boolean startupStepRecorder() {
         return context.adapt(ExtendedCamelContext.class).getStartupStepRecorder() instanceof DefaultStartupStepRecorder;
     }
-
 }

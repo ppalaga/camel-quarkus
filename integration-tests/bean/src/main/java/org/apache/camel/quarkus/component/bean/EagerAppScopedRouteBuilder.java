@@ -27,7 +27,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 /**
- * A {@link RouteBuilder} injected into {@link CamelResource} and thus instantiated eagerly.
+ * A {@link RouteBuilder} injected into {@link BeanResource} and thus instantiated eagerly.
  */
 @ApplicationScoped
 public class EagerAppScopedRouteBuilder extends RouteBuilder {
@@ -59,14 +59,12 @@ public class EagerAppScopedRouteBuilder extends RouteBuilder {
          * counter and config-property should actually work without the bean extension. Doing it here because we have
          * quarkus.camel.enable-main=true in the core itest
          */
-        from("direct:counter")
+        from("direct:increment")
                 .id("counter")
-                .setBody(exchange -> counter.increment())
-                .to("log:counter");
+                .setBody(exchange -> counter.increment());
         from("direct:config-property")
                 .id("config-property")
-                .setBody(exchange -> "myFooValue = " + myFooValue)
-                .to("log:config-property");
+                .setBody(exchange -> "myFooValue = " + myFooValue);
     }
 
     public Counter getCounter() {
