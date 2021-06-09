@@ -17,87 +17,62 @@
 package org.apache.camel.quarkus.core;
 
 import java.io.IOException;
-import java.net.HttpURLConnection;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import org.apache.camel.support.DefaultLRUCacheFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.core.IsNot.not;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @QuarkusTest
 public class CoreTest {
 
     @Test
     public void testContainerLookupFromRegistry() {
-        RestAssured.when().get("/test/registry/lookup-registry").then().body(is("true"));
-        RestAssured.when().get("/test/registry/lookup-context").then().body(is("true"));
-    }
-
-    @Test
-    public void testLookupRoutes() {
-        RestAssured.when().get("/test/routes/lookup-routes").then().body(containsString("bar"), containsString("timer"));
-    }
-
-    @Test
-    public void testRouteTemplate() {
-        RestAssured.when().get("/test/routes/template/myTemplate/World").then().body(is("Hello World"));
-        RestAssured.when().get("/test/routes/template/myTemplate/Earth").then().body(is("Hello Earth"));
+        RestAssured.when().get("/core/registry/lookup-registry").then().body(is("true"));
+        RestAssured.when().get("/core/registry/lookup-context").then().body(is("true"));
     }
 
     @Test
     public void testCamelContextAwareRegistryBeansInitialized() {
-        RestAssured.when().get("/test/registry/camel-context-aware/initialized").then().body(is("true"));
-    }
-
-    @Test
-    public void testCamelBeanBuildItem() {
-        Response response = RestAssured.get("/test/registry/log/exchange-formatter").andReturn();
-
-        assertEquals(HttpURLConnection.HTTP_OK, response.getStatusCode());
-        assertTrue(response.jsonPath().getBoolean("show-all"));
-        assertTrue(response.jsonPath().getBoolean("multi-line"));
+        RestAssured.when().get("/core/registry/camel-context-aware/initialized").then().body(is("true"));
     }
 
     @Test
     public void testCamelContextVersion() {
-        RestAssured.when().get("/test/context/version").then().body(not(""));
+        RestAssured.when().get("/core/context/version").then().body(not(""));
     }
 
     @Test
     public void testResolveLanguages() {
-        RestAssured.when().get("/test/language/simple").then().body(is("true"));
-        RestAssured.when().get("/test/language/undefined").then().body(is("false"));
+        RestAssured.when().get("/core/language/simple").then().body(is("true"));
+        RestAssured.when().get("/core/language/undefined").then().body(is("false"));
     }
 
     @Test
     public void testCatalogComponent() throws IOException {
-        RestAssured.when().get("/test/catalog/component/timer").then().body(not(emptyOrNullString()));
-        RestAssured.when().get("/test/catalog/language/simple").then().statusCode(500).body(is(
+        RestAssured.when().get("/core/catalog/language/simple").then().statusCode(500).body(is(
                 "RuntimeException: Accessing language JSON schemas was disabled via quarkus.camel.runtime-catalog.languages = false"));
     }
 
     @Test
     public void testAdaptContext() {
-        RestAssured.when().get("/test/adapt/model-camel-context").then().body(is("true"));
-        RestAssured.when().get("/test/adapt/extended-camel-context").then().body(is("true"));
+        RestAssured.when().get("/core/adapt/model-camel-context").then().body(is("true"));
+        RestAssured.when().get("/core/adapt/extended-camel-context").then().body(is("true"));
     }
 
     @Test
     public void testLRUCacheFactory() {
-        RestAssured.when().get("/test/lru-cache-factory").then().body(is(DefaultLRUCacheFactory.class.getName()));
+        RestAssured.when().get("/core/lru-cache-factory").then().body(is(DefaultLRUCacheFactory.class.getName()));
     }
 
     @Test
     void reflectiveMethod() {
         RestAssured.when()
                 .get(
-                        "/test/reflection/{className}/method/{methodName}/{value}",
+                        "/core/reflection/{className}/method/{methodName}/{value}",
                         "org.apache.commons.lang3.tuple.MutablePair",
                         "setLeft",
                         "Kermit")
@@ -110,7 +85,7 @@ public class CoreTest {
     void reflectiveField() {
         RestAssured.when()
                 .get(
-                        "/test/reflection/{className}/field/{fieldName}/{value}",
+                        "/core/reflection/{className}/field/{fieldName}/{value}",
                         "org.apache.commons.lang3.tuple.MutablePair",
                         "left",
                         "Joe")
@@ -121,12 +96,11 @@ public class CoreTest {
 
     @Test
     void testDefaultHeadersMapFactoryConfigured() {
-        RestAssured.when().get("/test/headersmap-factory").then().body(is("true"));
+        RestAssured.when().get("/core/headersmap-factory").then().body(is("true"));
     }
 
     @Test
     void testStartupStepRecorder() {
-        RestAssured.when().get("/test/startup-step-recorder").then().body(is("true"));
+        RestAssured.when().get("/core/startup-step-recorder").then().body(is("true"));
     }
-
 }

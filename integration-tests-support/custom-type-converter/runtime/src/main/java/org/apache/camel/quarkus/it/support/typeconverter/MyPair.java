@@ -16,17 +16,21 @@
  */
 package org.apache.camel.quarkus.it.support.typeconverter;
 
-public class MyPair {
-    public final String key;
-    public final String val;
+import org.apache.camel.quarkus.it.support.typeconverter.pairs.AbstractPair;
 
-    public MyPair(String key, String val) {
-        this.key = key;
-        this.val = val;
+public class MyPair extends AbstractPair {
+
+    public MyPair(String value) {
+        super(value);
+    }
+
+    @Override
+    protected String keyPrefix() {
+        return "";
     }
 
     public static MyPair fromString(String input) {
-        String[] items = input.split(":");
-        return new MyPair(items[0], items[1]);
+        return new MyPair(input);
     }
+
 }

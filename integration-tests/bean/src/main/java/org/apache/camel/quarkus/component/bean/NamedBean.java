@@ -20,6 +20,8 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
+import org.apache.camel.Exchange;
+import org.apache.camel.quarkus.component.bean.model.Employee;
 
 /**
  * A bean referenced from a route (and from nowhere else) by name.
@@ -32,4 +34,17 @@ public class NamedBean {
     public String hello(String name) {
         return "Hello " + name + " from the NamedBean";
     }
+
+    public String hello(Integer i) {
+        return "Hello number " + i + " from the NamedBean";
+    }
+
+    public String hi(String name) {
+        return "Hi " + name + " from the NamedBean";
+    }
+
+    public void methodWithExchangeArg(Exchange exchange) {
+        exchange.getMessage().setBody("Hello " + exchange.getMessage().getBody(Employee.class).getFirstName());
+    }
+
 }
