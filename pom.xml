@@ -65,6 +65,7 @@
         <eddsa.version>0.3.0</eddsa.version>
         <freemarker.version>2.3.31</freemarker.version><!-- keep in sync with quarkiverse.freemarker.version -->
         <fommil.netlib.core.version>1.1.2</fommil.netlib.core.version><!-- Mess in Weka transitive deps -->
+        <jackson.version>${jackson2-version}</jackson.version><!-- Inherited from Camel, which should be kept in sync with Quarkus -->
         <jodatime.version>2.10.6</jodatime.version><!-- Mess in transitive dependencies of Spark and Splunk -->
         <github-api.version>1.111</github-api.version>
         <google-api-common.version>1.10.1</google-api-common.version> <!-- Mess in google-cloud-bom -->
