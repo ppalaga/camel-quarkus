@@ -73,14 +73,7 @@ pipeline {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     script {
-                        // TODO: Investigate why these itests fail
-                        def disabledItests = ['fhir', 'github', 'master']
-                        def mavenProjectArgs = ""
-                        disabledItests.each {
-                            mavenProjectArgs += " -pl '!" + it + "'"
-                        }
-
-                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify $mavenProjectArgs -fae"
+                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify -fae"
                     }
                 }
             }
