@@ -22,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 
 import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.h2.H2DatabaseTestResource;
+import io.quarkus.test.junit.DisabledOnNativeImage;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -29,7 +30,6 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.apache.camel.component.sql.SqlConstants;
 import org.apache.camel.util.CollectionHelper;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -192,7 +192,7 @@ class SqlTest {
     }
 
     @Test
-    @Disabled("https://issues.redhat.com/browse/ENTESB-16574")
+    @DisabledOnNativeImage("https://issues.redhat.com/browse/ENTESB-16574")
     public void testAggregationRepository() {
         postMapWithParam("/sql/toDirect/aggregation", "body", "A", CollectionHelper.mapOf("messageId", "123"))
                 .statusCode(200);
