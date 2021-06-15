@@ -102,7 +102,6 @@ foundation:
   - quartz
   - saga
 xml-json-olingo4:
-  - rest-binding-mode-xml
   - xml
   - dataformats-json
   - dropbox
