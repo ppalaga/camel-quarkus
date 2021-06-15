@@ -1,4 +1,4 @@
-def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS'
+def MAVEN_PARAMS = '-B -e -ntp -s $MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true'
 
 pipeline {
 
