@@ -20,6 +20,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -46,6 +47,9 @@ import org.apache.camel.ProducerTemplate;
 import org.apache.camel.component.mongodb.MongoDbConstants;
 import org.apache.camel.util.CollectionHelper;
 import org.bson.Document;
+import org.bson.conversions.Bson;
+
+import static com.mongodb.client.model.Filters.eq;
 
 @Path("/mongodb")
 @ApplicationScoped
@@ -106,6 +110,39 @@ public class MongoDbResource {
         return arrayBuilder.build();
     }
 
+    @GET
+    @Path("/collectionAsList/{collectionName}")
+    @Produces(MediaType.APPLICATION_JSON)
+    @SuppressWarnings("unchecked")
+    public List getCollectionAsList(@PathParam("collectionName") String collectionName,
+            @HeaderParam("mongoClientName") String mongoClientName) {
+        JsonArrayBuilder arrayBuilder = Json.createArrayBuilder();
+
+        List<Document> list = producerTemplate.requestBody(
+                String.format(
+                        "mongodb:%s?database=test&collection=%s&operation=findAll&dynamicity=true&outputType=DocumentList",
+                        mongoClientName, collectionName),
+                null, List.class);
+
+        return list.stream().map(d -> d.getString("name")).collect(Collectors.toList());
+    }
+
+    @GET
+    @Path("/searchByNameAsDocument/{collectionName}/{name}")
+    @Produces(MediaType.APPLICATION_JSON)
+    @SuppressWarnings("unchecked")
+    public Document searchByNameAsDocument(@PathParam("collectionName") String collectionName,
+            @PathParam("name") String name,
+            @HeaderParam("mongoClientName") String mongoClientName) {
+        Bson query = eq("name", name);
+        return producerTemplate.requestBodyAndHeader(
+                String.format(
+                        "mongodb:%s?database=test&collection=%s&operation=findOneByQuery&dynamicity=true&outputType=Document",
+                        mongoClientName, collectionName),
+                query,
+                MongoDbConstants.DISTINCT_QUERY_FIELD, "name", Document.class);
+    }
+
     @POST
     @Path("/collection/dynamic/{collectionName}")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -144,18 +181,28 @@ public class MongoDbResource {
     }
 
     @GET
-    @Path("/resultsReset/{resultId}")
+    @Path("/results/{resultId}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Map getResultsAndReset(@PathParam("resultId") String resultId) {
-        synchronized (results) {
-            int size = results.get(resultId).size();
+    public Map getResults(@PathParam("resultId") String resultId) {
+        final List<Document> list = results.get(resultId);
+        synchronized (list) {
+            int size = list.size();
             Document last = null;
-            if (!results.get(resultId).isEmpty()) {
-                last = results.get(resultId).get(size - 1);
-                results.get(resultId).clear();
+            if (!list.isEmpty()) {
+                last = list.get(size - 1);
             }
-
             return CollectionHelper.mapOf("size", size, "last", last);
+        }
+    }
+
+    @GET
+    @Path("/resultsReset/{resultId}")
+    public void resetResults(@PathParam("resultId") String resultId) {
+        final List<Document> list = results.get(resultId);
+        synchronized (list) {
+            if (!list.isEmpty()) {
+                list.clear();
+            }
         }
     }
 

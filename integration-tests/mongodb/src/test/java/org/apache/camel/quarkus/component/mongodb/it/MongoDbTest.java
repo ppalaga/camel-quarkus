@@ -20,7 +20,6 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
@@ -46,13 +45,19 @@ import static org.apache.camel.quarkus.component.mongodb.it.MongoDbRoute.COLLECT
 import static org.apache.camel.quarkus.component.mongodb.it.MongoDbRoute.COLLECTION_TAILING;
 import static org.awaitility.Awaitility.await;
 import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.nullValue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @QuarkusTest
 @QuarkusTestResource(MongoDbTestResource.class)
 class MongoDbTest {
     public static final String MSG = "Hello Camel Quarkus Mongo DB";
     public static final int CAP_NUMBER = 1000;
+
+    private static String COLLECTION_OUTPUT_TYPE_DOCUMENT_LIST = "outputTypeDocumentList";
+    private static String COLLECTION_OUTPUT_TYPE_DOCUMENT = "outputTypeDocument";
 
     private static MongoClient mongoClient;
 
@@ -146,7 +151,7 @@ class MongoDbTest {
 
             //verify continuously
             if (i % CAP_NUMBER == 0) {
-                waitForTailingResults(CAP_NUMBER, "value" + i, COLLECTION_TAILING);
+                waitAndResetTailingResults(CAP_NUMBER, "value" + i, COLLECTION_TAILING);
             }
         }
     }
@@ -160,7 +165,7 @@ class MongoDbTest {
 
             //verify continuously
             if (i % CAP_NUMBER == 0) {
-                waitForTailingResults(CAP_NUMBER, "value" + i, COLLECTION_PERSISTENT_TAILING);
+                waitAndResetTailingResults(CAP_NUMBER, "value" + i, COLLECTION_PERSISTENT_TAILING);
             }
         }
 
@@ -175,7 +180,7 @@ class MongoDbTest {
 
             //verify continuously
             if (i % CAP_NUMBER == 0) {
-                waitForTailingResults(CAP_NUMBER, "value" + i, COLLECTION_PERSISTENT_TAILING);
+                waitAndResetTailingResults(CAP_NUMBER, "value" + i, COLLECTION_PERSISTENT_TAILING);
             }
         }
     }
@@ -186,16 +191,13 @@ class MongoDbTest {
                     .get("/mongodb/route/" + routeId + "/" + operation)
                     .then().statusCode(204);
         } else {
-            await().atMost(5, TimeUnit.SECONDS).until(() -> {
-                // Read the file
-                String status = RestAssured
-                        .get("/mongodb/route/" + routeId + "/" + operation)
-                        .then()
-                        .statusCode(200)
-                        .extract().asString();
-
-                return status != null && status.equals(expectedResult);
-            });
+            await().atMost(5, TimeUnit.SECONDS).until(
+                    () -> RestAssured
+                            .get("/mongodb/route/" + routeId + "/" + operation)
+                            .then()
+                            .statusCode(200)
+                            .extract().asString(),
+                    is(expectedResult));
         }
 
         return null;
@@ -209,7 +211,7 @@ class MongoDbTest {
             collection.insertOne(new Document("increasing", i).append("string", "value" + i));
         }
 
-        waitForTailingResults(1, "value2", COLLECTION_STREAM_CHANGES);
+        waitAndResetTailingResults(1, "value2", COLLECTION_STREAM_CHANGES);
     }
 
     @Test
@@ -233,19 +235,61 @@ class MongoDbTest {
                 .body("clazz", is(Document.class.getName()), "value", is("Hello!"));
     }
 
-    private void waitForTailingResults(int expectedSize, String laststring, String resultId) {
-        AtomicInteger size = new AtomicInteger();
-        await().atMost(2, TimeUnit.SECONDS).until(() -> {
-            Map record = RestAssured
-                    .given().contentType(ContentType.JSON)
-                    .get("/mongodb/resultsReset/" + resultId)
-                    .then()
-                    .statusCode(200)
-                    .extract().as(Map.class);
+    @Test
+    public void testOutputTypeDocumentList() throws Exception {
+        MongoCollection collection = db.getCollection(COLLECTION_OUTPUT_TYPE_DOCUMENT_LIST, Document.class);
 
-            size.addAndGet((int) record.get("size"));
+        collection.insertOne(new Document("name", "Sheldon"));
+        collection.insertOne(new Document("name", "Irma"));
+        collection.insertOne(new Document("name", "Leonard"));
 
-            return size.get() == expectedSize && laststring.equals(((Map) record.get("last")).get("string"));
-        });
+        List results = RestAssured
+                .given()
+                .header("mongoClientName", MongoDbResource.DEFAULT_MONGO_CLIENT_NAME)
+                .get("/mongodb/collectionAsList/" + COLLECTION_OUTPUT_TYPE_DOCUMENT_LIST)
+                .then()
+                .contentType(ContentType.JSON)
+                .statusCode(200)
+                .body("size()", is(3))
+                .extract().as(List.class);
+
+        assertTrue(results.contains("Sheldon"));
+        assertTrue(results.contains("Irma"));
+        assertTrue(results.contains("Leonard"));
+
+    }
+
+    @Test
+    public void testOutputTypeDocument() throws Exception {
+        MongoCollection collection = db.getCollection(COLLECTION_OUTPUT_TYPE_DOCUMENT, Document.class);
+
+        collection.insertOne(new Document("name", "Sheldon"));
+
+        RestAssured
+                .given()
+                .header("mongoClientName", MongoDbResource.DEFAULT_MONGO_CLIENT_NAME)
+                .get("/mongodb/searchByNameAsDocument/" + COLLECTION_OUTPUT_TYPE_DOCUMENT + "/Sheldon")
+                .then()
+                .contentType(ContentType.JSON)
+                .statusCode(200)
+                .body("name", is("Sheldon"), "_id", not(nullValue()));
+
+    }
+
+    private void waitAndResetTailingResults(int expectedSize, String laststring, String resultId) {
+        await().atMost(5, TimeUnit.SECONDS).until(
+                () -> RestAssured
+                        .given().contentType(ContentType.JSON)
+                        .get("/mongodb/results/" + resultId)
+                        .then()
+                        .statusCode(200)
+                        .extract().as(Map.class),
+                m -> ((int) m.get("size") == expectedSize && laststring.equals(((Map) m.get("last")).get("string"))));
+
+        RestAssured
+                .given().contentType(ContentType.JSON)
+                .get("/mongodb/resultsReset/" + resultId)
+                .then()
+                .statusCode(204);
     }
 }
