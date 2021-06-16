@@ -22,6 +22,13 @@ pipeline {
     }
 
     stages {
+        stage('Clean') {
+            steps {
+                // Clean up any orphaned containers that may be lingering
+                sh "docker container prune -f"
+            }
+        }
+
         stage('Build') {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
