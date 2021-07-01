@@ -134,6 +134,8 @@ messaging-networking1:
   - kafka-sasl-ssl
   - kafka-ssl
   - messaging
+  - messaging-artemis-jms-client
+  - messaging-qpid-jms-client
   - nats
   - splunk
   - spring-rabbitmq

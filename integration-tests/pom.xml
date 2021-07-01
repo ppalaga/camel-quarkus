@@ -167,6 +167,8 @@
         <module>mail</module>
         <module>master</module>
         <module>messaging</module>
+        <module>messaging-artemis-jms-client</module>
+        <module>messaging-qpid-jms-client</module>
         <module>micrometer</module>
         <module>microprofile</module>
         <module>minio</module>
