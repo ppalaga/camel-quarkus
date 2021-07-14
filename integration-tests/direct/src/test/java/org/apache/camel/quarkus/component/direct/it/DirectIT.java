@@ -20,4 +20,9 @@ import io.quarkus.test.junit.NativeImageTest;
 
 @NativeImageTest
 public class DirectIT extends DirectTest {
+
+    DirectIT() {
+        logPath = "target/target/quarkus.log";
+    }
+
 }

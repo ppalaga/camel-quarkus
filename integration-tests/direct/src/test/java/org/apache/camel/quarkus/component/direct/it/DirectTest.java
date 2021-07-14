@@ -34,6 +34,9 @@ import static org.hamcrest.core.IsNot.not;
 
 @QuarkusTest
 public class DirectTest {
+
+    protected String logPath = "target/quarkus.log";
+
     @Test
     public void catalogComponent() throws IOException {
         RestAssured.when().get("/direct/catalog/component/direct").then().body(not(emptyOrNullString()));
@@ -61,7 +64,7 @@ public class DirectTest {
                 .statusCode(204);
 
         await().atMost(10L, TimeUnit.SECONDS).pollDelay(100, TimeUnit.MILLISECONDS).until(() -> {
-            String log = new String(Files.readAllBytes(Paths.get("target/quarkus.log")), StandardCharsets.UTF_8);
+            String log = new String(Files.readAllBytes(Paths.get(logPath)), StandardCharsets.UTF_8);
             return log.contains(message1) && log.contains(message2);
         });
     }

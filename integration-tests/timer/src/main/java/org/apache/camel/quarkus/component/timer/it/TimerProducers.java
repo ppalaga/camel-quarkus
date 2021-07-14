@@ -31,5 +31,4 @@ public class TimerProducers {
         return rb -> rb.from("timer:bar").routeId("bar")
                 .process(e -> LOG.info("Hello from timer:bar"));
     }
-
 }
