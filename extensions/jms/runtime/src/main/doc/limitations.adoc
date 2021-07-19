@@ -1,0 +1,1 @@
+Usage of Camel POJO Consuming and POJO Producing annotations with the JMS extension is not supported.
