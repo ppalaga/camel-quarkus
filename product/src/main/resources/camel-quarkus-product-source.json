@@ -1,0 +1,172 @@
+{
+    "extensions": {
+        "camel-quarkus-avro": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-ddb": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-kinesis": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-lambda": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-s3": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-sns": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-aws2-sqs": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-bean": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-bindy": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-core": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-direct": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-elasticsearch-rest": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-file": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-ftp": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-hl7": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-http": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jackson": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jackson-avro": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jackson-protobuf": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jacksonxml": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jira": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jms": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jsonpath": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-jta": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-kafka": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-kamelet": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-log": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-microprofile-health": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-microprofile-metrics": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-mllp": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-mock": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-mongodb": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-netty": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-platform-http": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-rest": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-salesforce": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-saxon": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-seda": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-soap": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-sql": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-timer": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-xpath": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        }
+    }
+}
