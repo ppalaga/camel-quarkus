@@ -201,6 +201,7 @@
         <module>integration-tests</module>
         <module>integration-test-groups</module>
         <module>docs</module>
+        <module>product</module>
     </modules>
 
     <developers>
