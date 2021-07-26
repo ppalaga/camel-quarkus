@@ -27,12 +27,12 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 public class CamelSqlConfig {
 
     /**
-     * A comma separated list of paths to script files referenced by SQL endpoints.
+     * A comma separated list of absolute classpath resource paths pointing at SQL scripts referenced by SQL endpoints.
+     * They must not start with slash (e.g. {@code sql/my-script.sql}) and they may optionally start with
+     * the {@code classpath:} prefix (e.g. {@code classpath:sql/my-script.sql}).
      *
-     * Script files that only need to be accessible from the classpath should be specified on this property.
+     * @deprecated use {@code quarkus.native.resources.includes} (always without the {@code classpath:} prefix) instead
      *
-     * Paths can either be schemeless (E.g sql/my-script.sql) or be prefixed with the classpath: URI scheme (E.g
-     * classpath:sql/my-script.sql). Other URI schemes are not supported.
      */
     @ConfigItem
     public Optional<List<String>> scriptFiles;
