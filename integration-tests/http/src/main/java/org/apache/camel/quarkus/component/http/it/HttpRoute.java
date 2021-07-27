@@ -20,6 +20,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Named;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
@@ -30,9 +31,15 @@ import org.apache.camel.support.jsse.KeyManagersParameters;
 import org.apache.camel.support.jsse.KeyStoreParameters;
 import org.apache.camel.support.jsse.SSLContextParameters;
 import org.apache.camel.support.jsse.TrustManagersParameters;
+import org.eclipse.microprofile.config.inject.ConfigProperty;
 
 @RegisterForReflection(targets = IllegalStateException.class, serialization = true)
+@ApplicationScoped
 public class HttpRoute extends RouteBuilder {
+
+    @ConfigProperty(name = "camel.netty-http.https-test-port")
+    int port;
+
     @Override
     public void configure() {
         from("netty-http:http://0.0.0.0:{{camel.netty-http.test-port}}/test/server/hello")
@@ -54,6 +61,20 @@ public class HttpRoute extends RouteBuilder {
                         }
                     }
                 });
+
+        from("netty-http:http://0.0.0.0:{{camel.netty-http.test-port}}/test/server/serviceCall")
+                .serviceCall()
+                .name("myService")
+                .component("netty-http")
+                .staticServiceDiscovery()
+                .servers("myService@localhost:8099")
+                .servers("myService@localhost:8098")
+                .endParent();
+        from("netty-http:http://0.0.0.0:8099")
+                .transform().constant("8099");
+        from("netty-http:http://0.0.0.0:8098")
+                .transform().constant("8099");
+
     }
 
     @Named
