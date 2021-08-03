@@ -266,6 +266,17 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+        <repository>
+            <id>indy</id>
+            <url>http://indy.psi.redhat.com/browse/maven/group/static/</url>
+            <name>Apache Snapshot Repo</name>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
@@ -276,6 +287,17 @@
             </snapshots>
             <releases>
                 <enabled>false</enabled>
+            </releases>
+        </pluginRepository>
+        <pluginRepository>
+            <id>indy</id>
+            <url>http://indy.psi.redhat.com/browse/maven/group/static/</url>
+            <name>Apache Snapshot Repo</name>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
             </releases>
         </pluginRepository>
     </pluginRepositories>
