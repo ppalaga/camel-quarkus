@@ -185,9 +185,6 @@
 :camel-quarkus-corda-deployment
 :camel-quarkus-corda-integration-test
 :camel-quarkus-corda-parent
-:camel-quarkus-core-cloud
-:camel-quarkus-core-cloud-deployment
-:camel-quarkus-core-cloud-parent
 :camel-quarkus-couchbase
 :camel-quarkus-couchbase-deployment
 :camel-quarkus-couchbase-integration-test
@@ -515,6 +512,7 @@
 :camel-quarkus-integration-test-main-yaml
 :camel-quarkus-integration-test-master
 :camel-quarkus-integration-test-messaging
+:camel-quarkus-integration-test-messaging-sjms
 :camel-quarkus-integration-test-micrometer
 :camel-quarkus-integration-test-microprofile
 :camel-quarkus-integration-test-minio
@@ -535,6 +533,7 @@
 :camel-quarkus-integration-test-opentelemetry
 :camel-quarkus-integration-test-opentracing
 :camel-quarkus-integration-test-optaplanner
+:camel-quarkus-integration-test-paho
 :camel-quarkus-integration-test-paho-mqtt5
 :camel-quarkus-integration-test-pdf
 :camel-quarkus-integration-test-pg-replication-slot
@@ -559,6 +558,10 @@
 :camel-quarkus-integration-test-servicenow
 :camel-quarkus-integration-test-servlet
 :camel-quarkus-integration-test-shiro
+:camel-quarkus-integration-test-sjms-artemis-client
+:camel-quarkus-integration-test-sjms-qpid-amqp-client
+:camel-quarkus-integration-test-sjms2-artemis-client
+:camel-quarkus-integration-test-sjms2-qpid-amqp-client
 :camel-quarkus-integration-test-slack
 :camel-quarkus-integration-test-smallrye-reactive-messaging
 :camel-quarkus-integration-test-soap
@@ -670,6 +673,8 @@
 :camel-quarkus-jing
 :camel-quarkus-jing-deployment
 :camel-quarkus-jing-parent
+:camel-quarkus-integration-test-jms-artemis-client
+:camel-quarkus-integration-test-jms-qpid-amqp-client
 :camel-quarkus-johnzon
 :camel-quarkus-johnzon-deployment
 :camel-quarkus-johnzon-parent
