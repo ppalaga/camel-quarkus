@@ -315,6 +315,13 @@
     </dependencyManagement>
 
     <build>
+        <extensions>
+            <extension>
+                <groupId>org.jboss.fuse.maven</groupId>
+                <artifactId>maven-exclude-extension</artifactId>
+            </extension>
+        </extensions>
+
         <pluginManagement>
             <plugins>
                 <!-- Only plugins relevant to both end user applications and Camel Quarkus extensions -->
