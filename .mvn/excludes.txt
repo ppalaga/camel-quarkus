@@ -147,7 +147,6 @@
 :camel-quarkus-cassandraql
 :camel-quarkus-cassandraql-deployment
 :camel-quarkus-cassandraql-parent
-:camel-quarkus-catalog
 :camel-quarkus-cbor
 :camel-quarkus-cbor-deployment
 :camel-quarkus-cbor-parent
@@ -420,6 +419,7 @@
 :camel-quarkus-integration-test-caffeine
 :camel-quarkus-integration-test-cassandraql
 :camel-quarkus-integration-test-cbor
+:camel-quarkus-integration-test-component-name-resolver
 :camel-quarkus-integration-test-compression
 :camel-quarkus-integration-test-consul
 :camel-quarkus-integration-test-controlbus
@@ -477,6 +477,8 @@
 :camel-quarkus-integration-test-jdbc
 :camel-quarkus-integration-test-jing
 :camel-quarkus-integration-test-jira
+:camel-quarkus-integration-test-jms-artemis-client
+:camel-quarkus-integration-test-jms-qpid-amqp-client
 :camel-quarkus-integration-test-jolt
 :camel-quarkus-integration-test-jpa
 :camel-quarkus-integration-test-js-dsl
@@ -494,6 +496,7 @@
 :camel-quarkus-integration-test-kotlin
 :camel-quarkus-integration-test-kubernetes
 :camel-quarkus-integration-test-kudu
+:camel-quarkus-integration-test-language
 :camel-quarkus-integration-test-leveldb
 :camel-quarkus-integration-test-log
 :camel-quarkus-integration-test-lra
@@ -512,6 +515,8 @@
 :camel-quarkus-integration-test-main-yaml
 :camel-quarkus-integration-test-master
 :camel-quarkus-integration-test-messaging
+:camel-quarkus-integration-test-messaging-common
+:camel-quarkus-integration-test-messaging-jms
 :camel-quarkus-integration-test-messaging-sjms
 :camel-quarkus-integration-test-micrometer
 :camel-quarkus-integration-test-microprofile
@@ -673,8 +678,6 @@
 :camel-quarkus-jing
 :camel-quarkus-jing-deployment
 :camel-quarkus-jing-parent
-:camel-quarkus-integration-test-jms-artemis-client
-:camel-quarkus-integration-test-jms-qpid-amqp-client
 :camel-quarkus-johnzon
 :camel-quarkus-johnzon-deployment
 :camel-quarkus-johnzon-parent
@@ -738,7 +741,6 @@
 :camel-quarkus-kudu-parent
 :camel-quarkus-language
 :camel-quarkus-language-deployment
-:camel-quarkus-language-integration-test
 :camel-quarkus-language-parent
 :camel-quarkus-ldap
 :camel-quarkus-ldap-deployment
