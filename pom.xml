@@ -147,7 +147,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>1.0.0</cq-plugin.version>
+        <cq-plugin.version>1.2.1</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.11.0</formatter-maven-plugin.version>
@@ -450,6 +450,14 @@
                         </dependency>
                     </dependencies>
                 </plugin>
+                <plugin>
+                    <groupId>org.l2x6.cq</groupId>
+                    <artifactId>cq-prod-maven-plugin</artifactId>
+                    <version>${cq-plugin.version}</version>
+                    <configuration>
+                        <simpleElementWhitespace>SPACE</simpleElementWhitespace>
+                    </configuration>
+                </plugin>
 
                 <plugin>
                     <groupId>org.codehaus.gmaven</groupId>
@@ -643,6 +651,21 @@
                     <execution>
                         <id>attach-descriptor</id>
                         <phase /><!-- skip to save time -->
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.l2x6.cq</groupId>
+                <artifactId>cq-prod-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>check-excludes</id>
+                        <phase>validate</phase>
+                        <inherited>false</inherited>
+                        <goals>
+                            <goal>prod-excludes-check</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
