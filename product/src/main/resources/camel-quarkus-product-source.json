@@ -40,6 +40,10 @@
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
+        "camel-quarkus-cron": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
         "camel-quarkus-direct": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
@@ -80,6 +84,10 @@
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
+        "camel-quarkus-java-joor-dsl": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
         "camel-quarkus-jira": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
@@ -104,7 +112,15 @@
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
+        "camel-quarkus-kubernetes": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
         "camel-quarkus-log": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-master": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
@@ -160,11 +176,19 @@
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
+        "camel-quarkus-support-webhook": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
         "camel-quarkus-timer": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
         "camel-quarkus-xpath": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
+        "camel-quarkus-yaml-dsl": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         }

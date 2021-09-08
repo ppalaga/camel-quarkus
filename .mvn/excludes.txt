@@ -191,9 +191,6 @@
 :camel-quarkus-couchdb
 :camel-quarkus-couchdb-deployment
 :camel-quarkus-couchdb-parent
-:camel-quarkus-cron
-:camel-quarkus-cron-deployment
-:camel-quarkus-cron-parent
 :camel-quarkus-crypto
 :camel-quarkus-crypto-deployment
 :camel-quarkus-crypto-parent
@@ -261,7 +258,6 @@
 :camel-quarkus-exec
 :camel-quarkus-exec-deployment
 :camel-quarkus-exec-parent
-:camel-quarkus-extensions-jvm
 :camel-quarkus-facebook
 :camel-quarkus-facebook-deployment
 :camel-quarkus-facebook-integration-test
@@ -640,10 +636,7 @@
 :camel-quarkus-jasypt-deployment
 :camel-quarkus-jasypt-integration-test
 :camel-quarkus-jasypt-parent
-:camel-quarkus-java-joor-dsl
-:camel-quarkus-java-joor-dsl-deployment
 :camel-quarkus-java-joor-dsl-integration-test
-:camel-quarkus-java-joor-dsl-parent
 :camel-quarkus-jbpm
 :camel-quarkus-jbpm-deployment
 :camel-quarkus-jbpm-integration-test
@@ -732,9 +725,6 @@
 :camel-quarkus-kotlin-dsl-integration-test
 :camel-quarkus-kotlin-dsl-parent
 :camel-quarkus-kotlin-parent
-:camel-quarkus-kubernetes
-:camel-quarkus-kubernetes-deployment
-:camel-quarkus-kubernetes-parent
 :camel-quarkus-kudu
 :camel-quarkus-kudu-client
 :camel-quarkus-kudu-deployment
@@ -773,9 +763,6 @@
 :camel-quarkus-management-deployment
 :camel-quarkus-management-integration-test
 :camel-quarkus-management-parent
-:camel-quarkus-master
-:camel-quarkus-master-deployment
-:camel-quarkus-master-parent
 :camel-quarkus-micrometer
 :camel-quarkus-micrometer-deployment
 :camel-quarkus-micrometer-parent
@@ -1044,9 +1031,6 @@
 :camel-quarkus-support-stax
 :camel-quarkus-support-stax-deployment
 :camel-quarkus-support-stax-parent
-:camel-quarkus-support-webhook
-:camel-quarkus-support-webhook-deployment
-:camel-quarkus-support-webhook-parent
 :camel-quarkus-support-xalan
 :camel-quarkus-support-xalan-deployment
 :camel-quarkus-support-xalan-parent
@@ -1155,9 +1139,6 @@
 :camel-quarkus-xstream
 :camel-quarkus-xstream-deployment
 :camel-quarkus-xstream-parent
-:camel-quarkus-yaml-dsl
-:camel-quarkus-yaml-dsl-deployment
-:camel-quarkus-yaml-dsl-parent
 :camel-quarkus-yammer
 :camel-quarkus-yammer-deployment
 :camel-quarkus-yammer-integration-test
