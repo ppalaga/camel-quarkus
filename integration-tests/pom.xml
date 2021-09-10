@@ -145,7 +145,7 @@
         <!-- <module>microprofile</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>minio</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>mllp</module>
-        <!-- <module>mongodb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>mongodb-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>msv</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>mustache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>nagios</module> disabled by cq-prod-maven-plugin:prod-excludes -->

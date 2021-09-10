@@ -55,6 +55,7 @@
                 <module>../../integration-test-groups/foundation/scheduler</module>
                 <module>../../integration-test-groups/foundation/stream</module>
                 <module>../../integration-test-groups/foundation/type-converter</module>
+                <module>../../integration-test-groups/mongodb/mongodb-gridfs</module>
                 <module>../../integration-tests/activemq</module>
                 <module>../../integration-tests/amqp</module>
                 <module>../../integration-tests/arangodb</module>
@@ -128,6 +129,7 @@
                 <module>../../integration-tests/main-xml-jaxb</module>
                 <module>../../integration-tests/micrometer</module>
                 <module>../../integration-tests/minio</module>
+                <module>../../integration-tests/mongodb-grouped</module>
                 <module>../../integration-tests/msv</module>
                 <module>../../integration-tests/mustache</module>
                 <module>../../integration-tests/nagios</module>

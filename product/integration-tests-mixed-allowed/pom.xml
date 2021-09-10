@@ -48,7 +48,6 @@
                 <module>../../integration-tests/jta</module>
                 <module>../../integration-tests/kamelet</module>
                 <module>../../integration-tests/microprofile</module>
-                <module>../../integration-tests/mongodb</module>
                 <module>../../integration-tests/quartz</module>
             </modules>
         </profile>
