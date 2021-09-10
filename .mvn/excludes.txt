@@ -818,9 +818,6 @@
 :camel-quarkus-olingo4
 :camel-quarkus-olingo4-deployment
 :camel-quarkus-olingo4-parent
-:camel-quarkus-openapi-java
-:camel-quarkus-openapi-java-deployment
-:camel-quarkus-openapi-java-parent
 :camel-quarkus-openstack
 :camel-quarkus-openstack-deployment
 :camel-quarkus-openstack-parent
