@@ -58,12 +58,6 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-h2</artifactId>
-            <exclusions>
-                <exclusion><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1189 -->
-                    <groupId>com.sun</groupId>
-                    <artifactId>tools</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <!-- test dependencies -->
