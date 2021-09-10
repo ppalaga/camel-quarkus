@@ -167,10 +167,7 @@
         },
         "camel-quarkus-mongodb": {
             "jvmSupportedSince": "2.1.0",
-            "nativeSupportedSince": "2.1.0",
-            "allowedMixedTests": [
-                "camel-quarkus-integration-test-mongodb"
-            ]
+            "nativeSupportedSince": "2.1.0"
         },
         "camel-quarkus-netty": {
             "jvmSupportedSince": "2.1.0",

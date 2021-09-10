@@ -45,6 +45,7 @@
         <!-- <module>custom-type-converter</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>custom-main-listener</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>kafka</module>
+        <module>mongodb</module>
         <module>process-executor-support</module>
         <module>test-support</module>
         <module>mock-backend</module>
