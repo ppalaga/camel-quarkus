@@ -148,6 +148,10 @@
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
         },
+        "camel-quarkus-openapi-java": {
+            "jvmSupportedSince": "2.1.0",
+            "nativeSupportedSince": "2.1.0"
+        },
         "camel-quarkus-platform-http": {
             "jvmSupportedSince": "2.1.0",
             "nativeSupportedSince": "2.1.0"
