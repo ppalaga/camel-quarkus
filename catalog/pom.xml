@@ -726,7 +726,7 @@
                         <!-- prepare the catalog and update doc files, etc. -->
                         <goals>
                             <goal>prepare-catalog-quarkus</goal>
-                            <goal>check-extension-pages</goal>
+                            <!-- <goal>check-extension-pages</goal> -->
                         </goals>
                         <phase>process-resources</phase>
                         <configuration>
