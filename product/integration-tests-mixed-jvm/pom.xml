@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-build-parent-it</artifactId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../../poms/build-parent-it/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>camel-quarkus-integration-tests-mixed-jvm</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Camel Quarkus :: Integration Tests Mixed JVM</name>
+    <description>Tests covering partly or wholy non-productized extensions</description>
+
+    <properties>
+        <quarkus.banner.enabled>false</quarkus.banner.enabled>
+    </properties>
+
+    <profiles>
+        <profile>
+            <id>mixed</id>
+            <modules>
+                <module>../../extensions-jvm/asn1/integration-test</module>
+                <module>../../extensions-jvm/asterisk/integration-test</module>
+                <module>../../extensions-jvm/atmos/integration-test</module>
+                <module>../../extensions-jvm/atomix/integration-test</module>
+                <module>../../extensions-jvm/aws-secrets-manager/integration-test</module>
+                <module>../../extensions-jvm/aws-xray/integration-test</module>
+                <module>../../extensions-jvm/azure-cosmosdb/integration-test</module>
+                <module>../../extensions-jvm/azure-storage-datalake/integration-test</module>
+                <module>../../extensions-jvm/barcode/integration-test</module>
+                <module>../../extensions-jvm/beanio/integration-test</module>
+                <module>../../extensions-jvm/beanstalk/integration-test</module>
+                <module>../../extensions-jvm/bonita/integration-test</module>
+                <module>../../extensions-jvm/chatscript/integration-test</module>
+                <module>../../extensions-jvm/chunk/integration-test</module>
+                <module>../../extensions-jvm/cm-sms/integration-test</module>
+                <module>../../extensions-jvm/cmis/integration-test</module>
+                <module>../../extensions-jvm/coap/integration-test</module>
+                <module>../../extensions-jvm/cometd/integration-test</module>
+                <module>../../extensions-jvm/corda/integration-test</module>
+                <module>../../extensions-jvm/couchbase/integration-test</module>
+                <module>../../extensions-jvm/djl/integration-test</module>
+                <module>../../extensions-jvm/dns/integration-test</module>
+                <module>../../extensions-jvm/drill/integration-test</module>
+                <module>../../extensions-jvm/ehcache/integration-test</module>
+                <module>../../extensions-jvm/elsql/integration-test</module>
+                <module>../../extensions-jvm/etcd/integration-test</module>
+                <module>../../extensions-jvm/etcd3/integration-test</module>
+                <module>../../extensions-jvm/facebook/integration-test</module>
+                <module>../../extensions-jvm/fastjson/integration-test</module>
+                <module>../../extensions-jvm/flink/integration-test</module>
+                <module>../../extensions-jvm/ganglia/integration-test</module>
+                <module>../../extensions-jvm/google-functions/integration-test</module>
+                <module>../../extensions-jvm/groovy-dsl/integration-test</module>
+                <module>../../extensions-jvm/groovy/integration-test</module>
+                <module>../../extensions-jvm/guava-eventbus/integration-test</module>
+                <module>../../extensions-jvm/hbase/integration-test</module>
+                <module>../../extensions-jvm/hdfs/integration-test</module>
+                <module>../../extensions-jvm/huaweicloud-smn/integration-test</module>
+                <module>../../extensions-jvm/iec60870/integration-test</module>
+                <module>../../extensions-jvm/ignite/integration-test</module>
+                <module>../../extensions-jvm/iota/integration-test</module>
+                <module>../../extensions-jvm/irc/integration-test</module>
+                <module>../../extensions-jvm/jasypt/integration-test</module>
+                <module>../../extensions-jvm/jbpm/integration-test</module>
+                <module>../../extensions-jvm/jcache/integration-test</module>
+                <module>../../extensions-jvm/jclouds/integration-test</module>
+                <module>../../extensions-jvm/jcr/integration-test</module>
+                <module>../../extensions-jvm/jfr/integration-test</module>
+                <module>../../extensions-jvm/jgroups-raft/integration-test</module>
+                <module>../../extensions-jvm/jgroups/integration-test</module>
+                <module>../../extensions-jvm/jooq/integration-test</module>
+                <module>../../extensions-jvm/joor/integration-test</module>
+                <module>../../extensions-jvm/jsonapi/integration-test</module>
+                <module>../../extensions-jvm/jt400/integration-test</module>
+                <module>../../extensions-jvm/kamelet-reify/integration-test</module>
+                <module>../../extensions-jvm/kotlin-dsl/integration-test</module>
+                <module>../../extensions-jvm/ldap/integration-test</module>
+                <module>../../extensions-jvm/ldif/integration-test</module>
+                <module>../../extensions-jvm/lucene/integration-test</module>
+                <module>../../extensions-jvm/management/integration-test</module>
+                <module>../../extensions-jvm/milo/integration-test</module>
+                <module>../../extensions-jvm/mvel/integration-test</module>
+                <module>../../extensions-jvm/mybatis/integration-test</module>
+                <module>../../extensions-jvm/ognl/integration-test</module>
+                <module>../../extensions-jvm/printer/integration-test</module>
+                <module>../../extensions-jvm/pulsar/integration-test</module>
+                <module>../../extensions-jvm/quickfix/integration-test</module>
+                <module>../../extensions-jvm/redis/integration-test</module>
+                <module>../../extensions-jvm/ribbon/integration-test</module>
+                <module>../../extensions-jvm/robotframework/integration-test</module>
+                <module>../../extensions-jvm/schematron/integration-test</module>
+                <module>../../extensions-jvm/sip/integration-test</module>
+                <module>../../extensions-jvm/smpp/integration-test</module>
+                <module>../../extensions-jvm/snmp/integration-test</module>
+                <module>../../extensions-jvm/soroush/integration-test</module>
+                <module>../../extensions-jvm/spark/integration-test</module>
+                <module>../../extensions-jvm/splunk-hec/integration-test</module>
+                <module>../../extensions-jvm/stitch/integration-test</module>
+                <module>../../extensions-jvm/stomp/integration-test</module>
+                <module>../../extensions-jvm/stub/integration-test</module>
+                <module>../../extensions-jvm/thrift/integration-test</module>
+                <module>../../extensions-jvm/web3j/integration-test</module>
+                <module>../../extensions-jvm/weka/integration-test</module>
+                <module>../../extensions-jvm/wordpress/integration-test</module>
+                <module>../../extensions-jvm/workday/integration-test</module>
+                <module>../../extensions-jvm/xj/integration-test</module>
+                <module>../../extensions-jvm/xmpp/integration-test</module>
+                <module>../../extensions-jvm/xslt-saxon/integration-test</module>
+                <module>../../extensions-jvm/yammer/integration-test</module>
+                <module>../../extensions-jvm/zookeeper-master/integration-test</module>
+                <module>../../extensions-jvm/zookeeper/integration-test</module>
+            </modules>
+        </profile>
+    </profiles>
+
+</project>

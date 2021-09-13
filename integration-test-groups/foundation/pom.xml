@@ -34,26 +34,26 @@
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
         <module>bean</module>
-        <module>browse</module>
+        <!-- <module>browse</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>component-name-resolver</module>
-        <module>controlbus</module>
+        <!-- <module>controlbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>core</module>
         <module>core-annotations</module>
-        <module>core-fault-tolerance</module>
+        <!-- <module>core-fault-tolerance</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>core-languages</module>
         <module>core-thread-pools</module>
-        <module>customized-log-component</module>
-        <module>direct</module>
+        <!-- <module>customized-log-component</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>direct</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>eip</module>
-        <module>language</module>
+        <!-- <module>language</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>log</module>
         <module>mock</module>
-        <module>ref</module>
-        <module>scheduler</module>
+        <!-- <module>ref</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>scheduler</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>seda</module>
-        <module>stream</module>
+        <!-- <module>stream</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>timer</module>
-        <module>type-converter</module>
+        <!-- <module>type-converter</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
 </project>
