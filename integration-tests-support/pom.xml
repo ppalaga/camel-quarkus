@@ -36,14 +36,14 @@
     </description>
 
     <modules>
-        <module>activemq</module>
+        <!-- <module>activemq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>aws2</module>
-        <module>azure</module>
-        <module>custom-dataformat</module>
-        <module>custom-log-component</module>
-        <module>custom-routes-collector</module>
-        <module>custom-type-converter</module>
-        <module>custom-main-listener</module>
+        <!-- <module>azure</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-dataformat</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-log-component</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-routes-collector</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-type-converter</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>custom-main-listener</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>kafka</module>
         <module>process-executor-support</module>
         <module>test-support</module>

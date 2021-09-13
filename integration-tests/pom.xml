@@ -38,184 +38,184 @@
 
     <modules>
         <!-- build those first -->
-        <module>foundation-grouped</module>
+        <!-- <module>foundation-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>core-discovery-disabled</module>
-        <module>main</module>
-        <module>main-devmode</module>
+        <!-- <module>main</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>main-devmode</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>main-discovery-disabled</module>
-        <module>main-xml-jaxb</module>
-        <module>main-xml-io</module>
-        <module>main-collector</module>
-        <module>main-caffeine-lrucache</module>
+        <!-- <module>main-xml-jaxb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>main-xml-io</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>main-collector</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>main-caffeine-lrucache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>main-command-mode</module>
         <module>main-unknown-args-fail</module>
         <module>main-unknown-args-ignore</module>
         <module>main-yaml</module>
 
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
-        <module>activemq</module>
-        <module>amqp</module>
-        <module>arangodb</module>
-        <module>as2</module>
-        <module>atlasmap</module>
+        <!-- <module>activemq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>amqp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>arangodb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>as2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>atlasmap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>avro</module>
-        <module>avro-rpc</module>
-        <module>aws2</module>
-        <module>aws2-grouped</module>
-        <module>azure-grouped</module>
-        <module>base64</module>
-        <module>bean-validator</module>
+        <!-- <module>avro-rpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws2-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>azure-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>base64</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>bean-validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>bindy</module>
-        <module>box</module>
-        <module>braintree</module>
-        <module>caffeine</module>
-        <module>cassandraql</module>
-        <module>cbor</module>
-        <module>compression</module>
-        <module>consul</module>
-        <module>couchdb</module>
-        <module>crypto</module>
-        <module>csimple</module>
-        <module>csv</module>
-        <module>dataformat</module>
-        <module>dataformats-json</module>
-        <module>debezium</module>
-        <module>digitalocean</module>
-        <module>disruptor</module>
-        <module>dozer</module>
-        <module>dropbox</module>
+        <!-- <module>box</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>braintree</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>caffeine</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>cassandraql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>cbor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>compression</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>consul</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>couchdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>crypto</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>csimple</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>csv</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dataformat</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dataformats-json</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>debezium</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>digitalocean</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>disruptor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dozer</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dropbox</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>elasticsearch-rest</module>
-        <module>exec</module>
-        <module>fhir</module>
-        <module>file</module>
-        <module>flatpack</module>
-        <module>fop</module>
-        <module>freemarker</module>
+        <!-- <module>exec</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>fhir</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>file</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>flatpack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>fop</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>freemarker</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>ftp</module>
-        <module>geocoder</module>
-        <module>git</module>
-        <module>github</module>
-        <module>google</module>
-        <module>google-bigquery</module>
-        <module>google-pubsub</module>
-        <module>google-storage</module>
-        <module>graphql</module>
-        <module>grok</module>
-        <module>grpc</module>
-        <module>hazelcast</module>
-        <module>headersmap</module>
+        <!-- <module>geocoder</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>git</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>github</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google-bigquery</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google-pubsub</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google-storage</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>graphql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>grok</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>grpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>hazelcast</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>headersmap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>hl7</module>
-        <module>http</module>
-        <module>hystrix</module>
-        <module>infinispan</module>
-        <module>influxdb</module>
-        <module>ipfs</module>
+        <!-- <module>http</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>hystrix</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>infinispan</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>influxdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>ipfs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jackson-avro</module>
         <module>jackson-protobuf</module>
         <module>jaxb</module>
-        <module>jdbc</module>
-        <module>jing</module>
+        <!-- <module>jdbc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jing</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jira</module>
-        <module>jms-artemis-client</module>
-        <module>jms-qpid-amqp-client</module>
-        <module>jolt</module>
-        <module>jpa</module>
-        <module>js-dsl</module>
-        <module>jsch</module>
-        <module>jslt</module>
-        <module>json-validator</module>
-        <module>jsonata</module>
+        <!-- <module>jms-artemis-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jms-qpid-amqp-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jolt</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jpa</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>js-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jsch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jslt</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>json-validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jsonata</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jsonpath</module>
-        <module>jta</module>
+        <!-- <module>jta</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>kafka</module>
         <module>kafka-sasl</module>
         <module>kafka-sasl-ssl</module>
         <module>kafka-ssl</module>
-        <module>kamelet</module>
-        <module>kotlin</module>
+        <!-- <module>kamelet</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>kotlin</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>kubernetes</module>
-        <module>kudu</module>
-        <module>leveldb</module>
-        <module>lra</module>
-        <module>lumberjack</module>
-        <module>mail</module>
+        <!-- <module>kudu</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>leveldb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>lra</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>lumberjack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>mail</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>master</module>
-        <module>messaging</module>
-        <module>micrometer</module>
-        <module>microprofile</module>
-        <module>minio</module>
+        <!-- <module>messaging</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>micrometer</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>microprofile</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>minio</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>mllp</module>
-        <module>mongodb</module>
-        <module>msv</module>
-        <module>mustache</module>
-        <module>nagios</module>
-        <module>nats</module>
+        <!-- <module>mongodb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>msv</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>mustache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>nagios</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>nats</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>netty</module>
-        <module>nitrite</module>
-        <module>nsq</module>
-        <module>oaipmh</module>
-        <module>olingo4</module>
+        <!-- <module>nitrite</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>nsq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>oaipmh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>olingo4</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>openapi-java</module>
-        <module>openstack</module>
-        <module>opentelemetry</module>
-        <module>opentracing</module>
-        <module>optaplanner</module>
-        <module>paho</module>
-        <module>paho-mqtt5</module>
-        <module>pdf</module>
-        <module>pg-replication-slot</module>
-        <module>pgevent</module>
+        <!-- <module>openstack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>opentelemetry</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>opentracing</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>optaplanner</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>paho</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>paho-mqtt5</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>pdf</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>pg-replication-slot</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>pgevent</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>platform-http</module>
         <module>platform-http-engine</module>
-        <module>protobuf</module>
-        <module>pubnub</module>
-        <module>quartz</module>
-        <module>qute</module>
-        <module>rabbitmq</module>
-        <module>reactive-streams</module>
+        <!-- <module>protobuf</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>pubnub</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>quartz</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>qute</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>rabbitmq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>reactive-streams</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>rest</module>
-        <module>rest-openapi</module>
-        <module>saga</module>
+        <!-- <module>rest-openapi</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>saga</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>salesforce</module>
-        <module>sap-netweaver</module>
+        <!-- <module>sap-netweaver</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>saxon</module>
-        <module>servicenow</module>
-        <module>servlet</module>
-        <module>shiro</module>
-        <module>sjms-artemis-client</module>
-        <module>sjms-qpid-amqp-client</module>
-        <module>sjms2-artemis-client</module>
-        <module>sjms2-qpid-amqp-client</module>
-        <module>slack</module>
-        <module>smallrye-reactive-messaging</module>
+        <!-- <module>servicenow</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>servlet</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>shiro</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>sjms-artemis-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>sjms-qpid-amqp-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>sjms2-artemis-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>sjms2-qpid-amqp-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>slack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>smallrye-reactive-messaging</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>soap</module>
-        <module>solr</module>
-        <module>splunk</module>
-        <module>spring-rabbitmq</module>
+        <!-- <module>solr</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>splunk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>spring-rabbitmq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>sql</module>
-        <module>ssh</module>
-        <module>stax</module>
-        <module>stringtemplate</module>
-        <module>syndication</module>
-        <module>syslog</module>
-        <module>tarfile</module>
-        <module>telegram</module>
-        <module>tika</module>
-        <module>twilio</module>
-        <module>twitter</module>
-        <module>univocity-parsers</module>
-        <module>validator</module>
-        <module>velocity</module>
-        <module>vertx</module>
-        <module>vertx-kafka</module>
-        <module>vertx-websocket</module>
-        <module>weather</module>
-        <module>xchange</module>
-        <module>xml</module>
-        <module>xmlsecurity</module>
+        <!-- <module>ssh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>stax</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>stringtemplate</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>syndication</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>syslog</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>tarfile</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>telegram</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>tika</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>twilio</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>twitter</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>univocity-parsers</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>velocity</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>vertx-kafka</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>vertx-websocket</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>weather</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>xchange</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>xml</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>xmlsecurity</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xpath</module>
-        <module>xstream</module>
-        <module>zendesk</module>
+        <!-- <module>xstream</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>zendesk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
 </project>
