@@ -319,12 +319,6 @@
     </dependencyManagement>
 
     <build>
-        <extensions>
-            <extension>
-                <groupId>org.jboss.fuse.maven</groupId>
-                <artifactId>maven-exclude-extension</artifactId>
-            </extension>
-        </extensions>
 
         <pluginManagement>
             <plugins>
