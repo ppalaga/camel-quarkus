@@ -60,8 +60,8 @@
         <!-- <module>atlasmap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>avro</module>
         <!-- <module>avro-rpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>aws2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>aws2-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>azure-grouped</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>base64</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>bean-validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -95,10 +95,10 @@
         <!-- <module>geocoder</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>git</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>github</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>google</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>google-bigquery</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>google-pubsub</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>google-storage</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>graphql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>grok</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>grpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -160,8 +160,8 @@
         <!-- <module>opentelemetry</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>opentracing</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>optaplanner</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>paho</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>paho-mqtt5</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>paho</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>pdf</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>pg-replication-slot</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>pgevent</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -206,9 +206,9 @@
         <!-- <module>univocity-parsers</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>velocity</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>vertx-kafka</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>vertx-websocket</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>weather</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xchange</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xml</module> disabled by cq-prod-maven-plugin:prod-excludes -->
