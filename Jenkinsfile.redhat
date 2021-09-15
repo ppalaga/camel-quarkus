@@ -48,7 +48,7 @@ pipeline {
         stage('Build') {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly -T1C"
+                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                 }
             }
         }
