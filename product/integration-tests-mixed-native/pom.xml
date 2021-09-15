@@ -134,7 +134,6 @@
                 <module>../../integration-tests/main-devmode</module>
                 <module>../../integration-tests/main-xml-io</module>
                 <module>../../integration-tests/main-xml-jaxb</module>
-                <module>../../integration-tests/messaging</module>
                 <module>../../integration-tests/micrometer</module>
                 <module>../../integration-tests/microprofile</module>
                 <module>../../integration-tests/minio</module>
