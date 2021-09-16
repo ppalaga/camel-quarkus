@@ -96,7 +96,7 @@ pipeline {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     script {
-                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify -Pmixed -fae"
+                        sh "cd product/integration-tests-mixed-native && ../../mvnw $MAVEN_PARAMS verify -Pmixed -fae"
                     }
                 }
             }
