@@ -48,7 +48,7 @@ pipeline {
         stage('Build') {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly -Pmixed"
                 }
             }
         }
@@ -56,7 +56,7 @@ pipeline {
         stage('Core Tests') {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "cd extensions-core && ../mvnw ${MAVEN_PARAMS} clean test -fae"
+                    sh "cd extensions-core && ../mvnw ${MAVEN_PARAMS} clean test -Pmixed -fae"
                 }
             }
             post {
@@ -80,7 +80,7 @@ pipeline {
                                 modulesToTest << dirs[0] + "/" + dirs[1] + "/integration-test"
                             }
                         }
-                        sh "./mvnw ${MAVEN_PARAMS} test -pl '${modulesToTest.join(",")}' -fae"
+                        sh "./mvnw ${MAVEN_PARAMS} test -pl '${modulesToTest.join(",")}' -Pmixed -fae"
                     }
                 }
             }
@@ -96,7 +96,7 @@ pipeline {
             steps {
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     script {
-                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify -fae"
+                        sh "cd integration-tests && ../mvnw $MAVEN_PARAMS verify -Pmixed -fae"
                     }
                 }
             }
