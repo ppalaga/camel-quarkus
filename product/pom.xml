@@ -44,7 +44,8 @@
                 <artifactId>groovy-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>update-antora-config</id>
+                        <id>generate-camel-quarkus-product-json</id>
+                        <inherited>false</inherited>
                         <goals>
                             <goal>execute</goal>
                         </goals>
@@ -65,6 +66,7 @@
                 <executions>
                     <execution>
                         <id>attach-product-json</id>
+                        <inherited>false</inherited>
                         <phase>package</phase>
                         <goals>
                             <goal>attach-artifact</goal>
