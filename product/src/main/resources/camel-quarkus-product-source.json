@@ -57,7 +57,10 @@
         },
         "camel-quarkus-file": {
             "jvmSupportedSince": "2.1.0",
-            "nativeSupportedSince": "2.1.0"
+            "nativeSupportedSince": "2.1.0",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-file"
+            ]
         },
         "camel-quarkus-ftp": {
             "jvmSupportedSince": "2.1.0",
@@ -69,7 +72,10 @@
         },
         "camel-quarkus-http": {
             "jvmSupportedSince": "2.1.0",
-            "nativeSupportedSince": "2.1.0"
+            "nativeSupportedSince": "2.1.0",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-http"
+            ]
         },
         "camel-quarkus-jackson": {
             "jvmSupportedSince": "2.1.0",
@@ -112,7 +118,10 @@
         },
         "camel-quarkus-jta": {
             "jvmSupportedSince": "2.1.0",
-            "nativeSupportedSince": "2.1.0"
+            "nativeSupportedSince": "2.1.0",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-jta"
+            ]
         },
         "camel-quarkus-kafka": {
             "jvmSupportedSince": "2.1.0",
