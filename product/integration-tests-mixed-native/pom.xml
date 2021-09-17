@@ -50,7 +50,6 @@
                 <module>../../integration-test-groups/foundation/controlbus</module>
                 <module>../../integration-test-groups/foundation/core-fault-tolerance</module>
                 <module>../../integration-test-groups/foundation/customized-log-component</module>
-                <module>../../integration-test-groups/foundation/direct</module>
                 <module>../../integration-test-groups/foundation/language</module>
                 <module>../../integration-test-groups/foundation/ref</module>
                 <module>../../integration-test-groups/foundation/scheduler</module>
@@ -79,7 +78,6 @@
                 <module>../../integration-tests/csimple</module>
                 <module>../../integration-tests/csv</module>
                 <module>../../integration-tests/dataformat</module>
-                <module>../../integration-tests/dataformats-json</module>
                 <module>../../integration-tests/debezium</module>
                 <module>../../integration-tests/digitalocean</module>
                 <module>../../integration-tests/disruptor</module>
@@ -87,7 +85,6 @@
                 <module>../../integration-tests/dropbox</module>
                 <module>../../integration-tests/exec</module>
                 <module>../../integration-tests/fhir</module>
-                <module>../../integration-tests/file</module>
                 <module>../../integration-tests/flatpack</module>
                 <module>../../integration-tests/fop</module>
                 <module>../../integration-tests/foundation-grouped</module>
@@ -104,15 +101,12 @@
                 <module>../../integration-tests/grpc</module>
                 <module>../../integration-tests/hazelcast</module>
                 <module>../../integration-tests/headersmap</module>
-                <module>../../integration-tests/http</module>
                 <module>../../integration-tests/hystrix</module>
                 <module>../../integration-tests/infinispan</module>
                 <module>../../integration-tests/influxdb</module>
                 <module>../../integration-tests/ipfs</module>
                 <module>../../integration-tests/jdbc</module>
                 <module>../../integration-tests/jing</module>
-                <module>../../integration-tests/jms-artemis-client</module>
-                <module>../../integration-tests/jms-qpid-amqp-client</module>
                 <module>../../integration-tests/jolt</module>
                 <module>../../integration-tests/jpa</module>
                 <module>../../integration-tests/js-dsl</module>
@@ -120,8 +114,6 @@
                 <module>../../integration-tests/jslt</module>
                 <module>../../integration-tests/json-validator</module>
                 <module>../../integration-tests/jsonata</module>
-                <module>../../integration-tests/jta</module>
-                <module>../../integration-tests/kamelet</module>
                 <module>../../integration-tests/kotlin</module>
                 <module>../../integration-tests/kudu</module>
                 <module>../../integration-tests/leveldb</module>
@@ -135,9 +127,7 @@
                 <module>../../integration-tests/main-xml-io</module>
                 <module>../../integration-tests/main-xml-jaxb</module>
                 <module>../../integration-tests/micrometer</module>
-                <module>../../integration-tests/microprofile</module>
                 <module>../../integration-tests/minio</module>
-                <module>../../integration-tests/mongodb</module>
                 <module>../../integration-tests/msv</module>
                 <module>../../integration-tests/mustache</module>
                 <module>../../integration-tests/nagios</module>
@@ -157,7 +147,6 @@
                 <module>../../integration-tests/pgevent</module>
                 <module>../../integration-tests/protobuf</module>
                 <module>../../integration-tests/pubnub</module>
-                <module>../../integration-tests/quartz</module>
                 <module>../../integration-tests/qute</module>
                 <module>../../integration-tests/rabbitmq</module>
                 <module>../../integration-tests/reactive-streams</module>

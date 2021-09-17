@@ -43,7 +43,7 @@
         <module>core-languages</module>
         <module>core-thread-pools</module>
         <!-- <module>customized-log-component</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>direct</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>direct</module>
         <module>eip</module>
         <!-- <module>language</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>log</module>
