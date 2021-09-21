@@ -39,13 +39,14 @@ The default profile-less build `mvn clean install` will include
 
 * All productized extensions
 * A mixed BOM
-* Tests that cover productized extensions and have no non-productized dependencies
+* Tests that cover productized extensions and have no non-productized dependencies.
+  These tests can be run via `cd product/integration-tests-product && mvn verify -Pnative`.
 
 Note that the default profile-less build `mvn clean install` will *not* include all tests
 necessary to cover the productized extensions.
 This is the case because some productized extensions are covered by tests requiring non-productized artifacts.
 Those tests that are really essential for covering the productized extensions are called "allowed mixed tests".
-They are explictily marked via `extensions.<artifactId>.allowedMixedTests` in `camel-quarkus-product-source.json`.
+They are explicitly marked via `extensions.<artifactId>.allowedMixedTests` in `camel-quarkus-product-source.json`.
 To run them you need to
 
 [source,shell]

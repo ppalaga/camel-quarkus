@@ -1,0 +1,17 @@
+                stage('${stageName}') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd ${groupDirectory} && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
