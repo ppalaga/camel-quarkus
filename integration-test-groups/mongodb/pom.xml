@@ -38,7 +38,7 @@
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
         <module>mongodb</module>
-        <!-- <module>mongodb-gridfs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>mongodb-gridfs</module>
     </modules>
 
 </project>

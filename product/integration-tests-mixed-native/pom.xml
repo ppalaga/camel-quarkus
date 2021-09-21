@@ -30,167 +30,19 @@
     <artifactId>camel-quarkus-integration-tests-mixed-native</artifactId>
     <packaging>pom</packaging>
 
-    <name>Camel Quarkus :: Integration Tests Mixed Native</name>
-    <description>Tests covering partly or wholy non-productized extensions</description>
-
-    <properties>
-        <quarkus.banner.enabled>false</quarkus.banner.enabled>
-    </properties>
+    <name>Camel Quarkus :: Integration Tests :: Mixed Native</name>
 
     <profiles>
         <profile>
             <id>mixed</id>
             <modules>
-                <module>../../integration-test-groups/aws2/aws2-cw</module>
-                <module>../../integration-test-groups/aws2/aws2-ses</module>
-                <module>../../integration-test-groups/azure/azure-eventhubs</module>
-                <module>../../integration-test-groups/azure/azure-storage-blob</module>
-                <module>../../integration-test-groups/azure/azure-storage-queue</module>
-                <module>../../integration-test-groups/foundation/browse</module>
-                <module>../../integration-test-groups/foundation/controlbus</module>
-                <module>../../integration-test-groups/foundation/core-fault-tolerance</module>
-                <module>../../integration-test-groups/foundation/customized-log-component</module>
-                <module>../../integration-test-groups/foundation/language</module>
-                <module>../../integration-test-groups/foundation/ref</module>
-                <module>../../integration-test-groups/foundation/scheduler</module>
-                <module>../../integration-test-groups/foundation/stream</module>
-                <module>../../integration-test-groups/foundation/type-converter</module>
-                <module>../../integration-test-groups/mongodb/mongodb-gridfs</module>
-                <module>../../integration-tests/activemq</module>
-                <module>../../integration-tests/amqp</module>
-                <module>../../integration-tests/arangodb</module>
-                <module>../../integration-tests/as2</module>
-                <module>../../integration-tests/atlasmap</module>
-                <module>../../integration-tests/avro-rpc</module>
-                <module>../../integration-tests/aws2</module>
-                <module>../../integration-tests/aws2-grouped</module>
-                <module>../../integration-tests/azure-grouped</module>
-                <module>../../integration-tests/base64</module>
-                <module>../../integration-tests/bean-validator</module>
-                <module>../../integration-tests/box</module>
-                <module>../../integration-tests/braintree</module>
-                <module>../../integration-tests/caffeine</module>
-                <module>../../integration-tests/cassandraql</module>
-                <module>../../integration-tests/cbor</module>
-                <module>../../integration-tests/compression</module>
-                <module>../../integration-tests/consul</module>
-                <module>../../integration-tests/couchdb</module>
-                <module>../../integration-tests/crypto</module>
-                <module>../../integration-tests/csimple</module>
-                <module>../../integration-tests/csv</module>
-                <module>../../integration-tests/dataformat</module>
-                <module>../../integration-tests/debezium</module>
-                <module>../../integration-tests/digitalocean</module>
-                <module>../../integration-tests/disruptor</module>
-                <module>../../integration-tests/dozer</module>
-                <module>../../integration-tests/dropbox</module>
-                <module>../../integration-tests/exec</module>
-                <module>../../integration-tests/fhir</module>
-                <module>../../integration-tests/flatpack</module>
-                <module>../../integration-tests/fop</module>
-                <module>../../integration-tests/foundation-grouped</module>
-                <module>../../integration-tests/freemarker</module>
-                <module>../../integration-tests/geocoder</module>
-                <module>../../integration-tests/git</module>
-                <module>../../integration-tests/github</module>
-                <module>../../integration-tests/google</module>
-                <module>../../integration-tests/google-bigquery</module>
-                <module>../../integration-tests/google-pubsub</module>
-                <module>../../integration-tests/google-storage</module>
-                <module>../../integration-tests/graphql</module>
-                <module>../../integration-tests/grok</module>
-                <module>../../integration-tests/grpc</module>
-                <module>../../integration-tests/hazelcast</module>
-                <module>../../integration-tests/headersmap</module>
-                <module>../../integration-tests/hystrix</module>
-                <module>../../integration-tests/infinispan</module>
-                <module>../../integration-tests/influxdb</module>
-                <module>../../integration-tests/ipfs</module>
-                <module>../../integration-tests/jdbc</module>
-                <module>../../integration-tests/jing</module>
-                <module>../../integration-tests/jolt</module>
-                <module>../../integration-tests/jpa</module>
-                <module>../../integration-tests/js-dsl</module>
-                <module>../../integration-tests/jsch</module>
-                <module>../../integration-tests/jslt</module>
-                <module>../../integration-tests/json-validator</module>
-                <module>../../integration-tests/jsonata</module>
-                <module>../../integration-tests/kotlin</module>
-                <module>../../integration-tests/kudu</module>
-                <module>../../integration-tests/leveldb</module>
-                <module>../../integration-tests/lra</module>
-                <module>../../integration-tests/lumberjack</module>
-                <module>../../integration-tests/mail</module>
-                <module>../../integration-tests/main</module>
-                <module>../../integration-tests/main-caffeine-lrucache</module>
-                <module>../../integration-tests/main-collector</module>
-                <module>../../integration-tests/main-devmode</module>
-                <module>../../integration-tests/main-xml-io</module>
-                <module>../../integration-tests/main-xml-jaxb</module>
-                <module>../../integration-tests/micrometer</module>
-                <module>../../integration-tests/minio</module>
-                <module>../../integration-tests/mongodb-grouped</module>
-                <module>../../integration-tests/msv</module>
-                <module>../../integration-tests/mustache</module>
-                <module>../../integration-tests/nagios</module>
-                <module>../../integration-tests/nats</module>
-                <module>../../integration-tests/nitrite</module>
-                <module>../../integration-tests/nsq</module>
-                <module>../../integration-tests/oaipmh</module>
-                <module>../../integration-tests/olingo4</module>
-                <module>../../integration-tests/openstack</module>
-                <module>../../integration-tests/opentelemetry</module>
-                <module>../../integration-tests/opentracing</module>
-                <module>../../integration-tests/optaplanner</module>
-                <module>../../integration-tests/paho</module>
-                <module>../../integration-tests/paho-mqtt5</module>
-                <module>../../integration-tests/pdf</module>
-                <module>../../integration-tests/pg-replication-slot</module>
-                <module>../../integration-tests/pgevent</module>
-                <module>../../integration-tests/protobuf</module>
-                <module>../../integration-tests/pubnub</module>
-                <module>../../integration-tests/qute</module>
-                <module>../../integration-tests/rabbitmq</module>
-                <module>../../integration-tests/reactive-streams</module>
-                <module>../../integration-tests/rest-openapi</module>
-                <module>../../integration-tests/saga</module>
-                <module>../../integration-tests/sap-netweaver</module>
-                <module>../../integration-tests/servicenow</module>
-                <module>../../integration-tests/servlet</module>
-                <module>../../integration-tests/shiro</module>
-                <module>../../integration-tests/sjms-artemis-client</module>
-                <module>../../integration-tests/sjms-qpid-amqp-client</module>
-                <module>../../integration-tests/sjms2-artemis-client</module>
-                <module>../../integration-tests/sjms2-qpid-amqp-client</module>
-                <module>../../integration-tests/slack</module>
-                <module>../../integration-tests/smallrye-reactive-messaging</module>
-                <module>../../integration-tests/solr</module>
-                <module>../../integration-tests/splunk</module>
-                <module>../../integration-tests/spring-rabbitmq</module>
-                <module>../../integration-tests/ssh</module>
-                <module>../../integration-tests/stax</module>
-                <module>../../integration-tests/stringtemplate</module>
-                <module>../../integration-tests/syndication</module>
-                <module>../../integration-tests/syslog</module>
-                <module>../../integration-tests/tarfile</module>
-                <module>../../integration-tests/telegram</module>
-                <module>../../integration-tests/tika</module>
-                <module>../../integration-tests/twilio</module>
-                <module>../../integration-tests/twitter</module>
-                <module>../../integration-tests/univocity-parsers</module>
-                <module>../../integration-tests/validator</module>
-                <module>../../integration-tests/velocity</module>
-                <module>../../integration-tests/vertx</module>
-                <module>../../integration-tests/vertx-kafka</module>
-                <module>../../integration-tests/vertx-websocket</module>
-                <module>../../integration-tests/weather</module>
-                <module>../../integration-tests/xchange</module>
-                <module>../../integration-tests/xml</module>
-                <module>../../integration-tests/xmlsecurity</module>
-                <module>../../integration-tests/xstream</module>
-                <module>../../integration-tests/zendesk</module>
+                <module>group-01</module>
+                <module>group-02</module>
+                <module>group-03</module>
+                <module>group-04</module>
+                <module>group-05</module>
+                <module>group-06</module>
             </modules>
         </profile>
     </profiles>
-
 </project>

@@ -48,6 +48,176 @@ pipeline {
         stage('Tests') {
             parallel {
                 // %generated-stages-start%
+                stage('Product :: Group 01') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Product :: Group 02') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Allowed :: Group 01') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed JVM :: Group 01') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 01') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 02') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 03') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 04') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-04 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 05') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-05 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 06') {
+                    agent {
+                        label "rhel"
+                    }
+                    steps {
+                        configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                            sh "cd product/integration-tests-mixed-native/group-06 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
                 // %generated-stages-end%
             }
         }
