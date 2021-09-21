@@ -30,27 +30,14 @@
     <artifactId>camel-quarkus-integration-tests-mixed-allowed</artifactId>
     <packaging>pom</packaging>
 
-    <name>Camel Quarkus :: Integration Tests Mixed allowed</name>
-
-    <properties>
-        <quarkus.banner.enabled>false</quarkus.banner.enabled>
-    </properties>
+    <name>Camel Quarkus :: Integration Tests :: Mixed Allowed</name>
 
     <profiles>
         <profile>
             <id>mixed</id>
             <modules>
-                <module>../../integration-tests/dataformats-json</module>
-                <module>../../integration-tests/file</module>
-                <module>../../integration-tests/http</module>
-                <module>../../integration-tests/jms-artemis-client</module>
-                <module>../../integration-tests/jms-qpid-amqp-client</module>
-                <module>../../integration-tests/jta</module>
-                <module>../../integration-tests/kamelet</module>
-                <module>../../integration-tests/microprofile</module>
-                <module>../../integration-tests/quartz</module>
+                <module>group-01</module>
             </modules>
         </profile>
     </profiles>
-
 </project>
