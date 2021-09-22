@@ -38,10 +38,13 @@ pipeline {
     }
 
     stages {
-        stage('Clean') {
+        stage('Initial') {
             steps {
                 // Clean up any orphaned containers that may be lingering
                 sh "docker container prune -f"
+                configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                }
             }
         }
 
@@ -54,7 +57,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -71,7 +73,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -88,7 +89,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -105,7 +105,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -122,7 +121,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -139,7 +137,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -156,7 +153,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -173,7 +169,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-04 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -190,7 +185,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-05 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
@@ -207,7 +201,6 @@ pipeline {
                     }
                     steps {
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                            sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
                             sh "cd product/integration-tests-mixed-native/group-06 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
                     }
