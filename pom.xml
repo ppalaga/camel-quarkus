@@ -461,6 +461,7 @@
                                 </includes>
                                 <excludes>
                                     <exclude>integration-tests/messaging/pom.xml</exclude>
+                                    <exclude>integration-tests/*-grouped/pom.xml</exclude>
                                 </excludes>
                             </integrationTest>
                         </integrationTests>
