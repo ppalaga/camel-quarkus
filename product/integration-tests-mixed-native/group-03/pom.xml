@@ -33,30 +33,30 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/arangodb</module>
-        <module>../../../integration-tests/aws2-grouped</module>
-        <module>../../../integration-tests/base64</module>
-        <module>../../../integration-tests/cassandraql</module>
-        <module>../../../integration-tests/couchdb</module>
-        <module>../../../integration-tests/debezium</module>
-        <module>../../../integration-tests/fhir</module>
         <module>../../../integration-tests/git</module>
+        <module>../../../integration-tests/github</module>
+        <module>../../../integration-tests/google</module>
+        <module>../../../integration-tests/google-bigquery</module>
+        <module>../../../integration-tests/google-pubsub</module>
+        <module>../../../integration-tests/google-storage</module>
         <module>../../../integration-tests/graphql</module>
+        <module>../../../integration-tests/grok</module>
+        <module>../../../integration-tests/grpc</module>
+        <module>../../../integration-tests/hazelcast</module>
+        <module>../../../integration-tests/headersmap</module>
+        <module>../../../integration-tests/hystrix</module>
         <module>../../../integration-tests/infinispan</module>
+        <module>../../../integration-tests/influxdb</module>
+        <module>../../../integration-tests/ipfs</module>
+        <module>../../../integration-tests/jdbc</module>
+        <module>../../../integration-tests/jing</module>
+        <module>../../../integration-tests/jolt</module>
         <module>../../../integration-tests/jpa</module>
+        <module>../../../integration-tests/js-dsl</module>
+        <module>../../../integration-tests/jsch</module>
+        <module>../../../integration-tests/jslt</module>
+        <module>../../../integration-tests/json-validator</module>
+        <module>../../../integration-tests/jsonata</module>
         <module>../../../integration-tests/kotlin</module>
-        <module>../../../integration-tests/mail</module>
-        <module>../../../integration-tests/main-xml-jaxb</module>
-        <module>../../../integration-tests/mustache</module>
-        <module>../../../integration-tests/olingo4</module>
-        <module>../../../integration-tests/paho-mqtt5</module>
-        <module>../../../integration-tests/qute</module>
-        <module>../../../integration-tests/sap-netweaver</module>
-        <module>../../../integration-tests/sjms-qpid-amqp-client</module>
-        <module>../../../integration-tests/splunk</module>
-        <module>../../../integration-tests/syslog</module>
-        <module>../../../integration-test-groups/foundation/type-converter</module>
-        <module>../../../integration-tests/vertx-websocket</module>
-        <module>../../../integration-tests/zendesk</module>
     </modules>
 </project>
