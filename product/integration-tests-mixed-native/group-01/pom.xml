@@ -55,8 +55,7 @@
         <module>../../../integration-tests/atlasmap</module>
         <module>../../../integration-tests/avro-rpc</module>
         <module>../../../integration-tests/aws2</module>
-        <module>../../../integration-tests/aws2-grouped</module>
-        <module>../../../integration-tests/azure-grouped</module>
         <module>../../../integration-tests/base64</module>
+        <module>../../../integration-tests/bean-validator</module>
     </modules>
 </project>

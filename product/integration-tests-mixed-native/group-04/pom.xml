@@ -46,7 +46,6 @@
         <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/micrometer</module>
         <module>../../../integration-tests/minio</module>
-        <module>../../../integration-tests/mongodb-grouped</module>
         <module>../../../integration-tests/msv</module>
         <module>../../../integration-tests/mustache</module>
         <module>../../../integration-tests/nagios</module>

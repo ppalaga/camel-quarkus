@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/bean-validator</module>
         <module>../../../integration-tests/box</module>
         <module>../../../integration-tests/braintree</module>
         <module>../../../integration-tests/caffeine</module>
@@ -55,8 +54,8 @@
         <module>../../../integration-tests/fhir</module>
         <module>../../../integration-tests/flatpack</module>
         <module>../../../integration-tests/fop</module>
-        <module>../../../integration-tests/foundation-grouped</module>
         <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
+        <module>../../../integration-tests/git</module>
     </modules>
 </project>
