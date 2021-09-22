@@ -81,8 +81,8 @@
         <module>../../../extensions-jvm/jclouds/integration-test</module>
         <module>../../../extensions-jvm/jcr/integration-test</module>
         <module>../../../extensions-jvm/jfr/integration-test</module>
-        <module>../../../extensions-jvm/jgroups/integration-test</module>
         <module>../../../extensions-jvm/jgroups-raft/integration-test</module>
+        <module>../../../extensions-jvm/jgroups/integration-test</module>
         <module>../../../extensions-jvm/jooq/integration-test</module>
         <module>../../../extensions-jvm/joor/integration-test</module>
         <module>../../../extensions-jvm/jsonapi/integration-test</module>
@@ -122,7 +122,7 @@
         <module>../../../extensions-jvm/xmpp/integration-test</module>
         <module>../../../extensions-jvm/xslt-saxon/integration-test</module>
         <module>../../../extensions-jvm/yammer/integration-test</module>
-        <module>../../../extensions-jvm/zookeeper/integration-test</module>
         <module>../../../extensions-jvm/zookeeper-master/integration-test</module>
+        <module>../../../extensions-jvm/zookeeper/integration-test</module>
     </modules>
 </project>

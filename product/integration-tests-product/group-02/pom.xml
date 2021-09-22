@@ -33,31 +33,31 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-test-groups/aws2/aws2-ddb</module>
-        <module>../../../integration-test-groups/aws2/aws2-lambda</module>
-        <module>../../../integration-test-groups/aws2/aws2-sqs-sns</module>
-        <module>../../../integration-tests/bindy</module>
-        <module>../../../integration-test-groups/foundation/core</module>
-        <module>../../../integration-tests/core-discovery-disabled</module>
-        <module>../../../integration-test-groups/foundation/core-thread-pools</module>
-        <module>../../../integration-test-groups/foundation/eip</module>
-        <module>../../../integration-tests/ftp</module>
-        <module>../../../integration-tests/jackson-avro</module>
+        <module>../../../integration-tests/jackson-protobuf</module>
         <module>../../../integration-tests/jaxb</module>
+        <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jsonpath</module>
+        <module>../../../integration-tests/kafka</module>
         <module>../../../integration-tests/kafka-sasl</module>
+        <module>../../../integration-tests/kafka-sasl-ssl</module>
         <module>../../../integration-tests/kafka-ssl</module>
-        <module>../../../integration-test-groups/foundation/log</module>
+        <module>../../../integration-tests/kubernetes</module>
+        <module>../../../integration-tests/main-command-mode</module>
         <module>../../../integration-tests/main-discovery-disabled</module>
+        <module>../../../integration-tests/main-unknown-args-fail</module>
         <module>../../../integration-tests/main-unknown-args-ignore</module>
+        <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/master</module>
-        <module>../../../integration-test-groups/foundation/mock</module>
+        <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/netty</module>
+        <module>../../../integration-tests/openapi-java</module>
         <module>../../../integration-tests/platform-http</module>
+        <module>../../../integration-tests/platform-http-engine</module>
         <module>../../../integration-tests/rest</module>
+        <module>../../../integration-tests/salesforce</module>
         <module>../../../integration-tests/saxon</module>
         <module>../../../integration-tests/soap</module>
-        <module>../../../integration-test-groups/foundation/timer</module>
-        <module>../../../extensions-jvm/java-joor-dsl/integration-test</module>
+        <module>../../../integration-tests/sql</module>
+        <module>../../../integration-tests/xpath</module>
     </modules>
 </project>

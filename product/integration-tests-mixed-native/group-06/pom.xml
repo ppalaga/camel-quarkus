@@ -33,29 +33,29 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 06</name>
 
     <modules>
-        <module>../../../integration-tests/avro-rpc</module>
-        <module>../../../integration-tests/azure-grouped</module>
-        <module>../../../integration-tests/braintree</module>
-        <module>../../../integration-tests/consul</module>
-        <module>../../../integration-tests/csv</module>
-        <module>../../../integration-tests/dozer</module>
-        <module>../../../integration-tests/foundation-grouped</module>
-        <module>../../../integration-tests/google-bigquery</module>
-        <module>../../../integration-tests/hazelcast</module>
-        <module>../../../integration-tests/jdbc</module>
-        <module>../../../integration-tests/jslt</module>
-        <module>../../../integration-tests/leveldb</module>
-        <module>../../../integration-tests/main-collector</module>
-        <module>../../../integration-test-groups/mongodb/mongodb-gridfs</module>
-        <module>../../../integration-tests/nitrite</module>
-        <module>../../../integration-tests/opentracing</module>
-        <module>../../../integration-tests/pgevent</module>
-        <module>../../../integration-test-groups/foundation/ref</module>
-        <module>../../../integration-tests/servlet</module>
-        <module>../../../integration-tests/slack</module>
-        <module>../../../integration-test-groups/foundation/stream</module>
+        <module>../../../integration-tests/splunk</module>
+        <module>../../../integration-tests/spring-rabbitmq</module>
+        <module>../../../integration-tests/ssh</module>
+        <module>../../../integration-tests/stax</module>
+        <module>../../../integration-tests/stringtemplate</module>
+        <module>../../../integration-tests/syndication</module>
+        <module>../../../integration-tests/syslog</module>
+        <module>../../../integration-tests/tarfile</module>
+        <module>../../../integration-tests/telegram</module>
         <module>../../../integration-tests/tika</module>
+        <module>../../../integration-tests/twilio</module>
+        <module>../../../integration-tests/twitter</module>
+        <module>../../../integration-tests/univocity-parsers</module>
+        <module>../../../integration-tests/validator</module>
         <module>../../../integration-tests/velocity</module>
+        <module>../../../integration-tests/vertx</module>
+        <module>../../../integration-tests/vertx-kafka</module>
+        <module>../../../integration-tests/vertx-websocket</module>
+        <module>../../../integration-tests/weather</module>
+        <module>../../../integration-tests/xchange</module>
         <module>../../../integration-tests/xml</module>
+        <module>../../../integration-tests/xmlsecurity</module>
+        <module>../../../integration-tests/xstream</module>
+        <module>../../../integration-tests/zendesk</module>
     </modules>
 </project>

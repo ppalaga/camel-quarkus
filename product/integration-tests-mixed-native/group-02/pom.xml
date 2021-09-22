@@ -33,30 +33,30 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/amqp</module>
-        <module>../../../integration-test-groups/aws2/aws2-cw</module>
-        <module>../../../integration-test-groups/azure/azure-storage-queue</module>
+        <module>../../../integration-tests/bean-validator</module>
+        <module>../../../integration-tests/box</module>
+        <module>../../../integration-tests/braintree</module>
         <module>../../../integration-tests/caffeine</module>
-        <module>../../../integration-test-groups/foundation/core-fault-tolerance</module>
+        <module>../../../integration-tests/cassandraql</module>
+        <module>../../../integration-tests/cbor</module>
+        <module>../../../integration-tests/compression</module>
+        <module>../../../integration-tests/consul</module>
+        <module>../../../integration-tests/couchdb</module>
+        <module>../../../integration-tests/crypto</module>
+        <module>../../../integration-tests/csimple</module>
+        <module>../../../integration-tests/csv</module>
         <module>../../../integration-tests/dataformat</module>
+        <module>../../../integration-tests/debezium</module>
+        <module>../../../integration-tests/digitalocean</module>
+        <module>../../../integration-tests/disruptor</module>
+        <module>../../../integration-tests/dozer</module>
+        <module>../../../integration-tests/dropbox</module>
         <module>../../../integration-tests/exec</module>
+        <module>../../../integration-tests/fhir</module>
+        <module>../../../integration-tests/flatpack</module>
+        <module>../../../integration-tests/fop</module>
+        <module>../../../integration-tests/foundation-grouped</module>
+        <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
-        <module>../../../integration-tests/google-storage</module>
-        <module>../../../integration-tests/hystrix</module>
-        <module>../../../integration-tests/jolt</module>
-        <module>../../../integration-tests/jsonata</module>
-        <module>../../../integration-tests/lumberjack</module>
-        <module>../../../integration-tests/main-xml-io</module>
-        <module>../../../integration-tests/msv</module>
-        <module>../../../integration-tests/oaipmh</module>
-        <module>../../../integration-tests/paho</module>
-        <module>../../../integration-tests/pubnub</module>
-        <module>../../../integration-tests/saga</module>
-        <module>../../../integration-tests/sjms-artemis-client</module>
-        <module>../../../integration-tests/solr</module>
-        <module>../../../integration-tests/syndication</module>
-        <module>../../../integration-tests/twitter</module>
-        <module>../../../integration-tests/vertx-kafka</module>
-        <module>../../../integration-tests/xstream</module>
     </modules>
 </project>
