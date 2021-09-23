@@ -14,6 +14,8 @@
   This list actually controls which modules get unlinked from the source tree by `cq-prod-maven-plugin:prod-excludes` mojo.
 * `extensions.<artifactId>.allowedMixedTests` - if defined and set to a non-empty array of artifactIds,
   accept the mixed tests covering the given extension.
+* `extensions.<artifactId>.[jvm|native]` - The support status: possible values: `community`, `techPreview`, `supported`
+* `extensions.<artifactId>.comment` - A free form comment
 * `additionalProductizedArtifacts` - an array of artifactIds to include in the product build.
   Unlike `extensions.<artifactId>`, these are not extensions.
 

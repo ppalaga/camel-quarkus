@@ -37,7 +37,7 @@
         <module>http-common</module>
         <!-- <module>reactive-executor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>threadpoolfactory-vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>xml-io-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>xml-io-dsl</module>
         <!-- <module>xml-jaxb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xml-jaxp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>caffeine-lrucache</module> disabled by cq-prod-maven-plugin:prod-excludes -->

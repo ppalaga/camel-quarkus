@@ -33,10 +33,10 @@
 
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
-        <!-- <module>ahc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>ahc</module>
         <!-- <module>aws</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>aws2</module>
-        <!-- <module>azure-core</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>azure-core</module>
         <!-- <module>bouncycastle</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>common</module>
         <module>commons-logging</module>
@@ -48,7 +48,7 @@
         <module>jetty</module>
         <!-- <module>mail</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>mongodb</module>
-        <!-- <module>reactor-netty</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>reactor-netty</module>
         <!-- <module>retrofit</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>spring</module>
         <!-- <module>stax</module> disabled by cq-prod-maven-plugin:prod-excludes -->

@@ -41,8 +41,6 @@
         <module>../../../integration-tests/main</module>
         <module>../../../integration-tests/main-caffeine-lrucache</module>
         <module>../../../integration-tests/main-collector</module>
-        <module>../../../integration-tests/main-devmode</module>
-        <module>../../../integration-tests/main-xml-io</module>
         <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/micrometer</module>
         <module>../../../integration-tests/minio</module>
@@ -57,5 +55,6 @@
         <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/opentelemetry</module>
         <module>../../../integration-tests/opentracing</module>
+        <module>../../../integration-tests/optaplanner</module>
     </modules>
 </project>
