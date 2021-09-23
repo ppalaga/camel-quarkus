@@ -44,6 +44,9 @@ pipeline {
                 sh "docker container prune -f"
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                    sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar cfz cq-artifacts.tgz *"
+                    sh "mv -t . /home/jenkins/.m2/repository/org/apache/camel/quarkus/cq-artifacts.tgz"
+                    stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
                 }
             }
         }
@@ -56,6 +59,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -72,6 +78,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -88,6 +97,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -104,6 +116,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -120,6 +135,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -136,6 +154,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -152,6 +173,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -168,6 +192,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-04 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -184,6 +211,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-05 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
@@ -200,6 +230,9 @@ pipeline {
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus && mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd product/integration-tests-mixed-native/group-06 && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
