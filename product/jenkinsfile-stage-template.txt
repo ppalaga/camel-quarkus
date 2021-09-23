@@ -3,6 +3,9 @@
                         label "rhel"
                     }
                     steps {
+                        unstash name: 'cq-artifacts'
+                        sh "mv -t /home/jenkins/.m2/repository/org/apache/camel/quarkus cq-artifacts.tgz"
+                        sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz cq-artifacts.tgz"
                         configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                             sh "cd ${groupDirectory} && ../../../mvnw ${MAVEN_PARAMS} test -fae"
                         }
