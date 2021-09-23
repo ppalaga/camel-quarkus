@@ -41,7 +41,6 @@
         <module>../../../integration-tests/syndication</module>
         <module>../../../integration-tests/syslog</module>
         <module>../../../integration-tests/tarfile</module>
-        <module>../../../integration-tests/telegram</module>
         <module>../../../integration-tests/tika</module>
         <module>../../../integration-tests/twilio</module>
         <module>../../../integration-tests/twitter</module>

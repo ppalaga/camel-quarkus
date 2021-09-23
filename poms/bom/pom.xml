@@ -2682,12 +2682,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-azure-storage-blob</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-azure-storage-blob-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -2702,12 +2702,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-azure-storage-queue</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-azure-storage-queue-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -2842,12 +2842,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-cassandraql</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-cassandraql-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5037,12 +5037,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-ahc</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-ahc-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5067,12 +5067,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-azure-core</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-azure-core-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5187,12 +5187,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-reactor-netty</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-reactor-netty-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5297,12 +5297,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-telegram</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-telegram-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5512,12 +5512,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-xml-io-dsl</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-xml-io-dsl-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

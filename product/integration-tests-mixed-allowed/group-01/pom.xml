@@ -39,7 +39,6 @@
         <module>../../../integration-tests/jms-artemis-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/jta</module>
-        <module>../../../integration-tests/kamelet</module>
         <module>../../../integration-tests/microprofile</module>
         <module>../../../integration-tests/quartz</module>
     </modules>
