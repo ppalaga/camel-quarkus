@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/github</module>
         <module>../../../integration-tests/google</module>
         <module>../../../integration-tests/google-bigquery</module>
         <module>../../../integration-tests/google-pubsub</module>

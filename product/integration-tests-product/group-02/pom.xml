@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/jackson-protobuf</module>
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jsonpath</module>
@@ -41,11 +40,14 @@
         <module>../../../integration-tests/kafka-sasl</module>
         <module>../../../integration-tests/kafka-sasl-ssl</module>
         <module>../../../integration-tests/kafka-ssl</module>
+        <module>../../../integration-tests/kamelet</module>
         <module>../../../integration-tests/kubernetes</module>
         <module>../../../integration-tests/main-command-mode</module>
+        <module>../../../integration-tests/main-devmode</module>
         <module>../../../integration-tests/main-discovery-disabled</module>
         <module>../../../integration-tests/main-unknown-args-fail</module>
         <module>../../../integration-tests/main-unknown-args-ignore</module>
+        <module>../../../integration-tests/main-xml-io</module>
         <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/master</module>
         <module>../../../integration-tests/mllp</module>
@@ -58,6 +60,7 @@
         <module>../../../integration-tests/saxon</module>
         <module>../../../integration-tests/soap</module>
         <module>../../../integration-tests/sql</module>
+        <module>../../../integration-tests/telegram</module>
         <module>../../../integration-tests/xpath</module>
     </modules>
 </project>

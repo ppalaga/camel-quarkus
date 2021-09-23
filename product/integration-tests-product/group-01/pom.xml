@@ -39,6 +39,8 @@
         <module>../../../integration-test-groups/aws2/aws2-lambda</module>
         <module>../../../integration-test-groups/aws2/aws2-s3</module>
         <module>../../../integration-test-groups/aws2/aws2-sqs-sns</module>
+        <module>../../../integration-test-groups/azure/azure-storage-blob</module>
+        <module>../../../integration-test-groups/azure/azure-storage-queue</module>
         <module>../../../integration-test-groups/foundation/bean</module>
         <module>../../../integration-test-groups/foundation/component-name-resolver</module>
         <module>../../../integration-test-groups/foundation/core</module>
@@ -54,10 +56,12 @@
         <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests/avro</module>
         <module>../../../integration-tests/bindy</module>
+        <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/core-discovery-disabled</module>
         <module>../../../integration-tests/elasticsearch-rest</module>
         <module>../../../integration-tests/ftp</module>
         <module>../../../integration-tests/hl7</module>
         <module>../../../integration-tests/jackson-avro</module>
+        <module>../../../integration-tests/jackson-protobuf</module>
     </modules>
 </project>

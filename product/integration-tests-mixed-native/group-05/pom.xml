@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 05</name>
 
     <modules>
-        <module>../../../integration-tests/optaplanner</module>
         <module>../../../integration-tests/paho</module>
         <module>../../../integration-tests/paho-mqtt5</module>
         <module>../../../integration-tests/pdf</module>

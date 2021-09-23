@@ -33,10 +33,8 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/box</module>
         <module>../../../integration-tests/braintree</module>
         <module>../../../integration-tests/caffeine</module>
-        <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/cbor</module>
         <module>../../../integration-tests/compression</module>
         <module>../../../integration-tests/consul</module>
@@ -57,5 +55,6 @@
         <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
+        <module>../../../integration-tests/github</module>
     </modules>
 </project>

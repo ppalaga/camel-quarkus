@@ -64,8 +64,8 @@
         <!-- <module>aws2-sts</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>aws2-translate</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>azure-eventhubs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>azure-storage-blob</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>azure-storage-queue</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>azure-storage-blob</module>
+        <module>azure-storage-queue</module>
         <!-- <module>base64</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>bean</module>
         <!-- <module>bean-validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -74,7 +74,7 @@
         <!-- <module>braintree</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>browse</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>caffeine</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>cassandraql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>cassandraql</module>
         <!-- <module>cbor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>consul</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>controlbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -224,7 +224,7 @@
         <!-- <module>syslog</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>tagsoup</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>tarfile</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>telegram</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>telegram</module>
         <!-- <module>tika</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>timer</module>
         <!-- <module>twilio</module> disabled by cq-prod-maven-plugin:prod-excludes -->
