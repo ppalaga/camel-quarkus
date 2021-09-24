@@ -22,6 +22,8 @@ import java.nio.file.Files
 import java.nio.file.Path
 
 final Path basePath = project.basedir.toPath()
+final String majorVersion = project.version.split('\\.')[0]
+final String guideUriPrefix = 'https://access.redhat.com/documentation/en-us/red_hat_integration/'+ majorVersion +'.latest/html/camel_extensions_for_quarkus_reference/extensions-'
 
 final JsonSlurper jsonSlurper = new JsonSlurper()
 def productSourceJson = jsonSlurper.parse(basePath.resolve('src/main/resources/camel-quarkus-product-source.json'))
@@ -39,12 +41,13 @@ extensions.each { k, v ->
             "group-id": "org.apache.camel.quarkus",
             "artifact-id": k,
             "metadata" : [
-                "redhat-support" : [ quarkusSupportLevel ]
+                "redhat-support" : [ quarkusSupportLevel ],
+                "guide" : guideUriPrefix + (k.replace('camel-quarkus-', ''))
             ]
         ]
     }
 }
-final Path productJsonPath = basePath.resolve('target/camel-quarkus-product.json')
+final Path productJsonPath = basePath.resolve('src/main/generated/camel-quarkus-product.json')
 Files.createDirectories(productJsonPath.getParent())
 Files.write(productJsonPath, JsonOutput.prettyPrint(JsonOutput.toJson(productJson)).getBytes('UTF-8'))
 
@@ -61,9 +64,6 @@ enum CqSupportStatus {
         }
         if (this == CqSupportStatus.supported && native_ == CqSupportStatus.techPreview) {
             return 'supported-in-jvm'
-        }
-        if (this == CqSupportStatus.techPreview && native_ == CqSupportStatus.community) {
-            return CqSupportStatus.community.quarkusSupportLevel
         }
         throw new IllegalStateException("Cannot merge native support level " + native_ + " with JVM supportlevel " + this);
     }
