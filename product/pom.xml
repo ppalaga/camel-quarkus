@@ -76,7 +76,7 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <file>${project.build.directory}/camel-quarkus-product.json</file>
+                                    <file>${basedir}/src/main/generated/camel-quarkus-product.json</file>
                                     <type>json</type>
                                 </artifact>
                             </artifacts>

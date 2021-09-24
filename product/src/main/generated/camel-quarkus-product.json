@@ -1,0 +1,444 @@
+{
+    "extensions": [
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-avro",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-avro"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-ddb",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-ddb"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-kinesis",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-kinesis"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-lambda",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-lambda"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-s3",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-s3"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-sns",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-sns"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-aws2-sqs",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-sqs"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-bean",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-bean"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-bindy",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-bindy"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-core",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-core"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-direct",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-direct"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-elasticsearch-rest",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-elasticsearch-rest"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-file",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-file"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-ftp",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-ftp"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-hl7",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-hl7"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-http",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-http"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jackson",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jackson-avro",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson-avro"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jackson-protobuf",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson-protobuf"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jacksonxml",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jacksonxml"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jira",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jira"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jms",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jms"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jsonpath",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jsonpath"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jta",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jta"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-kafka",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-kafka"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-kamelet",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-kamelet"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-log",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-log"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-microprofile-health",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-microprofile-health"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-microprofile-metrics",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-microprofile-metrics"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-mllp",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mllp"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-mock",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mock"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-mongodb",
+            "metadata": {
+                "redhat-support": [
+                    "tech-preview"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mongodb"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-netty",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-netty"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-openapi-java",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-openapi-java"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-platform-http",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-platform-http"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-rest",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-rest"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-salesforce",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-salesforce"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-saxon",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-saxon"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-seda",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-seda"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-soap",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-soap"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-sql",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-sql"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-support-webhook",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-support-webhook"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-timer",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-timer"
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-xpath",
+            "metadata": {
+                "redhat-support": [
+                    "supported-in-jvm"
+                ],
+                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-xpath"
+            }
+        }
+    ]
+}
