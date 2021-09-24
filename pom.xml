@@ -147,7 +147,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>2.4.2</cq-plugin.version>
+        <cq-plugin.version>2.5.1</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.11.0</formatter-maven-plugin.version>
@@ -450,6 +450,8 @@
                     <version>${cq-plugin.version}</version>
                     <configuration>
                         <jenkinsfileStageTemplate>${maven.multiModuleProjectDirectory}/product/jenkinsfile-stage-template.txt</jenkinsfileStageTemplate>
+                        <requiredProductizedCamelArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/required-productized-camel-artifacts.txt</requiredProductizedCamelArtifacts>
+                        <productizedCamelQuarkusArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/productized-camel-quarkus-artifacts.txt</productizedCamelQuarkusArtifacts>
                         <simpleElementWhitespace>SPACE</simpleElementWhitespace>
                         <integrationTests>
                             <integrationTest>
