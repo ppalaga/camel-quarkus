@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>3.11.1</version>
+        <version>3.11.1.fuse-800009-redhat-00001</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -39,7 +39,8 @@
     <properties>
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>3.11</camel.major.minor> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.1</camel.version>
+        <camel-community.version>${camel.major.minor}.1</camel-community.version>
+        <camel.version>3.11.1.fuse-800009-redhat-00001</camel.version>
         <camel.docs.components.xref>${camel.major.minor}.x@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable branch on which our Antora docs depends -->
 
@@ -147,7 +148,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>2.5.2</cq-plugin.version>
+        <cq-plugin.version>2.6.0</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.11.0</formatter-maven-plugin.version>
