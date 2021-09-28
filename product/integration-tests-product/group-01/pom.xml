@@ -33,7 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 01</name>
 
     <modules>
-        <module>../../../extensions-jvm/java-joor-dsl/integration-test</module>
+        <module>../../../integration-test-groups/aws2-quarkus-client/aws2-ddb</module>
         <module>../../../integration-test-groups/aws2/aws2-ddb</module>
         <module>../../../integration-test-groups/aws2/aws2-kinesis</module>
         <module>../../../integration-test-groups/aws2/aws2-lambda</module>
@@ -54,6 +54,7 @@
         <module>../../../integration-test-groups/foundation/seda</module>
         <module>../../../integration-test-groups/foundation/timer</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
+        <module>../../../integration-tests-jvm/java-joor-dsl</module>
         <module>../../../integration-tests/avro</module>
         <module>../../../integration-tests/bindy</module>
         <module>../../../integration-tests/cassandraql</module>
@@ -62,6 +63,5 @@
         <module>../../../integration-tests/ftp</module>
         <module>../../../integration-tests/hl7</module>
         <module>../../../integration-tests/jackson-avro</module>
-        <module>../../../integration-tests/jackson-protobuf</module>
     </modules>
 </project>
