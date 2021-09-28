@@ -79,6 +79,7 @@ camel-quarkus-http-deployment
 camel-quarkus-http-parent
 camel-quarkus-integration-test-avro
 camel-quarkus-integration-test-aws2-ddb
+camel-quarkus-integration-test-aws2-ddb-quarkus-client
 camel-quarkus-integration-test-aws2-kinesis
 camel-quarkus-integration-test-aws2-lambda
 camel-quarkus-integration-test-aws2-s3
@@ -102,6 +103,7 @@ camel-quarkus-integration-test-groups
 camel-quarkus-integration-test-hl7
 camel-quarkus-integration-test-jackson-avro
 camel-quarkus-integration-test-jackson-protobuf
+camel-quarkus-integration-test-java-joor-dsl
 camel-quarkus-integration-test-jaxb
 camel-quarkus-integration-test-jira
 camel-quarkus-integration-test-jsonpath
@@ -140,8 +142,10 @@ camel-quarkus-integration-test-timer
 camel-quarkus-integration-test-xpath
 camel-quarkus-integration-tests
 camel-quarkus-integration-tests-aws2
+camel-quarkus-integration-tests-aws2-quarkus-client
 camel-quarkus-integration-tests-azure
 camel-quarkus-integration-tests-foundation
+camel-quarkus-integration-tests-jvm
 camel-quarkus-integration-tests-mongodb
 camel-quarkus-integration-tests-process-executor-support
 camel-quarkus-integration-tests-support
@@ -164,7 +168,6 @@ camel-quarkus-jacksonxml-deployment
 camel-quarkus-jacksonxml-parent
 camel-quarkus-java-joor-dsl
 camel-quarkus-java-joor-dsl-deployment
-camel-quarkus-java-joor-dsl-integration-test
 camel-quarkus-java-joor-dsl-parent
 camel-quarkus-jaxb
 camel-quarkus-jaxb-deployment

@@ -37,6 +37,15 @@
     <inceptionYear>2019</inceptionYear>
 
     <properties>
+        <!-- This property is kept in sync with project.version by the release plugin -->
+        <!-- Do not change to project.version because otherwise the end user apps having our BOM as parent (rather than importing it) will stop working -->
+        <camel-quarkus.version>2.2.0-SNAPSHOT</camel-quarkus.version>
+
+        <!-- Allow running our tests against alternative BOMs, such as io.quarkus.platform:quarkus-camel-bom https://repo1.maven.org/maven2/io/quarkus/platform/quarkus-camel-bom/ -->
+        <quarkus.platform.group-id>org.apache.camel.quarkus</quarkus.platform.group-id>
+        <quarkus.platform.artifact-id>camel-quarkus-bom</quarkus.platform.artifact-id>
+        <quarkus.platform.version>${camel-quarkus.version}</quarkus.platform.version>
+
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>3.11</camel.major.minor> <!-- run after each change: cd docs && mvnd validate -->
         <camel-community.version>${camel.major.minor}.1</camel-community.version>
@@ -148,7 +157,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>2.6.0</cq-plugin.version>
+        <cq-plugin.version>2.7.1</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.11.0</formatter-maven-plugin.version>
@@ -213,6 +222,7 @@
         <!-- <module>integration-tests</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>integration-test-groups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>product</module>
+        <!-- <module>integration-tests-jvm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
     <developers>
@@ -458,8 +468,8 @@
                             <integrationTest>
                                 <basedir>${maven.multiModuleProjectDirectory}</basedir>
                                 <includes>
-                                    <include>extensions-jvm/*/integration-test/pom.xml</include>
                                     <include>integration-tests/*/pom.xml</include>
+                                    <include>integration-tests-jvm/*/pom.xml</include>
                                     <include>integration-test-groups/*/*/pom.xml</include>
                                 </includes>
                                 <excludes>
@@ -833,7 +843,6 @@
                                         <updateVirtualDependency>
                                             <basedir>${project.basedir}</basedir>
                                             <includes>
-                                                <include>extensions-jvm/*/integration-test/pom.xml</include>
                                                 <include>integration-tests/*/pom.xml</include>
                                                 <include>integration-test-groups/*/*/pom.xml</include>
                                             </includes>
