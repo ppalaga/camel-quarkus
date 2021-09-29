@@ -5,6 +5,9 @@ camel-quarkus-attachments-parent
 camel-quarkus-avro
 camel-quarkus-avro-deployment
 camel-quarkus-avro-parent
+camel-quarkus-aws2-cw
+camel-quarkus-aws2-cw-deployment
+camel-quarkus-aws2-cw-parent
 camel-quarkus-aws2-ddb
 camel-quarkus-aws2-ddb-deployment
 camel-quarkus-aws2-ddb-parent
@@ -78,6 +81,7 @@ camel-quarkus-http-common-parent
 camel-quarkus-http-deployment
 camel-quarkus-http-parent
 camel-quarkus-integration-test-avro
+camel-quarkus-integration-test-aws2-cw
 camel-quarkus-integration-test-aws2-ddb
 camel-quarkus-integration-test-aws2-ddb-quarkus-client
 camel-quarkus-integration-test-aws2-kinesis
@@ -133,6 +137,7 @@ camel-quarkus-integration-test-rest
 camel-quarkus-integration-test-salesforce
 camel-quarkus-integration-test-saxon
 camel-quarkus-integration-test-seda
+camel-quarkus-integration-test-slack
 camel-quarkus-integration-test-soap
 camel-quarkus-integration-test-sql
 camel-quarkus-integration-test-support
@@ -237,6 +242,9 @@ camel-quarkus-saxon-parent
 camel-quarkus-seda
 camel-quarkus-seda-deployment
 camel-quarkus-seda-parent
+camel-quarkus-slack
+camel-quarkus-slack-deployment
+camel-quarkus-slack-parent
 camel-quarkus-soap
 camel-quarkus-soap-deployment
 camel-quarkus-soap-parent

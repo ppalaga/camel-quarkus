@@ -33,20 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 04</name>
 
     <modules>
-        <module>../../../integration-tests/kudu</module>
-        <module>../../../integration-tests/leveldb</module>
-        <module>../../../integration-tests/lra</module>
-        <module>../../../integration-tests/lumberjack</module>
-        <module>../../../integration-tests/mail</module>
-        <module>../../../integration-tests/main</module>
-        <module>../../../integration-tests/main-caffeine-lrucache</module>
-        <module>../../../integration-tests/main-collector</module>
-        <module>../../../integration-tests/main-xml-jaxb</module>
-        <module>../../../integration-tests/micrometer</module>
-        <module>../../../integration-tests/minio</module>
-        <module>../../../integration-tests/msv</module>
-        <module>../../../integration-tests/mustache</module>
-        <module>../../../integration-tests/nagios</module>
         <module>../../../integration-tests/nats</module>
         <module>../../../integration-tests/nitrite</module>
         <module>../../../integration-tests/nsq</module>
@@ -56,5 +42,23 @@
         <module>../../../integration-tests/opentelemetry</module>
         <module>../../../integration-tests/opentracing</module>
         <module>../../../integration-tests/optaplanner</module>
+        <module>../../../integration-tests/paho</module>
+        <module>../../../integration-tests/paho-mqtt5</module>
+        <module>../../../integration-tests/pdf</module>
+        <module>../../../integration-tests/pg-replication-slot</module>
+        <module>../../../integration-tests/pgevent</module>
+        <module>../../../integration-tests/protobuf</module>
+        <module>../../../integration-tests/pubnub</module>
+        <module>../../../integration-tests/qute</module>
+        <module>../../../integration-tests/rabbitmq</module>
+        <module>../../../integration-tests/reactive-streams</module>
+        <module>../../../integration-tests/rest-openapi</module>
+        <module>../../../integration-tests/saga</module>
+        <module>../../../integration-tests/sap-netweaver</module>
+        <module>../../../integration-tests/servicenow</module>
+        <module>../../../integration-tests/servlet</module>
+        <module>../../../integration-tests/shiro</module>
+        <module>../../../integration-tests/sjms-artemis-client</module>
+        <module>../../../integration-tests/sjms-qpid-amqp-client</module>
     </modules>
 </project>

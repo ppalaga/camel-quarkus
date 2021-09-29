@@ -59,6 +59,7 @@
         <module>../../../integration-tests/rest</module>
         <module>../../../integration-tests/salesforce</module>
         <module>../../../integration-tests/saxon</module>
+        <module>../../../integration-tests/slack</module>
         <module>../../../integration-tests/soap</module>
         <module>../../../integration-tests/sql</module>
         <module>../../../integration-tests/telegram</module>
