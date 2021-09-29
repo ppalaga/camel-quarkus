@@ -46,7 +46,7 @@
         <module>avro</module>
         <!-- <module>avro-rpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>aws2-athena</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>aws2-cw</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>aws2-cw</module>
         <module>aws2-ddb</module>
         <!-- <module>aws2-ec2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>aws2-ecs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -210,7 +210,7 @@
         <!-- <module>shiro</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>sjms2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>sjms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>slack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>slack</module>
         <!-- <module>smallrye-reactive-messaging</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>snakeyaml</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>soap</module>

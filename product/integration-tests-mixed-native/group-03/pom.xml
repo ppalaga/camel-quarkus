@@ -33,16 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/google</module>
-        <module>../../../integration-tests/google-bigquery</module>
-        <module>../../../integration-tests/google-pubsub</module>
-        <module>../../../integration-tests/google-storage</module>
-        <module>../../../integration-tests/graphql</module>
-        <module>../../../integration-tests/grok</module>
-        <module>../../../integration-tests/grpc</module>
-        <module>../../../integration-tests/hazelcast</module>
-        <module>../../../integration-tests/headersmap</module>
-        <module>../../../integration-tests/hystrix</module>
         <module>../../../integration-tests/infinispan</module>
         <module>../../../integration-tests/influxdb</module>
         <module>../../../integration-tests/ipfs</module>
@@ -56,5 +46,19 @@
         <module>../../../integration-tests/json-validator</module>
         <module>../../../integration-tests/jsonata</module>
         <module>../../../integration-tests/kotlin</module>
+        <module>../../../integration-tests/kudu</module>
+        <module>../../../integration-tests/leveldb</module>
+        <module>../../../integration-tests/lra</module>
+        <module>../../../integration-tests/lumberjack</module>
+        <module>../../../integration-tests/mail</module>
+        <module>../../../integration-tests/main</module>
+        <module>../../../integration-tests/main-caffeine-lrucache</module>
+        <module>../../../integration-tests/main-collector</module>
+        <module>../../../integration-tests/main-xml-jaxb</module>
+        <module>../../../integration-tests/micrometer</module>
+        <module>../../../integration-tests/minio</module>
+        <module>../../../integration-tests/msv</module>
+        <module>../../../integration-tests/mustache</module>
+        <module>../../../integration-tests/nagios</module>
     </modules>
 </project>

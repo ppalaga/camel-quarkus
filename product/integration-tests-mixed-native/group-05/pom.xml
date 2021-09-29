@@ -33,28 +33,32 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 05</name>
 
     <modules>
-        <module>../../../integration-tests/paho</module>
-        <module>../../../integration-tests/paho-mqtt5</module>
-        <module>../../../integration-tests/pdf</module>
-        <module>../../../integration-tests/pg-replication-slot</module>
-        <module>../../../integration-tests/pgevent</module>
-        <module>../../../integration-tests/protobuf</module>
-        <module>../../../integration-tests/pubnub</module>
-        <module>../../../integration-tests/qute</module>
-        <module>../../../integration-tests/rabbitmq</module>
-        <module>../../../integration-tests/reactive-streams</module>
-        <module>../../../integration-tests/rest-openapi</module>
-        <module>../../../integration-tests/saga</module>
-        <module>../../../integration-tests/sap-netweaver</module>
-        <module>../../../integration-tests/servicenow</module>
-        <module>../../../integration-tests/servlet</module>
-        <module>../../../integration-tests/shiro</module>
-        <module>../../../integration-tests/sjms-artemis-client</module>
-        <module>../../../integration-tests/sjms-qpid-amqp-client</module>
         <module>../../../integration-tests/sjms2-artemis-client</module>
         <module>../../../integration-tests/sjms2-qpid-amqp-client</module>
-        <module>../../../integration-tests/slack</module>
         <module>../../../integration-tests/smallrye-reactive-messaging</module>
         <module>../../../integration-tests/solr</module>
+        <module>../../../integration-tests/splunk</module>
+        <module>../../../integration-tests/spring-rabbitmq</module>
+        <module>../../../integration-tests/ssh</module>
+        <module>../../../integration-tests/stax</module>
+        <module>../../../integration-tests/stringtemplate</module>
+        <module>../../../integration-tests/syndication</module>
+        <module>../../../integration-tests/syslog</module>
+        <module>../../../integration-tests/tarfile</module>
+        <module>../../../integration-tests/tika</module>
+        <module>../../../integration-tests/twilio</module>
+        <module>../../../integration-tests/twitter</module>
+        <module>../../../integration-tests/univocity-parsers</module>
+        <module>../../../integration-tests/validator</module>
+        <module>../../../integration-tests/velocity</module>
+        <module>../../../integration-tests/vertx</module>
+        <module>../../../integration-tests/vertx-kafka</module>
+        <module>../../../integration-tests/vertx-websocket</module>
+        <module>../../../integration-tests/weather</module>
+        <module>../../../integration-tests/xchange</module>
+        <module>../../../integration-tests/xml</module>
+        <module>../../../integration-tests/xmlsecurity</module>
+        <module>../../../integration-tests/xstream</module>
+        <module>../../../integration-tests/zendesk</module>
     </modules>
 </project>

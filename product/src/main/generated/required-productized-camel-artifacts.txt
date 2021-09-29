@@ -1,5 +1,6 @@
 camel-attachments
 camel-avro
+camel-aws2-cw
 camel-aws2-ddb
 camel-aws2-kinesis
 camel-aws2-lambda
@@ -57,6 +58,7 @@ camel-rest
 camel-salesforce
 camel-saxon
 camel-seda
+camel-slack
 camel-soap
 camel-sql
 camel-telegram

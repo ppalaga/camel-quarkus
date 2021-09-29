@@ -41,7 +41,6 @@
                 <module>group-03</module>
                 <module>group-04</module>
                 <module>group-05</module>
-                <module>group-06</module>
             </modules>
         </profile>
     </profiles>
