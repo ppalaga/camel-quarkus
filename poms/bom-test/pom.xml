@@ -32,10 +32,6 @@
 
     <name>Camel Quarkus :: Test BOM</name>
 
-    <properties>
-        <camel-quarkus.version>2.2.0-SNAPSHOT</camel-quarkus.version><!-- kept in sync with camel-quarkus.version by the release plugin -->
-    </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
