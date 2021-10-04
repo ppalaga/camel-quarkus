@@ -34,6 +34,7 @@
 
     <modules>
         <module>../../../integration-test-groups/aws2-quarkus-client/aws2-ddb</module>
+        <module>../../../integration-test-groups/aws2-quarkus-client/aws2-s3</module>
         <module>../../../integration-test-groups/aws2/aws2-cw</module>
         <module>../../../integration-test-groups/aws2/aws2-ddb</module>
         <module>../../../integration-test-groups/aws2/aws2-kinesis</module>
