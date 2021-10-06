@@ -60,8 +60,8 @@
         <module>atlasmap</module>
         <module>avro</module>
         <module>avro-rpc</module>
-        <module>aws2-grouped</module>
         <module>aws2</module>
+        <module>aws2-grouped</module>
         <module>aws2-quarkus-client-grouped</module>
         <module>azure-grouped</module>
         <module>base64</module>
@@ -96,10 +96,10 @@
         <module>geocoder</module>
         <module>git</module>
         <module>github</module>
+        <module>google</module>
         <module>google-bigquery</module>
         <module>google-pubsub</module>
         <module>google-storage</module>
-        <module>google</module>
         <module>graphql</module>
         <module>grok</module>
         <module>grpc</module>
@@ -161,8 +161,8 @@
         <module>opentelemetry</module>
         <module>opentracing</module>
         <module>optaplanner</module>
-        <module>paho-mqtt5</module>
         <module>paho</module>
+        <module>paho-mqtt5</module>
         <module>pdf</module>
         <module>pg-replication-slot</module>
         <module>pgevent</module>
@@ -207,9 +207,9 @@
         <module>univocity-parsers</module>
         <module>validator</module>
         <module>velocity</module>
+        <module>vertx</module>
         <module>vertx-kafka</module>
         <module>vertx-websocket</module>
-        <module>vertx</module>
         <module>weather</module>
         <module>xchange</module>
         <module>xml</module>
