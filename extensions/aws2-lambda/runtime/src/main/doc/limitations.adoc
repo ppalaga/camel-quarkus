@@ -1,0 +1,24 @@
+The `getAlias` and `listAliases` operations need to be used with `pojoRequest` in order to work.
+It implies that the request for those operations should be explicitly constructed by hand as shown below.
+
+Example of creating a `getAlias` request by hand:
+[source,java]
+----
+.process(new Processor() {
+   public void process(Exchange exchange) {
+    GetAliasRequest getAliasRequest = GetAliasRequest.builder().functionName(functionName).name(aliasName).build();
+    exchange.getIn().setBody(getAliasRequest);
+  }})
+.to("aws2-lambda:functionName?operation=getAlias&pojoRequest=true");
+----
+
+Example of creating a `listAliases` request by hand:
+[source,java]
+----
+.process(new Processor() {
+   public void process(Exchange exchange) {
+    ListAliasesRequest listAliasesRequest = ListAliasesRequest.builder().functionName(functionName).build();
+    exchange.getIn().setBody(listAliasesRequest);
+  }})
+.to("aws2-lambda:functionName?operation=listAliases&pojoRequest=true");
+----
