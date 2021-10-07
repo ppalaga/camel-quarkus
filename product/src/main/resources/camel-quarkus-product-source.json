@@ -276,9 +276,9 @@
             "comment": ""
         },
         "camel-quarkus-support-webhook": {
-            "jvm": "supported",
-            "native": "techPreview",
-            "comment": ""
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
         },
         "camel-quarkus-telegram": {
             "jvm": "community",
