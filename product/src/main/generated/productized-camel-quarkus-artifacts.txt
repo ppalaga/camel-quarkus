@@ -71,6 +71,9 @@ camel-quarkus-file-parent
 camel-quarkus-ftp
 camel-quarkus-ftp-deployment
 camel-quarkus-ftp-parent
+camel-quarkus-gson
+camel-quarkus-gson-deployment
+camel-quarkus-gson-parent
 camel-quarkus-hl7
 camel-quarkus-hl7-deployment
 camel-quarkus-hl7-parent

@@ -106,6 +106,14 @@
             "native": "techPreview",
             "comment": ""
         },
+        "camel-quarkus-gson": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-dataformats-json"
+            ]
+        },
         "camel-quarkus-hl7": {
             "jvm": "supported",
             "native": "techPreview",

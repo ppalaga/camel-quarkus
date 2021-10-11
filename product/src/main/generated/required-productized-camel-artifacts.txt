@@ -26,6 +26,7 @@ camel-elasticsearch-rest
 camel-endpointdsl
 camel-file
 camel-ftp
+camel-gson
 camel-hl7
 camel-http
 camel-http-common
