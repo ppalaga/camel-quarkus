@@ -101,6 +101,11 @@
             "native": "techPreview",
             "comment": ""
         },
+        "camel-quarkus-gson": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
         "camel-quarkus-hl7": {
             "jvm": "supported",
             "native": "techPreview",

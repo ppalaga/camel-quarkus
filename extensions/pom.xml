@@ -116,7 +116,7 @@
         <!-- <module>graphql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>grok</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>grpc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>gson</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>gson</module>
         <!-- <module>hazelcast</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>headersmap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>hl7</module>
