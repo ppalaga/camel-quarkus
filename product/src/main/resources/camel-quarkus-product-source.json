@@ -28,7 +28,12 @@
         "camel-quarkus-aws2-s3": {
             "jvm": "techPreview",
             "native": "techPreview",
-            "comment": ""
+            "comment": "camel-quarkus-integration-test-aws2-s3 requires not productized kms",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-aws2-s3",
+                "camel-quarkus-integration-test-aws2-s3-quarkus-client"
+
+            ]
         },
         "camel-quarkus-aws2-sns": {
             "jvm": "techPreview",
