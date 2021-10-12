@@ -36,6 +36,10 @@
             <artifactId>camel-quarkus-aws2-s3</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.apache.camel.quarkus</groupId>
+            <artifactId>camel-quarkus-aws2-kms</artifactId>
+        </dependency>
+        <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-amazon-s3</artifactId>
         </dependency>

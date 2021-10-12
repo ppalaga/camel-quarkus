@@ -33,6 +33,8 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Allowed :: Group 01</name>
 
     <modules>
+        <module>../../../integration-test-groups/aws2-quarkus-client/aws2-s3</module>
+        <module>../../../integration-test-groups/aws2/aws2-s3</module>
         <module>../../../integration-tests/dataformats-json</module>
         <module>../../../integration-tests/file</module>
         <module>../../../integration-tests/http</module>
