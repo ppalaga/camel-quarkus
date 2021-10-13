@@ -26,6 +26,7 @@ Run the following from the root directory of the source tree:
 [source,shell]
 ----
 $ mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N
+$ mvn clean install -Dquickly
 ----
 
 and commit the changes.
