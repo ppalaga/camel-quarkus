@@ -370,6 +370,7 @@
         "camel-quarkus-test-list"
     ],
     "versionTransformations": {
+        "grpc-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "kafka.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "mvel2.version": "${version?replace('[\\\\.\\\\-]redhat-.*$', '', 'r')}",
         "smallrye.reactive.messaging.camel.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}"
