@@ -46,6 +46,7 @@ public class Aws2DdbStreamRoutes extends RouteBuilder {
         from("aws2-ddbstream://" + streamTableName
                 + "?sequenceNumberProvider=#aws2DdbStreamSequenceNumberProvider&iteratorType=AT_SEQUENCE_NUMBER")
                         .id("aws2DdbStreamRoute")
+                        .autoStartup(false)
                         .process(e -> {
                             Record record = e.getMessage().getBody(Record.class);
                             StreamRecord item = record.dynamodb();
