@@ -89,8 +89,8 @@ camel-quarkus-integration-test-aws2-ddb
 camel-quarkus-integration-test-aws2-ddb-quarkus-client
 camel-quarkus-integration-test-aws2-kinesis
 camel-quarkus-integration-test-aws2-lambda
-camel-quarkus-integration-test-aws2-ses-quarkus-client
 camel-quarkus-integration-test-aws2-sqs-sns
+camel-quarkus-integration-test-aws2-sqs-sns-quarkus-client
 camel-quarkus-integration-test-azure-storage-blob
 camel-quarkus-integration-test-azure-storage-queue
 camel-quarkus-integration-test-bean
