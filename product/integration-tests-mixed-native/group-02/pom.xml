@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
+        <module>../../../integration-tests/couchdb</module>
         <module>../../../integration-tests/crypto</module>
         <module>../../../integration-tests/csimple</module>
         <module>../../../integration-tests/csv</module>

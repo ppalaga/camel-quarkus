@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 01</name>
 
     <modules>
+        <module>../../../integration-test-groups/aws2-quarkus-client/aws2-ses</module>
         <module>../../../integration-test-groups/aws2/aws2-ses</module>
         <module>../../../integration-test-groups/azure/azure-eventhubs</module>
         <module>../../../integration-test-groups/foundation/browse</module>
@@ -60,6 +61,5 @@
         <module>../../../integration-tests/cbor</module>
         <module>../../../integration-tests/compression</module>
         <module>../../../integration-tests/consul</module>
-        <module>../../../integration-tests/couchdb</module>
     </modules>
 </project>
