@@ -157,6 +157,7 @@ camel-quarkus-integration-tests-jvm
 camel-quarkus-integration-tests-mongodb
 camel-quarkus-integration-tests-process-executor-support
 camel-quarkus-integration-tests-support
+camel-quarkus-integration-tests-support-activemq
 camel-quarkus-integration-tests-support-aws2
 camel-quarkus-integration-tests-support-azure
 camel-quarkus-integration-tests-support-kafka

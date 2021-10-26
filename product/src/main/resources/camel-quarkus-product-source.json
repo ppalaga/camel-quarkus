@@ -320,6 +320,7 @@
         }
     },
     "additionalProductizedArtifacts": [
-        "camel-quarkus-catalog"
+        "camel-quarkus-catalog",
+        "camel-quarkus-integration-tests-support-activemq"
     ]
 }
