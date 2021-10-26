@@ -36,7 +36,7 @@
     </description>
 
     <modules>
-        <!-- <module>activemq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>activemq</module>
         <module>aws2</module>
         <module>azure</module>
         <!-- <module>custom-dataformat</module> disabled by cq-prod-maven-plugin:prod-excludes -->
