@@ -11,22 +11,22 @@
             "comment": "Required by Camel K"
         },
         "camel-quarkus-aws2-ddb": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": ""
         },
         "camel-quarkus-aws2-kinesis": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": ""
         },
         "camel-quarkus-aws2-lambda": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": ""
         },
         "camel-quarkus-aws2-s3": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": "camel-quarkus-integration-test-aws2-s3 requires not productized kms",
             "allowedMixedTests": [
@@ -36,7 +36,7 @@
             ]
         },
         "camel-quarkus-aws2-sns": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": ""
         },
@@ -161,7 +161,7 @@
             "comment": ""
         },
         "camel-quarkus-jms": {
-            "jvm": "techPreview",
+            "jvm": "supported",
             "native": "techPreview",
             "comment": "",
             "allowedMixedTests": [
