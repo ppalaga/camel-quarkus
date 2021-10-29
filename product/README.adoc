@@ -31,6 +31,9 @@ $ mvn clean install -Dquickly
 
 and commit the changes.
 
+If `product/src/main/generated/required-productized-camel-artifacts.txt` was changed
+it needs to get copied to the corresponding Camel branch - the `product/README.adoc` in Camel.
+
 Note that the consistency of the source tree with `camel-quarkus-product-source.json` is checked by
 the `cq-prod-maven-plugin:prod-excludes-check` mojo bound to `validate` phase of the build.
 
