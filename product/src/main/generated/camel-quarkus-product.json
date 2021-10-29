@@ -15,7 +15,7 @@
             "artifact-id": "camel-quarkus-aws2-ddb",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-ddb"
             }
@@ -25,7 +25,7 @@
             "artifact-id": "camel-quarkus-aws2-kinesis",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-kinesis"
             }
@@ -35,7 +35,7 @@
             "artifact-id": "camel-quarkus-aws2-lambda",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-lambda"
             }
@@ -45,7 +45,7 @@
             "artifact-id": "camel-quarkus-aws2-s3",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-s3"
             }
@@ -55,7 +55,7 @@
             "artifact-id": "camel-quarkus-aws2-sns",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-sns"
             }
@@ -215,7 +215,7 @@
             "artifact-id": "camel-quarkus-jms",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported-in-jvm"
                 ],
                 "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jms"
             }
