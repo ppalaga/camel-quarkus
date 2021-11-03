@@ -303,6 +303,7 @@ camel-quarkus-support-xstream-parent
 camel-quarkus-telegram
 camel-quarkus-telegram-deployment
 camel-quarkus-telegram-parent
+camel-quarkus-test-list
 camel-quarkus-timer
 camel-quarkus-timer-deployment
 camel-quarkus-timer-parent

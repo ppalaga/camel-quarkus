@@ -321,6 +321,7 @@
     },
     "additionalProductizedArtifacts": [
         "camel-quarkus-catalog",
-        "camel-quarkus-integration-tests-support-activemq"
+        "camel-quarkus-integration-tests-support-activemq",
+        "camel-quarkus-test-list"
     ]
 }
