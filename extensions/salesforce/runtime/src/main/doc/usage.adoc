@@ -1,5 +1,10 @@
 === Generating Salesforce DTOs with the `salesforce-maven-plugin`
 
+[NOTE]
+====
+The `camel-salesforce-maven-plugin` is only covered by community support.
+====
+
 To generate Salesforce DTOs for your project, use the `salesforce-maven-plugin`. The example code snippet below creates a single DTO for the `Account` object.
 
 [source,xml,subs="attributes+"]
