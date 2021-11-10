@@ -5646,11 +5646,6 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
-                <artifactId>camel-quarkus-xstream-common-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-xstream-deployment</artifactId>
                 <version>${camel-quarkus-community.version}</version>
             </dependency>
