@@ -51,7 +51,7 @@ class MllpTest {
                 .body("invalidMessage")
                 .post("/mllp/send/invalid")
                 .then()
-                .statusCode(500);
+                .statusCode(204);
     }
 
     @Test
