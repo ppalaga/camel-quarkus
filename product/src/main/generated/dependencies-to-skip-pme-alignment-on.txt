@@ -1,0 +1,6 @@
+# file format : groupId:artifactId
+# accept groupId:* as wildcard for all artifactId within groupId
+com.google.protobuf:* 
+org.eclipse.jetty:* 
+jakarta.activation:* 
+jakarta.xml.bind:*
