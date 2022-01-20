@@ -88,6 +88,9 @@
         <hapi.version>${hapi-version}</hapi.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
         <hbase.version>${hbase-version}</hbase.version>
+        <!-- micrometer.version has to be before hdrhistogram.version because hdrhistogram.version depends on micrometer.version -->
+        <micrometer.version>1.7.3.redhat-00001</micrometer.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.micrometer:micrometer-core -->
+        <hdrhistogram.version>2.1.12.redhat-00001</hdrhistogram.version><!-- @sync io.micrometer:micrometer-core:${micrometer.version} dep:org.hdrhistogram:HdrHistogram -->
         <htrace.version>4.2.0-incubating</htrace.version><!-- Mess in hbase transitive deps -->
         <influxdb.version>${influx-java-driver-version}</influxdb.version>
         <jackson-asl.version>1.9.13</jackson-asl.version><!-- Mess in the transitive dependencies of spark and hbase-testing-util -->
