@@ -6116,6 +6116,11 @@
                 <version>${stax2.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.hdrhistogram</groupId>
+                <artifactId>HdrHistogram</artifactId>
+                <version>${hdrhistogram.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js</artifactId>
                 <version>${graalvm-community.version}</version>
