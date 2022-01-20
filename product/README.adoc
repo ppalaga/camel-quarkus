@@ -27,6 +27,7 @@ Run the following from the root directory of the source tree:
 ----
 $ mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N
 $ mvn clean install -Dquickly
+$ mvn org.l2x6.cq:cq-prod-maven-plugin:transitive-deps -N
 ----
 
 and commit the changes.
@@ -36,6 +37,8 @@ it needs to get copied to the corresponding Camel branch - the `product/README.a
 
 Note that the consistency of the source tree with `camel-quarkus-product-source.json` is checked by
 the `cq-prod-maven-plugin:prod-excludes-check` mojo bound to `validate` phase of the build.
+
+The `transitive-deps` mojo needs to be run after `install` because it relies on Camel Quarkus artifacts and all their transitive dependencies being available in the local Maven repo at least.
 
 === The modified source tree
 
