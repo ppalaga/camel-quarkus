@@ -1,4 +1,12 @@
 ca.uhn.hapi:hapi-base
+ca.uhn.hapi:hapi-structures-v21
+ca.uhn.hapi:hapi-structures-v22
+ca.uhn.hapi:hapi-structures-v23
+ca.uhn.hapi:hapi-structures-v231
+ca.uhn.hapi:hapi-structures-v24
+ca.uhn.hapi:hapi-structures-v25
+ca.uhn.hapi:hapi-structures-v251
+ca.uhn.hapi:hapi-structures-v26
 com.atlassian.event:atlassian-event
 com.atlassian.httpclient:atlassian-httpclient-api
 com.atlassian.httpclient:atlassian-httpclient-library
@@ -341,9 +349,11 @@ org.apache.camel:camel-base-engine
 org.apache.camel:camel-bean
 org.apache.camel:camel-bindy
 org.apache.camel:camel-cassandraql
+org.apache.camel:camel-catalog
 org.apache.camel:camel-cloud
 org.apache.camel:camel-cluster
 org.apache.camel:camel-componentdsl
+org.apache.camel:camel-core
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -414,6 +424,7 @@ org.apache.camel:camel-xpath
 org.apache.camel:camel-yaml-dsl
 org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
+org.apache.camel:spi-annotations
 org.apache.camel.quarkus:camel-quarkus-attachments
 org.apache.camel.quarkus:camel-quarkus-attachments-deployment
 org.apache.camel.quarkus:camel-quarkus-avro
@@ -575,7 +586,13 @@ org.apache.httpcomponents:httpcore
 org.apache.httpcomponents:httpcore-nio
 org.apache.httpcomponents:httpmime
 org.apache.kafka:kafka-clients
+org.apache.logging.log4j:log4j-1.2-api
 org.apache.logging.log4j:log4j-api
+org.apache.logging.log4j:log4j-core
+org.apache.logging.log4j:log4j-jcl
+org.apache.logging.log4j:log4j-jul
+org.apache.logging.log4j:log4j-slf4j-impl
+org.apache.logging.log4j:log4j-web
 org.apache.lucene:lucene-core
 org.apache.lucene:lucene-highlighter
 org.apache.lucene:lucene-join

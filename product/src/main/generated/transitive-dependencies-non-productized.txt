@@ -518,6 +518,7 @@ org.acplt.remotetea:remotetea-oncrpc
 org.amqphub.quarkus:quarkus-qpid-jms
 org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.antlr:ST4
+org.antlr:antlr
 org.antlr:antlr-runtime
 org.antlr:antlr4-runtime
 org.apache.abdera:abdera-core
@@ -1457,6 +1458,7 @@ org.apache.kerby:kerby-pkix
 org.apache.kerby:kerby-util
 org.apache.kerby:kerby-xdr
 org.apache.kerby:token-provider
+org.apache.kudu:kudu-client
 org.apache.lucene:lucene-analyzers-common
 org.apache.lucene:lucene-queryparser
 org.apache.lucene:lucene-sandbox

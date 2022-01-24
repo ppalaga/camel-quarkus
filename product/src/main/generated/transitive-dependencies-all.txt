@@ -6,6 +6,14 @@ ai.djl.tensorflow:tensorflow-native-auto
 antlr:antlr
 backport-util-concurrent:backport-util-concurrent
 ca.uhn.hapi:hapi-base
+ca.uhn.hapi:hapi-structures-v21
+ca.uhn.hapi:hapi-structures-v22
+ca.uhn.hapi:hapi-structures-v23
+ca.uhn.hapi:hapi-structures-v231
+ca.uhn.hapi:hapi-structures-v24
+ca.uhn.hapi:hapi-structures-v25
+ca.uhn.hapi:hapi-structures-v251
+ca.uhn.hapi:hapi-structures-v26
 ca.uhn.hapi.fhir:hapi-fhir-base
 ca.uhn.hapi.fhir:hapi-fhir-client
 ca.uhn.hapi.fhir:hapi-fhir-server
@@ -842,6 +850,7 @@ org.aesh:readline
 org.amqphub.quarkus:quarkus-qpid-jms
 org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.antlr:ST4
+org.antlr:antlr
 org.antlr:antlr-runtime
 org.antlr:antlr4-runtime
 org.apache.abdera:abdera-core
@@ -926,6 +935,7 @@ org.apache.camel:camel-browse
 org.apache.camel:camel-caffeine
 org.apache.camel:camel-caffeine-lrucache
 org.apache.camel:camel-cassandraql
+org.apache.camel:camel-catalog
 org.apache.camel:camel-cbor
 org.apache.camel:camel-chatscript
 org.apache.camel:camel-chunk
@@ -939,6 +949,7 @@ org.apache.camel:camel-componentdsl
 org.apache.camel:camel-consul
 org.apache.camel:camel-controlbus
 org.apache.camel:camel-corda
+org.apache.camel:camel-core
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -1212,6 +1223,7 @@ org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
+org.apache.camel:spi-annotations
 org.apache.camel.quarkus:camel-quarkus-activemq
 org.apache.camel.quarkus:camel-quarkus-activemq-deployment
 org.apache.camel.quarkus:camel-quarkus-ahc
@@ -2034,7 +2046,14 @@ org.apache.kerby:kerby-pkix
 org.apache.kerby:kerby-util
 org.apache.kerby:kerby-xdr
 org.apache.kerby:token-provider
+org.apache.kudu:kudu-client
+org.apache.logging.log4j:log4j-1.2-api
 org.apache.logging.log4j:log4j-api
+org.apache.logging.log4j:log4j-core
+org.apache.logging.log4j:log4j-jcl
+org.apache.logging.log4j:log4j-jul
+org.apache.logging.log4j:log4j-slf4j-impl
+org.apache.logging.log4j:log4j-web
 org.apache.lucene:lucene-analyzers-common
 org.apache.lucene:lucene-core
 org.apache.lucene:lucene-highlighter
