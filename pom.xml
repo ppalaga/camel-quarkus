@@ -51,7 +51,7 @@
         <optaplanner.version>8.9.1.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
         <quarkiverse.freemarker.version>0.3.0</quarkiverse.freemarker.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/freemarker/quarkus-freemarker-parent/ -->
         <quarkiverse-minio.version>2.0.0</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
-        <quarkus.version>2.2.5.Final-redhat-00004</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus.version>2.2.5.Final-redhat-00005</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
         <quarkus-community.version>2.2.2.Final</quarkus-community.version>
         <quarkus-google-cloud.version>0.10.0</quarkus-google-cloud.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/googlecloudservices/quarkus-google-cloud-services-bom/ -->
         <quarkus-hazelcast-client.version>2.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
@@ -79,7 +79,7 @@
         <fommil.netlib.core.version>1.1.2</fommil.netlib.core.version><!-- Mess in Weka transitive deps -->
         <github-api.version>1.111</github-api.version><!-- Used in a Groovy script bellow -->
         <guava.version>29.0-jre</guava.version>
-        <graalvm.version>21.2.0.1-0-redhat-00002</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.nativeimage:svm -->
+        <graalvm.version>21.3.1.0-0-redhat-00001</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.nativeimage:svm -->
         <graalvm-community.version>21.2.0</graalvm-community.version><!-- keep in sync with graalvm.version -->
         <grpc.version>1.41.2.redhat-00001</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <grpc-community.version>1.38.1</grpc-community.version><!-- workaround https://github.com/apache/camel-quarkus/issues/3190 -->
@@ -89,7 +89,7 @@
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
         <hbase.version>${hbase-version}</hbase.version>
         <!-- micrometer.version has to be before hdrhistogram.version because hdrhistogram.version depends on micrometer.version -->
-        <micrometer.version>1.7.3.redhat-00001</micrometer.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.micrometer:micrometer-core -->
+        <micrometer.version>1.7.3.redhat-00002</micrometer.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.micrometer:micrometer-core -->
         <hdrhistogram.version>2.1.12.redhat-00001</hdrhistogram.version><!-- @sync io.micrometer:micrometer-core:${micrometer.version} dep:org.hdrhistogram:HdrHistogram -->
         <htrace.version>4.2.0-incubating</htrace.version><!-- Mess in hbase transitive deps -->
         <influxdb.version>${influx-java-driver-version}</influxdb.version>
@@ -108,7 +108,7 @@
         <jetty.version>${jetty9-version}</jetty.version>
         <jnr-ffi.version>2.1.2</jnr-ffi.version><!-- Mess in web3j transitive deps -->
         <json-smart.version>2.4.7</json-smart.version>
-        <kafka.version>2.8.1</kafka.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.kafka:kafka-clients -->
+        <kafka.version>2.8.0.redhat-00004</kafka.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.kafka:kafka-clients -->
         <kudu.version>${kudu-version}</kudu.version>
         <kotlin.version>1.5.30</kotlin.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.jetbrains.kotlin:kotlin-stdlib -->
         <log4j2.version>2.17.1</log4j2.version><!-- https://access.redhat.com/security/cve/CVE-2021-44228 can be removed when https://github.com/apache/camel-quarkus/pull/3378 reaches us in the upstream version we combine with -->
