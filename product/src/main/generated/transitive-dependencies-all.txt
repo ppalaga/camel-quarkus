@@ -1334,6 +1334,7 @@ org.apache.camel.quarkus:camel-quarkus-caffeine-lrucache
 org.apache.camel.quarkus:camel-quarkus-caffeine-lrucache-deployment
 org.apache.camel.quarkus:camel-quarkus-cassandraql
 org.apache.camel.quarkus:camel-quarkus-cassandraql-deployment
+org.apache.camel.quarkus:camel-quarkus-catalog
 org.apache.camel.quarkus:camel-quarkus-cbor
 org.apache.camel.quarkus:camel-quarkus-cbor-deployment
 org.apache.camel.quarkus:camel-quarkus-chatscript
