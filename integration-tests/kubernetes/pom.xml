@@ -55,6 +55,12 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-test-kubernetes-client</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.fabric8</groupId>
+                    <artifactId>zjsonpatch</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
