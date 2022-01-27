@@ -82,7 +82,6 @@
         <graalvm-community.version>21.2.0</graalvm-community.version><!-- keep in sync with graalvm.version -->
         <grpc.version>1.41.2.redhat-00001</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <grpc-community.version>1.38.1</grpc-community.version><!-- workaround https://github.com/apache/camel-quarkus/issues/3190 -->
-        <gson.version>2.8.6</gson.version><!-- @sync com.ibm.jsonata4java:JSONata4Java:${jsonata4java-version} dep:com.google.code.gson:gson -->
         <hadoop2.version>${hadoop2-version}</hadoop2.version><!-- Spark -->
         <hapi.version>${hapi-version}</hapi.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
@@ -114,7 +113,6 @@
         <minio.version>${minio-version}</minio.version><!-- Keep in sync with quarkiverse-minio and Camel, preferring Camel assuming that it is more likely to be up to date -->
         <mvel2.version>${mvel-version}</mvel2.version>
         <nimbus-jose-jwt.version>9.10</nimbus-jose-jwt.version><!-- Mess in hdfs transitive deps, used also by io.strimzi:kafka-oauth-client recommended by https://quarkus.io/guides/kafka#authenticating-with-oauth -->
-        <okhttp.version>${squareup-okhttp-version}</okhttp.version>
         <okio.version>${squareup-okio-version}</okio.version>
         <protobuf.version>3.18.2</protobuf.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.google.protobuf:protoc -->
         <protobuf-community.version>3.17.3</protobuf-community.version><!-- workaround https://github.com/apache/camel-quarkus/issues/3190 -->
