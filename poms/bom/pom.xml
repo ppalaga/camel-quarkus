@@ -41,12 +41,6 @@
     <dependencyManagement>
         <dependencies>
 
-            <dependency><!-- workaround for https://issues.redhat.com/browse/QUARKUS-1735 -->
-                <groupId>org.mongodb</groupId>
-                <artifactId>mongodb-driver-legacy</artifactId>
-                <version>4.3.2.redhat-00001</version>
-            </dependency>
-
             <!-- External BOMs -->
             <dependency>
                 <groupId>io.quarkus</groupId>
