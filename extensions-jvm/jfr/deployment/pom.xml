@@ -43,6 +43,12 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-junit5-internal</artifactId>
             <scope>test</scope>
+            <exclusions>
+                <exclusion><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1742 -->
+                    <groupId>io.quarkus</groupId>
+                    <artifactId>quarkus-devtools-utilities</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
