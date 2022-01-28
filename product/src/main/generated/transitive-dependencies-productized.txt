@@ -587,13 +587,7 @@ org.apache.httpcomponents:httpcore
 org.apache.httpcomponents:httpcore-nio
 org.apache.httpcomponents:httpmime
 org.apache.kafka:kafka-clients
-org.apache.logging.log4j:log4j-1.2-api
 org.apache.logging.log4j:log4j-api
-org.apache.logging.log4j:log4j-core
-org.apache.logging.log4j:log4j-jcl
-org.apache.logging.log4j:log4j-jul
-org.apache.logging.log4j:log4j-slf4j-impl
-org.apache.logging.log4j:log4j-web
 org.apache.lucene:lucene-core
 org.apache.lucene:lucene-highlighter
 org.apache.lucene:lucene-join
