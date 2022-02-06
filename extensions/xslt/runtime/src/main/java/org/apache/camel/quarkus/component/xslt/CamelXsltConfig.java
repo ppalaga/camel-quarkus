@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.component.xslt;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import io.quarkus.runtime.annotations.ConfigItem;
@@ -36,4 +37,10 @@ public class CamelXsltConfig {
      */
     @ConfigItem(defaultValue = "org.apache.camel.quarkus.component.xslt.generated")
     public String packageName;
+
+    /**
+     * TransformerFactory features.
+     */
+    @ConfigItem
+    public Map<String, Boolean> features;
 }
