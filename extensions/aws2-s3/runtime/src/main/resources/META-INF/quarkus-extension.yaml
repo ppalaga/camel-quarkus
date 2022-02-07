@@ -26,7 +26,7 @@ description: "Store and retrieve objects from AWS S3 Storage Service using AWS S
 metadata:
   keywords:
   - "Amazon"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-s3.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-s3"
   categories:
   - "integration"
   status:

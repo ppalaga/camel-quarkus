@@ -24,7 +24,7 @@
 name: "Camel YAML DSL"
 description: "An YAML stack for parsing YAML route definitions"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/yaml-dsl.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-yaml-dsl"
   categories:
   - "integration"
   status:

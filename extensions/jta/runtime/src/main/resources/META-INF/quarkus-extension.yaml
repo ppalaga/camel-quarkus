@@ -24,7 +24,7 @@
 name: "Camel JTA"
 description: "Enclose Camel routes in transactions using Java Transaction API (JTA) and Narayana transaction manager"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/jta.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jta"
   categories:
   - "integration"
   status:

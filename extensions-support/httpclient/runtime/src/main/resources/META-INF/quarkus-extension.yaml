@@ -23,7 +23,7 @@ metadata:
   keywords:
   - "camel"
   - "http"
-  guide: "https://quarkus.io/guides/camel"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-support-httpclient"
   categories:
   - "integration"
 
