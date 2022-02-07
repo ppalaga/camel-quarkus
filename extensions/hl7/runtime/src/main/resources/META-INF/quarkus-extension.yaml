@@ -24,7 +24,7 @@
 name: "Camel HL7"
 description: "Marshal and unmarshal HL7 (Health Care) model objects using the HL7 MLLP codec"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/hl7.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-hl7"
   categories:
   - "integration"
   status:

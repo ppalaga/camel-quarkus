@@ -22,8 +22,6 @@ import java.nio.file.Files
 import java.nio.file.Path
 
 final Path basePath = project.basedir.toPath()
-final String majorVersion = project.version.split('\\.')[0]
-final String guideUriPrefix = 'https://access.redhat.com/documentation/en-us/red_hat_integration/'+ majorVersion +'.latest/html/camel_extensions_for_quarkus_reference/extensions-'
 
 final JsonSlurper jsonSlurper = new JsonSlurper()
 def productSourceJson = jsonSlurper.parse(basePath.resolve('src/main/resources/camel-quarkus-product-source.json'))
@@ -41,8 +39,7 @@ extensions.each { k, v ->
             "group-id": "org.apache.camel.quarkus",
             "artifact-id": k,
             "metadata" : [
-                "redhat-support" : [ quarkusSupportLevel ],
-                "guide" : guideUriPrefix + (k.replace('camel-quarkus-', ''))
+                "redhat-support" : [ quarkusSupportLevel ]
             ]
         ]
     }

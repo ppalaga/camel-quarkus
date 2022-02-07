@@ -6,8 +6,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-avro"
+                ]
             }
         },
         {
@@ -16,8 +15,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-ddb"
+                ]
             }
         },
         {
@@ -26,8 +24,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-kinesis"
+                ]
             }
         },
         {
@@ -36,8 +33,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-lambda"
+                ]
             }
         },
         {
@@ -46,8 +42,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-s3"
+                ]
             }
         },
         {
@@ -56,8 +51,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-sns"
+                ]
             }
         },
         {
@@ -66,8 +60,7 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-sqs"
+                ]
             }
         },
         {
@@ -76,8 +69,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-bean"
+                ]
             }
         },
         {
@@ -86,8 +78,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-bindy"
+                ]
             }
         },
         {
@@ -96,8 +87,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-core"
+                ]
             }
         },
         {
@@ -106,8 +96,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-direct"
+                ]
             }
         },
         {
@@ -116,8 +105,7 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-elasticsearch-rest"
+                ]
             }
         },
         {
@@ -126,8 +114,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-file"
+                ]
             }
         },
         {
@@ -136,8 +123,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-ftp"
+                ]
             }
         },
         {
@@ -146,8 +132,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-hl7"
+                ]
             }
         },
         {
@@ -156,8 +141,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-http"
+                ]
             }
         },
         {
@@ -166,8 +150,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson"
+                ]
             }
         },
         {
@@ -176,8 +159,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson-avro"
+                ]
             }
         },
         {
@@ -186,8 +168,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jackson-protobuf"
+                ]
             }
         },
         {
@@ -196,8 +177,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jacksonxml"
+                ]
             }
         },
         {
@@ -206,8 +186,7 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jira"
+                ]
             }
         },
         {
@@ -216,8 +195,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jms"
+                ]
             }
         },
         {
@@ -226,8 +204,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jsonpath"
+                ]
             }
         },
         {
@@ -236,8 +213,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-jta"
+                ]
             }
         },
         {
@@ -246,8 +222,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-kafka"
+                ]
             }
         },
         {
@@ -256,8 +231,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-kamelet"
+                ]
             }
         },
         {
@@ -266,8 +240,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-log"
+                ]
             }
         },
         {
@@ -276,8 +249,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-microprofile-health"
+                ]
             }
         },
         {
@@ -286,8 +258,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-microprofile-metrics"
+                ]
             }
         },
         {
@@ -296,8 +267,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mllp"
+                ]
             }
         },
         {
@@ -306,8 +276,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mock"
+                ]
             }
         },
         {
@@ -316,8 +285,7 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mongodb"
+                ]
             }
         },
         {
@@ -326,8 +294,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-netty"
+                ]
             }
         },
         {
@@ -336,8 +303,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-openapi-java"
+                ]
             }
         },
         {
@@ -346,8 +312,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-platform-http"
+                ]
             }
         },
         {
@@ -356,8 +321,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-rest"
+                ]
             }
         },
         {
@@ -366,8 +330,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-salesforce"
+                ]
             }
         },
         {
@@ -376,8 +339,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-saxon"
+                ]
             }
         },
         {
@@ -386,8 +348,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-seda"
+                ]
             }
         },
         {
@@ -396,8 +357,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-soap"
+                ]
             }
         },
         {
@@ -406,8 +366,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-sql"
+                ]
             }
         },
         {
@@ -416,8 +375,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-timer"
+                ]
             }
         },
         {
@@ -426,8 +384,7 @@
             "metadata": {
                 "redhat-support": [
                     "supported-in-jvm"
-                ],
-                "guide": "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-xpath"
+                ]
             }
         }
     ]
