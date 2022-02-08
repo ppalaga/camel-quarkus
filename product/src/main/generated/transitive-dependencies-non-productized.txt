@@ -156,6 +156,7 @@ com.google.re2j:re2j
 com.google.zxing:core
 com.google.zxing:javase
 com.googlecode.javaewah:JavaEWAH
+com.googlecode.json-simple:json-simple
 com.googlecode.juniversalchardet:juniversalchardet
 com.googlecode.libphonenumber:libphonenumber
 com.googlecode.matrix-toolkits-java:mtj

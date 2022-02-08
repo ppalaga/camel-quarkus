@@ -68,7 +68,6 @@ com.google.http-client:google-http-client
 com.google.inject:guice
 com.google.j2objc:j2objc-annotations
 com.google.oauth-client:google-oauth-client
-com.googlecode.json-simple:json-simple
 com.ibm.async:asyncutil
 com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
