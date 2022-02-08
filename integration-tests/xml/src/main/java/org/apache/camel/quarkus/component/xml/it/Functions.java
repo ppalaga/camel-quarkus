@@ -18,6 +18,9 @@ package org.apache.camel.quarkus.component.xml.it;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
-@RegisterForReflection(targets = { org.apache.camel.quarkus.test.support.xslt.Functions.class })
-public class FunctionsConfiguration {
+@RegisterForReflection
+public class Functions {
+    public static String concatDash(String val1, String val2) {
+        return val1 + "-" + val2;
+    }
 }

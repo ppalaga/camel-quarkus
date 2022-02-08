@@ -19,7 +19,7 @@
 -->
 <xsl:stylesheet
         xmlns:xsl='http://www.w3.org/1999/XSL/Transform'
-        xmlns:func='xalan://org.apache.camel.quarkus.test.support.xslt.Functions'
+        xmlns:func='xalan://org.apache.camel.quarkus.component.xml.it.Functions'
         extension-element-prefixes='func'
         version='1.0'>
 
