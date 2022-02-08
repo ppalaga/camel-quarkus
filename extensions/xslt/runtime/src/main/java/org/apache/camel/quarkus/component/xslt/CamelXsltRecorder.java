@@ -27,12 +27,9 @@ import org.apache.camel.component.xslt.TransformerFactoryConfigurationStrategy;
 import org.apache.camel.component.xslt.XsltComponent;
 import org.apache.camel.component.xslt.XsltEndpoint;
 import org.apache.camel.quarkus.support.xalan.XalanTransformerFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 @Recorder
 public class CamelXsltRecorder {
-    private static final Logger LOGGER = LoggerFactory.getLogger(CamelXsltRecorder.class);
 
     public RuntimeValue<XsltComponent> createXsltComponent(CamelXsltConfig config,
             RuntimeValue<RuntimeUriResolver.Builder> uriResolverBuilder) {
@@ -76,7 +73,8 @@ public class CamelXsltRecorder {
                 try {
                     tf.setFeature(entry.getKey(), entry.getValue());
                 } catch (TransformerException e) {
-                    LOGGER.warn("Unsupported TransformerFactory feature {}", entry.getKey());
+                    throw new RuntimeException("Could not set TransformerFactory feature '"
+                            + entry.getKey() + "' = " + entry.getValue(), e);
                 }
             }
 

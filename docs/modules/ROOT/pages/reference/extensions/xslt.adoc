@@ -62,7 +62,17 @@ quarkus.camel.xslt.features."http\://javax.xml.XMLConstants/feature/secure-proce
 ----
 === Extension functions support
 https://xml.apache.org/xalan-j/extensions.html[Xalan's extension functions]
-do work properly only when they are defined in a separate jar.
+do work properly only when:
+
+1. Secure-processing is disabled
+2. Functions are defined in a separate jar
+3. Functions are augmented during native build phase. For example, they can be registered for reflection:
+[source,java]
+----
+@RegisterForReflection(targets = { my.Functions.class })
+public class FunctionsConfiguration {
+}
+----
 
 [NOTE]
 ====
