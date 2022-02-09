@@ -38,12 +38,15 @@ pipeline {
     stages {
         stage('Initial') {
             agent {
-                label "rhel"
+                label "rhel||pipeline||pipeline-large"
             }
             steps {
                 // Clean up any orphaned containers that may be lingering
                 sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
-                sh "docker container prune -f"
+                sh "df -h"
+                sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                sh "docker system prune -a -f"
+                sh "df -h"
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
 
@@ -53,6 +56,7 @@ pipeline {
 
                     sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*"
                     stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
+                    sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
                 }
             }
         }
@@ -62,10 +66,14 @@ pipeline {
                 // %generated-stages-start%
                 stage('Product :: Group 01') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -82,10 +90,14 @@ pipeline {
                 }
                 stage('Product :: Group 02') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -102,10 +114,14 @@ pipeline {
                 }
                 stage('Mixed Allowed :: Group 01') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -122,10 +138,14 @@ pipeline {
                 }
                 stage('Mixed JVM :: Group 01') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -142,10 +162,14 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 01') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -162,10 +186,14 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 02') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -182,10 +210,14 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 03') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -202,10 +234,14 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 04') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
@@ -222,10 +258,14 @@ pipeline {
                 }
                 stage('Mixed Native :: Group 05') {
                     agent {
-                        label "rhel"
+                        label "rhel||pipeline||pipeline-large"
                     }
                     steps {
                         sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                        sh "df -h"
+                        sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                        sh "docker system prune -a -f"
+                        sh "df -h"
                         unstash name: 'cq-artifacts'
                         sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
                         sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
