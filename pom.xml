@@ -51,7 +51,7 @@
         <optaplanner.version>8.9.1.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
         <quarkiverse.freemarker.version>0.3.0</quarkiverse.freemarker.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/freemarker/quarkus-freemarker-parent/ -->
         <quarkiverse-minio.version>2.0.0</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
-        <quarkus.version>2.2.5.Final-redhat-00009</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus.version>2.2.5.Final-redhat-00010</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
         <quarkus-community.version>2.2.2.Final</quarkus-community.version>
         <quarkus-google-cloud.version>0.10.0</quarkus-google-cloud.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/googlecloudservices/quarkus-google-cloud-services-bom/ -->
         <quarkus-hazelcast-client.version>2.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
@@ -119,7 +119,7 @@
         <retrofit.version>2.5.0</retrofit.version>
         <saaj.impl.version>1.5.3</saaj.impl.version>
         <scala-2.11.version>2.11.12</scala-2.11.version><!-- Spark -->
-        <smallrye.reactive.messaging.camel.version>3.9.1.redhat-00009</smallrye.reactive.messaging.camel.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.smallrye.reactive:smallrye-reactive-messaging-provider -->
+        <smallrye.reactive.messaging.camel.version>3.9.1.redhat-00010</smallrye.reactive.messaging.camel.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.smallrye.reactive:smallrye-reactive-messaging-provider -->
         <spring.version>${spring5-version}</spring.version>
         <snakeyaml.version>${snakeyaml-version}</snakeyaml.version>
         <snappy.version>1.1.7.7</snappy.version><!-- Spark -->
