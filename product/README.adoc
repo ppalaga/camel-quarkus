@@ -18,6 +18,8 @@
 * `extensions.<artifactId>.comment` - A free form comment
 * `additionalProductizedArtifacts` - an array of artifactIds to include in the product build.
   Unlike `extensions.<artifactId>`, these are not extensions.
+* `excludeTests` - an array of test module artifactIds.
+  The associated test modules won't be linked in any group under `product/integration-tests-*` and they also be excluded in the config of `rpkgtests-maven-plugin` in `tooling/test-list/pom.xml`
 * `guideUrlTemplate` - a template for generating a URL pointing at a guide of the given extension in the CEQ product documentation.
   It allows for the following placeholders:
 ** `${cqMajorVersion}` - the major version of the Camel Quarkus release the URL applies to
