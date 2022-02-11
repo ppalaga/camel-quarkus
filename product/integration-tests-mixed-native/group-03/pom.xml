@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/hystrix</module>
         <module>../../../integration-tests/infinispan</module>
         <module>../../../integration-tests/influxdb</module>
         <module>../../../integration-tests/ipfs</module>
@@ -40,7 +41,6 @@
         <module>../../../integration-tests/jing</module>
         <module>../../../integration-tests/jolt</module>
         <module>../../../integration-tests/jpa</module>
-        <module>../../../integration-tests/js-dsl</module>
         <module>../../../integration-tests/jsch</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/json-validator</module>
