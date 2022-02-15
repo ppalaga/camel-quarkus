@@ -80,6 +80,34 @@
                     <groupId>${quarkus.platform.group-id}</groupId>
                     <artifactId>quarkus-maven-plugin</artifactId>
                     <version>${quarkus.platform.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>io.quarkus</groupId>
+                            <artifactId>quarkus-bootstrap-core</artifactId>
+                            <version>${quarkus.version}</version>
+                            <exclusions>
+                                <exclusion>
+                                    <groupId>com.google.code.findbugs</groupId>
+                                    <artifactId>jsr305</artifactId>
+                                </exclusion>
+                                <exclusion>
+                                    <groupId>io.quarkus</groupId>
+                                    <artifactId>quarkus-bootstrap-gradle-resolver</artifactId>
+                                </exclusion>
+                            </exclusions>
+                        </dependency>
+                        <dependency>
+                            <groupId>org.apache.maven</groupId>
+                            <artifactId>maven-core</artifactId>
+                            <version>${target-maven-version}</version>
+                            <exclusions>
+                                <exclusion>
+                                    <groupId>com.google.code.findbugs</groupId>
+                                    <artifactId>jsr305</artifactId>
+                                </exclusion>
+                            </exclusions>
+                        </dependency>
+                    </dependencies>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -168,6 +196,34 @@
                                 <phase>package</phase>
                             </execution>
                         </executions>
+                        <dependencies>
+                            <dependency>
+                                <groupId>io.quarkus</groupId>
+                                <artifactId>quarkus-bootstrap-core</artifactId>
+                                <version>${quarkus.version}</version>
+                                <exclusions>
+                                    <exclusion>
+                                        <groupId>com.google.code.findbugs</groupId>
+                                        <artifactId>jsr305</artifactId>
+                                    </exclusion>
+                                    <exclusion>
+                                        <groupId>io.quarkus</groupId>
+                                        <artifactId>quarkus-bootstrap-gradle-resolver</artifactId>
+                                    </exclusion>
+                                </exclusions>
+                            </dependency>
+                            <dependency>
+                                <groupId>org.apache.maven</groupId>
+                                <artifactId>maven-core</artifactId>
+                                <version>${target-maven-version}</version>
+                                <exclusions>
+                                    <exclusion>
+                                        <groupId>com.google.code.findbugs</groupId>
+                                        <artifactId>jsr305</artifactId>
+                                    </exclusion>
+                                </exclusions>
+                            </dependency>
+                        </dependencies>
                     </plugin>
 
                     <plugin>
