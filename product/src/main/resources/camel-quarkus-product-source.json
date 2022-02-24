@@ -319,9 +319,6 @@
             "comment": "Required by Camel K"
         }
     },
-    "excludeTests": [
-        "camel-quarkus-integration-test-js-dsl"
-    ],
     "additionalProductizedArtifacts": [
         "camel-quarkus-catalog",
         "camel-quarkus-integration-tests-support-activemq",

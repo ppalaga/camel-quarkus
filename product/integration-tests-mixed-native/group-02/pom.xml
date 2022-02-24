@@ -60,5 +60,6 @@
         <module>../../../integration-tests/grpc</module>
         <module>../../../integration-tests/hazelcast</module>
         <module>../../../integration-tests/headersmap</module>
+        <module>../../../integration-tests/hystrix</module>
     </modules>
 </project>
