@@ -31,7 +31,6 @@
     <description>The camel integration tests</description>
 
     <properties>
-        <skipTests>true</skipTests><!-- TODO: https://issues.redhat.com/browse/ENTESB-15794 -->
         <!-- Takes too long or spends too much memory on GH actions -->
         <ci.native.tests.skip>true</ci.native.tests.skip>
     </properties>
