@@ -20,6 +20,10 @@
   Unlike `extensions.<artifactId>`, these are not extensions.
 * `excludeTests` - an array of test module artifactIds.
   The associated test modules won't be linked in any group under `product/integration-tests-*` and they also be excluded in the config of `rpkgtests-maven-plugin` in `tooling/test-list/pom.xml`
+* `versionTransformations` - a map from a version property (such as `kafka.version`) to a freemarker template that somehow transforms the version value.
+  The input version is available through the `version` key.
+  E.g. to remove the `.redhat*` suffix from a version, the freemarker template would look like the following `${version?replace('\\\\.redhat-.*$', '', 'r')}`. Note that four backslashes are there to first escape for JSON, then for Freemarker and finally for the Java regular expression.
+  `versionTransformations` is honored only by `mvn cq:sync-versions -N -e`.
 * `guideUrlTemplate` - a template for generating a URL pointing at a guide of the given extension in the CEQ product documentation.
   It allows for the following placeholders:
 ** `${cqMajorVersion}` - the major version of the Camel Quarkus release the URL applies to
