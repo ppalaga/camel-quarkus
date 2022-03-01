@@ -23,7 +23,7 @@ metadata:
   keywords:
   - "camel"
   - "retrofit"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/support-retrofit.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
 

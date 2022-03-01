@@ -24,7 +24,7 @@
 name: "Camel Azure Storage Queue Service"
 description: "The azure-storage-queue component is used for storing and retrieving the messages to/from Azure Storage Queue using Azure SDK v12"
 metadata:
-  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-azure-storage-queue"
+  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/azure-storage-queue.html"
   categories:
   - "integration"
   status:

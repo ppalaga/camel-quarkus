@@ -25,6 +25,6 @@ metadata:
   - "jackson"
   - "dataformat"
   - "xml"
-  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-support-jackson-dataformat-xml"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"

@@ -23,7 +23,7 @@ metadata:
   keywords:
   - "camel"
   - "xalan"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/support-xalan.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
 

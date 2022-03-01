@@ -23,7 +23,7 @@ metadata:
   keywords:
   - "camel"
   - "spring"
-  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-support-spring"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
 
