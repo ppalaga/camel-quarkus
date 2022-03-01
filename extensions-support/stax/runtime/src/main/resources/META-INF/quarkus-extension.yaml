@@ -23,6 +23,6 @@ metadata:
   keywords:
   - "camel"
   - "StAX"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/support-stax.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"

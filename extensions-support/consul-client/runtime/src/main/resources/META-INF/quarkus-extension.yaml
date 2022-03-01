@@ -24,7 +24,7 @@ metadata:
   - "camel"
   - "cloud"
   - "consul"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/support-consul-client.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
 
