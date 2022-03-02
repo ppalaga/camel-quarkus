@@ -949,7 +949,6 @@ org.apache.camel:camel-componentdsl
 org.apache.camel:camel-consul
 org.apache.camel:camel-controlbus
 org.apache.camel:camel-corda
-org.apache.camel:camel-core
 org.apache.camel:camel-core-catalog
 org.apache.camel:camel-core-engine
 org.apache.camel:camel-core-languages
@@ -1223,7 +1222,6 @@ org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
-org.apache.camel:spi-annotations
 org.apache.camel.quarkus:camel-quarkus-activemq
 org.apache.camel.quarkus:camel-quarkus-activemq-deployment
 org.apache.camel.quarkus:camel-quarkus-ahc
