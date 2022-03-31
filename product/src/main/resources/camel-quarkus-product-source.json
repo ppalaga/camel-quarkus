@@ -1,0 +1,333 @@
+{
+    "extensions": {
+        "camel-quarkus-avro": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-aws2-cw": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-aws2-ddb": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-aws2-kinesis": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-aws2-lambda": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-aws2-s3": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "camel-quarkus-integration-test-aws2-s3 requires not productized kms",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-aws2-s3",
+                "camel-quarkus-integration-test-aws2-s3-quarkus-client"
+
+            ]
+        },
+        "camel-quarkus-aws2-sns": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-aws2-sqs": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-azure-storage-blob": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-azure-storage-queue": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-bean": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-bindy": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-cassandraql": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-core": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-cron": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-quartz"
+            ]
+        },
+        "camel-quarkus-direct": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-elasticsearch-rest": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-file": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-file"
+            ]
+        },
+        "camel-quarkus-ftp": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-gson": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-dataformats-json"
+            ]
+        },
+        "camel-quarkus-hl7": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-http": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-http"
+            ]
+        },
+        "camel-quarkus-jackson": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-jackson-avro": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-jackson-protobuf": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-jacksonxml": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-dataformats-json"
+            ]
+        },
+        "camel-quarkus-java-joor-dsl": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-jira": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-jms": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-jms-artemis-client",
+                "camel-quarkus-integration-test-jms-qpid-amqp-client"
+            ]
+        },
+        "camel-quarkus-jsonpath": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-jta": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-jta"
+            ]
+        },
+        "camel-quarkus-kafka": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-kamelet": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-kamelet"
+            ]
+        },
+        "camel-quarkus-kubernetes": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-log": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-master": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-microprofile-health": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-microprofile-metrics": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-microprofile"
+            ]
+        },
+        "camel-quarkus-mllp": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-mock": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-mongodb": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-netty": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-openapi-java": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-platform-http": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-rest": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-salesforce": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-saxon": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-seda": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-slack": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-soap": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-sql": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-support-webhook": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-telegram": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-timer": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-xml-io-dsl": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        },
+        "camel-quarkus-xpath": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": ""
+        },
+        "camel-quarkus-yaml-dsl": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "Required by Camel K"
+        }
+    },
+    "additionalProductizedArtifacts": [
+        "camel-quarkus-catalog",
+        "camel-quarkus-integration-tests-support-activemq",
+        "camel-quarkus-test-list"
+    ],
+    "versionTransformations": {
+        "kafka.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
+        "mvel2.version": "${version?replace('[\\\\.\\\\-]redhat-.*$', '', 'r')}",
+        "smallrye.reactive.messaging.camel.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}"
+    },
+    "guideUrlTemplate": "https://access.redhat.com/documentation/en-us/red_hat_integration/${cqMajorVersion}.latest/html/camel_extensions_for_quarkus_reference/extensions-${artifactIdBase}"
+}
