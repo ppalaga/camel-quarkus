@@ -40,11 +40,13 @@
 
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>3.14</camel.major.minor> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.2</camel.version>
+        <camel-community.version>${camel.major.minor}.2</camel-community.version>
+        <camel.version>3.14.2</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel.sb.docs.branch>camel-spring-boot-${camel.major.minor}.x</camel.sb.docs.branch><!-- The stable camel-spring-boot branch on which our Antora docs depends -->
+        <camel-quarkus-community.version>2.7.1</camel-quarkus-community.version>
         <cassandra-quarkus.version>1.1.2</cassandra-quarkus.version><!-- https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>1.6.1.Final</debezium.version><!-- May go back to Camel's ${debezium-version} when they are in sync https://repo1.maven.org/maven2/io/debezium/debezium-bom/ -->
         <optaplanner.version>8.16.0.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
@@ -56,6 +58,7 @@
         <quarkiverse-minio.version>2.3.0</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
         <quarkiverse-tika.version>1.0.3</quarkiverse-tika.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/tika/quarkus-tika-parent/ -->
         <quarkus.version>2.7.5.Final</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus-community.version>2.7.5.Final</quarkus-community.version>
         <quarkus-hazelcast-client.version>3.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>0.32.0</quarkus-qpid-jms.version><!-- https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
 
@@ -87,6 +90,7 @@
         <google-native-image-support.version>0.8.0</google-native-image-support.version>
         <google-auth-library-credentials.version>0.22.2</google-auth-library-credentials.version><!-- @sync io.grpc:grpc-auth:${grpc.version} dep:com.google.auth:google-auth-library-credentials -->
         <graalvm.version>21.3.1</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.nativeimage:svm -->
+        <graalvm-community.version>21.3.1</graalvm-community.version><!-- keep in sync with graalvm.version -->
         <grpc.version>1.43.2</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <guice-servlet.version>4.0</guice-servlet.version><!-- Spark -->
         <hadoop3.version>${hadoop3-version}</hadoop3.version><!-- Spark -->
@@ -201,7 +205,7 @@
         <maven.compiler.release>11</maven.compiler.release>
 
         <!-- maven-enforcer-plugin -->
-        <min-maven-version>3.8.1</min-maven-version>
+        <min-maven-version>3.8.4</min-maven-version>
         <target-maven-version>3.8.4</target-maven-version><!-- @sync io.quarkus:quarkus-build-parent:${quarkus.version} prop:proposed-maven-version -->
         <supported-maven-versions>[${min-maven-version},)</supported-maven-versions>
 
@@ -220,8 +224,8 @@
         <module>integration-tests-support</module>
         <module>integration-tests</module>
         <module>integration-test-groups</module>
-        <module>docs</module>
         <module>integration-tests-jvm</module>
+        <module>product</module>
     </modules>
 
     <developers>
@@ -423,6 +427,34 @@
                         </dependency>
                     </dependencies>
                 </plugin>
+                <plugin>
+                    <groupId>org.l2x6.cq</groupId>
+                    <artifactId>cq-prod-maven-plugin</artifactId>
+                    <version>${cq-plugin.version}</version>
+                    <configuration>
+                        <jenkinsfileStageTemplate>${maven.multiModuleProjectDirectory}/product/jenkinsfile-stage-template.txt</jenkinsfileStageTemplate>
+                        <requiredProductizedCamelArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/required-productized-camel-artifacts.txt</requiredProductizedCamelArtifacts>
+                        <productizedCamelQuarkusArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/productized-camel-quarkus-artifacts.txt</productizedCamelQuarkusArtifacts>
+                        <simpleElementWhitespace>SPACE</simpleElementWhitespace>
+                        <integrationTests>
+                            <integrationTest>
+                                <basedir>${maven.multiModuleProjectDirectory}</basedir>
+                                <includes>
+                                    <include>integration-tests/*/pom.xml</include>
+                                    <include>integration-test-groups/*/*/pom.xml</include>
+                                    <include>integration-tests-jvm/*/pom.xml</include>
+                                </includes>
+                                <excludes>
+                                    <exclude>integration-tests/messaging/pom.xml</exclude>
+                                    <exclude>integration-tests/*-grouped/pom.xml</exclude>
+                                </excludes>
+                            </integrationTest>
+                        </integrationTests>
+                        <additionalExtensionDependencies>
+                            <camel-quarkus-kudu>org.apache.kudu:kudu-client</camel-quarkus-kudu>
+                        </additionalExtensionDependencies>
+                    </configuration>
+                </plugin>
 
                 <plugin>
                     <groupId>org.codehaus.gmaven</groupId>
@@ -543,7 +575,7 @@
                         <dependency>
                             <groupId>org.apache.camel</groupId>
                             <artifactId>camel-buildtools</artifactId>
-                            <version>${camel.version}</version>
+                            <version>${camel-community.version}</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -620,6 +652,21 @@
                     <execution>
                         <id>attach-descriptor</id>
                         <phase /><!-- skip to save time -->
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.l2x6.cq</groupId>
+                <artifactId>cq-prod-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>check-excludes</id>
+                        <phase>validate</phase>
+                        <inherited>false</inherited>
+                        <goals>
+                            <goal>prod-excludes-check</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
