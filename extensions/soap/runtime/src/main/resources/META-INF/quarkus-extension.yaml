@@ -24,7 +24,7 @@
 name: "Camel SOAP dataformat"
 description: "Marshal Java objects to SOAP messages and back"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/soap.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-soap"
   categories:
   - "integration"
   status:

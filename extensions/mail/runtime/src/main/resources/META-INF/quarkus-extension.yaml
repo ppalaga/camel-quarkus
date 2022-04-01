@@ -24,7 +24,7 @@
 name: "Camel Mail"
 description: "Send and receive emails using imap, pop3 and smtp protocols"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/mail.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-mail"
   categories:
   - "integration"
   status:

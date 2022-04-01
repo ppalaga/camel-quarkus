@@ -33,6 +33,11 @@
     <name>Camel Quarkus :: Product</name>
 
     <modules>
+        <module>integration-tests-mixed-allowed</module>
+        <module>integration-tests-mixed-jvm</module>
+        <module>integration-tests-mixed-native</module>
+        <module>integration-tests-product</module>
+        <module>superapp</module>
     </modules>
 
     <build>

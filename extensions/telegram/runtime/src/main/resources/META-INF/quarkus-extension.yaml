@@ -24,7 +24,7 @@
 name: "Camel Telegram"
 description: "Send and receive messages acting as a Telegram Bot Telegram Bot API"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/telegram.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-telegram"
   categories:
   - "integration"
   status:

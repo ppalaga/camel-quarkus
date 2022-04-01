@@ -24,7 +24,7 @@
 name: "Camel MicroProfile Health"
 description: "Expose Camel health checks via MicroProfile Health"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/microprofile-health.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-microprofile-health"
   categories:
   - "integration"
   status:
