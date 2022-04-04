@@ -25,7 +25,7 @@ name: "Camel JClouds"
 description: "Interact with jclouds compute & blobstore service"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/jclouds.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -24,7 +24,7 @@
 name: "Camel Twilio"
 description: "Interact with Twilio REST APIs using Twilio Java SDK"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/twilio.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

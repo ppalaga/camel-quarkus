@@ -24,7 +24,7 @@
 name: "Camel Log"
 description: "Log messages to the underlying logging mechanism"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/log.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-log"
   categories:
   - "integration"
   status:

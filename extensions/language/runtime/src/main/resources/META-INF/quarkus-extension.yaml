@@ -24,7 +24,7 @@
 name: "Camel Language"
 description: "Execute scripts in any of the languages supported by Camel"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/language.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

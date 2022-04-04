@@ -24,7 +24,7 @@
 name: "Camel Minio"
 description: "Store and retrieve objects from Minio Storage Service using Minio SDK"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/minio.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

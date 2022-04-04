@@ -25,7 +25,7 @@ name: "Camel OGNL"
 description: "Evaluate an OGNL expression using Apache Commons OGNL"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/ognl.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

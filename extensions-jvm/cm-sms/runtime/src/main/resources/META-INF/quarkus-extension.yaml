@@ -25,7 +25,7 @@ name: "Camel CM SMS Gateway"
 description: "Send SMS messages via CM SMS Gateway"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/cm-sms.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

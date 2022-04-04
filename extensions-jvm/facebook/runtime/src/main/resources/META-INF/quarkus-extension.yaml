@@ -25,7 +25,7 @@ name: "Camel Facebook"
 description: "Send requests to Facebook APIs supported by Facebook4J"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/facebook.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

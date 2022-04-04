@@ -24,7 +24,7 @@
 name: "Camel Vert.x WebSocket"
 description: "Camel WebSocket support with Vert.x"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/vertx-websocket.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

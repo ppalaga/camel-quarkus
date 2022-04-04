@@ -24,7 +24,7 @@
 name: "Camel SSH"
 description: "Execute commands on remote hosts using SSH"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/ssh.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

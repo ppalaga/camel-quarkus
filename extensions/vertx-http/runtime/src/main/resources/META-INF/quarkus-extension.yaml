@@ -24,7 +24,7 @@
 name: "Camel Vert.x HTTP Client"
 description: "Camel HTTP client support with Vert.x"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/vertx-http.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

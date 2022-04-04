@@ -24,7 +24,7 @@
 name: "Camel Spring RabbitMQ"
 description: "Send and receive messages from RabbitMQ using Spring RabbitMQ client"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/spring-rabbitmq.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -24,7 +24,7 @@
 name: "Camel Hazelcast Atomic Number"
 description: "Increment, decrement, set, etc. Hazelcast atomic number (a grid wide number)"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/hazelcast.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

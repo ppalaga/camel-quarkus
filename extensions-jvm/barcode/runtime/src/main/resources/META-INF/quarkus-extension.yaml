@@ -25,7 +25,7 @@ name: "Camel Barcode"
 description: "Transform strings to various 1D/2D barcode bitmap formats and back"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/barcode.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -25,7 +25,7 @@ name: "Camel Flink"
 description: "Send DataSet jobs to an Apache Flink cluster"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/flink.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

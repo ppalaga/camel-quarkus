@@ -25,7 +25,7 @@ name: "Camel Atmos"
 description: "Integract with EMC's ViPR object data services using the Atmos Client"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/atmos.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

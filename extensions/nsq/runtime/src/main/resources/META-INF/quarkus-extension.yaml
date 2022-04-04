@@ -24,7 +24,7 @@
 name: "Camel NSQ"
 description: "Send and receive messages from NSQ realtime distributed messaging platform"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/nsq.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

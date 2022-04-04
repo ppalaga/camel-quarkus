@@ -25,7 +25,7 @@ name: "Camel Ignite Cache"
 description: "Perform cache operations on an Ignite cache or consume changes from a continuous query"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/ignite.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

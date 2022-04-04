@@ -24,7 +24,7 @@
 name: "Camel Git"
 description: "Perform operations on git repositories"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/git.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -24,7 +24,7 @@
 name: "Camel SCP"
 description: "Copy files to/from remote hosts using the secure copy protocol (SCP)"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/jsch.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

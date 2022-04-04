@@ -24,7 +24,7 @@
 name: "Camel IPFS"
 description: "Access the Interplanetary File System (IPFS)"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/ipfs.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

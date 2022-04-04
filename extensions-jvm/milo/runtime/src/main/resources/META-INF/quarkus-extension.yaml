@@ -25,7 +25,7 @@ name: "Camel OPC UA Client"
 description: "Connect to OPC UA servers using the binary protocol for acquiring telemetry data"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/milo.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:
