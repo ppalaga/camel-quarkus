@@ -25,7 +25,7 @@ name: "Camel SIP"
 description: "Send and receive messages using the SIP protocol (used in telecommunications)"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/sip.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

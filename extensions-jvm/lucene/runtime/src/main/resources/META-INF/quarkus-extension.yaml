@@ -25,7 +25,7 @@ name: "Camel Lucene"
 description: "Perform inserts or queries against Apache Lucene databases"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/lucene.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

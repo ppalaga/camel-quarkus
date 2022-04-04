@@ -25,7 +25,7 @@ name: "Camel XJ"
 description: "Transform JSON and XML message using a XSLT"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/xj.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

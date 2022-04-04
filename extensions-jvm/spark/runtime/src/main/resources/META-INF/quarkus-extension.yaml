@@ -25,7 +25,7 @@ name: "Camel Spark"
 description: "Send RDD or DataFrame jobs to Apache Spark clusters"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/spark.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

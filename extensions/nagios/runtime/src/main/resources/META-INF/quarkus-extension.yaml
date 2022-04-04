@@ -24,7 +24,7 @@
 name: "Camel Nagios"
 description: "Send passive checks to Nagios using JSendNSCA"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/nagios.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -25,7 +25,7 @@ name: "Camel XSLT Saxon"
 description: "Transform XML payloads using an XSLT template using Saxon"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/xslt-saxon.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

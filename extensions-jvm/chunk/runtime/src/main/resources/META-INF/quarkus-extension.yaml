@@ -25,7 +25,7 @@ name: "Camel Chunk"
 description: "Transform messages using Chunk templating engine"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/chunk.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

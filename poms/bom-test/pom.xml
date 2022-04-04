@@ -35,7 +35,7 @@
     <properties>
         <!-- This property is kept in sync with project.version by the release plugin -->
         <!-- Do not change to project.version because otherwise the end user apps having our BOM as parent (rather than importing it) will stop working -->
-        <camel-quarkus.version>2.7.1</camel-quarkus.version>
+        <camel-quarkus.version>2.7.1.fuse-SNAPSHOT</camel-quarkus.version>
     </properties>
 
     <dependencyManagement>
@@ -65,7 +65,7 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-support-custom-dataformat</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -90,22 +90,22 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-log-component</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-main-listener</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-routes-collector</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-type-converter</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -135,40 +135,40 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-xslt</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-common</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-common</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-jms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-jms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-sjms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-messaging-sjms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>

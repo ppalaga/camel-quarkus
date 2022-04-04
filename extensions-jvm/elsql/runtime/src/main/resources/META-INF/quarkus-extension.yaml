@@ -25,7 +25,7 @@ name: "Camel ElSQL"
 description: "Use ElSql to define SQL queries. Extends the SQL Component"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/elsql.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

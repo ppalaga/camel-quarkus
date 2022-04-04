@@ -25,7 +25,7 @@ name: "Camel Corda"
 description: "Perform operations against Corda blockchain platform using corda-rpc library"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/corda.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

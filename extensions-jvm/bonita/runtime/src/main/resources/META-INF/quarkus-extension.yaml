@@ -25,7 +25,7 @@ name: "Camel Bonita"
 description: "Communicate with a remote Bonita BPM process engine"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/bonita.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

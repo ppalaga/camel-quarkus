@@ -26,7 +26,7 @@ description: "Manage AWS MQ instances using AWS SDK version 2.x"
 metadata:
   keywords:
   - "Amazon"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-mq.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

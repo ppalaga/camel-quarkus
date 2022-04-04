@@ -24,7 +24,7 @@
 name: "Camel RSS"
 description: "Poll RSS feeds"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/rss.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

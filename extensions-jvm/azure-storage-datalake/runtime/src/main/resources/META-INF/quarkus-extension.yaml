@@ -25,7 +25,7 @@ name: "Camel Azure storage datalake service"
 description: "Camel Azure Datalake Gen2 Component"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/azure-storage-datalake.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

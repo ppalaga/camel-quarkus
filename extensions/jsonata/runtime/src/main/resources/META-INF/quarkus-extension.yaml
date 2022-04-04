@@ -24,7 +24,7 @@
 name: "Camel JSONATA"
 description: "JSON to JSON transformation using JSONATA"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/jsonata.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -25,7 +25,7 @@ name: "Camel Yammer"
 description: "Interact with the Yammer enterprise social network"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/yammer.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -24,7 +24,7 @@
 name: "Camel LevelDB"
 description: "Using LevelDB as persistent EIP store"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/leveldb.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

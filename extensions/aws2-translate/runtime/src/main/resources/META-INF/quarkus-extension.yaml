@@ -26,7 +26,7 @@ description: "Translate texts using AWS Translate and AWS SDK version 2.x"
 metadata:
   keywords:
   - "Amazon"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-translate.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

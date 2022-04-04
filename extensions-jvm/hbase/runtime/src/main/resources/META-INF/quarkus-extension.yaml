@@ -25,7 +25,7 @@ name: "Camel HBase"
 description: "Reading and write from/to an HBase store (Hadoop database)"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/hbase.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

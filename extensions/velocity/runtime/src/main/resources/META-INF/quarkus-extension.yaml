@@ -24,7 +24,7 @@
 name: "Camel Velocity"
 description: "Transform messages using a Velocity template"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/velocity.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

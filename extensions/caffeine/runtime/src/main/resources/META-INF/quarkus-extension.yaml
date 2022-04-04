@@ -24,7 +24,7 @@
 name: "Camel Caffeine Cache"
 description: "Perform caching operations using Caffeine Cache"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/caffeine.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

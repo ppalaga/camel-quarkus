@@ -24,7 +24,7 @@
 name: "Camel Paho MQTT5"
 description: "Communicate with MQTT message brokers using Eclipse Paho MQTT v5 Client"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/paho-mqtt5.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-paho-mqtt5"
   categories:
   - "integration"
   status:

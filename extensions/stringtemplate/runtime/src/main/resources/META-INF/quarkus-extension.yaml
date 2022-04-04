@@ -24,7 +24,7 @@
 name: "Camel String Template"
 description: "Transform messages using StringTemplate engine"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/stringtemplate.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

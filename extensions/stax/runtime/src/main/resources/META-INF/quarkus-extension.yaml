@@ -24,7 +24,7 @@
 name: "Camel StAX"
 description: "Process XML payloads by a SAX ContentHandler"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/stax.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:
