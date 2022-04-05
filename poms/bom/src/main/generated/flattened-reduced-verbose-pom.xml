@@ -159,7 +159,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 213 -->
         <artifactId>camel-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 214 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 215 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 215 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 218 -->
@@ -335,7 +335,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 389 -->
         <artifactId>camel-attachments</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 390 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 391 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 391 -->
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 394 -->
@@ -354,7 +354,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 408 -->
         <artifactId>camel-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 409 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 410 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 410 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 413 -->
@@ -476,7 +476,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 530 -->
         <artifactId>camel-aws2-cw</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 531 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 532 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 532 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 535 -->
@@ -499,7 +499,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 553 -->
         <artifactId>camel-aws2-ddb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 554 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 555 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 555 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 558 -->
@@ -637,7 +637,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 691 -->
         <artifactId>camel-aws2-kinesis</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 692 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 693 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 693 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 696 -->
@@ -683,7 +683,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 737 -->
         <artifactId>camel-aws2-lambda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 738 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 739 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 739 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 742 -->
@@ -752,7 +752,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 806 -->
         <artifactId>camel-aws2-s3</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 807 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 808 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 808 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 811 -->
@@ -798,7 +798,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 852 -->
         <artifactId>camel-aws2-sns</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 853 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 854 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 854 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 857 -->
@@ -821,7 +821,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 875 -->
         <artifactId>camel-aws2-sqs</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 876 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 877 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 877 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 880 -->
@@ -924,7 +924,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 978 -->
         <artifactId>camel-azure-storage-blob</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 979 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 980 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 980 -->
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 983 -->
@@ -958,7 +958,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1012 -->
         <artifactId>camel-azure-storage-queue</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1013 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1014 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1014 -->
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1017 -->
@@ -992,7 +992,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1046 -->
         <artifactId>camel-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1047 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1048 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1048 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1051 -->
@@ -1007,7 +1007,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1061 -->
         <artifactId>camel-base-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1062 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1063 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1063 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1066 -->
@@ -1027,7 +1027,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1081 -->
         <artifactId>camel-bean</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1082 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1083 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1083 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1086 -->
@@ -1042,7 +1042,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1096 -->
         <artifactId>camel-bean-validator</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1097 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1098 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1098 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1101 -->
@@ -1091,7 +1091,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1145 -->
         <artifactId>camel-bindy</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1146 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1147 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1147 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1150 -->
@@ -1213,7 +1213,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1267 -->
         <artifactId>camel-cassandraql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1268 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1269 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1269 -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1272 -->
@@ -1232,7 +1232,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1286 -->
         <artifactId>camel-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1287 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1288 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1288 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1291 -->
@@ -1292,7 +1292,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1346 -->
         <artifactId>camel-cloud</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1347 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1348 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1348 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1351 -->
@@ -1307,7 +1307,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1361 -->
         <artifactId>camel-cluster</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1362 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1363 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1363 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1366 -->
@@ -1396,7 +1396,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1450 -->
         <artifactId>camel-componentdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1451 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1452 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1452 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1455 -->
@@ -1488,7 +1488,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1542 -->
         <artifactId>camel-core-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1543 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1544 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1544 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1547 -->
@@ -1503,7 +1503,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1557 -->
         <artifactId>camel-core-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1558 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1559 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1559 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1562 -->
@@ -1518,7 +1518,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1572 -->
         <artifactId>camel-core-languages</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1573 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1574 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1574 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1577 -->
@@ -1533,12 +1533,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1587 -->
         <artifactId>camel-core-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1588 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1589 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1589 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1592 -->
         <artifactId>camel-core-processor</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1593 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1594 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1594 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1597 -->
@@ -1553,7 +1553,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1607 -->
         <artifactId>camel-core-reifier</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1608 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1609 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1609 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1612 -->
@@ -1592,7 +1592,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1646 -->
         <artifactId>camel-cron</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1647 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1648 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1648 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1651 -->
@@ -1802,7 +1802,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1856 -->
         <artifactId>camel-direct</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1857 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1858 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1858 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1861 -->
@@ -1923,7 +1923,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1977 -->
         <artifactId>camel-dsl-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1978 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1979 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1979 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 1982 -->
@@ -1977,7 +1977,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2031 -->
         <artifactId>camel-endpointdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2032 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2033 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2033 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2036 -->
@@ -2067,7 +2067,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2121 -->
         <artifactId>camel-fhir</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2122 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2123 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2123 -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2126 -->
@@ -2094,12 +2094,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2148 -->
         <artifactId>camel-fhir-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2149 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2150 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2150 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2153 -->
         <artifactId>camel-file</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2154 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2155 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2155 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2158 -->
@@ -2197,7 +2197,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2251 -->
         <artifactId>camel-ftp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2252 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2253 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2253 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2256 -->
@@ -2604,7 +2604,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2658 -->
         <artifactId>camel-gson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2659 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2660 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2660 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2663 -->
@@ -2746,12 +2746,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2800 -->
         <artifactId>camel-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2801 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2802 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2802 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2805 -->
         <artifactId>camel-hl7</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2806 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2807 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2807 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2810 -->
@@ -2766,7 +2766,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2820 -->
         <artifactId>camel-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2821 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2822 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2822 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2825 -->
@@ -2789,12 +2789,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2843 -->
         <artifactId>camel-http-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2844 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2845 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2845 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2848 -->
         <artifactId>camel-http-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2849 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2850 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2850 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2853 -->
@@ -2901,7 +2901,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2955 -->
         <artifactId>camel-infinispan</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2956 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2957 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2957 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2960 -->
@@ -2924,7 +2924,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2978 -->
         <artifactId>camel-infinispan-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2979 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2980 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2980 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 2983 -->
@@ -2983,7 +2983,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3037 -->
         <artifactId>camel-jackson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3038 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3039 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3039 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3042 -->
@@ -2998,7 +2998,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3052 -->
         <artifactId>camel-jackson-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3053 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3054 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3054 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3057 -->
@@ -3013,7 +3013,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3067 -->
         <artifactId>camel-jackson-protobuf</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3068 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3069 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3069 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3072 -->
@@ -3028,7 +3028,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3082 -->
         <artifactId>camel-jacksonxml</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3083 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3084 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3084 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3087 -->
@@ -3058,7 +3058,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3112 -->
         <artifactId>camel-java-joor-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3113 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3114 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3114 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3117 -->
@@ -3073,7 +3073,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3127 -->
         <artifactId>camel-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3128 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3129 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3129 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3132 -->
@@ -3259,7 +3259,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3313 -->
         <artifactId>camel-jira</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3314 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3315 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3315 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3318 -->
@@ -3310,7 +3310,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3364 -->
         <artifactId>camel-jms</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3365 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3366 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3366 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3369 -->
@@ -3572,7 +3572,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3626 -->
         <artifactId>camel-jsonpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3627 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3628 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3628 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3631 -->
@@ -3602,7 +3602,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3656 -->
         <artifactId>camel-jta</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3657 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3658 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3658 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3661 -->
@@ -3621,7 +3621,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3675 -->
         <artifactId>camel-kafka</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3676 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3677 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3677 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3680 -->
@@ -3636,7 +3636,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3690 -->
         <artifactId>camel-kamelet</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3691 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3692 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3692 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3695 -->
@@ -3671,7 +3671,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3725 -->
         <artifactId>camel-kubernetes</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3726 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3727 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3727 -->
         <exclusions>
           <exclusion>
             <groupId>io.fabric8</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3730 -->
@@ -3765,7 +3765,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3819 -->
         <artifactId>camel-log</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3820 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3821 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3821 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3824 -->
@@ -3844,7 +3844,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3898 -->
         <artifactId>camel-mail</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3899 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3900 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3900 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3903 -->
@@ -3859,7 +3859,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3913 -->
         <artifactId>camel-main</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3914 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3915 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3915 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3918 -->
@@ -3893,12 +3893,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3947 -->
         <artifactId>camel-management-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3948 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3949 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3949 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3952 -->
         <artifactId>camel-master</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3953 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3954 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3954 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3957 -->
@@ -3928,7 +3928,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3982 -->
         <artifactId>camel-microprofile-config</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3983 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3984 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3984 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3987 -->
@@ -3943,7 +3943,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3997 -->
         <artifactId>camel-microprofile-fault-tolerance</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3998 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3999 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 3999 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4002 -->
@@ -3962,7 +3962,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4016 -->
         <artifactId>camel-microprofile-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4017 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4018 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4018 -->
         <exclusions>
           <exclusion>
             <groupId>javax.enterprise</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4021 -->
@@ -3981,7 +3981,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4035 -->
         <artifactId>camel-microprofile-metrics</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4036 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4037 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4037 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4040 -->
@@ -4042,7 +4042,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4096 -->
         <artifactId>camel-mllp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4097 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4098 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4098 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4101 -->
@@ -4057,7 +4057,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4111 -->
         <artifactId>camel-mock</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4112 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4113 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4113 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4116 -->
@@ -4072,7 +4072,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4126 -->
         <artifactId>camel-mongodb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4127 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4128 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4128 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4131 -->
@@ -4200,7 +4200,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4254 -->
         <artifactId>camel-netty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4255 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4256 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4256 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4259 -->
@@ -4346,7 +4346,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4400 -->
         <artifactId>camel-openapi-java</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4401 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4402 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4402 -->
         <exclusions>
           <exclusion>
             <groupId>com.fasterxml.jackson.dataformat</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4405 -->
@@ -4445,7 +4445,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4499 -->
         <artifactId>camel-paho</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4500 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4501 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4501 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4504 -->
@@ -4460,7 +4460,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4514 -->
         <artifactId>camel-paho-mqtt5</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4515 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4516 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4516 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4519 -->
@@ -4528,12 +4528,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4582 -->
         <artifactId>camel-platform-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4583 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4584 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4584 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4587 -->
         <artifactId>camel-platform-http-vertx</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4588 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4589 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4589 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4592 -->
@@ -4640,7 +4640,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4694 -->
         <artifactId>camel-quartz</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4695 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4696 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4696 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4699 -->
@@ -4757,7 +4757,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4811 -->
         <artifactId>camel-rest</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4812 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4813 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4813 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4816 -->
@@ -4855,7 +4855,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4909 -->
         <artifactId>camel-salesforce</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4910 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4911 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4911 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4914 -->
@@ -4889,7 +4889,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4943 -->
         <artifactId>camel-saxon</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4944 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4945 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4945 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4948 -->
@@ -4934,7 +4934,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4988 -->
         <artifactId>camel-seda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4989 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4990 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4990 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 4993 -->
@@ -5055,7 +5055,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5109 -->
         <artifactId>camel-slack</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5110 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5111 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5111 -->
         <exclusions>
           <exclusion>
             <groupId>com.googlecode.json-simple</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5114 -->
@@ -5119,7 +5119,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5173 -->
         <artifactId>camel-soap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5174 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5175 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5175 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.xml.bind</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5178 -->
@@ -5237,7 +5237,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5291 -->
         <artifactId>camel-sql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5292 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5293 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5293 -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5296 -->
@@ -5373,7 +5373,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5427 -->
         <artifactId>camel-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5428 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5429 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5429 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5432 -->
@@ -5433,7 +5433,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5487 -->
         <artifactId>camel-telegram</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5488 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5489 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5489 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5492 -->
@@ -5505,7 +5505,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5559 -->
         <artifactId>camel-timer</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5560 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5561 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5561 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5564 -->
@@ -5520,7 +5520,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5574 -->
         <artifactId>camel-tooling-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5575 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5576 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5576 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5579 -->
@@ -5591,12 +5591,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5645 -->
         <artifactId>camel-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5646 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5647 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5647 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5650 -->
         <artifactId>camel-util-json</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5651 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5652 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5652 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5655 -->
@@ -5646,7 +5646,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5700 -->
         <artifactId>camel-vertx-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5701 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5702 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5702 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5705 -->
@@ -5730,7 +5730,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5784 -->
         <artifactId>camel-webhook</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5785 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5786 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5786 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5789 -->
@@ -5844,7 +5844,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5898 -->
         <artifactId>camel-xml-io</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5899 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5900 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5900 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5903 -->
@@ -5859,7 +5859,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5913 -->
         <artifactId>camel-xml-io-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5914 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5915 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5915 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5918 -->
@@ -5874,12 +5874,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5928 -->
         <artifactId>camel-xml-io-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5929 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5930 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5930 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5933 -->
         <artifactId>camel-xml-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5934 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5935 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5935 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5938 -->
@@ -5894,7 +5894,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5948 -->
         <artifactId>camel-xml-jaxp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5949 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5950 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5950 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5953 -->
@@ -5939,7 +5939,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5993 -->
         <artifactId>camel-xpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5994 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5995 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5995 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 5998 -->
@@ -5999,7 +5999,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6053 -->
         <artifactId>camel-yaml-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6054 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6055 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6055 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6058 -->
@@ -6014,12 +6014,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6068 -->
         <artifactId>camel-yaml-dsl-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6069 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6070 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6070 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6073 -->
         <artifactId>camel-yaml-dsl-deserializers</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6074 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6075 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6075 -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6078 -->
@@ -6069,7 +6069,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6123 -->
         <artifactId>camel-zipfile</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6124 -->
-        <version>3.14.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6125 -->
+        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6125 -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 6128 -->
@@ -9743,7 +9743,7 @@
       <dependency>
         <groupId>com.thoughtworks.xstream</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9801 -->
         <artifactId>xstream</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9802 -->
-        <version>1.4.19</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9803 -->
+        <version>1.4.19.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9803 -->
       </dependency>
       <dependency>
         <groupId>commons-beanutils</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9806 -->
@@ -10163,22 +10163,22 @@
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10233 -->
         <artifactId>spring-aop</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10234 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10235 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10235 -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10238 -->
         <artifactId>spring-beans</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10239 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10240 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10240 -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10243 -->
         <artifactId>spring-context</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10244 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10245 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10245 -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10248 -->
         <artifactId>spring-core</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10249 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10250 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10250 -->
         <exclusions>
           <exclusion>
             <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10253 -->
@@ -10189,17 +10189,17 @@
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10259 -->
         <artifactId>spring-expression</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10260 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10261 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10261 -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10264 -->
         <artifactId>spring-messaging</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10265 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10266 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10266 -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10269 -->
         <artifactId>spring-tx</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10270 -->
-        <version>5.3.16</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10271 -->
+        <version>5.3.18</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10271 -->
       </dependency>
       <dependency>
         <groupId>org.threeten</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10274 -->
@@ -10475,99 +10475,99 @@
         <version>0.32.0</version><!-- org.amqphub.quarkus:quarkus-qpid-jms-bom:0.32.0, line 64 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 156 -->
-        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 157 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 158 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 156 -->
+        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 157 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 158 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 161 -->
-        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 162 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 163 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 161 -->
+        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 162 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 163 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 206 -->
-        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 207 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 208 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 206 -->
+        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 207 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 208 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 211 -->
-        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 212 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 213 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 211 -->
+        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 212 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 213 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 260 -->
-        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 261 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 262 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 260 -->
+        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 261 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 262 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 265 -->
-        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 266 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 267 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 265 -->
+        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 266 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 267 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 270 -->
-        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 271 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 272 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 270 -->
+        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 271 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 272 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 275 -->
-        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 276 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 277 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 275 -->
+        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 276 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 277 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 280 -->
-        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 281 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 282 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 280 -->
+        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 281 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 282 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 315 -->
-        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 316 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 317 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 315 -->
+        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 316 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 317 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 330 -->
-        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 331 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 332 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 330 -->
+        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 331 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 332 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 390 -->
-        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 391 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 392 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 390 -->
+        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 391 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 392 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 400 -->
-        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 401 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 402 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 400 -->
+        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 401 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 402 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 405 -->
-        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 406 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 407 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 405 -->
+        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 406 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 407 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 410 -->
-        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 411 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 412 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 410 -->
+        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 411 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 412 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 425 -->
-        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 426 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 427 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 425 -->
+        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 426 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 427 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 430 -->
-        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 431 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 432 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 430 -->
+        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 431 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 432 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 435 -->
-        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 436 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 437 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 435 -->
+        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 436 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 437 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 475 -->
-        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 476 -->
-        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629, line 477 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 475 -->
+        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 476 -->
+        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003, line 477 -->
       </dependency>
       <dependency>
         <groupId>com.azure</groupId><!-- com.azure:azure-sdk-bom:1.0.5, line 84 -->
