@@ -57,7 +57,7 @@
         <quarkiverse-jsch.version>1.0.0</quarkiverse-jsch.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/jsch/quarkus-jsch-parent/ -->
         <quarkiverse-minio.version>2.3.0</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
         <quarkiverse-tika.version>1.0.3</quarkiverse-tika.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/tika/quarkus-tika-parent/ -->
-        <quarkus.version>2.7.5.Final</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus.version>2.7.5.Final-redhat-00001</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
         <quarkus-community.version>2.7.5.Final</quarkus-community.version>
         <quarkus-hazelcast-client.version>3.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>0.32.0</quarkus-qpid-jms.version><!-- https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
@@ -67,7 +67,7 @@
         <ahc.version>${ahc-version}</ahc.version>
         <animal-sniffer.version>1.18</animal-sniffer.version>
         <antlr3.version>3.5.2</antlr3.version><!-- Spark, Stringtemplate and probably others -->
-        <avro.version>1.11.0</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
+        <avro.version>1.11.0.redhat-00001</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
         <awssdk.version>2.17.103</awssdk.version><!-- @sync io.quarkiverse.amazonservices:quarkus-amazon-services-parent:${quarkiverse-amazonservices.version} prop:awssdk.version -->
         <aws-java-sdk.version>1.11.714</aws-java-sdk.version>
         <azure-sdk-bom.version>1.0.5</azure-sdk-bom.version><!-- Keep in sync with camel-azure component versions -->
@@ -89,9 +89,9 @@
         <github-api.version>1.111</github-api.version><!-- Used in a Groovy script bellow -->
         <google-native-image-support.version>0.8.0</google-native-image-support.version>
         <google-auth-library-credentials.version>0.22.2</google-auth-library-credentials.version><!-- @sync io.grpc:grpc-auth:${grpc.version} dep:com.google.auth:google-auth-library-credentials -->
-        <graalvm.version>21.3.1</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.nativeimage:svm -->
+        <graalvm.version>21.3.1.0-0-redhat-00001</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.nativeimage:svm -->
         <graalvm-community.version>21.3.1</graalvm-community.version><!-- keep in sync with graalvm.version -->
-        <grpc.version>1.43.2</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
+        <grpc.version>1.43.2.redhat-00001</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <guice-servlet.version>4.0</guice-servlet.version><!-- Spark -->
         <hadoop3.version>${hadoop3-version}</hadoop3.version><!-- Spark -->
         <hapi.version>${hapi-version}</hapi.version>
@@ -162,7 +162,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>2.26.2</cq-plugin.version>
+        <cq-plugin.version>2.26.3</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.17.1</formatter-maven-plugin.version>
@@ -710,7 +710,7 @@
                                                 <exclude>ch.qos.logback:logback-core</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
                                                 <exclude>ch.qos.logback:logback-access</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
                                                 <exclude>ch.qos.logback:logback</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
-                                                <exclude>com.github.fge:*</exclude><!-- Use com.github.java-json-tools:* instead -->
+                                                <!-- <exclude>com.github.fge:*</exclude> workaround https://issues.redhat.com/browse/QUARKUS-1974 --><!-- Use com.github.java-json-tools:* instead -->
                                                 <exclude>com.google.code.findbugs:jsr305</exclude>
                                                 <exclude>com.sun.activation:javax.activation</exclude><!-- use com.sun.activation:jakarta.activation instead -->
                                                 <exclude>commons-logging:commons-logging</exclude><!-- use org.jboss.logging:commons-logging-jboss-logging instead of commons-logging and commons-logging-api -->

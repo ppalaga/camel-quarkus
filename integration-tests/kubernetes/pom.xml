@@ -66,6 +66,10 @@
                     <groupId>junit</groupId>
                     <artifactId>junit</artifactId>
                 </exclusion>
+                <exclusion><!-- zjsonpatch pulled through camel-quarkus-kubernetes in prod version, here it would be the community version because we use community quarkus-bom-test  -->
+                    <groupId>io.fabric8</groupId>
+                    <artifactId>zjsonpatch</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
         <dependency>
