@@ -35,8 +35,8 @@
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
         <!-- <module>activemq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>ahc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>ahc-ws</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>ahc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>amqp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>arangodb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>as2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -209,8 +209,8 @@
         <!-- <module>servicenow</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>servlet</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>shiro</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>sjms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>sjms2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>sjms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>slack</module>
         <!-- <module>smallrye-reactive-messaging</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>snakeyaml</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -234,9 +234,9 @@
         <!-- <module>univocity-parsers</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>validator</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>velocity</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>vertx-http</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>vertx-websocket</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>vertx</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>vm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>weather</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xchange</module> disabled by cq-prod-maven-plugin:prod-excludes -->

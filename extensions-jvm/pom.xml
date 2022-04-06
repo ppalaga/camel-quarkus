@@ -60,15 +60,15 @@
         <!-- <module>drill</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>ehcache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>elsql</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>etcd</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>etcd3</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>etcd</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>facebook</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>fastjson</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>flink</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>ganglia</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>google-functions</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>groovy</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>groovy-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>groovy</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>guava-eventbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>hbase</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>hdfs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -83,8 +83,8 @@
         <!-- <module>jcache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jclouds</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jcr</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>jgroups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jgroups-raft</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jgroups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>jooq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>joor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>json-patch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -125,8 +125,8 @@
         <!-- <module>xmpp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>xslt-saxon</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>yammer</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>zookeeper</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>zookeeper-master</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>zookeeper</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
     <dependencyManagement>
