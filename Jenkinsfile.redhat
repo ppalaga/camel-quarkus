@@ -51,7 +51,7 @@ pipeline {
                     sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
 
                     //Fail if there are uncommitted changes after building
-                    sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git status; exit 1; }"
+                    sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
 
                     sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*"
                     stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
