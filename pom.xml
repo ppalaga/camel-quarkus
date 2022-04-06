@@ -495,8 +495,8 @@
                         <header>header.txt</header>
                         <excludes>
                             <exclude>**/*.adoc</exclude>
-                            <exclude>modules/**/*.yml</exclude>
-                            <exclude>src/main/resources/doc-templates/extensions-camel-bits.yml</exclude>
+                            <exclude>**/modules/**/*.yml</exclude>
+                            <exclude>**/src/main/resources/doc-templates/extensions-camel-bits.yml</exclude>
                             <exclude>**/*.adm</exclude>
                             <exclude>**/*.avsc</exclude>
                             <exclude>**/*.avpr</exclude>
@@ -556,6 +556,7 @@
                             <groovy>SLASHSTAR_STYLE</groovy>
                             <java>SLASHSTAR_STYLE</java>
                             <Jenkinsfile>SLASHSTAR_STYLE</Jenkinsfile>
+                            <Jenkinsfile.redhat>SLASHSTAR_STYLE</Jenkinsfile.redhat>
                             <Jenkinsfile.quarkus>SLASHSTAR_STYLE</Jenkinsfile.quarkus>
                             <properties>CAMEL_PROPERTIES_STYLE</properties>
                             <rnc>SCRIPT_STYLE</rnc>
