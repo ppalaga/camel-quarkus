@@ -10295,6 +10295,26 @@
                 <artifactId>quorum</artifactId>
                 <version>${web3j.quorum.version}</version>
             </dependency>
+            <dependency><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1977 -->
+                <groupId>org.wildfly.security</groupId>
+                <artifactId>wildfly-elytron-auth</artifactId>
+                <version>${elytron.version}</version>
+            </dependency>
+            <dependency><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1977 -->
+                <groupId>org.wildfly.security</groupId>
+                <artifactId>wildfly-elytron-permission</artifactId>
+                <version>${elytron.version}</version>
+            </dependency>
+            <dependency><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1977 -->
+                <groupId>org.wildfly.security</groupId>
+                <artifactId>wildfly-elytron-util</artifactId>
+                <version>${elytron.version}</version>
+            </dependency>
+            <dependency><!-- Workaround for https://issues.redhat.com/browse/QUARKUS-1977 -->
+                <groupId>org.wildfly.security</groupId>
+                <artifactId>wildfly-elytron-x500</artifactId>
+                <version>${elytron.version}</version>
+            </dependency>
             <dependency>
                 <groupId>xalan</groupId>
                 <artifactId>xalan</artifactId>
