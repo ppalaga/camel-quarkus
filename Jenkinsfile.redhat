@@ -47,6 +47,7 @@ pipeline {
                 sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
                 sh "docker system prune -a -f"
                 sh "df -h"
+                sh "git --version"
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
                     sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
 
