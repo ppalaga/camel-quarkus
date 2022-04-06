@@ -10053,7 +10053,7 @@
       <dependency>
         <groupId>org.graalvm.js</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10118 -->
         <artifactId>js</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10119 -->
-        <version>21.3.1.1-1-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10120 -->
+        <version>21.3.1</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10120 -->
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10128 -->
