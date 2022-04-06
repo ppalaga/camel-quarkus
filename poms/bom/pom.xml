@@ -10117,7 +10117,7 @@
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js</artifactId>
-                <version>${graalvm.version}</version>
+                <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
