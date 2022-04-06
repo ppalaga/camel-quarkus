@@ -17,25 +17,25 @@
   </licenses>
   <developers>
     <developer>
-      <name>The Apache Camel Team</name><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 233 -->
-      <email>dev@camel.apache.org</email><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 234 -->
-      <url>http://camel.apache.org</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 235 -->
-      <organization>Apache Software Foundation</organization><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 236 -->
-      <organizationUrl>http://apache.org/</organizationUrl><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 237 -->
+      <name>The Apache Camel Team</name><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 234 -->
+      <email>dev@camel.apache.org</email><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 235 -->
+      <url>http://camel.apache.org</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 236 -->
+      <organization>Apache Software Foundation</organization><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 237 -->
+      <organizationUrl>http://apache.org/</organizationUrl><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 238 -->
       <properties>
-        <picUrl>http://camel.apache.org/banner.data/apache-camel-7.png</picUrl><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 239 -->
+        <picUrl>http://camel.apache.org/banner.data/apache-camel-7.png</picUrl><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 240 -->
       </properties>
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-quarkus.git/camel-quarkus-poms/camel-quarkus-bom</connection><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 266 -->
-    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-quarkus.git/camel-quarkus-poms/camel-quarkus-bom</developerConnection><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 267 -->
-    <tag>2.7.1</tag><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 269 -->
-    <url>https://gitbox.apache.org/repos/asf?p=camel-quarkus.git;a=summary/camel-quarkus-poms/camel-quarkus-bom</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 268 -->
+    <connection>scm:git:http://gitbox.apache.org/repos/asf/camel-quarkus.git/camel-quarkus-poms/camel-quarkus-bom</connection><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 267 -->
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/camel-quarkus.git/camel-quarkus-poms/camel-quarkus-bom</developerConnection><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 268 -->
+    <tag>2.7.1</tag><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 270 -->
+    <url>https://gitbox.apache.org/repos/asf?p=camel-quarkus.git;a=summary/camel-quarkus-poms/camel-quarkus-bom</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 269 -->
   </scm>
   <issueManagement>
-    <system>GitHub</system><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 273 -->
-    <url>https://github.com/apache/camel-quarkus/issues</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 274 -->
+    <system>GitHub</system><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 274 -->
+    <url>https://github.com/apache/camel-quarkus/issues</url><!-- org.apache.camel.quarkus:camel-quarkus:2.7.1.fuse-SNAPSHOT, line 275 -->
   </issueManagement>
   <distributionManagement>
     <repository>
@@ -9895,12 +9895,12 @@
       <dependency>
         <groupId>org.apache.avro</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9962 -->
         <artifactId>avro-ipc-jetty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9963 -->
-        <version>1.11.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9964 -->
+        <version>1.11.0.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9964 -->
       </dependency>
       <dependency>
         <groupId>org.apache.avro</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9967 -->
         <artifactId>avro-ipc-netty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9968 -->
-        <version>1.11.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9969 -->
+        <version>1.11.0.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9969 -->
         <exclusions>
           <exclusion>
             <groupId>javax.annotation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 9972 -->
@@ -10053,7 +10053,7 @@
       <dependency>
         <groupId>org.graalvm.js</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10118 -->
         <artifactId>js</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10119 -->
-        <version>21.3.1.0-0-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10120 -->
+        <version>21.3.1.1-1-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10120 -->
       </dependency>
       <dependency>
         <groupId>org.infinispan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10128 -->
@@ -10227,13 +10227,33 @@
         <version>0.8.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10296 -->
       </dependency>
       <dependency>
-        <groupId>xalan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10299 -->
-        <artifactId>xalan</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10300 -->
-        <version>2.7.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10301 -->
+        <groupId>org.wildfly.security</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10299 -->
+        <artifactId>wildfly-elytron-auth</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10300 -->
+        <version>1.18.3.Final-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10301 -->
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.security</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10304 -->
+        <artifactId>wildfly-elytron-permission</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10305 -->
+        <version>1.18.3.Final-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10306 -->
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.security</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10309 -->
+        <artifactId>wildfly-elytron-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10310 -->
+        <version>1.18.3.Final-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10311 -->
+      </dependency>
+      <dependency>
+        <groupId>org.wildfly.security</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10314 -->
+        <artifactId>wildfly-elytron-x500</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10315 -->
+        <version>1.18.3.Final-redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10316 -->
+      </dependency>
+      <dependency>
+        <groupId>xalan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10319 -->
+        <artifactId>xalan</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10320 -->
+        <version>2.7.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10321 -->
         <exclusions>
           <exclusion>
-            <groupId>xml-apis</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10304 -->
-            <artifactId>xml-apis</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10305 -->
+            <groupId>xml-apis</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10324 -->
+            <artifactId>xml-apis</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:2.7.1.fuse-SNAPSHOT, line 10325 -->
           </exclusion>
         </exclusions>
       </dependency>
