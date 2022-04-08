@@ -2252,6 +2252,11 @@
                 <artifactId>camel-ftp</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
+                    <!-- TODO: Remove this https://github.com/apache/camel-quarkus/issues/3711 -->
+                    <exclusion>
+                        <groupId>com.github.mwiede</groupId>
+                        <artifactId>jsch</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>jakarta.activation</groupId>
                         <artifactId>jakarta.activation-api</artifactId>
@@ -3536,6 +3541,11 @@
                 <artifactId>camel-jsch</artifactId>
                 <version>${camel-community.version}</version>
                 <exclusions>
+                    <!-- TODO: Remove this https://github.com/apache/camel-quarkus/issues/3711 -->
+                    <exclusion>
+                        <groupId>com.github.mwiede</groupId>
+                        <artifactId>jsch</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>jakarta.activation</groupId>
                         <artifactId>jakarta.activation-api</artifactId>

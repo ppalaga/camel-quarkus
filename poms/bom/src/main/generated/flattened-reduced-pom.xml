@@ -2200,6 +2200,10 @@
         <version>3.14.2.redhat-00006</version>
         <exclusions>
           <exclusion>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
           </exclusion>
@@ -3483,6 +3487,10 @@
         <artifactId>camel-jsch</artifactId>
         <version>3.14.2</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
