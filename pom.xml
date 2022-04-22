@@ -128,6 +128,7 @@
         <mvel2.version>2.4.13.Final</mvel2.version><!-- @sync org.apache.camel:camel-dependencies:${camel.version} prop:mvel-version -->
         <okio.version>${squareup-okio-version}</okio.version>
         <protobuf.version>3.19.3.redhat-00001</protobuf.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.google.protobuf:protobuf-java -->
+        <protobuf-community.version>3.19.3</protobuf-community.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.google.protobuf:protobuf-java -->
         <retrofit.version>2.5.0</retrofit.version>
         <saaj.impl.version>1.5.3</saaj.impl.version>
         <scala-2.12.version>2.12.15</scala-2.12.version><!-- Spark -->
