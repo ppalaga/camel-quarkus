@@ -167,6 +167,8 @@ com.jcabi:jcabi-log
 com.jcabi:jcabi-manifests
 com.lmax:disruptor
 com.mattbertolini:liquibase-slf4j
+com.mchange:c3p0
+com.mchange:mchange-commons-java
 com.microsoft.azure:adal4j
 com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
