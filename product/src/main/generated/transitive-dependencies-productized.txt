@@ -85,8 +85,6 @@ com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
 com.jcraft:jsch
 com.jcraft:jzlib
-com.mchange:c3p0
-com.mchange:mchange-commons-java
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
 com.squareup:protoparser
