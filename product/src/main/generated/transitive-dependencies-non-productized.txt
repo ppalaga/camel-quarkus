@@ -1595,6 +1595,7 @@ org.igniterealtime.smack:smack-java7
 org.igniterealtime.smack:smack-resolver-javax
 org.igniterealtime.smack:smack-sasl-javax
 org.igniterealtime.smack:smack-tcp
+org.infinispan:infinispan-jboss-marshalling
 org.influxdb:influxdb-java
 org.iota:jota
 org.iq80.leveldb:leveldb
@@ -1627,6 +1628,7 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jetbrains.kotlinx:kotlinx-coroutines-core
 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
+org.jgroups:jgroups
 org.jgroups:jgroups-raft
 org.jodd:jodd-bean
 org.jodd:jodd-core
