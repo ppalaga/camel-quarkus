@@ -159,7 +159,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -335,7 +335,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-attachments</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -354,7 +354,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -476,7 +476,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-cw</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -499,7 +499,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-ddb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -637,7 +637,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-kinesis</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -683,7 +683,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-lambda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -752,7 +752,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-s3</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -798,7 +798,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-sns</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -821,7 +821,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-sqs</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -924,7 +924,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-azure-storage-blob</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -958,7 +958,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-azure-storage-queue</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -992,7 +992,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1007,7 +1007,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-base-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1027,7 +1027,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bean</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1042,7 +1042,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bean-validator</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1091,7 +1091,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bindy</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1213,7 +1213,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cassandraql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1232,7 +1232,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1292,7 +1292,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cloud</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1307,7 +1307,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cluster</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1396,7 +1396,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-componentdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1488,7 +1488,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1503,7 +1503,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1518,7 +1518,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-languages</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1533,12 +1533,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-processor</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1553,7 +1553,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-reifier</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1592,7 +1592,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cron</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1802,7 +1802,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-direct</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1923,7 +1923,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-dsl-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1977,7 +1977,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-endpointdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2067,7 +2067,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-fhir</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2094,12 +2094,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-fhir-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-file</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2197,7 +2197,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-ftp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.github.mwiede</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2608,7 +2608,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-gson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2750,12 +2750,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-hl7</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2770,7 +2770,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2793,12 +2793,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2905,7 +2905,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-infinispan</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2936,7 +2936,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-infinispan-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.infinispan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3001,7 +3001,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3016,7 +3016,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3031,7 +3031,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson-protobuf</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3046,7 +3046,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jacksonxml</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3076,7 +3076,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-java-joor-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3091,7 +3091,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3277,7 +3277,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jira</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3328,7 +3328,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jms</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3594,7 +3594,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jsonpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3624,7 +3624,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jta</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3643,7 +3643,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kafka</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3658,7 +3658,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kamelet</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3693,7 +3693,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kubernetes</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>io.fabric8</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3787,7 +3787,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-log</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3866,7 +3866,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mail</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3881,7 +3881,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-main</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3915,12 +3915,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-management-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-master</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3950,7 +3950,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-config</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3965,7 +3965,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-fault-tolerance</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3984,7 +3984,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>javax.enterprise</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4003,7 +4003,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-metrics</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4064,7 +4064,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mllp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4079,7 +4079,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mock</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4094,7 +4094,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mongodb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4222,7 +4222,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-netty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4368,7 +4368,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-openapi-java</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.fasterxml.jackson.dataformat</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4467,7 +4467,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-paho</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4482,7 +4482,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-paho-mqtt5</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4550,12 +4550,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-platform-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-platform-http-vertx</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4662,7 +4662,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-quartz</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4779,7 +4779,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-rest</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4877,7 +4877,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-salesforce</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4911,7 +4911,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-saxon</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4956,7 +4956,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-seda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5077,7 +5077,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-slack</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.googlecode.json-simple</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5141,7 +5141,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-soap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.xml.bind</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5259,7 +5259,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-sql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5395,7 +5395,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5455,7 +5455,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-telegram</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5527,7 +5527,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-timer</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5542,7 +5542,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-tooling-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5613,12 +5613,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-util-json</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5668,7 +5668,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-vertx-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5752,7 +5752,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-webhook</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5866,7 +5866,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5881,7 +5881,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5896,12 +5896,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5916,7 +5916,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-jaxp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5961,7 +5961,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -6021,7 +6021,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -6036,12 +6036,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl-deserializers</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -6091,7 +6091,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-zipfile</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.14.2.redhat-00006</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.14.2.redhat-00029</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9744,7 +9744,7 @@
       <dependency>
         <groupId>com.sun.mail</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>jakarta.mail</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.6.6</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.6.7.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10517,99 +10517,99 @@
         <version>0.32.0</version><!-- org.amqphub.quarkus:quarkus-qpid-jms-bom:0.32.0 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
-        <version>9.4.43.v20210629-redhat-00003</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00003 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
         <groupId>com.azure</groupId><!-- com.azure:azure-sdk-bom:1.0.5 -->
