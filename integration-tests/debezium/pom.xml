@@ -177,7 +177,7 @@
                 <dependency>
                     <groupId>org.apache.camel.quarkus</groupId>
                     <artifactId>camel-quarkus-debezium-mysql-deployment</artifactId>
-                    <version>${project.version}</version>
+                    <version>${camel-quarkus-community.version}</version>
                     <type>pom</type>
                     <scope>test</scope>
                     <exclusions>
@@ -204,7 +204,7 @@
                 <dependency>
                     <groupId>org.apache.camel.quarkus</groupId>
                     <artifactId>camel-quarkus-debezium-sqlserver-deployment</artifactId>
-                    <version>${project.version}</version>
+                    <version>${camel-quarkus-community.version}</version>
                     <type>pom</type>
                     <scope>test</scope>
                     <exclusions>
