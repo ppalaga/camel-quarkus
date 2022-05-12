@@ -2311,7 +2311,6 @@ org.igniterealtime.smack:smack-tcp
 org.infinispan:infinispan-client-hotrod
 org.infinispan:infinispan-commons
 org.infinispan:infinispan-commons-test
-org.infinispan:infinispan-jboss-marshalling
 org.infinispan:infinispan-query-dsl
 org.infinispan:infinispan-remote-query-client
 org.infinispan:infinispan-server-testdriver-core
