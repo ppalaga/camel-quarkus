@@ -165,6 +165,8 @@ com.impossibl.pgjdbc-ng:pgjdbc-ng
 com.impossibl.pgjdbc-ng:spy
 com.jcabi:jcabi-log
 com.jcabi:jcabi-manifests
+com.jcraft:jsch
+com.jcraft:jzlib
 com.lmax:disruptor
 com.mattbertolini:liquibase-slf4j
 com.mchange:c3p0
