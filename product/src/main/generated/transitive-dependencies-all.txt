@@ -166,6 +166,7 @@ com.github.mmazi:rescu
 com.github.multiformats:java-multiaddr
 com.github.multiformats:java-multibase
 com.github.multiformats:java-multihash
+com.github.mwiede:jsch
 com.github.openjson:openjson
 com.github.openstack4j.core:openstack4j-core
 com.github.openstack4j.core.connectors:openstack4j-okhttp

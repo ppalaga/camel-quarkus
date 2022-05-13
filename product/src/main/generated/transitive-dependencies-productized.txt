@@ -70,6 +70,7 @@ com.github.jnr:jnr-posix
 com.github.jnr:jnr-x86asm
 com.github.luben:zstd-jni
 com.github.mifmif:generex
+com.github.mwiede:jsch
 com.github.spotbugs:spotbugs-annotations
 com.github.stephenc.jcip:jcip-annotations
 com.google.code.gson:gson
@@ -83,8 +84,6 @@ com.google.oauth-client:google-oauth-client
 com.ibm.async:asyncutil
 com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
-com.jcraft:jsch
-com.jcraft:jzlib
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
 com.squareup:protoparser
