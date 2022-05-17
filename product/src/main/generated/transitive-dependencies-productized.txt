@@ -102,7 +102,6 @@ com.typesafe.netty:netty-reactive-streams
 commons-cli:commons-cli
 commons-codec:commons-codec
 commons-io:commons-io
-commons-lang:commons-lang
 commons-net:commons-net
 dk.brics.automaton:automaton
 io.agroal:agroal-api

@@ -237,6 +237,7 @@ commons-configuration:commons-configuration
 commons-daemon:commons-daemon
 commons-dbcp:commons-dbcp
 commons-digester:commons-digester
+commons-lang:commons-lang
 commons-pool:commons-pool
 commons-validator:commons-validator
 concurrent:concurrent
