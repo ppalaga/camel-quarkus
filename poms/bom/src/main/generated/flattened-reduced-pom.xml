@@ -9915,7 +9915,7 @@
       <dependency>
         <groupId>org.apache.avro</groupId>
         <artifactId>avro-ipc-jetty</artifactId>
-        <version>1.11.0.redhat-00002</version>
+        <version>1.11.0</version>
       </dependency>
       <dependency>
         <groupId>org.apache.avro</groupId>
@@ -10577,17 +10577,17 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-security</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-server</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlet</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10607,7 +10607,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-webapp</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>

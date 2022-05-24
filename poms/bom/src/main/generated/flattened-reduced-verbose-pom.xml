@@ -9915,7 +9915,7 @@
       <dependency>
         <groupId>org.apache.avro</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>avro-ipc-jetty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.11.0.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.11.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.avro</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10577,17 +10577,17 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
         <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
-        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
         <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
-        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
         <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
-        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
@@ -10607,7 +10607,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
         <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
-        <version>9.4.43.v20210629-redhat-00004</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
+        <version>9.4.43.v20210629</version><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.43.v20210629-redhat-00004 -->
