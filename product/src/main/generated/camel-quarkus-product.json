@@ -122,7 +122,7 @@
             "artifact-id": "camel-quarkus-cassandraql",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -140,7 +140,7 @@
             "artifact-id": "camel-quarkus-cron",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -158,7 +158,7 @@
             "artifact-id": "camel-quarkus-fhir",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -185,7 +185,7 @@
             "artifact-id": "camel-quarkus-gson",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -257,7 +257,7 @@
             "artifact-id": "camel-quarkus-jira",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -320,7 +320,7 @@
             "artifact-id": "camel-quarkus-mail",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -329,7 +329,7 @@
             "artifact-id": "camel-quarkus-microprofile-fault-tolerance",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -371,15 +371,6 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-paho-mqtt5",
-            "metadata": {
-                "redhat-support": [
-                    "supported"
-                ]
-            }
-        },
-        {
-            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-mongodb",
             "metadata": {
                 "redhat-support": [
@@ -410,7 +401,7 @@
             "artifact-id": "camel-quarkus-quartz",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
@@ -419,7 +410,16 @@
             "artifact-id": "camel-quarkus-paho",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-paho-mqtt5",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
                 ]
             }
         },
