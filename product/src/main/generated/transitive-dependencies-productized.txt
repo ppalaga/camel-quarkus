@@ -110,6 +110,10 @@ io.agroal:agroal-pool
 io.apicurio:apicurio-data-models
 io.atlassian.fugue:fugue
 io.atlassian.util.concurrent:atlassian-util-concurrent
+io.dropwizard.metrics:metrics-core
+io.dropwizard.metrics:metrics-healthchecks
+io.dropwizard.metrics:metrics-jmx
+io.dropwizard.metrics:metrics-servlets
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-model-admissionregistration
 io.fabric8:kubernetes-model-apiextensions
@@ -348,6 +352,7 @@ jakarta.security.jacc:jakarta.security.jacc-api
 jakarta.servlet:jakarta.servlet-api
 jakarta.transaction:jakarta.transaction-api
 jakarta.validation:jakarta.validation-api
+jakarta.xml.bind:jakarta.xml.bind-api
 jakarta.xml.soap:jakarta.xml.soap-api
 jakarta.xml.ws:jakarta.xml.ws-api
 joda-time:joda-time
