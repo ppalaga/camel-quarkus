@@ -2195,10 +2195,6 @@
         <version>3.14.2.redhat-00038</version>
         <exclusions>
           <exclusion>
-            <groupId>com.github.mwiede</groupId>
-            <artifactId>jsch</artifactId>
-          </exclusion>
-          <exclusion>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
           </exclusion>
@@ -9690,6 +9686,11 @@
             <artifactId>asm-util</artifactId>
           </exclusion>
         </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>com.github.mwiede</groupId>
+        <artifactId>jsch</artifactId>
+        <version>0.2.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>com.google.auth</groupId>
