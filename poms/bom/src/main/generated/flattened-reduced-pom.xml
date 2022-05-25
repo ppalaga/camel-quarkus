@@ -154,7 +154,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-api</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -330,7 +330,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-attachments</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId>
@@ -349,7 +349,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-avro</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -471,7 +471,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-cw</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -494,7 +494,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-ddb</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -632,7 +632,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-kinesis</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -678,7 +678,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-lambda</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -747,7 +747,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-s3</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -793,7 +793,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-sns</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -816,7 +816,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-aws2-sqs</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -919,7 +919,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-azure-storage-blob</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId>
@@ -953,7 +953,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-azure-storage-queue</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>io.netty</groupId>
@@ -987,7 +987,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-base</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1002,7 +1002,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-base-engine</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -1022,7 +1022,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-bean</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1037,7 +1037,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-bean-validator</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1086,7 +1086,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-bindy</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1208,7 +1208,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cassandraql</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId>
@@ -1227,7 +1227,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-catalog</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1287,7 +1287,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cloud</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1302,7 +1302,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cluster</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -1391,7 +1391,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-componentdsl</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1483,7 +1483,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-catalog</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1498,7 +1498,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-engine</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1513,7 +1513,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-languages</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1528,12 +1528,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-model</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-processor</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1548,7 +1548,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-core-reifier</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -1587,7 +1587,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-cron</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1797,7 +1797,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-direct</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -1918,7 +1918,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dsl-support</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -1972,7 +1972,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-endpointdsl</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2062,7 +2062,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-fhir</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId>
@@ -2089,12 +2089,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-fhir-api</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-file</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2192,8 +2192,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-ftp</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.github.mwiede</groupId>
+            <artifactId>jsch</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
@@ -2599,7 +2603,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-gson</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2741,12 +2745,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-health</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-hl7</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2761,7 +2765,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-http</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2784,12 +2788,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-http-base</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-http-common</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2896,7 +2900,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-infinispan</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -2927,7 +2931,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-infinispan-common</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>org.infinispan</groupId>
@@ -2992,7 +2996,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jackson</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3007,7 +3011,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jackson-avro</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3022,7 +3026,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jackson-protobuf</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3037,7 +3041,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jacksonxml</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3067,7 +3071,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-java-joor-dsl</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3082,7 +3086,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jaxb</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3268,7 +3272,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jira</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3319,7 +3323,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jms</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3585,7 +3589,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jsonpath</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3615,7 +3619,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-jta</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3634,7 +3638,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-kafka</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3649,7 +3653,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-kamelet</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3684,7 +3688,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-kubernetes</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>io.fabric8</groupId>
@@ -3778,7 +3782,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-log</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3857,7 +3861,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-mail</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3872,7 +3876,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-main</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3906,12 +3910,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-management-api</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-master</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3941,7 +3945,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-microprofile-config</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3956,7 +3960,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-microprofile-fault-tolerance</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -3975,7 +3979,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-microprofile-health</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>javax.enterprise</groupId>
@@ -3994,7 +3998,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-microprofile-metrics</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4055,7 +4059,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-mllp</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4070,7 +4074,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-mock</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4085,7 +4089,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-mongodb</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4213,7 +4217,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-netty</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4359,7 +4363,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-openapi-java</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
@@ -4458,7 +4462,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-paho</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4473,7 +4477,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-paho-mqtt5</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4541,12 +4545,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-platform-http</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-platform-http-vertx</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4653,7 +4657,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-quartz</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4770,7 +4774,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-rest</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4868,7 +4872,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-salesforce</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4902,7 +4906,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-saxon</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -4947,7 +4951,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-seda</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5068,7 +5072,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-slack</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>com.googlecode.json-simple</groupId>
@@ -5132,7 +5136,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-soap</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.xml.bind</groupId>
@@ -5250,7 +5254,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-sql</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId>
@@ -5386,7 +5390,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-support</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5446,7 +5450,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-telegram</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5518,7 +5522,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-timer</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5533,7 +5537,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-tooling-model</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -5604,12 +5608,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-util</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-util-json</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -5659,7 +5663,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-vertx-common</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -5743,7 +5747,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-webhook</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5857,7 +5861,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xml-io</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5872,7 +5876,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xml-io-dsl</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5887,12 +5891,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xml-io-util</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xml-jaxb</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5907,7 +5911,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xml-jaxp</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -5952,7 +5956,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-xpath</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -6012,7 +6016,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-yaml-dsl</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -6027,12 +6031,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-yaml-dsl-common</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-yaml-dsl-deserializers</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -6082,7 +6086,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-zipfile</artifactId>
-        <version>3.14.2.redhat-00035</version>
+        <version>3.14.2.redhat-00029</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -9681,11 +9685,6 @@
             <artifactId>asm-util</artifactId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>com.github.mwiede</groupId>
-        <artifactId>jsch</artifactId>
-        <version>0.2.1.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>com.google.auth</groupId>
