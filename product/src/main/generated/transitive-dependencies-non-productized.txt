@@ -133,7 +133,6 @@ com.google.guava:guava-jdk5
 com.google.guava:listenablefuture
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
-com.google.http-client:google-http-client-gson
 com.google.http-client:google-http-client-jackson2
 com.google.inject.extensions:guice-assistedinject
 com.google.maps:google-maps-services
