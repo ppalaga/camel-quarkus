@@ -9926,7 +9926,7 @@
       <dependency>
         <groupId>org.apache.avro</groupId>
         <artifactId>avro-ipc-netty</artifactId>
-        <version>1.11.0.redhat-00002</version>
+        <version>1.11.0</version>
         <exclusions>
           <exclusion>
             <groupId>javax.annotation</groupId>
@@ -10528,12 +10528,12 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-client</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-alpn-java-client</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10543,7 +10543,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-continuation</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10553,22 +10553,22 @@
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-client</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-common</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-hpack</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty.http2</groupId>
         <artifactId>http2-http-client-transport</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10578,7 +10578,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-jmx</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10598,7 +10598,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-servlets</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
@@ -10618,7 +10618,7 @@
       <dependency>
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-xml</artifactId>
-        <version>9.4.43.v20210629-redhat-00004</version>
+        <version>9.4.43.v20210629</version>
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>

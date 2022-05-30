@@ -10422,10 +10422,6 @@
                                 </bomEntryTransformation>
 
                                 <bomEntryTransformation>
-                                    <gavPattern>org.apache.avro:avro-ipc-jetty</gavPattern>
-                                    <versionReplacement>[\-\.]redhat-\d+$/</versionReplacement>
-                                </bomEntryTransformation>
-                                <bomEntryTransformation>
                                     <gavPattern>org.eclipse.jetty:jetty-security</gavPattern>
                                     <versionReplacement>[\-\.]redhat-\d+$/</versionReplacement>
                                 </bomEntryTransformation>
