@@ -1,0 +1,37 @@
+== Testing
+=== Group of tests
+We have multiple categories of tests distinguished by level of support (Supported/Community) and by given runtime (JVM/Native). Those categories can be found under `product` folder.
+
+==== Supported extensions
+We have these folders:
+
+- integration-tests-mixed-allowed (For both JVM and Native)
+- integration-tests-product (For both JVM and Native)
+
+==== Community extensions
+We have these folders:
+
+- integration-tests-mixed-jvm (Only for JVM)
+- integration-tests-mixed-native (For both JVM and Native)
+
+Each category is granularized even more so every category can have multiple groups which is designed for being able to run those groups in parallel.
+
+==== Run group of tests
+To run specific group, just step into the path (eg. product/integration-tests-product/group-01) and invoke:
+
+[source,shell]
+----
+ mvn -U -B -e -V -ntp verify -Dformatter.skip -Dimpsort.skip -Denforcer.skip -Dcamel-quarkus.update-extension-doc-page.skip -DnoVirtualDependencies -Dcamel-quarkus.version=$VERSION_CAMEL_QUARKUS -Dquarkus.platform.group-id=io.quarkus -Dquarkus.platform.artifact-id=quarkus-bom -Dquarkus.platform.version=$VERSION_QUARKUS -Dcamel-quarkus.platform.group-id=org.apache.camel.quarkus -Dcamel-quarkus.platform.artifact-id=camel-quarkus-bom -Dcamel-quarkus.platform.version=$VERSION_CAMEL_QUARKUS -Pmixed
+----
+
+=== Single test module
+The base command which should be run from root folder of this project looks like follows:
+
+[source,shell]
+----
+ mvn -U -B -e -V -ntp verify -Dformatter.skip -Dimpsort.skip -Denforcer.skip -Dcamel-quarkus.update-extension-doc-page.skip -DnoVirtualDependencies -Dcamel-quarkus.version=$VERSION_CAMEL_QUARKUS -Dquarkus.platform.group-id=io.quarkus -Dquarkus.platform.artifact-id=quarkus-bom -Dquarkus.platform.version=$VERSION_QUARKUS -Dcamel-quarkus.platform.group-id=org.apache.camel.quarkus -Dcamel-quarkus.platform.artifact-id=camel-quarkus-bom -Dcamel-quarkus.platform.version=$VERSION_CAMEL_QUARKUS -Pmixed -pl :camel-quarkus-product,:<artifact-id-of-test-module>
+----
+
+Note the command above is for JVM tests, for tests run in Native please add `-Pnative,docker '-Dtest=!*'` which will enable native tests and disable JVM tests.
+
+We can also specify single test via `-Dtest=<test_name>` for JVM or `-Dit.test=<test_name>` in case of Native.
