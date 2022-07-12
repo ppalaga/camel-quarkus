@@ -166,7 +166,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>2.30.0</cq-plugin.version>
+        <cq-plugin.version>3.1.0</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.17.1</formatter-maven-plugin.version>
@@ -435,29 +435,6 @@
                     <groupId>org.l2x6.cq</groupId>
                     <artifactId>cq-prod-maven-plugin</artifactId>
                     <version>${cq-plugin.version}</version>
-                    <configuration>
-                        <jenkinsfileStageTemplate>${maven.multiModuleProjectDirectory}/product/jenkinsfile-stage-template.txt</jenkinsfileStageTemplate>
-                        <requiredProductizedCamelArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/required-productized-camel-artifacts.txt</requiredProductizedCamelArtifacts>
-                        <productizedCamelQuarkusArtifacts>${maven.multiModuleProjectDirectory}/product/src/main/generated/productized-camel-quarkus-artifacts.txt</productizedCamelQuarkusArtifacts>
-                        <simpleElementWhitespace>SPACE</simpleElementWhitespace>
-                        <integrationTests>
-                            <integrationTest>
-                                <basedir>${maven.multiModuleProjectDirectory}</basedir>
-                                <includes>
-                                    <include>integration-tests/*/pom.xml</include>
-                                    <include>integration-test-groups/*/*/pom.xml</include>
-                                    <include>integration-tests-jvm/*/pom.xml</include>
-                                </includes>
-                                <excludes>
-                                    <exclude>integration-tests/messaging/pom.xml</exclude>
-                                    <exclude>integration-tests/*-grouped/pom.xml</exclude>
-                                </excludes>
-                            </integrationTest>
-                        </integrationTests>
-                        <additionalExtensionDependencies>
-                            <camel-quarkus-kudu>org.apache.kudu:kudu-client</camel-quarkus-kudu>
-                        </additionalExtensionDependencies>
-                    </configuration>
                 </plugin>
 
                 <plugin>

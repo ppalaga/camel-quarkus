@@ -376,5 +376,24 @@
         "protobuf-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "smallrye.reactive.messaging.camel.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}"
     },
-    "guideUrlTemplate": "https://access.redhat.com/documentation/en-us/red_hat_integration/${cqMajorVersion}.latest/html/camel_extensions_for_quarkus_reference/extensions-${artifactIdBase}"
+    "guideUrlTemplate": "https://access.redhat.com/documentation/en-us/red_hat_integration/${cqMajorVersion}.latest/html/camel_extensions_for_quarkus_reference/extensions-${artifactIdBase}",
+    "integrationTests": [
+        {
+            "includes": [
+                "integration-tests/*/pom.xml",
+                "integration-test-groups/*/*/pom.xml",
+                "integration-tests-jvm/*/pom.xml"
+            ],
+            "excludes": [
+                "integration-tests/messaging/pom.xml",
+                "integration-tests/*-grouped/pom.xml"
+            ]
+        }
+    ],
+    "jenkinsfileStageTemplate": "product/jenkinsfile-stage-template.txt",
+    "requiredProductizedCamelArtifacts": "product/src/main/generated/required-productized-camel-artifacts.txt",
+    "productizedCamelQuarkusArtifacts": "product/src/main/generated/productized-camel-quarkus-artifacts.txt",
+    "additionalExtensionDependencies": {
+        "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
+    }
 }

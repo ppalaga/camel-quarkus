@@ -28,6 +28,37 @@
   It allows for the following placeholders:
 ** `${cqMajorVersion}` - the major version of the Camel Quarkus release the URL applies to
 ** `${artifactIdBase}` - the base of the artifactId of the given extension; e.g. if the extension artifactId is `camel-quarkus-activemq` then the `artifactIdBase` would be `activemq`.
+* `integrationTests` - A list of ``org.apache.maven.shared.utils.io.DirectoryScanner``s selecting integration test `pom.xml` files. Example:
++
+[source,yaml]
+----
+    "integrationTests": [
+        {
+            "basedir": ".", // optional, relative to ${maven.multiModuleProjectDirectory}
+            "includes": [
+                "integration-tests/*/pom.xml",
+                "integration-test-groups/*/*/pom.xml",
+                "integration-tests-jvm/*/pom.xml"
+            ],
+            "excludes": [
+                "integration-tests/messaging/pom.xml",
+                "integration-tests/*-grouped/pom.xml"
+            ]
+        }
+    ]
+----
++
+* `requiredProductizedCamelArtifacts` - a path relative to `${maven.multiModuleProjectDirectory}` where to write a list of Camel artifacts required by Camel Quarkus productized extensions. It is a text file one artifactId per line.
+* `productizedCamelQuarkusArtifacts` - a path relative to `${maven.multiModuleProjectDirectory}` where to write a list of Camel artifacts required by Camel Quarkus productized extensions. It is a text file one artifactId per line.
+* `availableCiNodes` - Number of nodes available to the CI. The tests will be split into as many groups. Default: 10
+* `jenkinsfile` - Path to Jenkinsfile containing `// %generated-stages-start%` and `// %generated-stages-end%` relative to `${maven.multiModuleProjectDirectory}`
+* `jenkinsfileStageTemplate` - a path to Jenkinsfile stage template relative to `${maven.multiModuleProjectDirectory}`
+* `productizedDependenciesFile` - a path relative to `${maven.multiModuleProjectDirectory}` where to write a list of runtime dependencies of all Camel Quarkus productized extensions. It is a text file one artifactId per line. Default: `product/src/main/generated/transitive-dependencies-productized.txt`
+* `allDependenciesFile` - a path relative to `${maven.multiModuleProjectDirectory}` where to write a list of all runtime dependencies of all Camel Quarkus extensions. It is a text file one artifactId per line. Default: `product/src/main/generated/transitive-dependencies-all.txt`
+* `nonProductizedDependenciesPath` - a path relative to `${maven.multiModuleProjectDirectory}` where to write a list of runtime dependencies of all Camel Quarkus non-productized extensions. It is a text file one artifactId per line. Default: `product/src/main/generated/transitive-dependencies-non-productized.txt`
+* `additionalExtensionDependencies` - A map from Camel Quarkus artifactIds to comma separated list of `groupId:artifactId` patterns.
+  Used for assigning shaded dependencies to a Camel Quarkus artifact when deciding whether the given transitive needs to get productized.
+
 
 === Updating the source tree after changing `camel-quarkus-product-source.json`
 
