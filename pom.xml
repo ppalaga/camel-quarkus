@@ -28,7 +28,7 @@
 
     <groupId>org.apache.camel.quarkus</groupId>
     <artifactId>camel-quarkus</artifactId>
-    <version>2.12.0</version>
+    <version>2.12.0.fuse-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Camel Quarkus</name>
@@ -39,12 +39,14 @@
     <properties>
 
         <!-- Primary dependencies - maintained manually -->
-        <camel.major.minor>3.18</camel.major.minor> <!-- run after each change: cd docs && mvnd validate -->
+        <camel.major.minor>3.18</camel.major.minor>
+        <camel-community.version>${camel.major.minor}.1</camel-community.version> <!-- run after each change: cd docs && mvnd validate -->
         <camel.version>${camel.major.minor}.1</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel.sb.docs.branch>camel-spring-boot-${camel.major.minor}.x</camel.sb.docs.branch><!-- The stable camel-spring-boot branch on which our Antora docs depends -->
+        <camel-quarkus-community.version>2.12.0</camel-quarkus-community.version>
         <cassandra-quarkus.version>1.1.2</cassandra-quarkus.version><!-- https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>1.9.5.Final</debezium.version><!-- May go back to Camel's ${debezium-version} when they are in sync https://repo1.maven.org/maven2/io/debezium/debezium-bom/ -->
         <optaplanner.version>8.24.1.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
@@ -59,6 +61,7 @@
         <quarkiverse-mybatis.version>1.0.4</quarkiverse-mybatis.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/mybatis/quarkus-mybatis-parent/ -->
         <quarkiverse-tika.version>1.0.3</quarkiverse-tika.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/tika/quarkus-tika-parent/ -->
         <quarkus.version>2.12.0.Final</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus-community.version>2.12.0.Final</quarkus-community.version>
         <quarkus-hazelcast-client.version>3.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>0.36.0</quarkus-qpid-jms.version><!-- https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
 
@@ -92,6 +95,7 @@
         <github-api.version>1.111</github-api.version><!-- Used in a Groovy script bellow -->
         <google-auth-library-credentials.version>1.7.0</google-auth-library-credentials.version><!-- TODO: Revert back to using Camel's version when gRPC versions are in sync -->
         <graalvm.version>22.2.0</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.sdk:graal-sdk -->
+        <graalvm-community.version>${graalvm.version}</graalvm-community.version>
         <grpc.version>1.48.1</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <hapi.version>${hapi-version}</hapi.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
@@ -167,7 +171,7 @@
         <maven-utils.version>0.1.0</maven-utils.version>
 
         <!-- Maven plugin versions (keep sorted alphabetically) -->
-        <cq-plugin.version>3.1.0</cq-plugin.version>
+        <cq-plugin.version>3.1.1</cq-plugin.version>
         <build-helper-maven-plugin.version>3.1.0</build-helper-maven-plugin.version>
         <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
         <formatter-maven-plugin.version>2.17.1</formatter-maven-plugin.version>
@@ -229,9 +233,9 @@
         <module>integration-tests-support</module>
         <module>integration-tests</module>
         <module>integration-test-groups</module>
-        <module>docs</module>
         <module>integration-tests-jvm</module>
         <module>test-framework</module>
+        <module>product</module>
     </modules>
 
     <developers>
@@ -376,7 +380,7 @@
                     <version>${maven-shade-plugin.version}</version>
                     <configuration>
                         <transformers>
-                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer" />
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer"/>
                         </transformers>
                     </configuration>
                 </plugin>
@@ -539,6 +543,7 @@
                             <java>SLASHSTAR_STYLE</java>
                             <jaxb.index>CAMEL_PROPERTIES_STYLE</jaxb.index>
                             <Jenkinsfile>SLASHSTAR_STYLE</Jenkinsfile>
+                            <Jenkinsfile.redhat>SLASHSTAR_STYLE</Jenkinsfile.redhat>
                             <Jenkinsfile.quarkus>SLASHSTAR_STYLE</Jenkinsfile.quarkus>
                             <Jenkinsfile.sonarcloud>SLASHSTAR_STYLE</Jenkinsfile.sonarcloud>
                             <properties>CAMEL_PROPERTIES_STYLE</properties>
@@ -559,9 +564,14 @@
                         <dependency>
                             <groupId>org.apache.camel</groupId>
                             <artifactId>camel-buildtools</artifactId>
-                            <version>${camel.version}</version>
+                            <version>${camel-community.version}</version>
                         </dependency>
                     </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.l2x6.cq</groupId>
+                    <artifactId>cq-prod-maven-plugin</artifactId>
+                    <version>${cq-plugin.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -640,6 +650,20 @@
                     <execution>
                         <id>attach-descriptor</id>
                         <phase /><!-- skip to save time -->
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.l2x6.cq</groupId>
+                <artifactId>cq-prod-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>check-excludes</id>
+                        <phase>validate</phase>
+                        <inherited>false</inherited>
+                        <goals>
+                            <goal>prod-excludes-check</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>
