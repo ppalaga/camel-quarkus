@@ -65,5 +65,6 @@
         <module>../../../integration-tests/kafka-ssl</module>
         <module>../../../integration-tests/kamelet</module>
         <module>../../../integration-tests/kubernetes</module>
+        <module>../../../integration-tests/mail</module>
     </modules>
 </project>

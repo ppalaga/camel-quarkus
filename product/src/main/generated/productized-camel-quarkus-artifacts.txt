@@ -188,6 +188,8 @@ camel-quarkus-integration-test-opentelemetry
 camel-quarkus-integration-test-paho
 camel-quarkus-integration-test-paho-mqtt5
 camel-quarkus-integration-test-platform-http
+camel-quarkus-integration-test-platform-http-proxy
+camel-quarkus-integration-test-platform-http-proxy-ssl
 camel-quarkus-integration-test-quartz
 camel-quarkus-integration-test-quartz-clustered
 camel-quarkus-integration-test-ref

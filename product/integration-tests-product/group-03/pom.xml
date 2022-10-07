@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/mail</module>
         <module>../../../integration-tests/main-command-mode</module>
         <module>../../../integration-tests/main-devmode</module>
         <module>../../../integration-tests/main-discovery-disabled</module>
@@ -52,6 +51,8 @@
         <module>../../../integration-tests/paho</module>
         <module>../../../integration-tests/paho-mqtt5</module>
         <module>../../../integration-tests/platform-http</module>
+        <module>../../../integration-tests/platform-http-proxy</module>
+        <module>../../../integration-tests/platform-http-proxy-ssl</module>
         <module>../../../integration-tests/quartz</module>
         <module>../../../integration-tests/quartz-clustered</module>
         <module>../../../integration-tests/rest</module>
