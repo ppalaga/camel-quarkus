@@ -18,11 +18,13 @@ package org.apache.camel.quarkus.component.cxf.soap.deployment;
 
 import java.util.stream.Stream;
 
+import io.quarkiverse.cxf.deployment.RuntimeCxfBusBuildItem;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
 import io.quarkus.deployment.builditem.CombinedIndexBuildItem;
 import io.quarkus.deployment.builditem.FeatureBuildItem;
 import io.quarkus.deployment.builditem.nativeimage.ReflectiveClassBuildItem;
+import org.apache.camel.quarkus.core.deployment.spi.CamelContextCustomizerBuildItem;
 import org.jboss.jandex.DotName;
 import org.jboss.jandex.IndexView;
 
@@ -49,4 +51,13 @@ class CxfSoapProcessor {
                 .forEach(reflectiveClass::produce);
 
     }
+
+    @BuildStep
+    void busBeforeCamelRoutes(
+            RuntimeCxfBusBuildItem bus,
+            BuildProducer<CamelContextCustomizerBuildItem> customizers) {
+        /* nothing to do, we just want the bus to be configured before the routes are started */
+        System.out.println("==== busBeforeCamelRoutes");
+    }
+
 }

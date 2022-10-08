@@ -29,6 +29,7 @@ import com.helloworld.service.HelloPortType;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.cxf.common.message.CxfConstants;
 import org.apache.camel.component.cxf.jaxws.CxfEndpoint;
+import org.apache.cxf.Bus;
 import org.apache.cxf.ext.logging.LoggingFeature;
 import org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor;
 import org.apache.wss4j.common.ConfigurationConstants;
@@ -51,6 +52,9 @@ public class CxfSoapRoutes extends RouteBuilder {
 
     @ConfigProperty(name = "wiremock.url")
     String serviceBaseUri;
+
+    @Inject
+    Bus bus;
 
     @Override
     public void configure() {
@@ -102,6 +106,7 @@ public class CxfSoapRoutes extends RouteBuilder {
     @Named
     CxfEndpoint secureEndpoint() {
         final CxfEndpoint result = new CxfEndpoint();
+        result.setBus(bus);
         result.setServiceClass(HelloPortType.class);
         result.setAddress(serviceBaseUri + "/hellowss");
         result.setWsdlURL("wsdl/HelloService.wsdl");
@@ -115,6 +120,7 @@ public class CxfSoapRoutes extends RouteBuilder {
     @Named
     CxfEndpoint soapClientEndpoint() {
         final CxfEndpoint result = new CxfEndpoint();
+        result.setBus(bus);
         result.setServiceClass(HelloPortType.class);
         result.setAddress(serviceBaseUri + "/hello");
         result.setWsdlURL("wsdl/HelloService.wsdl");
@@ -127,6 +133,7 @@ public class CxfSoapRoutes extends RouteBuilder {
     @Named
     CxfEndpoint soapServiceEndpoint() {
         final CxfEndpoint result = new CxfEndpoint();
+        result.setBus(bus);
         result.setServiceClass(HelloPortType.class);
         result.setAddress("/hello");
         result.setWsdlURL("wsdl/HelloService.wsdl");
@@ -139,6 +146,8 @@ public class CxfSoapRoutes extends RouteBuilder {
     @Named
     CxfEndpoint codeFirstServiceEndpoint() {
         final CxfEndpoint result = new CxfEndpoint();
+        System.out.println(" == = bus = " + System.identityHashCode(bus) + " " + bus.getClass().getName());
+        result.setBus(bus);
         result.setServiceClass(CodeFirstService.class);
         result.setAddress("/codefirst");
         result.getFeatures().add(loggingFeature);
