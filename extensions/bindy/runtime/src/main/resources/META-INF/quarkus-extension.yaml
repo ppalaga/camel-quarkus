@@ -24,7 +24,7 @@
 name: "Camel Bindy"
 description: "Marshal and unmarshal between POJOs on one side and Comma separated values (CSV), fixed field length or key-value pair (KVP) formats on the other side using Camel Bindy"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/bindy.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-bindy"
   categories:
   - "integration"
   status:

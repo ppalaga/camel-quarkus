@@ -24,7 +24,7 @@
 name: "Camel REST OpenApi"
 description: "Configure REST producers based on an OpenAPI specification document delegating to a component implementing the RestProducerFactory interface"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/rest-openapi.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-rest-openapi"
   categories:
   - "integration"
   status:

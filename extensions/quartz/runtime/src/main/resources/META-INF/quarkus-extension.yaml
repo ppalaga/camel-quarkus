@@ -24,7 +24,7 @@
 name: "Camel Quartz"
 description: "Schedule sending of messages using the Quartz 2.x scheduler"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/quartz.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-quartz"
   categories:
   - "integration"
   status:

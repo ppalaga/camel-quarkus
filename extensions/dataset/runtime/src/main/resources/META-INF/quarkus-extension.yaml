@@ -24,7 +24,7 @@
 name: "Camel Dataset"
 description: "Provide data for load and soak testing of your Camel application"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/dataset.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-dataset"
   categories:
   - "integration"
   status:

@@ -24,7 +24,7 @@
 name: "Camel Azure Storage Blob Service"
 description: "Store and retrieve blobs from Azure Storage Blob Service using SDK v12"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/azure-storage-blob.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-azure-storage-blob"
   categories:
   - "integration"
   status:

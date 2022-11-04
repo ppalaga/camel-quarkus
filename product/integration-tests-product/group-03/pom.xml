@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-integration-tests-product</artifactId>
+        <version>2.13.1.fuse-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>camel-quarkus-integration-tests-product-group-03</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
+
+    <modules>
+        <module>../../../integration-tests/kubernetes</module>
+        <module>../../../integration-tests/mail</module>
+        <module>../../../integration-tests/main-command-mode</module>
+        <module>../../../integration-tests/main-devmode</module>
+        <module>../../../integration-tests/main-discovery-disabled</module>
+        <module>../../../integration-tests/main-unknown-args-fail</module>
+        <module>../../../integration-tests/main-unknown-args-ignore</module>
+        <module>../../../integration-tests/main-xml-io</module>
+        <module>../../../integration-tests/main-yaml</module>
+        <module>../../../integration-tests/master</module>
+        <module>../../../integration-tests/master-openshift</module>
+        <module>../../../integration-tests/microprofile</module>
+        <module>../../../integration-tests/mllp</module>
+        <module>../../../integration-tests/netty</module>
+        <module>../../../integration-tests/openapi-java</module>
+        <module>../../../integration-tests/opentelemetry</module>
+        <module>../../../integration-tests/paho</module>
+        <module>../../../integration-tests/paho-mqtt5</module>
+        <module>../../../integration-tests/platform-http</module>
+        <module>../../../integration-tests/quartz</module>
+        <module>../../../integration-tests/quartz-clustered</module>
+        <module>../../../integration-tests/rest</module>
+        <module>../../../integration-tests/rest-openapi</module>
+        <module>../../../integration-tests/salesforce</module>
+        <module>../../../integration-tests/saxon</module>
+        <module>../../../integration-tests/slack</module>
+        <module>../../../integration-tests/soap</module>
+        <module>../../../integration-tests/sql</module>
+        <module>../../../integration-tests/telegram</module>
+        <module>../../../integration-tests/validator</module>
+        <module>../../../integration-tests/velocity</module>
+        <module>../../../integration-tests/xpath</module>
+    </modules>
+</project>

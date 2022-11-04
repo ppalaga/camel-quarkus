@@ -34,7 +34,7 @@
 
     <modules>
         <module>maven-plugin</module>
-        <module>perf-regression</module>
+        <!-- <module>perf-regression</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>test-list</module>
     </modules>
 
