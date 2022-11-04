@@ -25,7 +25,7 @@ name: "Camel CometD"
 description: "Offers publish/subscribe, peer-to-peer (via a server), and RPC style messaging using the CometD/Bayeux protocol"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/cometd.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

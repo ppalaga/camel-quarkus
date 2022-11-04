@@ -25,7 +25,7 @@ name: "Camel Guava EventBus"
 description: "Send and receive messages to/from Guava EventBus"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/guava-eventbus.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

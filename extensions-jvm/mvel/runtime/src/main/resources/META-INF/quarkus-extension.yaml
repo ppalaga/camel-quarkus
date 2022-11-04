@@ -25,7 +25,7 @@ name: "Camel MVEL"
 description: "Transform messages using an MVEL template"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/mvel.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

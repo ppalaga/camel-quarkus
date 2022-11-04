@@ -24,7 +24,7 @@
 name: "Camel DigitalOcean"
 description: "Manage Droplets and resources within the DigitalOcean cloud"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/digitalocean.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -25,7 +25,7 @@ name: "Camel SNMP"
 description: "Receive traps and poll SNMP (Simple Network Management Protocol) capable devices"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/snmp.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

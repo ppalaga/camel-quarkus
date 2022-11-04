@@ -24,7 +24,7 @@
 name: "Camel Lumberjack"
 description: "Receive logs messages using the Lumberjack protocol"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/lumberjack.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

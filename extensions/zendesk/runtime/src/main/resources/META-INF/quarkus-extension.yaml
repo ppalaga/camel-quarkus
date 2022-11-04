@@ -24,7 +24,7 @@
 name: "Camel Zendesk"
 description: "Manage Zendesk tickets, users, organizations, etc"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/zendesk.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

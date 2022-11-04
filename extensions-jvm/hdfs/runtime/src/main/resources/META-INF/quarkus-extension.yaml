@@ -25,7 +25,7 @@ name: "Camel HDFS"
 description: "Read and write from/to an HDFS filesystem using Hadoop 3.x"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/hdfs.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

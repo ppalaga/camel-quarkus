@@ -24,7 +24,7 @@
 name: "Camel Headersmap"
 description: "Fast case-insensitive headers map implementation"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/headersmap.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

@@ -25,7 +25,7 @@ name: "Camel CMIS"
 description: "Read and write data from to/from a CMIS compliant content repositories"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/cmis.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

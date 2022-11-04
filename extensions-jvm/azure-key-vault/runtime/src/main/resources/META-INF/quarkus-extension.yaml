@@ -25,7 +25,7 @@ name: "Camel Azure Key Vault"
 description: "Manage secrets and keys in Azure Key Vault Service"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/azure-key-vault.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

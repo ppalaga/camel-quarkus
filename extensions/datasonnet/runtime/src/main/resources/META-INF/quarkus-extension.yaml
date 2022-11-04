@@ -24,7 +24,7 @@
 name: "Camel DataSonnet"
 description: "To use DataSonnet scripts for message transformations"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/datasonnet.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

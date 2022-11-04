@@ -25,7 +25,7 @@ name: "Camel Robot Framework"
 description: "Pass camel exchanges to acceptence test written in Robot DSL"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/robotframework.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

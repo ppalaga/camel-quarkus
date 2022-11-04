@@ -25,7 +25,7 @@ name: "Camel ZooKeeper Master"
 description: "Have only a single consumer in a cluster consuming from a given endpoint; with automatic failover if the JVM dies"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/zookeeper-master.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

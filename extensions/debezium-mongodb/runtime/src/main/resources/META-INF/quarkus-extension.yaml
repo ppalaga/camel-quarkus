@@ -24,7 +24,7 @@
 name: "Camel Debezium MongoDB Connector"
 description: "Capture changes from a MongoDB database"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/debezium-mongodb.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

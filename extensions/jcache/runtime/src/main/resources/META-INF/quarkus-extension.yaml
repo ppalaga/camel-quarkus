@@ -24,7 +24,7 @@
 name: "Camel JCache"
 description: "Perform caching operations against JSR107/JCache"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/jcache.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

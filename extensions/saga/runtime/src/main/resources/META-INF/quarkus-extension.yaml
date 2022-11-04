@@ -24,7 +24,7 @@
 name: "Camel Saga"
 description: "Execute custom actions within a route using the Saga EIP"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/saga.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

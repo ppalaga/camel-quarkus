@@ -17,6 +17,9 @@ ca.uhn.hapi.fhir:org.hl7.fhir.r5
 ca.uhn.hapi.fhir:org.hl7.fhir.utilities
 com.aayushatharva.brotli4j:brotli4j
 com.aayushatharva.brotli4j:native-linux-x86_64
+com.atlassian.event:atlassian-event
+com.atlassian.httpclient:atlassian-httpclient-api
+com.atlassian.httpclient:atlassian-httpclient-library
 com.atlassian.jira:jira-rest-java-client-api
 com.atlassian.jira:jira-rest-java-client-core
 com.atlassian.sal:sal-api
@@ -141,6 +144,7 @@ io.agroal:agroal-narayana
 io.agroal:agroal-pool
 io.apicurio:apicurio-data-models
 io.atlassian.fugue:fugue
+io.atlassian.util.concurrent:atlassian-util-concurrent
 io.dropwizard.metrics:metrics-core
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-model-admissionregistration
@@ -809,10 +813,12 @@ org.apache.cxf:cxf-rt-ws-policy
 org.apache.cxf:cxf-rt-wsdl
 org.apache.geronimo.specs:geronimo-ws-metadata_2.0_spec
 org.apache.httpcomponents:httpasyncclient
+org.apache.httpcomponents:httpasyncclient-cache
 org.apache.httpcomponents:httpclient
 org.apache.httpcomponents:httpclient-cache
 org.apache.httpcomponents:httpcore
 org.apache.httpcomponents:httpcore-nio
+org.apache.httpcomponents:httpmime
 org.apache.kafka:kafka-clients
 org.apache.maven:maven-model
 org.apache.neethi:neethi

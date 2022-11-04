@@ -25,7 +25,7 @@ name: "Camel Debug"
 description: "Enables Camel Route Debugging"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/debug.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

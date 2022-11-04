@@ -25,7 +25,7 @@ name: "Camel JSON Fastjson"
 description: "Marshal POJOs to JSON and back using Fastjson"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/fastjson.html"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
   status:

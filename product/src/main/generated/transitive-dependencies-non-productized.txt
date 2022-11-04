@@ -1146,7 +1146,6 @@ org.apache.hbase.thirdparty:hbase-shaded-netty
 org.apache.hbase.thirdparty:hbase-shaded-protobuf
 org.apache.hbase.thirdparty:hbase-unsafe
 org.apache.htrace:htrace-core4
-org.apache.httpcomponents:httpmime
 org.apache.ignite:ignite-core
 org.apache.jackrabbit:jackrabbit-core
 org.apache.jackrabbit:jackrabbit-data
