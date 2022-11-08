@@ -397,11 +397,6 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1: still need to productize some transitives https://issues.redhat.com/browse/ENTESB-18817"
         },
-        "camel-quarkus-support-webhook": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
-        },
         "camel-quarkus-telegram": {
             "jvm": "techPreview",
             "native": "techPreview",

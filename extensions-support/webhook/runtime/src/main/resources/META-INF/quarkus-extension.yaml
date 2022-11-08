@@ -24,6 +24,6 @@ metadata:
   - "camel"
   - "cloud"
   - "webhook"
-  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-support-webhook"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"
