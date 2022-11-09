@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-test-groups/foundation/mock</module>
         <module>../../../integration-test-groups/foundation/ref</module>
         <module>../../../integration-test-groups/foundation/route-configurations</module>
         <module>../../../integration-test-groups/foundation/scheduler</module>
@@ -65,5 +64,6 @@
         <module>../../../integration-tests/kafka-sasl-ssl</module>
         <module>../../../integration-tests/kafka-ssl</module>
         <module>../../../integration-tests/kamelet</module>
+        <module>../../../integration-tests/kubernetes</module>
     </modules>
 </project>

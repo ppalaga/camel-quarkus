@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/kubernetes</module>
         <module>../../../integration-tests/mail</module>
         <module>../../../integration-tests/main-command-mode</module>
         <module>../../../integration-tests/main-devmode</module>
@@ -43,6 +42,7 @@
         <module>../../../integration-tests/main-xml-io</module>
         <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/master</module>
+        <module>../../../integration-tests/master-file</module>
         <module>../../../integration-tests/master-openshift</module>
         <module>../../../integration-tests/microprofile</module>
         <module>../../../integration-tests/mllp</module>
