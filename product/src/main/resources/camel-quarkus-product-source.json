@@ -77,7 +77,7 @@
         "camel-quarkus-browse": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-cassandraql": {
             "jvm": "supported",
@@ -87,7 +87,7 @@
         "camel-quarkus-controlbus": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-core": {
             "jvm": "supported",
@@ -102,12 +102,12 @@
         "camel-quarkus-cxf-soap": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-dataformat": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0",
+            "comment": "supported since CEQ 2.13.1",
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-dataformat"
             ]
@@ -115,7 +115,7 @@
         "camel-quarkus-dataset": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-direct": {
             "jvm": "supported",
@@ -143,12 +143,12 @@
         "camel-quarkus-google-bigquery": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-google-pubsub": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-gson": {
             "jvm": "supported",
@@ -174,7 +174,7 @@
         "camel-quarkus-infinispan": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-jackson": {
             "jvm": "supported",
@@ -207,7 +207,7 @@
         "camel-quarkus-jaxb": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-jira": {
             "jvm": "supported",
@@ -226,7 +226,7 @@
         "camel-quarkus-jpa": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-jsonpath": {
             "jvm": "supported",
@@ -236,7 +236,7 @@
         "camel-quarkus-jslt": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-jta": {
             "jvm": "supported",
@@ -262,7 +262,7 @@
         "camel-quarkus-kubernetes": {
             "jvm": "techPreview",
             "native": "techPreview",
-            "comment": "TP since CEQ 2.13.0"
+            "comment": "TP since CEQ 2.13.1"
         },
         "camel-quarkus-log": {
             "jvm": "supported",
@@ -277,7 +277,7 @@
         "camel-quarkus-master": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-microprofile-fault-tolerance": {
             "jvm": "supported",
@@ -325,7 +325,7 @@
         "camel-quarkus-opentelemetry": {
             "jvm": "techPreview",
             "native": "techPreview",
-            "comment": "tp since CEQ 2.13.0"
+            "comment": "tp since CEQ 2.13.1"
         },
         "camel-quarkus-quartz": {
             "jvm": "supported",
@@ -350,7 +350,7 @@
         "camel-quarkus-ref": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-rest": {
             "jvm": "supported",
@@ -360,7 +360,7 @@
         "camel-quarkus-rest-openapi": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-salesforce": {
             "jvm": "supported",
@@ -375,7 +375,7 @@
         "camel-quarkus-scheduler": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-seda": {
             "jvm": "supported",
@@ -411,12 +411,12 @@
         "camel-quarkus-validator": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-velocity": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-xml-io-dsl": {
             "jvm": "community",
@@ -431,7 +431,7 @@
         "camel-quarkus-xslt": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0",
+            "comment": "supported since CEQ 2.13.1",
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-xml"
             ]
@@ -452,7 +452,7 @@
         "camel-quarkus-zip-deflater": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.0"
+            "comment": "supported since CEQ 2.13.1"
         }
     },
     "additionalProductizedArtifacts": [
