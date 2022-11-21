@@ -167,7 +167,7 @@
             "artifact-id": "camel-quarkus-cxf-soap",
             "metadata": {
                 "redhat-support": [
-                    "supported"
+                    "tech-preview"
                 ]
             }
         },
