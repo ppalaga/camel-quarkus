@@ -406,9 +406,6 @@ camel-quarkus-support-webhook-parent
 camel-quarkus-support-xalan
 camel-quarkus-support-xalan-deployment
 camel-quarkus-support-xalan-parent
-camel-quarkus-support-xstream
-camel-quarkus-support-xstream-deployment
-camel-quarkus-support-xstream-parent
 camel-quarkus-telegram
 camel-quarkus-telegram-deployment
 camel-quarkus-telegram-parent

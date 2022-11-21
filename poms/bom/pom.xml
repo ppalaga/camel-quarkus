@@ -9025,12 +9025,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-xstream</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-support-xstream-deployment</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

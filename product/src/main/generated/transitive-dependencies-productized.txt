@@ -132,7 +132,6 @@ com.sun.mail:jakarta.mail
 com.sun.xml.bind:jaxb-core
 com.sun.xml.bind:jaxb-impl
 com.sun.xml.messaging.saaj:saaj-impl
-com.thoughtworks.xstream:xstream
 com.typesafe:config
 com.typesafe.netty:netty-reactive-streams
 commons-codec:commons-codec
@@ -184,7 +183,6 @@ io.fabric8:openshift-model-tuned
 io.fabric8:openshift-model-whereabouts
 io.fabric8:zjsonpatch
 io.github.crac:org-crac
-io.github.x-stream:mxparser
 io.grpc:grpc-alts
 io.grpc:grpc-api
 io.grpc:grpc-auth
@@ -774,8 +772,6 @@ org.apache.camel.quarkus:camel-quarkus-support-webhook
 org.apache.camel.quarkus:camel-quarkus-support-webhook-deployment
 org.apache.camel.quarkus:camel-quarkus-support-xalan
 org.apache.camel.quarkus:camel-quarkus-support-xalan-deployment
-org.apache.camel.quarkus:camel-quarkus-support-xstream
-org.apache.camel.quarkus:camel-quarkus-support-xstream-deployment
 org.apache.camel.quarkus:camel-quarkus-telegram
 org.apache.camel.quarkus:camel-quarkus-telegram-deployment
 org.apache.camel.quarkus:camel-quarkus-timer
@@ -1023,5 +1019,4 @@ wsdl4j:wsdl4j
 xalan:serializer
 xalan:xalan
 xml-resolver:xml-resolver
-xmlpull:xmlpull
 xpp3:xpp3_xpath

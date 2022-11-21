@@ -166,6 +166,7 @@ com.sun.jersey.contribs:jersey-apache-client4
 com.sun.jersey.contribs:jersey-multipart
 com.tdunning:t-digest
 com.thoughtworks.qdox:qdox
+com.thoughtworks.xstream:xstream
 com.twilio.sdk:twilio
 com.twitter:chill-java
 com.univocity:univocity-parsers
@@ -232,6 +233,7 @@ io.github.resilience4j:resilience4j-core
 io.github.resilience4j:resilience4j-ratelimiter
 io.github.resilience4j:resilience4j-retry
 io.github.resilience4j:resilience4j-timelimiter
+io.github.x-stream:mxparser
 io.grpc:grpc-netty-shaded
 io.grpc:protoc-gen-grpc-java
 io.jaegertracing:jaeger-core
@@ -1003,6 +1005,8 @@ org.apache.camel.quarkus:camel-quarkus-support-retrofit
 org.apache.camel.quarkus:camel-quarkus-support-retrofit-deployment
 org.apache.camel.quarkus:camel-quarkus-support-stax
 org.apache.camel.quarkus:camel-quarkus-support-stax-deployment
+org.apache.camel.quarkus:camel-quarkus-support-xstream
+org.apache.camel.quarkus:camel-quarkus-support-xstream-deployment
 org.apache.camel.quarkus:camel-quarkus-syslog
 org.apache.camel.quarkus:camel-quarkus-syslog-deployment
 org.apache.camel.quarkus:camel-quarkus-tarfile
@@ -1601,4 +1605,5 @@ xerces:xercesImpl
 xml-apis:xml-apis
 xml-apis:xml-apis-ext
 xmlenc:xmlenc
+xmlpull:xmlpull
 xpp3:xpp3
