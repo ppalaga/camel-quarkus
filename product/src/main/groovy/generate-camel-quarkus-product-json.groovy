@@ -50,11 +50,17 @@ Files.write(productJsonPath, JsonOutput.prettyPrint(JsonOutput.toJson(productJso
 
 
 enum CqSupportStatus {
-    community(null), techPreview('tech-preview'), supported('supported');
+    community(null),
+    devSupport('dev-support'),
+    techPreview('tech-preview'),
+    supported('supported');
+
     private final quarkusSupportLevel;
+
     private CqSupportStatus(String quarkusSupportLevel) {
         this.quarkusSupportLevel = quarkusSupportLevel;
     }
+
     public String mergeForQuarkus(CqSupportStatus native_) {
         if (native_ == this) {
             return quarkusSupportLevel;
