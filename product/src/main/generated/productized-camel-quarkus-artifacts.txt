@@ -141,6 +141,7 @@ camel-quarkus-integration-test-cxf-soap-mtom-awt
 camel-quarkus-integration-test-cxf-soap-server
 camel-quarkus-integration-test-cxf-soap-ws-security-client
 camel-quarkus-integration-test-cxf-soap-ws-security-server
+camel-quarkus-integration-test-cxf-soap-ws-trust
 camel-quarkus-integration-test-dataset
 camel-quarkus-integration-test-direct
 camel-quarkus-integration-test-eip

@@ -52,6 +52,7 @@
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-server</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-ws-security-client</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-ws-security-server</module>
+        <module>../../../integration-test-groups/cxf-soap/cxf-soap-ws-trust</module>
         <module>../../../integration-test-groups/foundation/bean</module>
         <module>../../../integration-test-groups/foundation/browse</module>
         <module>../../../integration-test-groups/foundation/component-name-resolver</module>
