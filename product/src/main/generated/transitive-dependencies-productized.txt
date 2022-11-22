@@ -1,4 +1,5 @@
 antlr:antlr
+biz.aQute.bnd:biz.aQute.bnd.transform
 ca.uhn.hapi:hapi-base
 ca.uhn.hapi.fhir:hapi-fhir-base
 ca.uhn.hapi.fhir:hapi-fhir-client
@@ -857,6 +858,7 @@ org.eclipse.paho:org.eclipse.paho.client.mqttv3
 org.eclipse.paho:org.eclipse.paho.mqttv5.client
 org.eclipse.sisu:org.eclipse.sisu.inject
 org.eclipse.sisu:org.eclipse.sisu.plexus
+org.eclipse.transformer:org.eclipse.transformer
 org.fhir:ucum
 org.fusesource.jansi:jansi
 org.glassfish:jakarta.el

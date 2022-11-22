@@ -5,6 +5,7 @@ ai.djl.pytorch:pytorch-native-auto
 ai.djl.tensorflow:tensorflow-native-auto
 antlr:antlr
 backport-util-concurrent:backport-util-concurrent
+biz.aQute.bnd:biz.aQute.bnd.transform
 ca.uhn.hapi:hapi-base
 ca.uhn.hapi:hapi-structures-v21
 ca.uhn.hapi:hapi-structures-v22
@@ -2245,6 +2246,7 @@ org.eclipse.paho:org.eclipse.paho.client.mqttv3
 org.eclipse.paho:org.eclipse.paho.mqttv5.client
 org.eclipse.sisu:org.eclipse.sisu.inject
 org.eclipse.sisu:org.eclipse.sisu.plexus
+org.eclipse.transformer:org.eclipse.transformer
 org.ehcache:ehcache
 org.elasticsearch:elasticsearch
 org.elasticsearch:elasticsearch-cli
