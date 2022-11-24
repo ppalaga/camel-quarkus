@@ -263,7 +263,6 @@ io.quarkiverse.jackson-jq:quarkus-jackson-jq
 io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
 io.quarkiverse.jgit:quarkus-jgit
 io.quarkiverse.jgit:quarkus-jgit-deployment
-io.quarkiverse.messaginghub:quarkus-pooled-jms
 io.quarkiverse.minio:quarkus-minio
 io.quarkiverse.minio:quarkus-minio-deployment
 io.quarkiverse.mybatis:quarkus-mybatis

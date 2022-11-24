@@ -246,6 +246,7 @@ io.quarkiverse.cxf:quarkus-cxf-woodstox
 io.quarkiverse.cxf:quarkus-cxf-woodstox-deployment
 io.quarkiverse.jsch:quarkus-jsch
 io.quarkiverse.jsch:quarkus-jsch-deployment
+io.quarkiverse.messaginghub:quarkus-pooled-jms
 io.quarkus:quarkus-agroal
 io.quarkus:quarkus-agroal-deployment
 io.quarkus:quarkus-agroal-spi
