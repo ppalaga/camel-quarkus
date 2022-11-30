@@ -383,9 +383,9 @@
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-slack": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "aiming at supported since CEQ 2.7.1, depends on build from source - https://issues.redhat.com/browse/ENTESB-18540"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-soap": {
             "jvm": "supported",

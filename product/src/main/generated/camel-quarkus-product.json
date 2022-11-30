@@ -617,7 +617,7 @@
             "artifact-id": "camel-quarkus-slack",
             "metadata": {
                 "redhat-support": [
-                    "tech-preview"
+                    "supported"
                 ]
             }
         },
