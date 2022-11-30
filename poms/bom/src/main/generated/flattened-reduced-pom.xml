@@ -9953,6 +9953,11 @@
         </exclusions>
       </dependency>
       <dependency>
+        <groupId>io.quarkiverse.messaginghub</groupId>
+        <artifactId>quarkus-pooled-jms-deployment</artifactId>
+        <version>1.0.6.redhat-00002</version>
+      </dependency>
+      <dependency>
         <groupId>io.quarkiverse.minio</groupId>
         <artifactId>quarkus-minio</artifactId>
         <version>2.9.2</version>

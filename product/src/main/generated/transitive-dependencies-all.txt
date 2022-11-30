@@ -512,6 +512,7 @@ io.quarkiverse.jgit:quarkus-jgit-deployment
 io.quarkiverse.jsch:quarkus-jsch
 io.quarkiverse.jsch:quarkus-jsch-deployment
 io.quarkiverse.messaginghub:quarkus-pooled-jms
+io.quarkiverse.messaginghub:quarkus-pooled-jms-deployment
 io.quarkiverse.minio:quarkus-minio
 io.quarkiverse.minio:quarkus-minio-deployment
 io.quarkiverse.mybatis:quarkus-mybatis
