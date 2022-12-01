@@ -71,7 +71,7 @@
             <dependency>
                 <groupId>io.quarkiverse.cxf</groupId>
                 <artifactId>quarkus-cxf-bom-test</artifactId>
-                <version>${quarkiverse-cxf.version}</version>
+                <version>${quarkiverse-cxf-community.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
