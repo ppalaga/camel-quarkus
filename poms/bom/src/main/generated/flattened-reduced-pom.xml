@@ -3937,6 +3937,10 @@
         <version>3.18.3.redhat-00022</version>
         <exclusions>
           <exclusion>
+            <groupId>com.microsoft.azure</groupId>
+            <artifactId>msal4j</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>jakarta.activation</groupId>
             <artifactId>jakarta.activation-api</artifactId>
           </exclusion>
