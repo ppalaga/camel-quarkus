@@ -249,6 +249,8 @@ io.nats:jnats
 io.netty:netty
 io.netty:netty-resolver-dns-classes-macos
 io.netty:netty-resolver-dns-native-macos
+io.netty.incubator:netty-incubator-codec-classes-quic
+io.netty.incubator:netty-incubator-codec-native-quic
 io.opentracing:opentracing-api
 io.opentracing:opentracing-noop
 io.opentracing:opentracing-util
@@ -257,6 +259,7 @@ io.opentracing.contrib:opentracing-tracerresolver
 io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
+io.projectreactor.netty.incubator:reactor-netty-incubator-quic
 io.quarkiverse.freemarker:quarkus-freemarker
 io.quarkiverse.freemarker:quarkus-freemarker-deployment
 io.quarkiverse.jackson-jq:quarkus-jackson-jq
