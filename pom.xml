@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>3.18.3</version>
+        <version>3.18.3.redhat-00023</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,7 +41,7 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>3.18</camel.major.minor>
         <camel-community.version>${camel.major.minor}.3</camel-community.version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.3</camel.version>
+        <camel.version>${camel.major.minor}.3.redhat-00023</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
@@ -52,17 +52,17 @@
         <optaplanner.version>8.29.0.Final</optaplanner.version><!-- May go back to Camel's ${optaplanner-version} when they are in sync https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
         <quarkiverse-amazonservices.version>1.3.1</quarkiverse-amazonservices.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/amazonservices/quarkus-amazon-services-parent/ -->
         <quarkiverse-artemis.version>2.0.1</quarkiverse-artemis.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/artemis/quarkus-artemis-parent/ -->
-        <quarkiverse-cxf.version>1.5.9</quarkiverse-cxf.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/cxf/quarkus-cxf-parent/ -->
-        <quarkiverse-cxf-community.version>1.5.9</quarkiverse-cxf-community.version>
+        <quarkiverse-cxf.version>1.5.9.redhat-00001</quarkiverse-cxf.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/cxf/quarkus-cxf-parent/ -->
+        <quarkiverse-cxf-community.version>1.5.9</quarkiverse-cxf-community.version><!-- Used for importing the quarkus-cxf test BOM -->
         <quarkiverse-freemarker.version>0.3.0</quarkiverse-freemarker.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/freemarker/quarkus-freemarker-parent/ -->
         <quarkiverse-jackson-jq.version>1.1.0</quarkiverse-jackson-jq.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/jackson-jq/quarkus-jackson-jq-parent/ -->
         <quarkiverse-jgit.version>2.2.0</quarkiverse-jgit.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/jgit/quarkus-jgit-parent/ -->
         <quarkiverse-jsch.version>2.0.1</quarkiverse-jsch.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/jsch/quarkus-jsch-parent/ -->
         <quarkiverse-minio.version>2.9.2</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
         <quarkiverse-mybatis.version>1.0.4</quarkiverse-mybatis.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/mybatis/quarkus-mybatis-parent/ -->
-        <quarkiverse-pooled-jms.version>1.0.6</quarkiverse-pooled-jms.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/messaginghub/quarkus-pooled-jms-parent/ -->
+        <quarkiverse-pooled-jms.version>1.0.6.redhat-00002</quarkiverse-pooled-jms.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/messaginghub/quarkus-pooled-jms-parent/ -->
         <quarkiverse-tika.version>1.0.3</quarkiverse-tika.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/tika/quarkus-tika-parent/ -->
-        <quarkus.version>2.13.5.Final</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus.version>2.13.5.Final-redhat-00003</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
         <quarkus-community.version>2.13.5.Final</quarkus-community.version>
         <quarkus-hazelcast-client.version>3.0.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>0.38.0</quarkus-qpid-jms.version><!-- https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
@@ -72,7 +72,7 @@
         <ahc.version>${ahc-version}</ahc.version>
         <animal-sniffer.version>1.18</animal-sniffer.version>
         <antlr3.version>3.5.2</antlr3.version><!-- Spark, Stringtemplate and probably others -->
-        <avro.version>1.11.1</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
+        <avro.version>1.11.1.redhat-00002</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
         <awssdk.version>2.17.291</awssdk.version><!-- @sync io.quarkiverse.amazonservices:quarkus-amazon-services-parent:${quarkiverse-amazonservices.version} prop:awssdk.version -->
         <assertj.version>3.23.1</assertj.version><!-- @sync io.quarkus:quarkus-build-parent:${quarkus.version} prop:assertj.version -->
         <aws-java-sdk.version>1.11.714</aws-java-sdk.version>
@@ -83,7 +83,7 @@
         <azure-core-http-vertx.version>1.0.0-beta.1</azure-core-http-vertx.version> <!-- TODO: https://github.com/apache/camel-quarkus/issues/4181 -->
         <cassandra-driver-test.version>3.7.1</cassandra-driver-test.version><!-- Keep in sync with testcontainers instead of Debezium bom -->
         <bouncycastle.version>1.70</bouncycastle.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.bouncycastle:bcprov-jdk15on -->
-        <caffeine.version>2.9.3</caffeine.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.github.ben-manes.caffeine:caffeine -->
+        <caffeine.version>2.9.3.redhat-00001</caffeine.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.github.ben-manes.caffeine:caffeine -->
         <californium-scandium.version>${californium-scandium-version}</californium-scandium.version> <!-- TODO: https://github.com/apache/camel-quarkus/issues/4226 -->
         <commons-beanutils.version>${commons-beanutils-version}</commons-beanutils.version>
         <commons-cli.version>1.4</commons-cli.version><!-- keep in sync with Quarkus, via quarkus-bootstrap-core -->
@@ -92,7 +92,7 @@
         <commons-lang.version>2.6</commons-lang.version><!-- used by hbase, should be pretty stable as commons-lang is not developed actively anymore -->
         <commons-math3.version>3.6.1</commons-math3.version><!-- Mess in the transitive dependencies of Spark and hbase-testing-util -->
         <curator.version>4.3.0</curator.version><!-- Mess in the transitive dependencies of Spark, Zookeeper and other hadoop related components -->
-        <cxf.version>3.5.3</cxf.version><!-- @sync io.quarkiverse.cxf:quarkus-cxf-parent:${quarkiverse-cxf.version} prop:cxf.version -->
+        <cxf.version>3.5.3.redhat-00034</cxf.version><!-- @sync io.quarkiverse.cxf:quarkus-cxf-parent:${quarkiverse-cxf.version} prop:cxf.version -->
         <cxf.xjc-utils.version>3.3.2</cxf.xjc-utils.version><!-- @sync io.quarkiverse.cxf:quarkus-cxf-parent:${quarkiverse-cxf.version} prop:cxf.xjc-utils.version -->
         <eddsa.version>${eddsa-version}</eddsa.version>
         <freemarker.version>2.3.31</freemarker.version><!-- @sync io.quarkiverse.freemarker:quarkus-freemarker-parent:${quarkiverse-freemarker.version} prop:freemarker.version -->
@@ -100,14 +100,14 @@
         <github-api.version>1.111</github-api.version><!-- Used in a Groovy script bellow -->
         <google-auth-library-credentials.version>1.7.0</google-auth-library-credentials.version><!-- TODO: Revert back to using Camel's version when gRPC versions are in sync -->
         <google-oauth-client.version>${google-oauth-client-version}</google-oauth-client.version><!-- TODO: Fix this in Camel https://github.com/apache/camel-quarkus/issues/4139 -->
-        <graalvm.version>22.3.0</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.sdk:graal-sdk -->
-        <graalvm-community.version>${graalvm.version}</graalvm-community.version>
-        <grpc.version>1.49.0</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
+        <graalvm.version>22.3.0.1-1-redhat-00001</graalvm.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.graalvm.sdk:graal-sdk -->
+        <graalvm-community.version>22.3.0</graalvm-community.version>
+        <grpc.version>1.49.0.redhat-00002</grpc.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.grpc:grpc-core -->
         <grpc-community.version>1.49.0</grpc-community.version>
         <hapi.version>${hapi-version}</hapi.version>
         <hapi-base.version>${hapi-base-version}</hapi-base.version>
         <hapi-fhir.version>${hapi-fhir-version}</hapi-fhir.version>
-        <hapi-fhir-core.version>4.2.0</hapi-fhir-core.version><!-- @sync ca.uhn.hapi.fhir:hapi-fhir:${hapi-fhir.version} prop:fhir_core_version -->
+        <hapi-fhir-core.version>4.2.0.redhat-00001</hapi-fhir-core.version><!-- @sync ca.uhn.hapi.fhir:hapi-fhir:${hapi-fhir.version} prop:fhir_core_version -->
         <hbase.version>${hbase-version}</hbase.version>
         <htrace.version>4.2.0-incubating</htrace.version><!-- Mess in hbase transitive deps -->
         <infinispan.version>13.0.11.Final</infinispan.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.infinispan:infinispan-core -->
@@ -115,9 +115,9 @@
         <jackson1.version>1.9.13</jackson1.version><!-- Mess in the transitive dependencies of hbase-testing-util -->
         <jackson-asl.version>${jackson1.version}</jackson-asl.version><!-- Can be different from jackson1.version on some occasions -->
         <jakarta.jms-api.version>2.0.3</jakarta.jms-api.version>
-        <jakarta.jws.ws.api.version>2.1.0</jakarta.jws.ws.api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.jwsapi.version -->
-        <jakarta.xml.soap-api.version>1.4.2</jakarta.xml.soap-api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.soapapi.version -->
-        <jakarta.xml.ws.api.version>2.3.3</jakarta.xml.ws.api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.wsapi.version -->
+        <jakarta.jws.ws.api.version>2.1.0.redhat-00001</jakarta.jws.ws.api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.jwsapi.version -->
+        <jakarta.xml.soap-api.version>1.4.2.redhat-00001</jakarta.xml.soap-api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.soapapi.version -->
+        <jakarta.xml.ws.api.version>2.3.3.redhat-00001</jakarta.xml.ws.api.version><!-- @sync org.apache.cxf:cxf-parent:${cxf.version} prop:cxf.jakarta.wsapi.version -->
         <java-json-tools.json-patch.version>${json-patch-version}</java-json-tools.json-patch.version><!-- A replacement for com.github.fge:json-patch -->
         <jcodings.version>1.0.55</jcodings.version><!-- used by hbase -->
         <jodatime.version>2.10.6</jodatime.version><!-- Mess in transitive dependencies of Spark and Splunk -->
@@ -140,14 +140,14 @@
         <okio.version>${squareup-okio-version}</okio.version>
         <opencensus.version>0.31.0</opencensus.version><!-- Mess in Google cloud. Keep in sync with version used in com.google.http-client:google-http-client -->
         <perfmark-api.version>0.25.0</perfmark-api.version><!-- @sync io.grpc:grpc-netty-shaded:${grpc.version} dep:io.perfmark:perfmark-api -->
-        <protobuf.version>3.19.6</protobuf.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.google.protobuf:protobuf-java -->
+        <protobuf.version>3.19.6.redhat-00002</protobuf.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:com.google.protobuf:protobuf-java -->
         <protobuf-community.version>3.19.6</protobuf-community.version>
         <reactor-core.version>3.4.22</reactor-core.version><!-- @sync com.azure:azure-core:${azure-core.version} dep:io.projectreactor:reactor-core -->
         <reactor-netty.version>${reactor-netty-version}</reactor-netty.version>
         <retrofit.version>2.5.0</retrofit.version>
         <smallrye.reactive.messaging.camel.version>3.21.0</smallrye.reactive.messaging.camel.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.smallrye.reactive:smallrye-reactive-messaging-provider -->
         <spring.version>${spring5-version}</spring.version>
-        <snakeyaml.version>1.33</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
+        <snakeyaml.version>1.33.0.redhat-00001</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
         <tablesaw.version>0.43.1</tablesaw.version>
         <threetenbp.version>1.6.0</threetenbp.version>
         <xalan.version>2.7.2</xalan.version><!-- Xalan should be removed as is in Camel, but it is not possible. https://github.com/apache/camel-quarkus/issues/4065-->
@@ -725,7 +725,7 @@
                                                 <exclude>ch.qos.logback:logback-core</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
                                                 <exclude>ch.qos.logback:logback-access</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
                                                 <exclude>ch.qos.logback:logback</exclude><!-- dismiss; the functionality is provided by JBoss Log Manager provided via quarkus-core -->
-                                                <exclude>com.github.fge:*</exclude><!-- Use com.github.java-json-tools:* instead -->
+                                                <!-- <exclude>com.github.fge:*</exclude> workaround https://issues.redhat.com/browse/QUARKUS-1974 --><!-- Use com.github.java-json-tools:* instead -->
                                                 <exclude>com.google.code.findbugs:jsr305</exclude>
                                                 <exclude>com.sun.activation:javax.activation</exclude><!-- use com.sun.activation:jakarta.activation instead -->
                                                 <exclude>commons-logging:commons-logging</exclude><!-- use org.jboss.logging:commons-logging-jboss-logging instead of commons-logging and commons-logging-api -->
