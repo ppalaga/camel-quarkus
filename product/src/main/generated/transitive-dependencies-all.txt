@@ -42,6 +42,9 @@ com.amazonaws:aws-xray-recorder-sdk-core
 com.amazonaws:jmespath-java
 com.arangodb:arangodb-java-driver
 com.arangodb:velocypack
+com.atlassian.event:atlassian-event
+com.atlassian.httpclient:atlassian-httpclient-api
+com.atlassian.httpclient:atlassian-httpclient-library
 com.atlassian.jira:jira-rest-java-client-api
 com.atlassian.jira:jira-rest-java-client-core
 com.atlassian.sal:sal-api
@@ -358,6 +361,7 @@ io.atlasmap:atlas-xml-model
 io.atlasmap:atlas-xml-module
 io.atlasmap.com.sun.xsom:xsom
 io.atlassian.fugue:fugue
+io.atlassian.util.concurrent:atlassian-util-concurrent
 io.debezium:debezium-api
 io.debezium:debezium-connector-mongodb
 io.debezium:debezium-connector-mysql
@@ -464,6 +468,8 @@ io.netty:netty-transport-classes-kqueue
 io.netty:netty-transport-native-epoll
 io.netty:netty-transport-native-kqueue
 io.netty:netty-transport-native-unix-common
+io.netty.incubator:netty-incubator-codec-classes-quic
+io.netty.incubator:netty-incubator-codec-native-quic
 io.opencensus:opencensus-api
 io.opencensus:opencensus-contrib-http-util
 io.opencensus:opencensus-proto
@@ -491,6 +497,7 @@ io.projectreactor:reactor-core
 io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
+io.projectreactor.netty.incubator:reactor-netty-incubator-quic
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-features-logging
@@ -1959,6 +1966,7 @@ org.apache.hbase.thirdparty:hbase-shaded-protobuf
 org.apache.hbase.thirdparty:hbase-unsafe
 org.apache.htrace:htrace-core4
 org.apache.httpcomponents:httpasyncclient
+org.apache.httpcomponents:httpasyncclient-cache
 org.apache.httpcomponents:httpclient
 org.apache.httpcomponents:httpclient-cache
 org.apache.httpcomponents:httpcore

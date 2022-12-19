@@ -116,7 +116,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -281,7 +281,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-attachments</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -300,7 +300,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -422,7 +422,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-cw</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -445,7 +445,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-ddb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -583,7 +583,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-kinesis</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -629,7 +629,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-lambda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -698,7 +698,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-s3</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -744,7 +744,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-sns</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -767,7 +767,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-aws2-sqs</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -908,7 +908,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-azure-storage-blob</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.github.stephenc.jcip</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -950,7 +950,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-azure-storage-queue</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.github.stephenc.jcip</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -988,7 +988,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1003,7 +1003,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-base-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1023,7 +1023,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bean</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1038,7 +1038,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bean-validator</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1057,7 +1057,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-bindy</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1134,7 +1134,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-browse</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1179,7 +1179,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cassandraql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1198,7 +1198,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1258,7 +1258,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cloud</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1273,7 +1273,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cluster</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1366,7 +1366,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-componentdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1381,7 +1381,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-console</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1409,7 +1409,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-controlbus</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1467,7 +1467,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-catalog</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1482,7 +1482,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-engine</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1497,7 +1497,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-languages</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1512,12 +1512,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-processor</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1532,7 +1532,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-core-reifier</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1571,7 +1571,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cron</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1620,7 +1620,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cxf-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1643,7 +1643,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cxf-soap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1674,7 +1674,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cxf-transport</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1701,7 +1701,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-dataformat</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1716,7 +1716,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-dataset</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -1899,7 +1899,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-direct</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2020,7 +2020,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-dsl-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2059,7 +2059,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-endpointdsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2139,7 +2139,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-fhir</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2166,12 +2166,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-fhir-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-file</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2269,7 +2269,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-ftp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.github.mwiede</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2341,7 +2341,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-google-bigquery</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2476,7 +2476,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-google-pubsub</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2696,7 +2696,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-gson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2851,12 +2851,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-hl7</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2871,7 +2871,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2894,12 +2894,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-http-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -2987,7 +2987,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-infinispan</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3018,7 +3018,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-infinispan-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.infinispan</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3078,7 +3078,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3093,7 +3093,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson-avro</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3108,7 +3108,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jackson-protobuf</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3123,7 +3123,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jacksonxml</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3153,7 +3153,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-java-joor-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3168,7 +3168,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3335,7 +3335,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jira</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3398,7 +3398,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jms</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3501,7 +3501,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jpa</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3577,7 +3577,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jslt</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3667,7 +3667,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jsonpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3697,7 +3697,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-jta</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3716,7 +3716,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kafka</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3731,7 +3731,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kamelet</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3761,7 +3761,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-kubernetes</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>io.fabric8</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3855,7 +3855,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-log</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3934,8 +3934,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mail</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
+          <exclusion>
+            <groupId>com.microsoft.azure</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+            <artifactId>msal4j</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+          </exclusion>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
             <artifactId>jakarta.activation-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3949,7 +3953,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-main</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -3983,12 +3987,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-management-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-master</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4018,7 +4022,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-config</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4033,7 +4037,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-fault-tolerance</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4052,7 +4056,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-health</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4067,7 +4071,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-microprofile-metrics</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4128,7 +4132,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mllp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4143,7 +4147,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mock</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4158,7 +4162,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-mongodb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4256,7 +4260,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-netty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4371,7 +4375,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-openapi-java</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.fasterxml.jackson.dataformat</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4413,7 +4417,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-opentelemetry</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>io.grpc</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4470,7 +4474,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-paho</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4485,7 +4489,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-paho-mqtt5</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4557,12 +4561,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-platform-http</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-platform-http-vertx</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4669,7 +4673,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-quartz</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4771,7 +4775,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-ref</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4786,7 +4790,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-rest</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4801,7 +4805,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-rest-openapi</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4861,7 +4865,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-salesforce</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4895,7 +4899,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-saxon</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4910,7 +4914,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-scheduler</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -4940,7 +4944,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-seda</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5046,7 +5050,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-slack</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.googlecode.json-simple</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5110,7 +5114,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-soap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.xml.bind</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5209,7 +5213,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-sql</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>commons-logging</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5349,7 +5353,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-support</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5394,7 +5398,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-telegram</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5477,7 +5481,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-timer</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5492,12 +5496,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-tooling-model</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-tracing</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5563,17 +5567,17 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-util-json</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-validator</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5588,7 +5592,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-velocity</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5618,7 +5622,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-vertx-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5702,7 +5706,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-webhook</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5801,7 +5805,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5816,7 +5820,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5831,12 +5835,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-io-util</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-jaxb</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5851,7 +5855,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xml-jaxp</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5896,7 +5900,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xpath</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5911,7 +5915,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-xslt</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5956,7 +5960,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5971,12 +5975,12 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl-common</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-yaml-dsl-deserializers</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5996,7 +6000,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-zip-deflater</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -6011,7 +6015,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-zipfile</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.18.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.18.3.redhat-00023</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9351,7 +9355,7 @@
       <dependency>
         <groupId>ca.uhn.hapi</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>2.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>2.3.0.redhat-00008</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9444,7 +9448,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-base</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9459,7 +9463,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-client</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9478,7 +9482,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-server</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9497,7 +9501,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-structures-dstu2.1</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9520,7 +9524,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-structures-dstu3</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9543,7 +9547,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-structures-hl7org-dstu2</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9566,7 +9570,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-structures-r4</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9589,7 +9593,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>hapi-fhir-structures-r5</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9612,7 +9616,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.dstu2</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9631,7 +9635,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.dstu2016may</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9650,7 +9654,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.dstu3</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9669,7 +9673,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.r4</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9688,7 +9692,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.r5</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9707,7 +9711,7 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>org.hl7.fhir.utilities</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.2.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.2.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9763,7 +9767,7 @@
       <dependency>
         <groupId>com.google.oauth-client</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>google-oauth-client</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.34.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.34.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9779,7 +9783,7 @@
       <dependency>
         <groupId>com.jayway.jsonpath</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>json-path</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>2.7.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>2.7.0.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>com.lihaoyi</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9837,7 +9841,7 @@
       <dependency>
         <groupId>com.sun.mail</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>jakarta.mail</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.6.7</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.6.7.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.sun.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9899,7 +9903,7 @@
       <dependency>
         <groupId>io.projectreactor.netty</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>reactor-netty</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.0.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.0.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.freemarker</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -9944,18 +9948,18 @@
       <dependency>
         <groupId>io.quarkiverse.messaginghub</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>quarkus-pooled-jms</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.0.6</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.0.6.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.jms</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-            <artifactId>jakarta.jms-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+            <artifactId>geronimo-jms_2.0_spec</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.messaginghub</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>quarkus-pooled-jms-deployment</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.0.6</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.0.6.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.minio</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10016,12 +10020,12 @@
       <dependency>
         <groupId>jakarta.xml.soap</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>jakarta.xml.soap-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>1.4.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>1.4.2.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>jakarta.xml.ws</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>jakarta.xml.ws-api</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>2.3.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>2.3.3.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10107,7 +10111,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>cxf-rt-ws-policy</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.5.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.5.3.redhat-00034</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10243,7 +10247,7 @@
       <dependency>
         <groupId>org.eclipse.californium</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>element-connector</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>2.7.3</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>2.7.4</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.eclipse.jgit</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10358,22 +10362,22 @@
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-aop</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-beans</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-context</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-core</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10384,27 +10388,27 @@
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-expression</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-jdbc</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-messaging</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-orm</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>spring-tx</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>5.3.23</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>5.3.24</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.threeten</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -10443,470 +10447,470 @@
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-features-logging</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-features-logging</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-features-metrics</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-features-metrics</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-frontend-jaxws</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-frontend-jaxws</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.glassfish.jaxb</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jaxb-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.glassfish.jaxb</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jaxb-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-transports-http</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-transports-http</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-transports-http-hc5</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-transports-http-hc5</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.slf4j</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jcl-over-slf4j</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.slf4j</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jcl-over-slf4j</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-ws-mex</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-ws-mex</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-ws-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-ws-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-ws-rm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-ws-rm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.ow2.asm</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>asm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf.services.sts</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-services-sts-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf.services.sts</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-services-sts-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-jta_1.1_spec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.springframework</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>*</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.springframework</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>*</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf.xjc-utils</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-xjc-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.3.2</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf.xjc-utils</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-xjc-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.3.2</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-features-logging</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-features-logging</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-features-logging-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-features-logging-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-features-metrics</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-features-metrics</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-features-metrics-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-features-metrics-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-transports-http-hc5</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-transports-http-hc5</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-transports-http-hc5-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-transports-http-hc5-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-ws-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-ws-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-ws-security-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-ws-security-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-ws-rm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-ws-rm</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-rt-ws-rm-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-rt-ws-rm-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-saaj</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-saaj</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-saaj-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-saaj-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-services-sts</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-services-sts</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.apache.geronimo.javamail</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>geronimo-javamail_1.4_mail</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-services-sts-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-services-sts-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-woodstox</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-woodstox</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-cxf-woodstox-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.9</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-cxf-woodstox-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.9.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>com.fasterxml.woodstox</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>woodstox-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>6.4.0</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>com.fasterxml.woodstox</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>woodstox-core</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>6.4.0.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>com.sun.xml.messaging.saaj</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>saaj-impl</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>com.sun.xml.messaging.saaj</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>saaj-impl</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.5.3.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.neethi</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>neethi</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.2.0</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.neethi</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>neethi</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.2.0.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.ehcache</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>ehcache</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.10.8</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.ehcache</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>ehcache</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.10.8</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.glassfish.jaxb</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jaxb-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>org.glassfish.jaxb</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jaxb-runtime</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.jvnet.mimepull</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>mimepull</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.9.14</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.jvnet.mimepull</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>mimepull</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.9.14.redhat-00001</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.santuario</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>xmlsec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>2.3.2</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.santuario</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>xmlsec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>2.3.2</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+            <groupId>jakarta.xml.bind</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+            <artifactId>jakarta.xml.bind-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.xmlsec</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-xmlsec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.1.1</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.xmlsec</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-xmlsec</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.1.1</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.xmlsec</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>quarkus-xmlsec-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>1.1.1</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>io.quarkiverse.xmlsec</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>quarkus-xmlsec-deployment</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>1.1.1</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-bindings-soap</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-bindings-soap</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-bindings-xml</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-bindings-xml</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-databinding-jaxb</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-databinding-jaxb</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-frontend-simple</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-frontend-simple</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-management</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-management</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-rs-json-basic</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-rs-json-basic</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-rs-security-jose</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-rs-security-jose</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-security-saml</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-wsdl</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-security-saml</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-ws-addr</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-ws-addr</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <artifactId>cxf-rt-security</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
-        <version>3.5.3</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9 -->
+        <groupId>org.apache.cxf</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <artifactId>cxf-rt-wsdl</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
+        <version>3.5.3.redhat-00034</version><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.9.redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId><!-- org.codehaus.groovy:groovy-bom:3.0.8 -->
@@ -11146,99 +11150,99 @@
         <version>0.38.0</version><!-- org.amqphub.quarkus:quarkus-qpid-jms-bom:0.38.0 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-alpn-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-alpn-java-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914-redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-continuation</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-http</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914-redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>http2-client</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>http2-common</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>http2-hpack</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty.http2</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>http2-http-client-transport</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-io</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914-redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-jmx</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-security</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-servlet</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-servlets</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-util</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914-redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-util-ajax</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914-redhat-00001</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-webapp</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
-        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914 -->
+        <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <artifactId>jetty-xml</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
+        <version>9.4.49.v20220914</version><!-- org.eclipse.jetty:jetty-bom:9.4.49.v20220914-redhat-00001 -->
       </dependency>
       <dependency>
         <groupId>com.azure</groupId><!-- com.azure:azure-sdk-bom:1.2.6 -->
