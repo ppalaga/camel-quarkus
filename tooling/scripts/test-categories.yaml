@@ -203,6 +203,7 @@ group-13:
   - github
   - google
   - jira
+  - java-joor-dsl
   - js-dsl
   - kubernetes
   - salesforce
