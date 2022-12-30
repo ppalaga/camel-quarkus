@@ -18,19 +18,19 @@ package org.apache.camel.quarkus.component.aws2.cw.it;
 
 import java.net.URI;
 import java.time.Instant;
-import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
+import javax.ws.rs.HeaderParam;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 
 import io.quarkus.scheduler.Scheduled;
@@ -69,39 +69,43 @@ public class Aws2CwResource {
                 .build();
     }
 
-    @Path("/send-metric-maps/{namespace}")
+    @Path("/send-metric-map/{namespace}")
     @POST
-    @Consumes(MediaType.APPLICATION_JSON)
+    @Consumes("application/x-www-form-urlencoded")
     @Produces(MediaType.TEXT_PLAIN)
     public Response postMap(
-            List<Map<String, Object>> data,
             @PathParam("namespace") String namespace,
-            @QueryParam("customClientName") String customClientName) throws Exception {
+            @HeaderParam("customClientName") String customClientName,
+            MultivaluedMap<String, String> formParams) throws Exception {
 
         String uri = "aws2-cw://" + namespace;
         uri = customClientName != null && !customClientName.isEmpty()
                 ? uri + "?autowiredEnabled=false&amazonCwClient=#" + customClientName : uri;
 
-        for (Map<String, Object> item : data) {
-            //use Instant as timestamp header
-            Map<String, Object> typedHeaders = item.entrySet().stream().collect(Collectors.toMap(
-                    e -> e.getKey(),
-                    e -> {
-                        if (Cw2Constants.METRIC_TIMESTAMP.equals(e.getKey()) && e.getValue() instanceof Long) {
-                            return Instant.ofEpochMilli((Long) e.getValue());
-                        }
-                        return e.getValue();
-                    }));
-            try {
-                producerTemplate.requestBodyAndHeaders(uri, null, typedHeaders, String.class);
-            } catch (Exception e) {
-                if (e instanceof CamelExecutionException && e.getCause() != null) {
-                    return Response
-                            .ok(e.getCause().getMessage())
-                            .build();
-                }
-                throw e;
+        //use Instant as timestamp header
+        Map<String, Object> typedHeaders = formParams.entrySet().stream().collect(Collectors.toMap(
+                e -> e.getKey(),
+                e -> {
+                    final String val = e.getValue().get(0);
+                    if (Cw2Constants.METRIC_TIMESTAMP.equals(e.getKey())) {
+                        return Instant.ofEpochMilli(Long.parseLong(val));
+                    } else if (Cw2Constants.METRIC_VALUE.equals(e.getKey())) {
+                        return Long.parseLong(val);
+                    } else if (Cw2Constants.METRIC_DIMENSIONS.equals(e.getKey())) {
+                        String[] keyVal = val.split("=");
+                        return Map.of(keyVal[0], keyVal[1]);
+                    }
+                    return val;
+                }));
+        try {
+            producerTemplate.requestBodyAndHeaders(uri, null, typedHeaders, String.class);
+        } catch (Exception e) {
+            if (e instanceof CamelExecutionException && e.getCause() != null) {
+                return Response
+                        .ok(e.getCause().getMessage())
+                        .build();
             }
+            throw e;
         }
 
         return Response

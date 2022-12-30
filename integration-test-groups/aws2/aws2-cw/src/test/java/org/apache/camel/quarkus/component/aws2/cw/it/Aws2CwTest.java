@@ -106,7 +106,7 @@ class Aws2CwTest {
         final String metricName = "metricName" + java.util.UUID.randomUUID().toString().replace("-", "");
         final int value = (int) (Math.random() * 10000);
 
-        List<Map<String, Object>> data = new LinkedList<>();
+        List<Map<String, String>> data = new LinkedList<>();
 
         data.add(CollectionHelper.mapOf(
                 Cw2Constants.METRIC_NAMESPACE, namespace,
@@ -120,7 +120,7 @@ class Aws2CwTest {
                 Cw2Constants.METRIC_NAME, metricName,
                 Cw2Constants.METRIC_VALUE, 2 * value + 2,
                 Cw2Constants.METRIC_UNIT, "Count",
-                Cw2Constants.METRIC_DIMENSIONS, CollectionHelper.mapOf("type", "even")));
+                Cw2Constants.METRIC_DIMENSIONS, "type=even"));
         data.add(CollectionHelper.mapOf(
                 Cw2Constants.METRIC_NAMESPACE, namespace,
                 Cw2Constants.METRIC_NAME, metricName,
@@ -142,7 +142,7 @@ class Aws2CwTest {
                 Cw2Constants.METRIC_UNIT, "Count",
                 Cw2Constants.METRIC_DIMENSION_NAME, "type",
                 Cw2Constants.METRIC_DIMENSION_VALUE, "odd"));
-        //ignored because of timestamp
+        // ignored because of timestamp
         data.add(CollectionHelper.mapOf(
                 Cw2Constants.METRIC_NAMESPACE, namespace, Cw2Constants.METRIC_NAME, metricName,
                 Cw2Constants.METRIC_VALUE, 2 * value + 5,
@@ -151,12 +151,14 @@ class Aws2CwTest {
                 Cw2Constants.METRIC_DIMENSION_NAME, "type",
                 Cw2Constants.METRIC_DIMENSION_VALUE, "odd"));
 
-        RestAssured.given()
-                .contentType(ContentType.JSON)
-                .body(data)
-                .post("/aws2-cw/send-metric-maps/" + namespace)
-                .then()
-                .statusCode(201);
+        for (Map<String, String> item : data) {
+            RestAssured.given()
+                    .contentType("application/x-www-form-urlencoded; charset=utf-8")
+                    .formParams(item)
+                    .post("/aws2-cw/send-metric-map/" + namespace)
+                    .then()
+                    .statusCode(201);
+        }
 
         Awaitility.await().pollInterval(1, TimeUnit.SECONDS).atMost(120, TimeUnit.SECONDS).until(
                 () -> {
@@ -223,19 +225,17 @@ class Aws2CwTest {
         final String metricName = "metricName" + java.util.UUID.randomUUID().toString().replace("-", "");
         final int value = (int) (Math.random() * 10000);
 
-        List<Map<String, Object>> data = new LinkedList<>();
-
-        data.add(CollectionHelper.mapOf(
+        Map<String, Object> data = CollectionHelper.mapOf(
                 Cw2Constants.METRIC_NAMESPACE, namespace,
                 Cw2Constants.METRIC_NAME, metricName,
                 Cw2Constants.METRIC_VALUE, 2 * value,
-                Cw2Constants.METRIC_UNIT, "Count"));
+                Cw2Constants.METRIC_UNIT, "Count");
 
         RestAssured.given()
-                .contentType(ContentType.JSON)
-                .queryParam("customClientName", "customClient")
-                .body(data)
-                .post("/aws2-cw/send-metric-maps/" + namespace)
+                .contentType("application/x-www-form-urlencoded; charset=utf-8")
+                .header("customClientName", "customClient")
+                .formParams(data)
+                .post("/aws2-cw/send-metric-map/" + namespace)
                 .then()
                 .statusCode(200)
                 .body(is("MockedClient"));
