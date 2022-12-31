@@ -17,8 +17,8 @@
 public class MyRoutes extends org.apache.camel.builder.RouteBuilder {
     @Override
     public void configure() throws Exception {
-        from("direct:start")
+        from("direct:joorHello")
             .id("my-java-route")
-            .log("Hello Java !!!");
+            .setBody(exchange -> "Hello " + exchange.getMessage().getBody()  + " from jOOR!");
     }
 }

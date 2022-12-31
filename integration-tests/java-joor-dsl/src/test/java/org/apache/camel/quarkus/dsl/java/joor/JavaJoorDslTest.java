@@ -16,34 +16,43 @@
  */
 package org.apache.camel.quarkus.dsl.java.joor;
 
-import javax.ws.rs.core.MediaType;
-
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import org.apache.camel.dsl.java.joor.JavaRoutesBuilderLoader;
+import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 @QuarkusTest
 public class JavaJoorDslTest {
+
     @Test
-    public void testMainInstanceWithJavaRoutes() {
-        JsonPath p = RestAssured.given()
-                .accept(MediaType.APPLICATION_JSON)
-                .get("/test/main/describe")
+    public void joorHello() {
+        RestAssured.given()
+                .body("Camelus bactrianus")
+                .post("/java-joor-dsl/hello")
                 .then()
                 .statusCode(200)
-                .extract()
-                .body()
-                .jsonPath();
+                .body(CoreMatchers.is("Hello Camelus bactrianus from jOOR!"));
+    }
 
-        assertThat(p.getString("java-routes-builder-loader"))
-                .isEqualTo(JavaRoutesBuilderLoader.class.getName());
-        assertThat(p.getList("routeBuilders", String.class))
-                .isEmpty();
-        assertThat(p.getList("routes", String.class))
-                .contains("my-java-route");
+    @Test
+    public void testMainInstanceWithJavaRoutes() {
+        RestAssured.given()
+                .get("/java-joor-dsl/main/javaRoutesBuilderLoader")
+                .then()
+                .statusCode(200)
+                .body(CoreMatchers.is(JavaRoutesBuilderLoader.class.getName()));
+
+        RestAssured.given()
+                .get("/java-joor-dsl/main/routeBuilders")
+                .then()
+                .statusCode(200)
+                .body(CoreMatchers.is(""));
+
+        RestAssured.given()
+                .get("/java-joor-dsl/main/routes")
+                .then()
+                .statusCode(200)
+                .body(CoreMatchers.is("my-java-route"));
     }
 }
