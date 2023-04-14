@@ -431,7 +431,10 @@
         "camel-quarkus-vertx-http": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 2.13.3"
+            "comment": "supported since CEQ 2.13.3",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-http"
+            ]
         },
         "camel-quarkus-xml-io-dsl": {
             "jvm": "supported",

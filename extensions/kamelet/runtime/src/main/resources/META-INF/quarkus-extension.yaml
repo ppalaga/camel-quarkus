@@ -24,7 +24,7 @@
 name: "Camel Kamelet"
 description: "Materialize route templates"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/kamelet.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-kamelet"
   categories:
   - "integration"
   status:

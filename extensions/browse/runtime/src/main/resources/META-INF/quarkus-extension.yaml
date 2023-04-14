@@ -24,7 +24,7 @@
 name: "Camel Browse"
 description: "Inspect the messages received on endpoints supporting BrowsableEndpoint"
 metadata:
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/browse.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/2.latest/html/camel_extensions_for_quarkus_reference/extensions-browse"
   categories:
   - "integration"
   status:
