@@ -209,6 +209,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+	"camel-quarkus-jdbc": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3"
+        },
         "camel-quarkus-jira": {
             "jvm": "supported",
             "native": "supported",
@@ -245,6 +250,11 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-jta"
             ]
+        },
+        "camel-quarkus-jq": {
+            "jvm": "community",
+            "native": "community",
+            "comment": "community/community since CEQ 2.13.3; Required by Camel-K"
         },
         "camel-quarkus-kafka": {
             "jvm": "supported",
@@ -418,10 +428,15 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-vertx-http": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.3"
+        },
         "camel-quarkus-xml-io-dsl": {
-            "jvm": "community",
-            "native": "community",
-            "comment": "community/community since CEQ 2.2.0; Required by Camel K"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3; Required by Camel K"
         },
         "camel-quarkus-xpath": {
             "jvm": "supported",
@@ -437,9 +452,9 @@
             ]
         },
         "camel-quarkus-yaml-dsl": {
-            "jvm": "community",
-            "native": "community",
-            "comment": "community/community since CEQ 2.2.0; Required by Camel K"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3; Required by Camel K"
         },
         "camel-quarkus-zipfile": {
             "jvm": "supported",
