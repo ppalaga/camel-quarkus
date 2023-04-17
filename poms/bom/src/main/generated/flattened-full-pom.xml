@@ -7478,6 +7478,10 @@
             <groupId>jakarta.activation</groupId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.11 -->
             <artifactId>jakarta.activation-api</artifactId><!-- io.quarkiverse.cxf:quarkus-cxf-bom:1.5.11 -->
           </exclusion>
+          <exclusion>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+          </exclusion>
         </exclusions>
       </dependency>
       <dependency>
@@ -7897,6 +7901,12 @@
         <groupId>software.amazon.awssdk</groupId><!-- software.amazon.awssdk:bom:2.17.291 -->
         <artifactId>apache-client</artifactId><!-- software.amazon.awssdk:bom:2.17.291 -->
         <version>2.17.291</version><!-- software.amazon.awssdk:bom:2.17.291 -->
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>software.amazon.awssdk</groupId><!-- software.amazon.awssdk:bom:2.17.291 -->
@@ -19984,6 +19994,12 @@
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.51.v20230217 -->
         <artifactId>jetty-server</artifactId><!-- org.eclipse.jetty:jetty-bom:9.4.51.v20230217 -->
         <version>9.4.51.v20230217</version><!-- org.eclipse.jetty:jetty-bom:9.4.51.v20230217 -->
+        <exclusions>
+          <exclusion>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.eclipse.jetty</groupId><!-- org.eclipse.jetty:jetty-bom:9.4.51.v20230217 -->
@@ -20311,6 +20327,14 @@
         <version>4.14.0</version><!-- com.datastax.oss.quarkus:cassandra-quarkus-bom:1.1.2 -->
         <exclusions>
           <exclusion>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>io.dropwizard.metrics</groupId><!-- com.datastax.oss.quarkus:cassandra-quarkus-bom:1.1.2 -->
             <artifactId>metrics-core</artifactId><!-- com.datastax.oss.quarkus:cassandra-quarkus-bom:1.1.2 -->
           </exclusion>
@@ -20395,6 +20419,16 @@
         <groupId>com.datastax.oss</groupId><!-- com.datastax.oss:java-driver-bom:4.14.0 -->
         <artifactId>java-driver-query-builder</artifactId><!-- com.datastax.oss:java-driver-bom:4.14.0 -->
         <version>4.14.0</version><!-- com.datastax.oss:java-driver-bom:4.14.0 -->
+        <exclusions>
+          <exclusion>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>com.datastax.oss</groupId><!-- com.datastax.oss:java-driver-bom:4.14.0 -->
@@ -20425,6 +20459,12 @@
         <groupId>org.apache.kafka</groupId><!-- io.debezium:debezium-bom:1.9.6.Final -->
         <artifactId>connect-api</artifactId><!-- io.debezium:debezium-bom:1.9.6.Final -->
         <version>3.2.0</version><!-- io.debezium:debezium-bom:1.9.6.Final -->
+        <exclusions>
+          <exclusion>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.kafka</groupId><!-- io.debezium:debezium-bom:1.9.6.Final -->
