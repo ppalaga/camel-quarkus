@@ -6487,6 +6487,17 @@
         <version>2.6</version>
       </dependency>
       <dependency>
+        <groupId>io.minio</groupId>
+        <artifactId>minio</artifactId>
+        <version>8.2.2</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.checkerframework</groupId>
+            <artifactId>checker-qual</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
         <groupId>io.opencensus</groupId>
         <artifactId>opencensus-api</artifactId>
         <version>0.31.0</version>
@@ -6602,17 +6613,6 @@
         <groupId>io.quarkiverse.tika</groupId>
         <artifactId>quarkus-tika-deployment</artifactId>
         <version>1.0.3</version>
-      </dependency>
-      <dependency>
-        <groupId>io.minio</groupId>
-        <artifactId>minio</artifactId>
-        <version>8.2.2</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.checkerframework</groupId>
-            <artifactId>checker-qual</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>io.smallrye.reactive</groupId>
@@ -7035,7 +7035,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-core</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7054,7 +7054,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-features-logging</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7076,7 +7076,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-frontend-jaxws</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7091,7 +7091,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-transports-http</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7117,7 +7117,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-mex</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7128,7 +7128,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-security</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7162,7 +7162,7 @@
       <dependency>
         <groupId>org.apache.cxf.services.sts</groupId>
         <artifactId>cxf-services-sts-core</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7177,7 +7177,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-tools-wsdlto-core</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7196,7 +7196,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-tools-wsdlto-databinding-jaxb</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7207,7 +7207,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-tools-wsdlto-frontend-jaxws</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7218,7 +7218,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-tools-common</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7233,7 +7233,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-tools-validator</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7248,7 +7248,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-wsdl</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7348,102 +7348,102 @@
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-features-logging</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-features-logging-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-features-metrics</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-features-metrics-deployment</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-transports-http-hc5</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-transports-http-hc5-deployment</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-ws-security</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-ws-security-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-ws-rm</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-rt-ws-rm-deployment</artifactId>
-        <version>1.5.11</version>
+        <version>1.5.13</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-saaj</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-saaj-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-services-sts</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-services-sts-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-woodstox</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-woodstox-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-xjc-plugins</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.cxf</groupId>
         <artifactId>quarkus-cxf-xjc-plugins-deployment</artifactId>
-        <version>1.5.11.redhat-00013</version>
+        <version>1.5.13.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>com.sun.xml.messaging.saaj</groupId>
@@ -7514,7 +7514,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-bindings-soap</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7525,7 +7525,18 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-bindings-xml</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-databinding-aegis</artifactId>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7536,7 +7547,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-databinding-jaxb</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7547,7 +7558,18 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-frontend-simple</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-rt-javascript</artifactId>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7569,7 +7591,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-rs-json-basic</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7580,7 +7602,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-rs-security-jose</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7591,7 +7613,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-security</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7602,7 +7624,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-security-saml</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7621,7 +7643,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-addr</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
@@ -7632,7 +7654,7 @@
       <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-rt-ws-policy</artifactId>
-        <version>3.5.5.redhat-00025</version>
+        <version>3.5.5.redhat-00028</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.activation</groupId>
@@ -7642,6 +7664,17 @@
             <groupId>jakarta.xml.bind</groupId>
             <artifactId>jakarta.xml.bind-api</artifactId>
           </exclusion>
+          <exclusion>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jta_1.1_spec</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.cxf</groupId>
+        <artifactId>cxf-tools-java2ws</artifactId>
+        <version>3.5.5.redhat-00028</version>
+        <exclusions>
           <exclusion>
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jta_1.1_spec</artifactId>
