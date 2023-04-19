@@ -6624,6 +6624,12 @@
                 <groupId>io.quarkiverse.messaginghub</groupId>
                 <artifactId>quarkus-pooled-jms</artifactId>
                 <version>${quarkiverse-pooled-jms.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.geronimo.specs</groupId>
+                        <artifactId>geronimo-jms_2.0_spec</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.quarkiverse.messaginghub</groupId>
