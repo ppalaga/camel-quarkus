@@ -397,6 +397,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-snmp": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.3"
+        },
         "camel-quarkus-soap": {
             "jvm": "supported",
             "native": "supported",

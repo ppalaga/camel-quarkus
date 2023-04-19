@@ -101,7 +101,6 @@
         <module>../../../integration-tests-jvm/robotframework</module>
         <module>../../../integration-tests-jvm/schematron</module>
         <module>../../../integration-tests-jvm/smpp</module>
-        <module>../../../integration-tests-jvm/snmp</module>
         <module>../../../integration-tests-jvm/splunk-hec</module>
         <module>../../../integration-tests-jvm/stitch</module>
         <module>../../../integration-tests-jvm/stomp</module>

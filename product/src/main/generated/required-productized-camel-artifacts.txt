@@ -83,6 +83,7 @@ camel-saxon
 camel-scheduler
 camel-seda
 camel-slack
+camel-snmp
 camel-soap
 camel-sql
 camel-telegram

@@ -561,7 +561,6 @@ org.apache.camel:camel-sjms
 org.apache.camel:camel-sjms2
 org.apache.camel:camel-smpp
 org.apache.camel:camel-snakeyaml
-org.apache.camel:camel-snmp
 org.apache.camel:camel-solr
 org.apache.camel:camel-splunk
 org.apache.camel:camel-splunk-hec
@@ -953,8 +952,6 @@ org.apache.camel.quarkus:camel-quarkus-smpp
 org.apache.camel.quarkus:camel-quarkus-smpp-deployment
 org.apache.camel.quarkus:camel-quarkus-snakeyaml
 org.apache.camel.quarkus:camel-quarkus-snakeyaml-deployment
-org.apache.camel.quarkus:camel-quarkus-snmp
-org.apache.camel.quarkus:camel-quarkus-snmp-deployment
 org.apache.camel.quarkus:camel-quarkus-solr
 org.apache.camel.quarkus:camel-quarkus-solr-deployment
 org.apache.camel.quarkus:camel-quarkus-splunk
@@ -1229,7 +1226,6 @@ org.apache.qpid:qpid-jms-client
 org.apache.santuario:xmlsec
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-cache-api
-org.apache.servicemix.bundles:org.apache.servicemix.bundles.snmp4j
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.splunk
 org.apache.shiro:shiro-cache
 org.apache.shiro:shiro-config-core

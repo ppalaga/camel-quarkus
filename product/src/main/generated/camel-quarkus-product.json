@@ -632,6 +632,15 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-snmp",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-soap",
             "metadata": {
                 "redhat-support": [

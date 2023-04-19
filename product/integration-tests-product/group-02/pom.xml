@@ -48,6 +48,7 @@
         <module>../../../integration-test-groups/foundation/timer</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests-jvm/java-joor-dsl</module>
+        <module>../../../integration-tests-jvm/snmp</module>
         <module>../../../integration-tests/avro</module>
         <module>../../../integration-tests/bean-validator</module>
         <module>../../../integration-tests/bindy</module>

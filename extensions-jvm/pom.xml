@@ -103,7 +103,7 @@
         <!-- <module>robotframework</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>schematron</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>smpp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>snmp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>snmp</module>
         <!-- <module>splunk-hec</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>stitch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>stomp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
