@@ -217,7 +217,7 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
-	"camel-quarkus-jdbc": {
+        "camel-quarkus-jdbc": {
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/supported since CEQ 2.13.3"
