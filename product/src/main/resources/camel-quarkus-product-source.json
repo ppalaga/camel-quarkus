@@ -1,5 +1,13 @@
 {
     "extensions": {
+        "camel-quarkus-amqp": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3",
+            "allowedMixedTests": [
+                "camel-quarkus-integration-test-amqp"
+            ]
+        },
         "camel-quarkus-attachments": {
             "jvm": "supported",
             "native": "supported",

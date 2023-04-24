@@ -472,12 +472,15 @@ net.spy:spymemcached
 net.thisptr:jackson-jq
 org.aesh:aesh
 org.aesh:readline
+org.amqphub.quarkus:quarkus-qpid-jms
+org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.apache.arrow:arrow-format
 org.apache.arrow:arrow-memory-core
 org.apache.arrow:arrow-memory-netty
 org.apache.arrow:arrow-vector
 org.apache.avro:avro
 org.apache.avro:avro-compiler
+org.apache.camel:camel-amqp
 org.apache.camel:camel-api
 org.apache.camel:camel-attachments
 org.apache.camel:camel-avro
@@ -604,6 +607,8 @@ org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
 org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
+org.apache.camel.quarkus:camel-quarkus-amqp
+org.apache.camel.quarkus:camel-quarkus-amqp-deployment
 org.apache.camel.quarkus:camel-quarkus-attachments
 org.apache.camel.quarkus:camel-quarkus-attachments-deployment
 org.apache.camel.quarkus:camel-quarkus-avro
@@ -851,6 +856,8 @@ org.apache.kafka:kafka-clients
 org.apache.logging.log4j:log4j-api
 org.apache.maven:maven-model
 org.apache.neethi:neethi
+org.apache.qpid:proton-j
+org.apache.qpid:qpid-jms-client
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.snmp4j
 org.apache.sshd:sshd-common
 org.apache.velocity:velocity-engine-core

@@ -35,7 +35,7 @@
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
         <!-- <module>activemq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>amqp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>amqp</module>
         <!-- <module>arangodb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>as2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>atlasmap</module> disabled by cq-prod-maven-plugin:prod-excludes -->

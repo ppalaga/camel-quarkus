@@ -1,3 +1,4 @@
+camel-amqp
 camel-attachments
 camel-avro
 camel-aws2-cw

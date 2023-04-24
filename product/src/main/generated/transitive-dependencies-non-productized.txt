@@ -356,8 +356,6 @@ net.sf.jopt-simple:jopt-simple
 net.sf.jt400:jt400
 oauth.signpost:signpost-core
 ognl:ognl
-org.amqphub.quarkus:quarkus-qpid-jms
-org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.antlr:ST4
 org.antlr:antlr-runtime
 org.antlr:antlr4-runtime
@@ -382,7 +380,6 @@ org.apache.avro:avro-ipc-jetty
 org.apache.avro:avro-ipc-netty
 org.apache.avro:avro-protobuf
 org.apache.camel:camel-activemq
-org.apache.camel:camel-amqp
 org.apache.camel:camel-arangodb
 org.apache.camel:camel-as2
 org.apache.camel:camel-as2-api
@@ -599,8 +596,6 @@ org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-activemq
 org.apache.camel.quarkus:camel-quarkus-activemq-deployment
-org.apache.camel.quarkus:camel-quarkus-amqp
-org.apache.camel.quarkus:camel-quarkus-amqp-deployment
 org.apache.camel.quarkus:camel-quarkus-arangodb
 org.apache.camel.quarkus:camel-quarkus-arangodb-deployment
 org.apache.camel.quarkus:camel-quarkus-as2
@@ -1221,8 +1216,6 @@ org.apache.pulsar:pulsar-client-admin-api
 org.apache.pulsar:pulsar-client-api
 org.apache.pulsar:pulsar-package-core
 org.apache.pulsar:pulsar-transaction-common
-org.apache.qpid:proton-j
-org.apache.qpid:qpid-jms-client
 org.apache.santuario:xmlsec
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.antlr
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.javax-cache-api

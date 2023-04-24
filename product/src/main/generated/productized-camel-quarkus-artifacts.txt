@@ -1,4 +1,7 @@
 camel-quarkus
+camel-quarkus-amqp
+camel-quarkus-amqp-deployment
+camel-quarkus-amqp-parent
 camel-quarkus-attachments
 camel-quarkus-attachments-deployment
 camel-quarkus-attachments-parent

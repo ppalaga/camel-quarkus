@@ -2,6 +2,15 @@
     "extensions": [
         {
             "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-amqp",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-attachments",
             "metadata": {
                 "redhat-support": [
