@@ -1385,6 +1385,8 @@ org.gagravarr:vorbis-java-core
 org.gagravarr:vorbis-java-tika
 org.graalvm.js:js
 org.graalvm.js:js-scriptengine
+org.graalvm.regex:regex
+org.graalvm.truffle:truffle-api
 org.gridgain:ignite-shmem
 org.hamcrest:hamcrest-core
 org.igniterealtime.smack:smack-core

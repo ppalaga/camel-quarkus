@@ -2294,7 +2294,9 @@ org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
 org.graalvm.js:js
 org.graalvm.js:js-scriptengine
+org.graalvm.regex:regex
 org.graalvm.sdk:graal-sdk
+org.graalvm.truffle:truffle-api
 org.gridgain:ignite-shmem
 org.hamcrest:hamcrest-core
 org.hdrhistogram:HdrHistogram
