@@ -16,7 +16,9 @@
   accept the mixed tests covering the given extension.
 * `extensions.<artifactId>.[jvm|native]` - The support status: possible values: `community`, `techPreview`, `supported`
 * `extensions.<artifactId>.comment` - A free form comment
-* `additionalProductizedArtifacts` - an array of artifactIds to include in the product build.
+* `additionalProductizedArtifacts` - an array of `[groupId:]artifactId` to include in the product build.
+  If `groupId:` is omitted, then `org.apache.camel.quarkus` is taken as default.
+  `[groupId:]artifactId` is supported since cq-maven-plugin 4.1.2
   Unlike `extensions.<artifactId>`, these are not extensions.
 * `excludeTests` - an array of test module artifactIds.
   The associated test modules won't be linked in any group under `product/integration-tests-*` and they also be excluded in the config of `rpkgtests-maven-plugin` in `tooling/test-list/pom.xml`
