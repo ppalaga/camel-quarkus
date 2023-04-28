@@ -54,7 +54,6 @@
         <!-- <module>reactor-netty</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>retrofit</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>spring</module>
-        <!-- <module>stax</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>webhook</module>
         <!-- <module>xstream</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xalan</module>
