@@ -24,7 +24,6 @@ import java.util.stream.Collectors;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -67,14 +66,13 @@ public class SnmpResource {
     ProducerTemplate producerTemplate;
 
     @Path("/producePDU/{version}")
-    @GET
+    @POST
     @Produces(MediaType.TEXT_PLAIN)
-    public Response producePDU(@PathParam("version") int version) {
+    public Response producePDU(@PathParam("version") int version, String payload) {
         String url = String.format("snmp://%s?retries=1&snmpVersion=%d", snmpListenAddress, version);
         SnmpMessage pdu = producerTemplate.requestBody(url, version, SnmpMessage.class);
 
         String response = pdu.getSnmpMessage().getVariableBindings().stream()
-                .filter(vb -> vb.getOid().equals(SnmpConstants.sysDescr))
                 .map(vb -> vb.getVariable().toString())
                 .collect(Collectors.joining());
 
@@ -86,12 +84,11 @@ public class SnmpResource {
     @Produces(MediaType.TEXT_PLAIN)
     public Response getNext(String payload, @PathParam("version") int version) {
         String url = String.format("snmp://%s?type=GET_NEXT&retries=1&protocol=udp&oids=%s&snmpVersion=%d", snmpListenAddress,
-                SnmpConstants.sysDescr, version);
+                payload, version);
         List<SnmpMessage> pdu = producerTemplate.requestBody(url, "", List.class);
 
         String response = pdu.stream()
                 .flatMap(m -> m.getSnmpMessage().getVariableBindings().stream())
-                .filter(vb -> vb.getOid().equals(SnmpConstants.sysDescr))
                 .map(vb -> vb.getVariable().toString())
                 .collect(Collectors.joining(","));
 
