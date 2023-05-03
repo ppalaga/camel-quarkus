@@ -82,6 +82,7 @@ public class SnmpResource {
     public Response getNext(String payload, @PathParam("version") int version) {
         String url = String.format("snmp://%s?type=GET_NEXT&retries=1&protocol=udp&oids=%s&snmpVersion=%d", snmpListenAddress,
                 payload, version);
+        @SuppressWarnings("unchecked")
         List<SnmpMessage> pdu = producerTemplate.requestBody(url, "", List.class);
 
         String response = pdu.stream()

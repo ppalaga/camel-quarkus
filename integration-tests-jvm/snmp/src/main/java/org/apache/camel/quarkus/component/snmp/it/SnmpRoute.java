@@ -93,15 +93,15 @@ public class SnmpRoute extends RouteBuilder {
         @Named("snmpTrapResults")
         Map<String, Deque<SnmpMessage>> snmpResults() {
             Map<String, Deque<SnmpMessage>> map = new ConcurrentHashMap<>();
-            map.put("v0_trap", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v1_trap", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v0_poll", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v1_poll", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v3_poll", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v0_pollStartingDot", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v1_pollStartingDot", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v0_poll2oids", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
-            map.put("v1_poll2oids", (Deque<SnmpMessage>) new ConcurrentLinkedDeque());
+            map.put("v0_trap", new ConcurrentLinkedDeque<>());
+            map.put("v1_trap", new ConcurrentLinkedDeque<>());
+            map.put("v0_poll", new ConcurrentLinkedDeque<>());
+            map.put("v1_poll", new ConcurrentLinkedDeque<>());
+            map.put("v3_poll", new ConcurrentLinkedDeque<>());
+            map.put("v0_pollStartingDot", new ConcurrentLinkedDeque<>());
+            map.put("v1_pollStartingDot", new ConcurrentLinkedDeque<>());
+            map.put("v0_poll2oids", new ConcurrentLinkedDeque<>());
+            map.put("v1_poll2oids", new ConcurrentLinkedDeque<>());
             return map;
         }
     }
