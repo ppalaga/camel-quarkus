@@ -644,7 +644,7 @@
             "artifact-id": "camel-quarkus-snmp",
             "metadata": {
                 "redhat-support": [
-                    "supported"
+                    "supported-in-jvm"
                 ]
             }
         },

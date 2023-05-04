@@ -407,8 +407,8 @@
         },
         "camel-quarkus-snmp": {
             "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 2.13.3"
+            "native": "techPreview",
+            "comment": "JVM supported since CEQ 2.13.3"
         },
         "camel-quarkus-soap": {
             "jvm": "supported",
