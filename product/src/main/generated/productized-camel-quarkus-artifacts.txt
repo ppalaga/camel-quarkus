@@ -155,6 +155,7 @@ camel-quarkus-integration-test-google-bigquery
 camel-quarkus-integration-test-google-pubsub
 camel-quarkus-integration-test-groups
 camel-quarkus-integration-test-hl7
+camel-quarkus-integration-test-http
 camel-quarkus-integration-test-infinispan
 camel-quarkus-integration-test-jackson-avro
 camel-quarkus-integration-test-jackson-protobuf
@@ -321,6 +322,9 @@ camel-quarkus-mongodb-deployment
 camel-quarkus-mongodb-parent
 camel-quarkus-netty
 camel-quarkus-netty-deployment
+camel-quarkus-netty-http
+camel-quarkus-netty-http-deployment
+camel-quarkus-netty-http-parent
 camel-quarkus-netty-parent
 camel-quarkus-openapi-java
 camel-quarkus-openapi-java-deployment

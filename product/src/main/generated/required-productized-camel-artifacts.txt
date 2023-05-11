@@ -70,6 +70,7 @@ camel-mllp
 camel-mock
 camel-mongodb
 camel-netty
+camel-netty-http
 camel-openapi-java
 camel-opentelemetry
 camel-paho

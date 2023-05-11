@@ -39,7 +39,6 @@
         <module>../../../integration-tests/dataformat</module>
         <module>../../../integration-tests/dataformats-json</module>
         <module>../../../integration-tests/file</module>
-        <module>../../../integration-tests/http</module>
         <module>../../../integration-tests/jms-artemis-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/xml</module>

@@ -173,7 +173,7 @@
         <!-- <module>mybatis</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>nats</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>netty</module>
-        <!-- <module>netty-http</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>netty-http</module>
         <!-- <module>nitrite</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>oaipmh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>olingo4</module> disabled by cq-prod-maven-plugin:prod-excludes -->

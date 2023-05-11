@@ -580,6 +580,7 @@ org.apache.camel:camel-mllp
 org.apache.camel:camel-mock
 org.apache.camel:camel-mongodb
 org.apache.camel:camel-netty
+org.apache.camel:camel-netty-http
 org.apache.camel:camel-openapi-java
 org.apache.camel:camel-opentelemetry
 org.apache.camel:camel-paho
@@ -749,6 +750,8 @@ org.apache.camel.quarkus:camel-quarkus-mongodb
 org.apache.camel.quarkus:camel-quarkus-mongodb-deployment
 org.apache.camel.quarkus:camel-quarkus-netty
 org.apache.camel.quarkus:camel-quarkus-netty-deployment
+org.apache.camel.quarkus:camel-quarkus-netty-http
+org.apache.camel.quarkus:camel-quarkus-netty-http-deployment
 org.apache.camel.quarkus:camel-quarkus-openapi-java
 org.apache.camel.quarkus:camel-quarkus-openapi-java-deployment
 org.apache.camel.quarkus:camel-quarkus-opentelemetry
