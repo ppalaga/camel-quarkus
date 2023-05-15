@@ -108,9 +108,9 @@
             "comment": "community/community since 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-cxf-soap": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "supported since CEQ 2.13.1"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.3"
         },
         "camel-quarkus-dataformat": {
             "jvm": "supported",
