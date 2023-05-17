@@ -28,6 +28,16 @@
     <artifactId>camel-quarkus-support-xalan</artifactId>
     <name>Camel Quarkus :: Support :: Xalan :: Runtime</name>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency><!-- FIXME: Move this to the BOM -->
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.12.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -46,6 +56,10 @@
         <dependency>
             <groupId>xalan</groupId>
             <artifactId>serializer</artifactId>
+        </dependency>
+        <dependency><!-- BCEL embedded in Xalan references some methods from commons-lang3 so we add commons-lang3 to make GrallVM happy -->
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
 
         <dependency>
