@@ -112,8 +112,6 @@ com.google.re2j:re2j
 com.ibm.async:asyncutil
 com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
-com.mchange:c3p0
-com.mchange:mchange-commons-java
 com.microsoft.azure:msal4j
 com.microsoft.azure:msal4j-persistence-extension
 com.nimbusds:content-type

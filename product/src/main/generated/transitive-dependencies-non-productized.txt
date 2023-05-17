@@ -137,6 +137,8 @@ com.lihaoyi:ujson_2.13
 com.lihaoyi:upickle-core_2.13
 com.lmax:disruptor
 com.mattbertolini:liquibase-slf4j
+com.mchange:c3p0
+com.mchange:mchange-commons-java
 com.microsoft.azure:qpid-proton-j-extensions
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
