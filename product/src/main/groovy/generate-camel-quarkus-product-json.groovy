@@ -39,7 +39,8 @@ extensions.each { k, v ->
             "group-id": "org.apache.camel.quarkus",
             "artifact-id": k,
             "metadata" : [
-                "redhat-support" : [ quarkusSupportLevel ]
+                "redhat-support" : [ quarkusSupportLevel ],
+                "unlisted" : v.unlisted ?: false
             ]
         ]
     }

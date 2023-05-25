@@ -16,6 +16,11 @@
   accept the mixed tests covering the given extension.
 * `extensions.<artifactId>.[jvm|native]` - The support status: possible values: `community`, `techPreview`, `supported`
 * `extensions.<artifactId>.comment` - A free form comment
+* `extensions.<artifactId>.unlisted` - if `true` the given extension won't be present on code.quarkus.redhat.com
+  and other Quarkus CLI tools and IDE plugins; otherwise the given extension will be published on code.quarkus.redhat.com & Co.
+  The default is `false`.
+  Note that the value in the given extension's JAR `META-INF/quarkus-extension.yaml` is not taken into account at all.
+  You either have to set `"unlisted": true` or the given extension will be published on code.quarkus.redhat.com.
 * `additionalProductizedArtifacts` - an array of `[groupId:]artifactId` to include in the product build.
   If `groupId:` is omitted, then `org.apache.camel.quarkus` is taken as default.
   `[groupId:]artifactId` is supported since cq-maven-plugin 4.1.2
