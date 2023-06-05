@@ -1511,6 +1511,7 @@ software.amazon.awssdk:translate
 software.amazon.ion:ion-java
 uk.co.jemos.podam:podam
 xerces:xercesImpl
+xml-apis:xml-apis
 xml-apis:xml-apis-ext
 xmlenc:xmlenc
 xpp3:xpp3

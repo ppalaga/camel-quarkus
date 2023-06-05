@@ -1151,7 +1151,6 @@ software.amazon.eventstream:eventstream
 wsdl4j:wsdl4j
 xalan:serializer
 xalan:xalan
-xml-apis:xml-apis
 xml-resolver:xml-resolver
 xmlpull:xmlpull
 xpp3:xpp3_xpath
