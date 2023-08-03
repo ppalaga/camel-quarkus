@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-build-parent</artifactId>
-        <version>3.0.0-RC2</version>
+        <version>3.0.0-RC2.fuse-SNAPSHOT</version>
         <relativePath>../build-parent/pom.xml</relativePath>
     </parent>
 
@@ -41,8 +41,8 @@
         <quarkus.platform.version>${quarkus.version}</quarkus.platform.version>
         <camel-quarkus.platform.group-id>org.apache.camel.quarkus</camel-quarkus.platform.group-id>
         <camel-quarkus.platform.artifact-id>camel-quarkus-bom</camel-quarkus.platform.artifact-id>
-        <camel-quarkus.platform.version>3.0.0-RC2</camel-quarkus.platform.version>
-        <camel-quarkus.version>3.0.0-RC2</camel-quarkus.version><!-- This needs to be set to the underlying CQ version from command line when testing against Platform BOMs -->
+        <camel-quarkus.platform.version>3.0.0-RC2.fuse-SNAPSHOT</camel-quarkus.platform.version>
+        <camel-quarkus.version>3.0.0-RC2.fuse-SNAPSHOT</camel-quarkus.version><!-- This needs to be set to the underlying CQ version from command line when testing against Platform BOMs -->
 
         <quarkus.banner.enabled>false</quarkus.banner.enabled>
     </properties>
@@ -88,12 +88,12 @@
                 <plugin>
                     <groupId>org.apache.camel.maven</groupId>
                     <artifactId>camel-salesforce-maven-plugin</artifactId>
-                    <version>${camel.version}</version>
+                    <version>${camel-community.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.camel.maven</groupId>
                     <artifactId>camel-servicenow-maven-plugin</artifactId>
-                    <version>${camel.version}</version>
+                    <version>${camel-community.version}</version>
                 </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
