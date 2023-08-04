@@ -34,27 +34,27 @@
 
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
-        <module>ahc</module>
-        <module>aws</module>
+        <!-- <module>ahc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>aws2</module>
         <module>azure-core</module>
         <module>azure-core-http-client-vertx</module>
         <module>bouncycastle</module>
         <module>commons-logging</module>
-        <module>consul-client</module>
-        <module>debezium</module>
-        <module>dsl</module>
+        <!-- <module>consul-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>debezium</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>google-cloud</module>
         <module>google-http-client</module>
         <module>httpclient</module>
         <module>jackson-dataformat-xml</module>
         <module>jdbc</module>
         <module>jetty</module>
-        <module>language</module>
+        <!-- <module>language</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>mail</module>
         <module>mongodb</module>
-        <module>reactor-netty</module>
-        <module>retrofit</module>
+        <!-- <module>reactor-netty</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>retrofit</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>spring</module>
         <module>swagger</module>
         <module>webhook</module>

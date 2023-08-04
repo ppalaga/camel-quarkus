@@ -27,7 +27,7 @@ icon-url: "https://camel.apache.org/_/img/logo-d-f21b25ba38.svg"
 metadata:
   keywords:
   - "Amazon"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-s3.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/3.latest/html/camel_extensions_for_quarkus_reference/extensions-aws2-s3"
   categories:
   - "integration"
   status:

@@ -36,7 +36,7 @@
         <module>shade</module>
         <module>deployment</module>
         <module>runtime</module>
-        <module>integration-test</module>
+        <!-- <module>integration-test</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
 </project>

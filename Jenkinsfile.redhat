@@ -21,7 +21,7 @@ pipeline {
     agent none
 
     tools {
-        jdk 'java-11'
+        jdk 'java-17'
     }
 
     environment {

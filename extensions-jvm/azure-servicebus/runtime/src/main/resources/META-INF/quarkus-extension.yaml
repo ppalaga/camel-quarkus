@@ -26,7 +26,7 @@ description: "Send and receive messages to/from Azure Event Bus"
 icon-url: "https://camel.apache.org/_/img/logo-d-f21b25ba38.svg"
 metadata:
   unlisted: true
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/azure-servicebus.html"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/3.latest/html/camel_extensions_for_quarkus_reference/extensions-azure-servicebus"
   categories:
   - "integration"
   status:

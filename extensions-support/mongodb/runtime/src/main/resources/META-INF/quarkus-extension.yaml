@@ -20,6 +20,6 @@ name: "Camel Quarkus Support MongoDB"
 description: "Camel Quarkus Support MongoDB"
 metadata:
   unlisted: true
-  guide: "https://quarkus.io/guides/camel"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"

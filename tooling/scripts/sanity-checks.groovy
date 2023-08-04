@@ -68,10 +68,11 @@ int compareVersion(String a, String b) {
     List verB = b.tokenize('.')
 
     def commonIndices = Math.min(verA.size(), verB.size())
+    def reg = ~/\-.*/
 
     for (int i = 0; i < commonIndices; ++i) {
        def numA = verA[i].toInteger()
-       def numB = verB[i].toInteger()
+       def numB = (verB[i] - reg).toInteger()
 
        if (numA != numB) {
           return numA <=> numB
