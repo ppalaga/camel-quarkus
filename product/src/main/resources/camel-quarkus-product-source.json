@@ -372,6 +372,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-netty-http": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.0.0"
+        },
         "camel-quarkus-openapi-java": {
             "jvm": "supported",
             "native": "supported",

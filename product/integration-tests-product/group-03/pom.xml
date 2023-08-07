@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/infinispan</module>
         <module>../../../integration-tests/infinispan-common</module>
         <module>../../../integration-tests/infinispan-quarkus-client</module>
         <module>../../../integration-tests/jackson-avro</module>

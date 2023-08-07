@@ -47,6 +47,7 @@
         <module>../../../integration-test-groups/foundation/timer</module>
         <module>../../../integration-test-groups/http/common</module>
         <module>../../../integration-test-groups/http/http</module>
+        <module>../../../integration-test-groups/http/netty-http</module>
         <module>../../../integration-test-groups/http/vertx-http</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
         <module>../../../integration-tests-jvm/azure-servicebus</module>
@@ -64,6 +65,5 @@
         <module>../../../integration-tests/google-bigquery</module>
         <module>../../../integration-tests/google-pubsub</module>
         <module>../../../integration-tests/hl7</module>
-        <module>../../../integration-tests/infinispan</module>
     </modules>
 </project>

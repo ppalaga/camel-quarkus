@@ -467,7 +467,6 @@ org.apache.camel:camel-mongodb-gridfs
 org.apache.camel:camel-mustache
 org.apache.camel:camel-mvel
 org.apache.camel:camel-nats
-org.apache.camel:camel-netty-http
 org.apache.camel:camel-nitrite
 org.apache.camel:camel-oaipmh
 org.apache.camel:camel-ognl
@@ -792,8 +791,6 @@ org.apache.camel.quarkus:camel-quarkus-mvel
 org.apache.camel.quarkus:camel-quarkus-mvel-deployment
 org.apache.camel.quarkus:camel-quarkus-nats
 org.apache.camel.quarkus:camel-quarkus-nats-deployment
-org.apache.camel.quarkus:camel-quarkus-netty-http
-org.apache.camel.quarkus:camel-quarkus-netty-http-deployment
 org.apache.camel.quarkus:camel-quarkus-nitrite
 org.apache.camel.quarkus:camel-quarkus-nitrite-deployment
 org.apache.camel.quarkus:camel-quarkus-oaipmh

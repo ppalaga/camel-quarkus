@@ -41,7 +41,6 @@
         <module>../../../integration-test-groups/foundation/customized-log-component</module>
         <module>../../../integration-test-groups/foundation/stream</module>
         <module>../../../integration-test-groups/foundation/type-converter</module>
-        <module>../../../integration-test-groups/http/netty-http</module>
         <module>../../../integration-test-groups/mongodb/mongodb-gridfs</module>
         <module>../../../integration-tests/activemq</module>
         <module>../../../integration-tests/arangodb</module>
@@ -61,5 +60,15 @@
         <module>../../../integration-tests/debug</module>
         <module>../../../integration-tests/digitalocean</module>
         <module>../../../integration-tests/disruptor</module>
+        <module>../../../integration-tests/dropbox</module>
+        <module>../../../integration-tests/exec</module>
+        <module>../../../integration-tests/flatpack</module>
+        <module>../../../integration-tests/fop</module>
+        <module>../../../integration-tests/freemarker</module>
+        <module>../../../integration-tests/geocoder</module>
+        <module>../../../integration-tests/git</module>
+        <module>../../../integration-tests/github</module>
+        <module>../../../integration-tests/google</module>
+        <module>../../../integration-tests/google-storage</module>
     </modules>
 </project>

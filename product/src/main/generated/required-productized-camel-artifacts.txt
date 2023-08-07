@@ -78,6 +78,7 @@ camel-mock
 camel-mongodb
 camel-mybatis
 camel-netty
+camel-netty-http
 camel-openapi-java
 camel-opentelemetry
 camel-paho

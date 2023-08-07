@@ -596,6 +596,15 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-netty-http",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-openapi-java",
             "metadata": {
                 "redhat-support": [
