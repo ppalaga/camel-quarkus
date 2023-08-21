@@ -29,6 +29,15 @@
     <artifactId>camel-quarkus-amqp-deployment</artifactId>
     <name>Camel Quarkus :: AMQP :: Deployment</name>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-jms-spi-deployment</artifactId>
+                <version>3.2.3.Final</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.amqphub.quarkus</groupId>
