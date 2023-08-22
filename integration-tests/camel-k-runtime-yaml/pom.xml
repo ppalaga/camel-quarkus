@@ -157,8 +157,6 @@
                                         <CAMEL_K_CONF>${project.basedir}/src/test/resources/test.properties</CAMEL_K_CONF>
                                     </environmentVariables>
                                     <systemProperties>
-                                        <quarkus.http.test-port>${test.http.port.native}</quarkus.http.test-port>
-                                        <native.image.path>${project.build.directory}/${project.build.finalName}-runner</native.image.path>
                                         <camel.k.test.dir.base>${project.basedir}</camel.k.test.dir.base>
                                         <camel.k.test.dir.resources>${project.basedir}/src/test/resources</camel.k.test.dir.resources>
                                     </systemProperties>

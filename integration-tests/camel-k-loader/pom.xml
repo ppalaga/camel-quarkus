@@ -138,13 +138,6 @@
                                     <goal>integration-test</goal>
                                     <goal>verify</goal>
                                 </goals>
-                                <configuration>
-                                    <systemProperties>
-                                        <!--suppress UnresolvedMavenProperty -->
-                                        <quarkus.http.test-port>${test.http.port.native}</quarkus.http.test-port>
-                                        <native.image.path>${project.build.directory}/${project.build.finalName}-runner</native.image.path>
-                                    </systemProperties>
-                                </configuration>
                             </execution>
                         </executions>
                     </plugin>

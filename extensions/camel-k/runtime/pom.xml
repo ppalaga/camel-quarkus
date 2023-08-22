@@ -32,6 +32,8 @@
 
     <properties>
         <camel.quarkus.jvmSince>3.0.0</camel.quarkus.jvmSince>
+        <camel.quarkus.nativeSince>3.0.0</camel.quarkus.nativeSince>
+        <quarkus.metadata.unlisted>true</quarkus.metadata.unlisted>
         <camel-quarkus.update-extension-doc-page.skip>true</camel-quarkus.update-extension-doc-page.skip>
     </properties>
 

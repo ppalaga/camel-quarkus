@@ -3085,6 +3085,16 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-camel-k</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-camel-k-deployment</artifactId>
+        <version>3.0.0-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cassandraql</artifactId>
         <version>3.0.0-SNAPSHOT</version>
       </dependency>
@@ -3765,12 +3775,12 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-grpc-deployment</artifactId>
+        <artifactId>camel-quarkus-grpc-codegen</artifactId>
         <version>3.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-grpc-codegen</artifactId>
+        <artifactId>camel-quarkus-grpc-deployment</artifactId>
         <version>3.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
@@ -4256,16 +4266,6 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-junit5</artifactId>
-        <version>3.0.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-camel-k</artifactId>
-        <version>3.0.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-camel-k-deployment</artifactId>
         <version>3.0.0-SNAPSHOT</version>
       </dependency>
       <dependency>
