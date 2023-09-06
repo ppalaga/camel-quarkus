@@ -21,6 +21,7 @@ import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import io.restassured.http.Header;
 import io.restassured.response.Response;
 import org.jboss.eap.quickstarts.wscalculator.calculator.AddOperands;
 import org.jboss.eap.quickstarts.wscalculator.calculator.Operands;
@@ -50,5 +51,8 @@ class CxfSoapRestTest {
                 .andReturn();
         Assertions.assertSame(firstOperand + secondOperand, response.as(Result.class).getResult(),
                 "The expected sum is incorrect.");
+
+        System.out.println("=== received headers");
+        response.getHeaders().asList().stream().map(Header::toString).forEach(System.out::println);
     }
 }

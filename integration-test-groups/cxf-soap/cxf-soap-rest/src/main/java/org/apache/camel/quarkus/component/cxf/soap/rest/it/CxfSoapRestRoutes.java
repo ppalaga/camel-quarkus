@@ -16,6 +16,8 @@
  */
 package org.apache.camel.quarkus.component.cxf.soap.rest.it;
 
+import java.util.stream.Collectors;
+
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.context.SessionScoped;
 import jakarta.enterprise.inject.Produces;
@@ -52,7 +54,11 @@ public class CxfSoapRestRoutes extends RouteBuilder {
                 .process(exchange -> exchange.getIn().setBody(exchange.getIn().getBody(AddOperands.class).getArg0()))
                 .to("cxf:bean:soapClientRestEndpoint?defaultOperationName=addOperands")
                 .setHeader("Content-Type", constant("application/json"))
-                .setBody(e -> e.getMessage().getBody(Object[].class)[0]);
+                .setBody(e -> e.getMessage().getBody(Object[].class)[0])
+                .process(exchange -> System.out
+                        .println("=== headers\n\n" + exchange.getMessage().getHeaders().entrySet().stream()
+                                .map(en -> en.toString()).collect(Collectors.joining("\n"))))
+                .removeHeader(":status");
 
     }
 
