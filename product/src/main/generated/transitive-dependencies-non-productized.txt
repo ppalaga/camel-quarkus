@@ -236,7 +236,6 @@ io.jsonwebtoken:jjwt-impl
 io.jsonwebtoken:jjwt-jackson
 io.krakens:java-grok
 io.methvin:directory-watcher
-io.micrometer:micrometer-core
 io.minio:minio
 io.nats:jnats
 io.netty:netty
@@ -1334,7 +1333,6 @@ org.graalvm.js:js-scriptengine
 org.graalvm.regex:regex
 org.graalvm.truffle:truffle-api
 org.gridgain:ignite-shmem
-org.hdrhistogram:HdrHistogram
 org.igniterealtime.smack:smack-core
 org.igniterealtime.smack:smack-extensions
 org.igniterealtime.smack:smack-im
@@ -1349,7 +1347,6 @@ org.iq80.leveldb:leveldb-api
 org.iq80.snappy:snappy
 org.itadaki:bzip2
 org.java-websocket:Java-WebSocket
-org.javassist:javassist
 org.jboss.marshalling:jboss-marshalling
 org.jboss.marshalling:jboss-marshalling-river
 org.jdom:jdom2
@@ -1428,7 +1425,6 @@ org.kie.soup:kie-soup-project-datamodel-commons
 org.kie.soup:kie-soup-xstream
 org.knowm.xchange:xchange-binance
 org.knowm.xchange:xchange-core
-org.latencyutils:LatencyUtils
 org.lightcouch:lightcouch
 org.mapdb:mapdb
 org.minidns:minidns-core

@@ -203,6 +203,8 @@ io.grpc:grpc-protobuf-lite
 io.grpc:grpc-services
 io.grpc:grpc-stub
 io.grpc:grpc-xds
+io.micrometer:micrometer-core
+io.micrometer:micrometer-registry-prometheus
 io.netty:netty-buffer
 io.netty:netty-codec
 io.netty:netty-codec-dns
@@ -242,6 +244,11 @@ io.opentelemetry.instrumentation:opentelemetry-instrumentation-api
 io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
+io.prometheus:simpleclient
+io.prometheus:simpleclient_common
+io.prometheus:simpleclient_tracer_common
+io.prometheus:simpleclient_tracer_otel
+io.prometheus:simpleclient_tracer_otel_agent
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-features-logging
@@ -977,11 +984,13 @@ org.glassfish.jaxb:jaxb-xjc
 org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
 org.graalvm.sdk:graal-sdk
+org.hdrhistogram:HdrHistogram
 org.hibernate:hibernate-core
 org.hibernate:hibernate-graalvm
 org.hibernate:quarkus-local-cache
 org.hibernate.common:hibernate-commons-annotations
 org.hibernate.validator:hibernate-validator
+org.infinispan:infinispan-api
 org.infinispan:infinispan-client-hotrod
 org.infinispan:infinispan-commons
 org.infinispan:infinispan-commons-test
@@ -992,6 +1001,7 @@ org.infinispan.protostream:protostream
 org.infinispan.protostream:protostream-processor
 org.infinispan.protostream:protostream-types
 org.jasypt:jasypt
+org.javassist:javassist
 org.jboss:jandex
 org.jboss:jboss-transaction-spi
 org.jboss.logging:commons-logging-jboss-logging
@@ -1039,6 +1049,7 @@ org.junit.platform:junit-platform-engine
 org.junit.platform:junit-platform-launcher
 org.jvnet.mimepull:mimepull
 org.jvnet.staxex:stax-ex
+org.latencyutils:LatencyUtils
 org.lz4:lz4-java
 org.mongodb:bson
 org.mongodb:bson-record-codec
