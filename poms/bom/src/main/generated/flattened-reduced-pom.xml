@@ -6695,7 +6695,7 @@
       <dependency>
         <groupId>org.apache.avro</groupId>
         <artifactId>avro-ipc-jetty</artifactId>
-        <version>1.11.1</version>
+        <version>1.11.3</version>
         <exclusions>
           <exclusion>
             <groupId>javax.annotation</groupId>
@@ -6710,7 +6710,7 @@
       <dependency>
         <groupId>org.apache.avro</groupId>
         <artifactId>avro-ipc-netty</artifactId>
-        <version>1.11.1</version>
+        <version>1.11.3</version>
         <exclusions>
           <exclusion>
             <groupId>javax.annotation</groupId>
@@ -6844,17 +6844,17 @@
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcmail-jdk15on</artifactId>
-        <version>1.70</version>
+        <version>1.70.0</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcpg-jdk15on</artifactId>
-        <version>1.70</version>
+        <version>1.70.0</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcutil-jdk15on</artifactId>
-        <version>1.70</version>
+        <version>1.70.0.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.codehaus.jackson</groupId>

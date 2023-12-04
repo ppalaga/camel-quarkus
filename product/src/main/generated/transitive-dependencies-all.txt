@@ -33,6 +33,7 @@ ca.uhn.hapi.fhir:org.hl7.fhir.utilities
 ch.qos.reload4j:reload4j
 com.aayushatharva.brotli4j:brotli4j
 com.aayushatharva.brotli4j:native-linux-x86_64
+com.aayushatharva.brotli4j:service
 com.alibaba:fastjson
 com.amazonaws:aws-java-sdk-core
 com.amazonaws:aws-java-sdk-xray
