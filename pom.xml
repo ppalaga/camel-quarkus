@@ -93,6 +93,10 @@
         <commons-cli.version>1.4</commons-cli.version><!-- keep in sync with Quarkus, via quarkus-bootstrap-core -->
         <commons-exec.version>${commons-exec-version}</commons-exec.version>
         <commons-lang.version>2.6</commons-lang.version><!-- used by hbase, should be pretty stable as commons-lang is not developed actively anymore -->
+        <!-- Quarkus CXF upstream 2.2.6 uses CXf 4.0.3 that we do not want to productize at this point. -->
+        <!-- Hence we force the latest productized 4.0.2 so that we can test the midstream branch locally. -->
+        <!-- The PNC build config forces this or similar CXF version anyway -->
+        <cxf.version>4.0.2.fuse-redhat-00046</cxf.version>
         <dropwizard-metrics.version>${metrics-version}</dropwizard-metrics.version>
         <eddsa.version>${eddsa-version}</eddsa.version>
         <eclipse-transformer.version>0.5.0</eclipse-transformer.version>
