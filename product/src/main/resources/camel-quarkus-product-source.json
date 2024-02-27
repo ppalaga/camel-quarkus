@@ -227,6 +227,11 @@
                 "camel-quarkus-integration-test-dataformats-json"
             ]
         },
+        "camel-quarkus-jasypt": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.8.0"
+        },
         "camel-quarkus-java-joor-dsl": {
             "jvm": "community",
             "native": "community",
@@ -279,6 +284,11 @@
                 "camel-quarkus-integration-test-jta"
             ]
         },
+        "camel-quarkus-jt400": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.8.0"
+        },
         "camel-quarkus-kafka": {
             "jvm": "supported",
             "native": "supported",
@@ -297,6 +307,11 @@
             "native": "techPreview",
             "comment": "TP since CEQ 2.13.1"
         },
+        "camel-quarkus-kudu": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.8.0"
+        },
         "camel-quarkus-language": {
             "jvm": "supported",
             "native": "supported",
@@ -311,6 +326,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-lra": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.8.0"
         },
         "camel-quarkus-mail": {
             "jvm": "supported",
@@ -427,6 +447,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-saga": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.8.0"
+        },
         "camel-quarkus-salesforce": {
             "jvm": "supported",
             "native": "supported",
@@ -472,6 +497,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
         },
+        "camel-quarkus-splunk-hec": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.8.0"
+        },
         "camel-quarkus-sql": {
             "jvm": "supported",
             "native": "supported",
@@ -510,6 +540,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
+        },
+        "camel-quarkus-xj": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.8.0"
         },
         "camel-quarkus-xml-io-dsl": {
             "jvm": "supported",
