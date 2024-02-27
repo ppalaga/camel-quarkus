@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-build-parent</artifactId>
-        <version>3.8.0</version>
+        <version>3.8.0.fuse-SNAPSHOT</version>
         <relativePath>../poms/build-parent/pom.xml</relativePath>
     </parent>
 
@@ -4297,9 +4297,9 @@
                 <dependencies>
                     <!-- include camel-catalog on classpath -->
                     <dependency>
-                        <groupId>org.apache.camel</groupId>
-                        <artifactId>camel-catalog</artifactId>
-                        <version>${camel.version}</version>
+                        <groupId>org.apache.camel.quarkus</groupId>
+                        <artifactId>camel-quarkus-catalog</artifactId>
+                        <version>${camel-quarkus-community.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
@@ -4317,6 +4317,7 @@
                                 <skipArtifactIdBase>support-.*</skipArtifactIdBase>
                                 <skipArtifactIdBase>integration-tests?-support-.*</skipArtifactIdBase>
                             </skipArtifactIdBases>
+                            <extendClassPathCatalog>true</extendClassPathCatalog>
                         </configuration>
                     </execution>
                 </executions>

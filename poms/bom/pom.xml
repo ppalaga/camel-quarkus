@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-poms</artifactId>
-        <version>3.8.0</version>
+        <version>3.8.0.fuse-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>camel-quarkus-bom</artifactId>
@@ -31,7 +31,7 @@
     <properties>
         <!-- This property is kept in sync with project.version by the release plugin -->
         <!-- Do not change to project.version because otherwise the end user apps having our BOM as parent (rather than importing it) will stop working -->
-        <camel-quarkus.version>3.8.0</camel-quarkus.version>
+        <camel-quarkus.version>3.8.0.fuse-SNAPSHOT</camel-quarkus.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -6764,12 +6764,12 @@
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js</artifactId>
-                <version>${graalvm.version}</version>
+                <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js-scriptengine</artifactId>
-                <version>${graalvm.version}</version>
+                <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.influxdb</groupId>
@@ -7069,6 +7069,27 @@
                         <artifactId>xml-apis</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-sap.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.eclipse</groupId>
+                        <artifactId>osgi</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap-deployment</artifactId>
+                <version>${camel-quarkus.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

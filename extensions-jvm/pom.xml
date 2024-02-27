@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-build-parent</artifactId>
-        <version>3.8.0</version>
+        <version>3.8.0.fuse-SNAPSHOT</version>
         <relativePath>../poms/build-parent/pom.xml</relativePath>
     </parent>
 
@@ -102,6 +102,7 @@
         <module>xmpp</module>
         <module>zookeeper</module>
         <module>zookeeper-master</module>
+        <module>sap</module>
     </modules>
 
     <dependencyManagement>
