@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-integration-tests-mixed-native</artifactId>
+        <version>3.8.0.fuse-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>camel-quarkus-integration-tests-mixed-native-group-02</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
+
+    <modules>
+        <module>../../../integration-tests/google</module>
+        <module>../../../integration-tests/google-storage</module>
+        <module>../../../integration-tests/graphql</module>
+        <module>../../../integration-tests/grok</module>
+        <module>../../../integration-tests/groovy</module>
+        <module>../../../integration-tests/groovy-dsl</module>
+        <module>../../../integration-tests/hazelcast</module>
+        <module>../../../integration-tests/headersmap</module>
+        <module>../../../integration-tests/influxdb</module>
+        <module>../../../integration-tests/jcache</module>
+        <module>../../../integration-tests/jfr</module>
+        <module>../../../integration-tests/jolt</module>
+        <module>../../../integration-tests/joor</module>
+        <module>../../../integration-tests/jq</module>
+        <module>../../../integration-tests/js-dsl</module>
+        <module>../../../integration-tests/jsch</module>
+        <module>../../../integration-tests/jsh-dsl</module>
+        <module>../../../integration-tests/json-validator</module>
+        <module>../../../integration-tests/jsonata</module>
+        <module>../../../integration-tests/knative</module>
+        <module>../../../integration-tests/knative-channel-consumer</module>
+        <module>../../../integration-tests/knative-endpoint-consumer</module>
+        <module>../../../integration-tests/knative-event-consumer</module>
+        <module>../../../integration-tests/knative-producer</module>
+        <module>../../../integration-tests/kotlin</module>
+        <module>../../../integration-tests/kotlin-dsl</module>
+        <module>../../../integration-tests/leveldb</module>
+        <module>../../../integration-tests/lumberjack</module>
+        <module>../../../integration-tests/main</module>
+        <module>../../../integration-tests/main-collector</module>
+        <module>../../../integration-tests/main-yaml</module>
+        <module>../../../integration-tests/mustache</module>
+        <module>../../../integration-tests/nats</module>
+        <module>../../../integration-tests/nitrite</module>
+        <module>../../../integration-tests/oaipmh</module>
+        <module>../../../integration-tests/ognl</module>
+    </modules>
+</project>

@@ -34,9 +34,9 @@
 
     <modules>
         <module>maven-plugin</module>
-        <module>camel-k-catalog-model</module>
-        <module>camel-k-maven-plugin</module>
-        <module>perf-regression</module>
+        <!-- <module>camel-k-catalog-model</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>camel-k-maven-plugin</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>perf-regression</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>test-list</module>
     </modules>
 
