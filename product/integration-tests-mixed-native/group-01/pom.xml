@@ -51,6 +51,7 @@
         <module>../../../integration-tests/braintree</module>
         <module>../../../integration-tests/caffeine</module>
         <module>../../../integration-tests/camel-k-runtime</module>
+        <module>../../../integration-tests/camel-k-runtime-model-reifier</module>
         <module>../../../integration-tests/cbor</module>
         <module>../../../integration-tests/consul</module>
         <module>../../../integration-tests/couchdb</module>

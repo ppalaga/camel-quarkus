@@ -291,6 +291,7 @@ com.slack.api:slack-api-model
 com.squareup:protoparser
 com.squareup.moshi:moshi
 com.squareup.okhttp3:logging-interceptor
+com.squareup.okhttp3:mockwebserver
 com.squareup.okhttp3:okhttp
 com.squareup.okio:okio
 com.squareup.okio:okio-jvm
