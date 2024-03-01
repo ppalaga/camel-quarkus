@@ -1,4 +1,5 @@
 {
+    "groupId": "org.apache.camel.quarkus",
     "extensions": {
         "camel-quarkus-amqp": {
             "jvm": "supported",
@@ -597,10 +598,7 @@
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-messaging-common",
-        "org.apache.camel.quarkus:camel-quarkus-test-list",
-        "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security",
-        "io.quarkiverse.cxf:quarkus-cxf-services-sts",
-        "io.quarkiverse.cxf:quarkus-cxf-xjc-plugins"
+        "org.apache.camel.quarkus:camel-quarkus-test-list"
     ],
     "versionTransformations": {
         "grpc-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
@@ -628,7 +626,6 @@
     "requiredProductizedCamelArtifacts": "product/src/main/generated/required-productized-camel-artifacts.txt",
     "productizedCamelQuarkusArtifacts": "product/src/main/generated/productized-camel-quarkus-artifacts.txt",
     "additionalExtensionDependencies": {
-        "camel-quarkus-cxf-soap": "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security,io.quarkiverse.cxf:quarkus-cxf-services-sts,io.quarkiverse.cxf:quarkus-cxf-xjc-plugins",
         "camel-quarkus-jms": "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
     },
