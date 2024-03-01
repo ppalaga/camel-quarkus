@@ -43,23 +43,33 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.codehaus.gmavenplus</groupId>
-                <artifactId>gmavenplus-plugin</artifactId>
+                <groupId>org.l2x6.cq</groupId>
+                <artifactId>cq-prod-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>generate-camel-quarkus-product-json</id>
+                        <id>platform-overrides-camel-quarkus</id>
                         <inherited>false</inherited>
                         <goals>
-                            <goal>execute</goal>
+                            <goal>platform-overrides</goal>
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <scripts>
-                                <script>file:${project.basedir}/src/main/groovy/generate-camel-quarkus-product-json.groovy</script>
-                            </scripts>
-                            <properties>
-                                <maven.multiModuleProjectDirectory>${maven.multiModuleProjectDirectory}</maven.multiModuleProjectDirectory>
-                            </properties>
+                            <documentedProductVersion>${camel.version}</documentedProductVersion>
+                            <overrideGuide>false</overrideGuide><!-- We do it elsewhere for Camel Quarkus -->
+                            <productJson>${project.basedir}/src/main/resources/camel-quarkus-product-source.json</productJson>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>platform-overrides-quarkus-cxf</id>
+                        <inherited>false</inherited>
+                        <goals>
+                            <goal>platform-overrides</goal>
+                        </goals>
+                        <phase>generate-resources</phase>
+                        <configuration>
+                            <documentedProductVersion>${quarkiverse-cxf.version}</documentedProductVersion>
+                            <overrideGuide>true</overrideGuide>
+                            <productJson>${project.basedir}/src/main/resources/quarkus-cxf-product-source.json</productJson>
                         </configuration>
                     </execution>
                 </executions>
@@ -67,7 +77,6 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>build-helper-maven-plugin</artifactId>
-                <version>${build-helper-maven-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>attach-product-json</id>
@@ -81,6 +90,11 @@
                                 <artifact>
                                     <file>${basedir}/src/main/generated/camel-quarkus-product.json</file>
                                     <type>json</type>
+                                </artifact>
+                                <artifact>
+                                    <file>${basedir}/src/main/generated/quarkus-cxf-product.json</file>
+                                    <type>json</type>
+                                    <classifier>cxf</classifier>
                                 </artifact>
                             </artifacts>
                         </configuration>
