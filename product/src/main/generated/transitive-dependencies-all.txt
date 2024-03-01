@@ -488,6 +488,8 @@ io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
 io.projectreactor.netty.incubator:reactor-netty-incubator-quic
+io.quarkiverse.artemis:quarkus-artemis-jms
+io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
 io.quarkiverse.cxf:quarkus-cxf-deployment
