@@ -67,7 +67,7 @@
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <documentedProductVersion>${quarkiverse-cxf.version}</documentedProductVersion>
+                            <documentedProductVersion>${camel.version}</documentedProductVersion>
                             <overrideGuide>true</overrideGuide>
                             <productJson>${project.basedir}/src/main/resources/quarkus-cxf-product-source.json</productJson>
                         </configuration>
