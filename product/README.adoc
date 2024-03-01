@@ -30,6 +30,8 @@
   It allows for the following placeholders:
 ** `${cqMajorVersion}` - the major version of the Camel Quarkus release the URL applies to
 ** `${artifactIdBase}` - the base of the artifactId of the given extension; e.g. if the extension artifactId is `camel-quarkus-activemq` then the `artifactIdBase` would be `activemq`.
+* `transitiveDependencyReplacements` - a map from `groupId:artifactId` to `groupId:artifactId`. Any artifacts matching some given key will be replaced by the corresponding value when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`. The primary purpose of these replacement is to keep the report reproducible across operating systems, effectively replacing MacOS and Windows specific artifacts with the corresponding Linux ones.
+* `ignoredTransitiveDependencies` - a list of `groupId[:artifactId[:version]]` patterns (`*` wildcard allowed). All matching artifacts and their transitive dependencies will be ignored when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`.
 
 === Updating the source tree after changing `camel-quarkus-product-source.json`
 

@@ -632,5 +632,11 @@
         "camel-quarkus-cxf-soap": "io.quarkiverse.cxf:quarkus-cxf-rt-ws-security,io.quarkiverse.cxf:quarkus-cxf-services-sts,io.quarkiverse.cxf:quarkus-cxf-xjc-plugins",
         "camel-quarkus-jms": "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
-    }
+    },
+    "transitiveDependencyReplacements": {
+        "com.aayushatharva.brotli4j:native-osx-aarch64": "com.aayushatharva.brotli4j:native-linux-x86_64"
+    },
+    "ignoredTransitiveDependencies": [
+        "net.openhft:affinity"
+    ]
 }
