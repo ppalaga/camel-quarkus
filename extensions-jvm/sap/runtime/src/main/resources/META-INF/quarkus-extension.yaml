@@ -26,7 +26,7 @@ description: "Provides SAP Camel Component"
 icon-url: "https://camel.apache.org/_/img/logo-d-f21b25ba38.svg"
 metadata:
   unlisted: true
-  guide: "https://access.redhat.com/documentation/en-us/red_hat_integration/3.latest/html/camel_extensions_for_quarkus_reference/extensions-sap"
+  guide: "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.4/html/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#extensions-sap"
   categories:
   - "integration"
   status:
