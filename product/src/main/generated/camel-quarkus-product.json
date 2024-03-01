@@ -191,7 +191,7 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-crypto",
+            "artifact-id": "camel-quarkus-cron",
             "metadata": {
                 "redhat-support": [
                     "supported"
@@ -200,7 +200,7 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-cron",
+            "artifact-id": "camel-quarkus-crypto",
             "metadata": {
                 "redhat-support": [
                     "supported"
@@ -425,15 +425,6 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-jsonpath",
-            "metadata": {
-                "redhat-support": [
-                    "supported"
-                ]
-            }
-        },
-        {
-            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-jslt",
             "metadata": {
                 "redhat-support": [
@@ -443,7 +434,7 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-jta",
+            "artifact-id": "camel-quarkus-jsonpath",
             "metadata": {
                 "redhat-support": [
                     "supported"
@@ -456,6 +447,15 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-jta",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
                 ]
             }
         },
@@ -614,15 +614,6 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-mybatis",
-            "metadata": {
-                "redhat-support": [
-                    "supported"
-                ]
-            }
-        },
-        {
-            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-mock",
             "metadata": {
                 "redhat-support": [
@@ -636,6 +627,15 @@
             "metadata": {
                 "redhat-support": [
                     "tech-preview"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-mybatis",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
                 ]
             }
         },
@@ -677,15 +677,6 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-quartz",
-            "metadata": {
-                "redhat-support": [
-                    "supported"
-                ]
-            }
-        },
-        {
-            "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-paho",
             "metadata": {
                 "redhat-support": [
@@ -705,6 +696,15 @@
         {
             "group-id": "org.apache.camel.quarkus",
             "artifact-id": "camel-quarkus-platform-http",
+            "metadata": {
+                "redhat-support": [
+                    "supported"
+                ]
+            }
+        },
+        {
+            "group-id": "org.apache.camel.quarkus",
+            "artifact-id": "camel-quarkus-quartz",
             "metadata": {
                 "redhat-support": [
                     "supported"
@@ -965,7 +965,7 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-zipfile",
+            "artifact-id": "camel-quarkus-zip-deflater",
             "metadata": {
                 "redhat-support": [
                     "supported"
@@ -974,7 +974,7 @@
         },
         {
             "group-id": "org.apache.camel.quarkus",
-            "artifact-id": "camel-quarkus-zip-deflater",
+            "artifact-id": "camel-quarkus-zipfile",
             "metadata": {
                 "redhat-support": [
                     "supported"

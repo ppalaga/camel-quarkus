@@ -112,15 +112,15 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
-        "camel-quarkus-crypto": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.2.0"
-        },
         "camel-quarkus-cron": {
             "jvm": "supported",
             "native": "supported",
             "comment": "community/community since 2.2.0, supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-crypto": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.2.0"
         },
         "camel-quarkus-cxf-soap": {
             "jvm": "supported",
@@ -266,15 +266,20 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-jslt": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.1"
+        },
         "camel-quarkus-jsonpath": {
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1; still need to productize com.jayway.jsonpath:json-path and net.minidev:* - see https://issues.redhat.com/browse/ENTESB-18809"
         },
-        "camel-quarkus-jslt": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 2.13.1"
+        "camel-quarkus-jt400": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.8.0"
         },
         "camel-quarkus-jta": {
             "jvm": "supported",
@@ -283,11 +288,6 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-jta"
             ]
-        },
-        "camel-quarkus-jt400": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "TP since CEQ 3.8.0"
         },
         "camel-quarkus-kafka": {
             "jvm": "supported",
@@ -377,11 +377,6 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
-        "camel-quarkus-mybatis": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.2.0"
-        },
         "camel-quarkus-mock": {
             "jvm": "supported",
             "native": "supported",
@@ -391,6 +386,11 @@
             "jvm": "techPreview",
             "native": "techPreview",
             "comment": "tp/tp since CEQ 2.2.0, Blocked by quarkus-mongodb-client support - see https://issues.redhat.com/browse/ENTESB-18797"
+        },
+        "camel-quarkus-mybatis": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.2.0"
         },
         "camel-quarkus-netty": {
             "jvm": "supported",
@@ -412,11 +412,6 @@
             "native": "techPreview",
             "comment": "tp since CEQ 2.13.1"
         },
-        "camel-quarkus-quartz": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 2.7.1"
-        },
         "camel-quarkus-paho": {
             "jvm": "supported",
             "native": "supported",
@@ -431,6 +426,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-quartz": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.7.1"
         },
         "camel-quarkus-ref": {
             "jvm": "supported",
@@ -579,6 +579,11 @@
             "native": "supported",
             "comment": "supported/supported since CEQ 2.13.3; Required by Camel K"
         },
+        "camel-quarkus-zip-deflater": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 2.13.1"
+        },
         "camel-quarkus-zipfile": {
             "jvm": "supported",
             "native": "supported",
@@ -586,13 +591,7 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-compression"
             ]
-        },
-        "camel-quarkus-zip-deflater": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 2.13.1"
         }
-        
     },
     "additionalProductizedArtifacts": [
         "org.apache.camel.quarkus:camel-quarkus-catalog",
