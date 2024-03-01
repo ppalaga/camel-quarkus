@@ -199,6 +199,8 @@ io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
 io.projectreactor.netty.incubator:reactor-netty-incubator-quic
+io.quarkiverse.artemis:quarkus-artemis-jms
+io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics
