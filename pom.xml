@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.4.0</version>
+        <version>4.4.0.redhat-00002</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,13 +41,13 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.4</camel.major.minor>
         <camel-community.version>${camel.major.minor}.0</camel-community.version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.0</camel.version>
+        <camel.version>${camel.major.minor}.0.redhat-00002</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel.sb.docs.branch>camel-spring-boot-${camel.major.minor}.x</camel.sb.docs.branch><!-- The stable camel-spring-boot branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.8.0</camel-quarkus-community.version>
-        <camel-sap.version>4.0.0.redhat-00069</camel-sap.version>
+        <camel-sap.version>4.4.0.redhat-00002</camel-sap.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>2.5.0.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
         <optaplanner.version>9.37.0.Final</optaplanner.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
@@ -134,7 +134,7 @@
         <jsch.version>0.2.16</jsch.version><!-- @sync io.quarkiverse.jsch:quarkus-jsch-parent:${quarkiverse-jsch.version} prop:jsch.version -->
         <json-path.version>${json-path-version}</json-path.version>
         <jedis-client.version>${jedis-client-version}</jedis-client.version>
-        <json-smart.version>2.5.0</json-smart.version><!-- @sync com.jayway.jsonpath:json-path:${json-path.version} dep:net.minidev:json-smart -->
+        <json-smart.version>2.5.0.redhat-00001</json-smart.version><!-- @sync com.jayway.jsonpath:json-path:${json-path.version} dep:net.minidev:json-smart -->
         <kafka.version>3.6.1</kafka.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.kafka:kafka-clients -->
         <kudu.version>${kudu-version}</kudu.version>
         <kotlin.version>1.9.22</kotlin.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.jetbrains.kotlin:kotlin-stdlib -->
