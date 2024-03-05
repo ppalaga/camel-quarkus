@@ -216,7 +216,7 @@
         <module>scheduler</module>
         <module>seda</module>
         <!-- <module>servicenow</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>servlet</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>servlet</module>
         <!-- <module>shiro</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>sjms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>sjms2</module> disabled by cq-prod-maven-plugin:prod-excludes -->

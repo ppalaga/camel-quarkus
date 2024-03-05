@@ -478,6 +478,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-servlet": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "tp/tp since CEQ 3.8.0"
+        },
         "camel-quarkus-slack": {
             "jvm": "supported",
             "native": "supported",

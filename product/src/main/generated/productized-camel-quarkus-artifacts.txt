@@ -257,6 +257,7 @@ camel-quarkus-integration-test-sap
 camel-quarkus-integration-test-saxon
 camel-quarkus-integration-test-scheduler
 camel-quarkus-integration-test-seda
+camel-quarkus-integration-test-servlet
 camel-quarkus-integration-test-slack
 camel-quarkus-integration-test-snmp
 camel-quarkus-integration-test-soap
@@ -473,6 +474,9 @@ camel-quarkus-scheduler-parent
 camel-quarkus-seda
 camel-quarkus-seda-deployment
 camel-quarkus-seda-parent
+camel-quarkus-servlet
+camel-quarkus-servlet-deployment
+camel-quarkus-servlet-parent
 camel-quarkus-slack
 camel-quarkus-slack-deployment
 camel-quarkus-slack-parent

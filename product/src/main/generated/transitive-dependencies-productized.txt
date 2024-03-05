@@ -445,6 +445,8 @@ io.quarkus:quarkus-smallrye-health-spi
 io.quarkus:quarkus-smallrye-openapi-spi
 io.quarkus:quarkus-test-common
 io.quarkus:quarkus-transaction-annotations
+io.quarkus:quarkus-undertow
+io.quarkus:quarkus-undertow-deployment
 io.quarkus:quarkus-undertow-spi
 io.quarkus:quarkus-vertx
 io.quarkus:quarkus-vertx-deployment
@@ -462,6 +464,7 @@ io.quarkus.gizmo:gizmo
 io.quarkus.http:quarkus-http-core
 io.quarkus.http:quarkus-http-http-core
 io.quarkus.http:quarkus-http-servlet
+io.quarkus.http:quarkus-http-vertx-backend
 io.quarkus.qute:qute-core
 io.quarkus.resteasy.reactive:resteasy-reactive
 io.quarkus.resteasy.reactive:resteasy-reactive-common
@@ -712,6 +715,7 @@ org.apache.camel:camel-salesforce
 org.apache.camel:camel-saxon
 org.apache.camel:camel-scheduler
 org.apache.camel:camel-seda
+org.apache.camel:camel-servlet
 org.apache.camel:camel-slack
 org.apache.camel:camel-snmp
 org.apache.camel:camel-soap
@@ -939,6 +943,8 @@ org.apache.camel.quarkus:camel-quarkus-scheduler
 org.apache.camel.quarkus:camel-quarkus-scheduler-deployment
 org.apache.camel.quarkus:camel-quarkus-seda
 org.apache.camel.quarkus:camel-quarkus-seda-deployment
+org.apache.camel.quarkus:camel-quarkus-servlet
+org.apache.camel.quarkus:camel-quarkus-servlet-deployment
 org.apache.camel.quarkus:camel-quarkus-slack
 org.apache.camel.quarkus:camel-quarkus-slack-deployment
 org.apache.camel.quarkus:camel-quarkus-snmp

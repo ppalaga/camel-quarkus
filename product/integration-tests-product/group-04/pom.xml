@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
-        <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>
         <module>../../../integration-tests/jt400</module>
         <module>../../../integration-tests/jta</module>
@@ -63,5 +62,6 @@
         <module>../../../integration-tests/micrometer</module>
         <module>../../../integration-tests/microprofile</module>
         <module>../../../integration-tests/minio</module>
+        <module>../../../integration-tests/mllp</module>
     </modules>
 </project>

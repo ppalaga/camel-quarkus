@@ -69,6 +69,5 @@
         <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
-        <module>../../../integration-tests/github</module>
     </modules>
 </project>

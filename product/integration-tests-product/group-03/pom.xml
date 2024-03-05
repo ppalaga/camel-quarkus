@@ -63,5 +63,6 @@
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/jpa</module>
+        <module>../../../integration-tests/jslt</module>
     </modules>
 </project>

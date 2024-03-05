@@ -243,11 +243,8 @@ io.quarkus:quarkus-smallrye-reactive-messaging
 io.quarkus:quarkus-smallrye-reactive-messaging-deployment
 io.quarkus:quarkus-smallrye-reactive-messaging-kotlin
 io.quarkus:quarkus-spring-data-commons-api
-io.quarkus:quarkus-undertow
-io.quarkus:quarkus-undertow-deployment
 io.quarkus:quarkus-vertx-http-dev-console-runtime-spi
 io.quarkus:quarkus-vertx-http-dev-console-spi
-io.quarkus.http:quarkus-http-vertx-backend
 io.quarkus.qute:qute-generator
 io.r2dbc:r2dbc-spi
 io.reactivex.rxjava2:rxjava
@@ -426,7 +423,6 @@ org.apache.camel:camel-rss
 org.apache.camel:camel-sap-netweaver
 org.apache.camel:camel-schematron
 org.apache.camel:camel-servicenow
-org.apache.camel:camel-servlet
 org.apache.camel:camel-shiro
 org.apache.camel:camel-sjms
 org.apache.camel:camel-sjms2
@@ -760,8 +756,6 @@ org.apache.camel.quarkus:camel-quarkus-schematron
 org.apache.camel.quarkus:camel-quarkus-schematron-deployment
 org.apache.camel.quarkus:camel-quarkus-servicenow
 org.apache.camel.quarkus:camel-quarkus-servicenow-deployment
-org.apache.camel.quarkus:camel-quarkus-servlet
-org.apache.camel.quarkus:camel-quarkus-servlet-deployment
 org.apache.camel.quarkus:camel-quarkus-shiro
 org.apache.camel.quarkus:camel-quarkus-shiro-deployment
 org.apache.camel.quarkus:camel-quarkus-sjms

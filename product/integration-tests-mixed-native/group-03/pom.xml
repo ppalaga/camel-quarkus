@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/olingo4</module>
         <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/optaplanner</module>
@@ -45,7 +46,6 @@
         <module>../../../integration-tests/reactive-streams</module>
         <module>../../../integration-tests/sap-netweaver</module>
         <module>../../../integration-tests/servicenow</module>
-        <module>../../../integration-tests/servlet</module>
         <module>../../../integration-tests/shiro</module>
         <module>../../../integration-tests/sjms-artemis-client</module>
         <module>../../../integration-tests/sjms-qpid-amqp-client</module>

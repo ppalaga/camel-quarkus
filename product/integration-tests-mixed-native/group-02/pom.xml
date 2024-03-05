@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
+        <module>../../../integration-tests/github</module>
         <module>../../../integration-tests/google</module>
         <module>../../../integration-tests/google-storage</module>
         <module>../../../integration-tests/graphql</module>
@@ -68,6 +69,5 @@
         <module>../../../integration-tests/nats</module>
         <module>../../../integration-tests/nitrite</module>
         <module>../../../integration-tests/oaipmh</module>
-        <module>../../../integration-tests/ognl</module>
     </modules>
 </project>
