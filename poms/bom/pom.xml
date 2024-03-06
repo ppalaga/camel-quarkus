@@ -153,6 +153,10 @@
                 <version>${camel-community.version}</version>
                 <exclusions>
                     <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
+                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -1411,6 +1415,10 @@
                 <version>${camel-community.version}</version>
                 <exclusions>
                     <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
+                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -1745,6 +1753,10 @@
                 <artifactId>camel-leveldb</artifactId>
                 <version>${camel-community.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
@@ -2093,6 +2105,10 @@
                 <artifactId>camel-pulsar</artifactId>
                 <version>${camel-community.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>com.sun.activation</groupId>
                         <artifactId>javax.activation</artifactId>
@@ -2722,6 +2738,10 @@
                 <version>${camel-community.version}</version>
                 <exclusions>
                     <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
+                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -2732,6 +2752,10 @@
                 <artifactId>camel-zookeeper-master</artifactId>
                 <version>${camel-community.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
@@ -6378,6 +6402,10 @@
                 <artifactId>minio</artifactId>
                 <version>${minio.version}</version>
                 <exclusions>
+                    <exclusion>
+                        <groupId>com.google.code.findbugs</groupId>
+                        <artifactId>jsr305</artifactId>
+                    </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
