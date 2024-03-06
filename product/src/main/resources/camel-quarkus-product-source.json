@@ -409,9 +409,9 @@
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-opentelemetry": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "tp since CEQ 2.13.1"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "tp since CEQ 2.13.1, supported since CEQ 3.8.0"
         },
         "camel-quarkus-paho": {
             "jvm": "supported",

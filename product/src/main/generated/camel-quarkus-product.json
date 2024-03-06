@@ -671,7 +671,7 @@
       "artifact-id": "camel-quarkus-opentelemetry",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
