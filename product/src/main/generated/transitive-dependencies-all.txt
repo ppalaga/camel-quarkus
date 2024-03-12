@@ -492,6 +492,7 @@ io.quarkiverse.artemis:quarkus-artemis-jms
 io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
+io.quarkiverse.cxf:quarkus-cxf-bc-stub
 io.quarkiverse.cxf:quarkus-cxf-deployment
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry-deployment
