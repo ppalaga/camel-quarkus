@@ -797,7 +797,7 @@
       "artifact-id": "camel-quarkus-servlet",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
