@@ -1619,6 +1619,12 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-js-dsl</artifactId>
                 <version>${camel-community.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.graalvm.js</groupId>
+                        <artifactId>js</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -6806,7 +6812,7 @@
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
-                <artifactId>js</artifactId>
+                <artifactId>js-language</artifactId>
                 <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
