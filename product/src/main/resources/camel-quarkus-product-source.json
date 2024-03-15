@@ -631,7 +631,7 @@
     "requiredProductizedCamelArtifacts": "product/src/main/generated/required-productized-camel-artifacts.txt",
     "productizedCamelQuarkusArtifacts": "product/src/main/generated/productized-camel-quarkus-artifacts.txt",
     "additionalExtensionDependencies": {
-        "camel-quarkus-jms": "io.quarkiverse.messaginghub:quarkus-pooled-jms",
+        "camel-quarkus-jms": "io.quarkiverse.artemis:quarkus-artemis-jms, io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
     },
     "transitiveDependencyReplacements": {

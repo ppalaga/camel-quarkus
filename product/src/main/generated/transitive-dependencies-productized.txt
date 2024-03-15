@@ -287,6 +287,8 @@ io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv
 io.opentelemetry.semconv:opentelemetry-semconv
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
+io.quarkiverse.artemis:quarkus-artemis-jms
+io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
 io.quarkiverse.cxf:quarkus-cxf-bc-stub
