@@ -1071,6 +1071,7 @@ org.fusesource.hawtdispatch:hawtdispatch-transport
 org.fusesource.leveldbjni:leveldbjni-all
 org.fusesource.stompjms:stompjms-client
 org.graalvm.js:js
+org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
 org.graalvm.regex:regex
 org.graalvm.truffle:truffle-api

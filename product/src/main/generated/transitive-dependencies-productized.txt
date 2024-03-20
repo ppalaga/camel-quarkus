@@ -1203,7 +1203,10 @@ org.glassfish.jaxb:jaxb-runtime
 org.glassfish.jaxb:jaxb-xjc
 org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
+org.graalvm.sdk:collections
 org.graalvm.sdk:graal-sdk
+org.graalvm.sdk:nativeimage
+org.graalvm.sdk:word
 org.hdrhistogram:HdrHistogram
 org.hibernate:quarkus-local-cache
 org.hibernate.common:hibernate-commons-annotations

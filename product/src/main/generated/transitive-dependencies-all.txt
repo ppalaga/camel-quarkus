@@ -2276,9 +2276,13 @@ org.glassfish.jaxb:jaxb-xjc
 org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
 org.graalvm.js:js
+org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
 org.graalvm.regex:regex
+org.graalvm.sdk:collections
 org.graalvm.sdk:graal-sdk
+org.graalvm.sdk:nativeimage
+org.graalvm.sdk:word
 org.graalvm.truffle:truffle-api
 org.hdrhistogram:HdrHistogram
 org.hibernate:quarkus-local-cache
