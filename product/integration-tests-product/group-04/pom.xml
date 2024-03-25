@@ -35,6 +35,7 @@
     <modules>
         <module>../../../integration-tests/jsonpath</module>
         <module>../../../integration-tests/jt400</module>
+        <module>../../../integration-tests/jt400-mocked</module>
         <module>../../../integration-tests/jta</module>
         <module>../../../integration-tests/kafka</module>
         <module>../../../integration-tests/kafka-oauth</module>

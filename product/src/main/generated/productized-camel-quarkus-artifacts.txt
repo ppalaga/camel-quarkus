@@ -201,6 +201,7 @@ camel-quarkus-integration-test-jpa
 camel-quarkus-integration-test-jslt
 camel-quarkus-integration-test-jsonpath
 camel-quarkus-integration-test-jt400
+camel-quarkus-integration-test-jt400-mocked
 camel-quarkus-integration-test-jta
 camel-quarkus-integration-test-kafka
 camel-quarkus-integration-test-kafka-oauth
