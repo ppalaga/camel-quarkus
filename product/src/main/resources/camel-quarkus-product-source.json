@@ -611,6 +611,7 @@
         "mvel2.version": "${version?replace('[\\\\.\\\\-]redhat-.*$', '', 'r')}",
         "protobuf-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "quarkiverse-cxf-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
+        "quarkus-community.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}",
         "smallrye.reactive.messaging.camel.version": "${version?replace('\\\\.redhat-.*$', '', 'r')}"
     },
     "guideUrlTemplate": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/${productMajorMinorVersion}/html/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#extensions-${artifactIdBase}",
