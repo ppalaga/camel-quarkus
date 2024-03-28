@@ -759,6 +759,7 @@
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-sap",
+      "unlisted": "false",
       "metadata": {
         "redhat-support": [
           "supported-in-jvm"
@@ -813,6 +814,7 @@
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-snmp",
+      "unlisted": "false",
       "metadata": {
         "redhat-support": [
           "supported-in-jvm"
