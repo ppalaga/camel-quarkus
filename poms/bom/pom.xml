@@ -6356,6 +6356,7 @@
                 <groupId>com.squareup.okhttp3</groupId>
                 <artifactId>mockwebserver</artifactId>
                 <version>${okhttp.version}</version>
+                <scope>test</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>junit</groupId>

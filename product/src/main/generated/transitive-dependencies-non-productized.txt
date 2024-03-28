@@ -144,6 +144,7 @@ com.rometools:rome
 com.rometools:rome-utils
 com.squareup.moshi:moshi
 com.squareup.okhttp3:logging-interceptor
+com.squareup.okhttp3:mockwebserver
 com.squareup.retrofit2:converter-gson
 com.squareup.retrofit2:converter-jackson
 com.squareup.retrofit2:converter-moshi

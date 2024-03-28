@@ -6280,6 +6280,7 @@
         <groupId>com.squareup.okhttp3</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>mockwebserver</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <version>4.12.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <scope>test</scope><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>junit</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->

@@ -145,7 +145,6 @@ com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
 com.squareup:protoparser
-com.squareup.okhttp3:mockwebserver
 com.squareup.okhttp3:okhttp
 com.squareup.okio:okio
 com.squareup.okio:okio-jvm
