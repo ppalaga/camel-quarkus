@@ -1892,14 +1892,12 @@ org.apache.cxf:cxf-core
 org.apache.cxf:cxf-integration-tracing-opentelemetry
 org.apache.cxf:cxf-rt-bindings-soap
 org.apache.cxf:cxf-rt-bindings-xml
-org.apache.cxf:cxf-rt-databinding-aegis
 org.apache.cxf:cxf-rt-databinding-jaxb
 org.apache.cxf:cxf-rt-features-logging
 org.apache.cxf:cxf-rt-features-metrics
 org.apache.cxf:cxf-rt-frontend-jaxrs
 org.apache.cxf:cxf-rt-frontend-jaxws
 org.apache.cxf:cxf-rt-frontend-simple
-org.apache.cxf:cxf-rt-javascript
 org.apache.cxf:cxf-rt-management
 org.apache.cxf:cxf-rt-rs-client
 org.apache.cxf:cxf-rt-rs-extension-providers
