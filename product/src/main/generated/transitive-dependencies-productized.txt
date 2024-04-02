@@ -294,8 +294,6 @@ io.quarkiverse.cxf:quarkus-cxf-bc-stub
 io.quarkiverse.cxf:quarkus-cxf-deployment
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry
 io.quarkiverse.cxf:quarkus-cxf-integration-tracing-opentelemetry-deployment
-io.quarkiverse.cxf:quarkus-cxf-rt-features-logging
-io.quarkiverse.cxf:quarkus-cxf-rt-features-logging-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics
 io.quarkiverse.cxf:quarkus-cxf-rt-features-metrics-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-transports-http-hc5
