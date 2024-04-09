@@ -639,6 +639,7 @@
         "com.aayushatharva.brotli4j:native-osx-aarch64": "com.aayushatharva.brotli4j:native-linux-x86_64"
     },
     "ignoredTransitiveDependencies": [
-        "net.openhft:affinity"
+        "net.openhft:affinity",
+        "io.quarkus:quarkus-test-common"
     ]
 }

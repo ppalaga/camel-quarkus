@@ -157,6 +157,7 @@ com.univocity:univocity-parsers
 com.x5dev:chunk-templates
 com.zaxxer:SparseBitSet
 com.zendesk:mysql-binlog-connector-java
+commons-cli:commons-cli
 commons-dbcp:commons-dbcp
 commons-fileupload:commons-fileupload
 commons-lang:commons-lang
@@ -258,6 +259,7 @@ io.smallrye.reactive:smallrye-reactive-messaging-health
 io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
+javax.inject:javax.inject
 javax.jcr:jcr
 jaxen:jaxen
 net.bytebuddy:byte-buddy-agent
