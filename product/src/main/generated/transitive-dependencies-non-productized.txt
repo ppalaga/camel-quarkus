@@ -179,6 +179,7 @@ io.debezium:debezium-embedded
 io.debezium:debezium-storage-file
 io.debezium:debezium-storage-kafka
 io.dropwizard.metrics:dropwizard-core
+io.dropwizard.metrics:metrics-core
 io.dropwizard.metrics:metrics-jmx
 io.etcd:jetcd-api
 io.etcd:jetcd-common

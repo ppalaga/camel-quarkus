@@ -171,7 +171,6 @@ io.agroal:agroal-narayana
 io.agroal:agroal-pool
 io.atlassian.fugue:fugue
 io.atlassian.util.concurrent:atlassian-util-concurrent
-io.dropwizard.metrics:metrics-core
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-client-api
 io.fabric8:kubernetes-httpclient-vertx
