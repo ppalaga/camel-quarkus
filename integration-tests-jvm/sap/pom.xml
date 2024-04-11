@@ -32,6 +32,11 @@
     <name>Camel Quarkus :: Integration Tests :: SAP</name>
     <description>Integration tests for Camel Quarkus SAP extension</description>
 
+    <properties>
+        <sapjco3.version>3.1.4</sapjco3.version>
+        <sapidoc.version>3.1.1</sapidoc.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.camel.quarkus</groupId>
@@ -41,6 +46,7 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy</artifactId>
         </dependency>
+
 
         <!-- test dependencies -->
         <dependency>
@@ -77,6 +83,42 @@
                             <artifactId>*</artifactId>
                         </exclusion>
                     </exclusions>
+                </dependency>
+            </dependencies>
+        </profile>
+
+        <profile>
+            <id>sapjco3</id>
+            <activation>
+                <file>
+                    <exists>${basedir}/lib/sapjco3.jar</exists>
+                </file>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>com.sap.conn.jco</groupId>
+                    <artifactId>sapjco3</artifactId>
+                    <version>${sapjco3.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${basedir}/lib/sapjco3.jar</systemPath>
+                </dependency>
+            </dependencies>
+        </profile>
+
+        <profile>
+            <id>sapidoc3</id>
+            <activation>
+                <file>
+                    <exists>${basedir}/lib/sapidoc3.jar</exists>
+                </file>
+            </activation>
+            <dependencies>
+                <dependency>
+                    <groupId>com.sap.conn.idoc</groupId>
+                    <artifactId>sapidoc3</artifactId>
+                    <version>${sapidoc.version}</version>
+                    <scope>system</scope>
+                    <systemPath>${basedir}/lib/sapidoc3.jar</systemPath>
                 </dependency>
             </dependencies>
         </profile>

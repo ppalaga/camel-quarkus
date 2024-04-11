@@ -7058,7 +7058,7 @@
       <dependency>
         <groupId>org.fusesource</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-sap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.4.0.redhat-00002</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.4.0.redhat-00008</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.eclipse</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->

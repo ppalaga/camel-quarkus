@@ -281,8 +281,6 @@ com.rabbitmq:amqp-client
 com.rometools:rome
 com.rometools:rome-utils
 com.sangupta:murmur
-com.sap.conn.idoc:sapidoc3
-com.sap.conn.jco:sapjco3
 com.schibsted.spt.data:jslt
 com.slack.api:slack-api-client
 com.slack.api:slack-api-model
