@@ -6790,7 +6790,7 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcmail-jdk18on</artifactId>
-                <version>${bouncycastle.version}</version>
+                <version>${bouncycastle-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
@@ -6800,7 +6800,7 @@
             <dependency>
                 <groupId>org.bouncycastle</groupId>
                 <artifactId>bcprov-ext-jdk18on</artifactId>
-                <version>${bouncycastle.version}</version>
+                <version>${bouncycastle-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.bouncycastle</groupId>
