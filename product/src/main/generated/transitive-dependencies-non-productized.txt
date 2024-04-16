@@ -99,6 +99,7 @@ com.google.cloud:google-cloud-core-grpc
 com.google.cloud:google-cloud-functions
 com.google.cloud:google-cloud-secretmanager
 com.google.cloud:google-cloud-storage
+com.google.guava:listenablefuture
 com.google.http-client:google-http-client-jackson2
 com.google.maps:google-maps-services
 com.google.oauth-client:google-oauth-client-java6
