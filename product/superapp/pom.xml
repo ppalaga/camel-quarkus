@@ -38,6 +38,38 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-integration-tracing-opentelemetry</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-rt-features-metrics</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-rt-transports-http-hc5</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-rt-ws-rm</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-rt-ws-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-services-sts</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.quarkiverse.cxf</groupId>
+            <artifactId>quarkus-cxf-xjc-plugins</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.apache.camel.quarkus</groupId>
             <artifactId>camel-quarkus-amqp</artifactId>
         </dependency>
@@ -482,4 +514,50 @@
             <artifactId>camel-quarkus-zipfile</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <dependencies>
+                    <dependency>
+                        <groupId>io.quarkus</groupId>
+                        <artifactId>quarkus-enforcer-rules</artifactId>
+                        <version>${quarkus.version}</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.l2x6.cq</groupId>
+                        <artifactId>cq-filtered-external-enforcer-rules</artifactId>
+                        <version>${cq-plugin.version}</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>camel-quarkus-enforcer-rules</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <dependencyConvergence>
+                                </dependencyConvergence>
+                                <filteredExternalRules>
+                                    <location>classpath:enforcer-rules/quarkus-banned-dependencies.xml</location>
+                                    <xsltLocation>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/quarkus-banned-dependencies.xsl</xsltLocation>
+                                </filteredExternalRules>
+                                <filteredExternalRules>
+                                    <location>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies.xml</location>
+                                    <xsltLocation>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/allow-findbugs.xsl</xsltLocation>
+                                </filteredExternalRules>
+                                <filteredExternalRules>
+                                    <location>${maven.multiModuleProjectDirectory}/tooling/enforcer-rules/camel-quarkus-banned-dependencies-spring.xml</location>
+                                </filteredExternalRules>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
