@@ -6830,6 +6830,11 @@
         <version>2.24</version>
       </dependency>
       <dependency>
+        <groupId>org.jasypt</groupId>
+        <artifactId>jasypt</artifactId>
+        <version>1.9.3.redhat-00003</version>
+      </dependency>
+      <dependency>
         <groupId>org.javassist</groupId>
         <artifactId>javassist</artifactId>
         <version>3.30.2-GA</version>
