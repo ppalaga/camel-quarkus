@@ -41,7 +41,6 @@
         <module>../../../integration-tests-jvm/azure-key-vault</module>
         <module>../../../integration-tests-jvm/azure-storage-datalake</module>
         <module>../../../integration-tests-jvm/barcode</module>
-        <module>../../../integration-tests-jvm/beanio</module>
         <module>../../../integration-tests-jvm/bonita</module>
         <module>../../../integration-tests-jvm/chatscript</module>
         <module>../../../integration-tests-jvm/chunk</module>
