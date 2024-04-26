@@ -446,7 +446,7 @@
       "artifact-id": "camel-quarkus-jt400",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
