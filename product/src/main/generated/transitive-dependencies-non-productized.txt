@@ -1013,8 +1013,11 @@ org.asynchttpclient:async-http-client-netty-utils
 org.bitbucket.b_c:jose4j
 org.bouncycastle:bcmail-jdk18on
 org.bouncycastle:bcpg-jdk15on
+org.bouncycastle:bcpkix-jdk15on
 org.bouncycastle:bcprov-ext-jdk15on
 org.bouncycastle:bcprov-ext-jdk18on
+org.bouncycastle:bcprov-jdk15on
+org.bouncycastle:bcutil-jdk15on
 org.ccil.cowan.tagsoup:tagsoup
 org.codelibs:jhighlight
 org.cometd.java:cometd-java-api-server

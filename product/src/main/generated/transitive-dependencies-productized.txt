@@ -1084,11 +1084,8 @@ org.apache.yetus:audience-annotations
 org.apiguardian:apiguardian-api
 org.assertj:assertj-core
 org.bouncycastle:bcpg-jdk18on
-org.bouncycastle:bcpkix-jdk15on
 org.bouncycastle:bcpkix-jdk18on
-org.bouncycastle:bcprov-jdk15on
 org.bouncycastle:bcprov-jdk18on
-org.bouncycastle:bcutil-jdk15on
 org.bouncycastle:bcutil-jdk18on
 org.brotli:dec
 org.checkerframework:checker-compat-qual
