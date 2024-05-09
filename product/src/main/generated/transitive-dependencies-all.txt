@@ -866,6 +866,7 @@ org.apache.avro:avro-compiler
 org.apache.avro:avro-ipc-jetty
 org.apache.avro:avro-ipc-netty
 org.apache.avro:avro-protobuf
+org.apache.bcel:bcel
 org.apache.camel:camel-activemq
 org.apache.camel:camel-amqp
 org.apache.camel:camel-api

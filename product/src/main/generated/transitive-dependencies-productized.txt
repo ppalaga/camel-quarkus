@@ -585,6 +585,7 @@ org.apache.arrow:arrow-memory-netty
 org.apache.arrow:arrow-vector
 org.apache.avro:avro
 org.apache.avro:avro-compiler
+org.apache.bcel:bcel
 org.apache.camel:camel-amqp
 org.apache.camel:camel-api
 org.apache.camel:camel-attachments
