@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 05</name>
 
     <modules>
+        <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/mybatis</module>
         <module>../../../integration-tests/netty</module>
         <module>../../../integration-tests/openapi-java</module>

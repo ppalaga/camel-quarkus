@@ -619,12 +619,14 @@
         {
             "includes": [
                 "integration-tests/*/pom.xml",
-                "integration-test-groups/*/*/pom.xml",
+                "integration-test-groups/*/**/pom.xml",
                 "integration-tests-jvm/*/pom.xml"
             ],
             "excludes": [
                 "integration-tests/messaging/pom.xml",
-                "integration-tests/*-grouped/pom.xml"
+                "integration-tests/*-grouped/pom.xml",
+                "integration-test-groups/*/pom.xml",
+                "integration-tests-jvm/*-grouped/pom.xml"
             ]
         }
     ],

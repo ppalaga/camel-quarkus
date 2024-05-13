@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 02</name>
 
     <modules>
-        <module>../../../integration-test-groups/foundation/core-annotations</module>
         <module>../../../integration-test-groups/foundation/core-fault-tolerance</module>
         <module>../../../integration-test-groups/foundation/core-languages</module>
         <module>../../../integration-test-groups/foundation/core-thread-pools</module>
@@ -62,7 +61,9 @@
         <module>../../../integration-test-groups/jdbc/oracle</module>
         <module>../../../integration-test-groups/jdbc/postgresql</module>
         <module>../../../integration-test-groups/mongodb/mongodb</module>
-        <module>../../../integration-tests-jvm/azure-servicebus</module>
-        <module>../../../integration-tests-jvm/cli-connector</module>
+        <module>../../../integration-test-groups/xml/jvm/xslt-aggregate</module>
+        <module>../../../integration-test-groups/xml/jvm/xslt-bean</module>
+        <module>../../../integration-test-groups/xml/jvm/xslt-file</module>
+        <module>../../../integration-test-groups/xml/jvm/xslt-http</module>
     </modules>
 </project>

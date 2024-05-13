@@ -64,5 +64,6 @@
         <module>../../../integration-test-groups/foundation/component-name-resolver</module>
         <module>../../../integration-test-groups/foundation/controlbus</module>
         <module>../../../integration-test-groups/foundation/core</module>
+        <module>../../../integration-test-groups/foundation/core-annotations</module>
     </modules>
 </project>

@@ -277,6 +277,11 @@ camel-quarkus-integration-test-vertx-websocket
 camel-quarkus-integration-test-xj
 camel-quarkus-integration-test-xml-jaxp
 camel-quarkus-integration-test-xpath
+camel-quarkus-integration-test-xslt-aggregate
+camel-quarkus-integration-test-xslt-bean
+camel-quarkus-integration-test-xslt-file
+camel-quarkus-integration-test-xslt-http
+camel-quarkus-integration-test-xslt-ref
 camel-quarkus-integration-test-xslt-saxon
 camel-quarkus-integration-test-zip-deflater
 camel-quarkus-integration-test-zipfile
@@ -315,6 +320,8 @@ camel-quarkus-integration-tests-support-jdbc
 camel-quarkus-integration-tests-support-kafka
 camel-quarkus-integration-tests-support-mongodb
 camel-quarkus-integration-tests-support-splunk
+camel-quarkus-integration-tests-support-xslt
+camel-quarkus-integration-tests-xml
 camel-quarkus-integration-wiremock-support
 camel-quarkus-jackson
 camel-quarkus-jackson-avro

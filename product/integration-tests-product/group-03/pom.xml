@@ -33,6 +33,9 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-test-groups/xml/jvm/xslt-ref</module>
+        <module>../../../integration-tests-jvm/azure-servicebus</module>
+        <module>../../../integration-tests-jvm/cli-connector</module>
         <module>../../../integration-tests-jvm/console</module>
         <module>../../../integration-tests-jvm/controlbus-statistics</module>
         <module>../../../integration-tests-jvm/sap</module>
@@ -62,7 +65,5 @@
         <module>../../../integration-tests/jms-artemis-client</module>
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
-        <module>../../../integration-tests/jpa</module>
-        <module>../../../integration-tests/jslt</module>
     </modules>
 </project>

@@ -42,6 +42,7 @@
         <module>../../../integration-test-groups/foundation/stream</module>
         <module>../../../integration-test-groups/foundation/type-converter</module>
         <module>../../../integration-test-groups/mongodb/mongodb-gridfs</module>
+        <module>../../../integration-test-groups/xml/native/xslt-classpath</module>
         <module>../../../integration-tests/activemq</module>
         <module>../../../integration-tests/arangodb</module>
         <module>../../../integration-tests/as2</module>

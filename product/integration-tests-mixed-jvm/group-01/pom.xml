@@ -92,7 +92,6 @@
         <module>../../../integration-tests-jvm/web3j</module>
         <module>../../../integration-tests-jvm/wordpress</module>
         <module>../../../integration-tests-jvm/workday</module>
-        <module>../../../integration-tests-jvm/xml-grouped</module>
         <module>../../../integration-tests-jvm/xmpp</module>
         <module>../../../integration-tests-jvm/zookeeper</module>
         <module>../../../integration-tests-jvm/zookeeper-master</module>
