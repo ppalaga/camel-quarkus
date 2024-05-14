@@ -314,6 +314,7 @@ camel-quarkus-integration-tests-support
 camel-quarkus-integration-tests-support-activemq
 camel-quarkus-integration-tests-support-aws2
 camel-quarkus-integration-tests-support-azure
+camel-quarkus-integration-tests-support-certificate-generator
 camel-quarkus-integration-tests-support-google
 camel-quarkus-integration-tests-support-grpc
 camel-quarkus-integration-tests-support-jdbc
