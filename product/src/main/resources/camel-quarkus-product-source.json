@@ -572,7 +572,7 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1",
             "allowedMixedTests": [
-                "camel-quarkus-integration-test-xml"
+                "camel-quarkus-integration-test-xslt-classpath"
             ]
         },
         "camel-quarkus-xslt-saxon": {
