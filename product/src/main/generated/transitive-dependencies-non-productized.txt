@@ -261,6 +261,7 @@ io.smallrye.reactive:smallrye-reactive-messaging-health
 io.smallrye.reactive:smallrye-reactive-messaging-provider
 io.vavr:vavr
 io.vavr:vavr-match
+javax.cache:cache-api
 javax.inject:javax.inject
 javax.jcr:jcr
 jaxen:jaxen

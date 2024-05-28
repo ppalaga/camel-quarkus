@@ -562,7 +562,6 @@ jakarta.xml.bind:jakarta.xml.bind-api
 jakarta.xml.soap:jakarta.xml.soap-api
 jakarta.xml.ws:jakarta.xml.ws-api
 javax.annotation:javax.annotation-api
-javax.cache:cache-api
 joda-time:joda-time
 net.bytebuddy:byte-buddy
 net.java.dev.jna:jna
