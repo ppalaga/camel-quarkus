@@ -6804,6 +6804,11 @@
                 <version>${smallrye.reactive.messaging.camel.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.smallrye.reactive</groupId>
+                <artifactId>mutiny-zero</artifactId>
+                <version>${mutiny-zero.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>io.swagger.core.v3</groupId>
                 <artifactId>swagger-models</artifactId>
                 <version>${swagger-openapi3-version}</version>
