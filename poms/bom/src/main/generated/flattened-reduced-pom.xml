@@ -6244,32 +6244,32 @@
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.dstu2</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.dstu2016may</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.dstu3</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.r4</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.r5</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>ca.uhn.hapi.fhir</groupId>
         <artifactId>org.hl7.fhir.utilities</artifactId>
-        <version>6.1.2.2</version>
+        <version>6.1.2.2-redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>
@@ -6383,6 +6383,11 @@
         </exclusions>
       </dependency>
       <dependency>
+        <groupId>com.google.re2j</groupId>
+        <artifactId>re2j</artifactId>
+        <version>1.7</version>
+      </dependency>
+      <dependency>
         <groupId>com.ibm.icu</groupId>
         <artifactId>icu4j</artifactId>
         <version>74.2.0.redhat-00003</version>
@@ -6446,6 +6451,21 @@
         <version>3.6.0</version>
       </dependency>
       <dependency>
+        <groupId>com.squareup.okio</groupId>
+        <artifactId>okio-fakefilesystem</artifactId>
+        <version>3.6.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.squareup.okio</groupId>
+        <artifactId>okio-fakefilesystem-jvm</artifactId>
+        <version>3.6.0</version>
+      </dependency>
+      <dependency>
+        <groupId>com.squareup.okio</groupId>
+        <artifactId>okio-jvm</artifactId>
+        <version>3.6.0</version>
+      </dependency>
+      <dependency>
         <groupId>com.squareup.retrofit2</groupId>
         <artifactId>converter-jackson</artifactId>
         <version>2.9.0</version>
@@ -6470,6 +6490,16 @@
         <groupId>commons-cli</groupId>
         <artifactId>commons-cli</artifactId>
         <version>1.4</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.2.2</version>
+      </dependency>
+      <dependency>
+        <groupId>commons-validator</groupId>
+        <artifactId>commons-validator</artifactId>
+        <version>1.8.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.minio</groupId>
@@ -6641,6 +6671,11 @@
         <groupId>io.quarkiverse.tika</groupId>
         <artifactId>quarkus-tika-deployment</artifactId>
         <version>2.0.2</version>
+      </dependency>
+      <dependency>
+        <groupId>io.reactivex.rxjava3</groupId>
+        <artifactId>rxjava</artifactId>
+        <version>3.1.8</version>
       </dependency>
       <dependency>
         <groupId>io.smallrye.reactive</groupId>
@@ -6877,6 +6912,21 @@
         <version>3.30.2.GA-redhat-00002</version>
       </dependency>
       <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20240303</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-scripting-compiler-embeddable</artifactId>
+        <version>1.9.22</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-scripting-compiler-impl-embeddable</artifactId>
+        <version>1.9.22</version>
+      </dependency>
+      <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-scripting-jvm</artifactId>
         <version>1.9.22</version>
@@ -6885,6 +6935,11 @@
         <groupId>org.jetbrains.kotlin</groupId>
         <artifactId>kotlin-scripting-jvm-host</artifactId>
         <version>1.9.22</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-core-jvm</artifactId>
+        <version>1.4.0</version>
       </dependency>
       <dependency>
         <groupId>org.jxmpp</groupId>
