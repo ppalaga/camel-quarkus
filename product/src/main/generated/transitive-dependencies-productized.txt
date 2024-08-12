@@ -40,6 +40,7 @@ com.azure:azure-storage-blob-changefeed
 com.azure:azure-storage-common
 com.azure:azure-storage-internal-avro
 com.azure:azure-storage-queue
+com.azure:azure-xml
 com.carrotsearch.thirdparty:simple-xml-safe
 com.cronutils:cron-utils
 com.dajudge.kindcontainer:kindcontainer

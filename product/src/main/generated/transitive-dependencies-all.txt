@@ -77,6 +77,7 @@ com.azure:azure-storage-common
 com.azure:azure-storage-file-datalake
 com.azure:azure-storage-internal-avro
 com.azure:azure-storage-queue
+com.azure:azure-xml
 com.bazaarvoice.jolt:jolt-core
 com.bazaarvoice.jolt:json-utils
 com.beanit:asn1bean
@@ -128,7 +129,6 @@ com.fasterxml.jackson.datatype:jackson-datatype-jsr310
 com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base
 com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider
 com.fasterxml.jackson.jr:jackson-jr-objects
-com.fasterxml.jackson.module:jackson-module-afterburner
 com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations
 com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta
 com.fasterxml.jackson.module:jackson-module-kotlin

@@ -62,7 +62,6 @@ com.fasterxml.jackson.dataformat:jackson-dataformat-csv
 com.fasterxml.jackson.dataformat:jackson-dataformat-properties
 com.fasterxml.jackson.datatype:jackson-datatype-guava
 com.fasterxml.jackson.jr:jackson-jr-objects
-com.fasterxml.jackson.module:jackson-module-afterburner
 com.fasterxml.jackson.module:jackson-module-kotlin
 com.github.albfernandez:juniversalchardet
 com.github.beanio:beanio
