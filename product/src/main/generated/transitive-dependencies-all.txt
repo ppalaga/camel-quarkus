@@ -355,6 +355,7 @@ commons-net:commons-net
 commons-pool:commons-pool
 commons-validator:commons-validator
 concurrent:concurrent
+de.dentrassi.crypto:pem-keystore
 de.l3s.boilerpipe:boilerpipe
 dev.failsafe:failsafe
 dk.brics.automaton:automaton
@@ -514,8 +515,11 @@ io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
 io.projectreactor.netty.incubator:reactor-netty-incubator-quic
+io.quarkiverse.artemis:quarkus-artemis-core
+io.quarkiverse.artemis:quarkus-artemis-core-deployment
 io.quarkiverse.artemis:quarkus-artemis-jms
 io.quarkiverse.artemis:quarkus-artemis-jms-deployment
+io.quarkiverse.artemis:quarkus-test-artemis
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
 io.quarkiverse.cxf:quarkus-cxf-bc-stub
@@ -888,7 +892,17 @@ org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.antlr:ST4
 org.antlr:antlr-runtime
 org.antlr:antlr4-runtime
+org.apache.activemq:activemq-artemis-native
 org.apache.activemq:activemq-client-jakarta
+org.apache.activemq:artemis-amqp-protocol
+org.apache.activemq:artemis-commons
+org.apache.activemq:artemis-core-client
+org.apache.activemq:artemis-jakarta-client
+org.apache.activemq:artemis-jdbc-store
+org.apache.activemq:artemis-journal
+org.apache.activemq:artemis-quorum-api
+org.apache.activemq:artemis-selector
+org.apache.activemq:artemis-server
 org.apache.arrow:arrow-format
 org.apache.arrow:arrow-memory-core
 org.apache.arrow:arrow-memory-netty
@@ -1901,7 +1915,9 @@ org.apache.camel.quarkus:camel-quarkus-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master-deployment
 org.apache.commons:commons-collections4
 org.apache.commons:commons-compress
+org.apache.commons:commons-configuration2
 org.apache.commons:commons-csv
+org.apache.commons:commons-dbcp2
 org.apache.commons:commons-exec
 org.apache.commons:commons-lang3
 org.apache.commons:commons-math3
@@ -2328,6 +2344,7 @@ org.jboss.resteasy.microprofile:microprofile-rest-client
 org.jboss.resteasy.microprofile:microprofile-rest-client-base
 org.jboss.slf4j:slf4j-jboss-logmanager
 org.jboss.threads:jboss-threads
+org.jctools:jctools-core
 org.jdom:jdom2
 org.jetbrains:annotations
 org.jetbrains.intellij.deps:trove4j

@@ -6572,6 +6572,11 @@
         <version>3.2.0</version>
       </dependency>
       <dependency>
+        <groupId>io.quarkiverse.artemis</groupId>
+        <artifactId>quarkus-test-artemis</artifactId>
+        <version>3.2.0</version>
+      </dependency>
+      <dependency>
         <groupId>io.quarkiverse.freemarker</groupId>
         <artifactId>quarkus-freemarker</artifactId>
         <version>1.0.0</version>

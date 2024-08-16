@@ -189,6 +189,7 @@ commons-digester:commons-digester
 commons-io:commons-io
 commons-net:commons-net
 commons-validator:commons-validator
+de.dentrassi.crypto:pem-keystore
 dk.brics.automaton:automaton
 io.agroal:agroal-api
 io.agroal:agroal-narayana
@@ -310,7 +311,7 @@ io.outfoxx:swiftpoet
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
 io.quarkiverse.artemis:quarkus-artemis-jms
-io.quarkiverse.artemis:quarkus-artemis-jms-deployment
+io.quarkiverse.artemis:quarkus-test-artemis
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
 io.quarkiverse.cxf:quarkus-cxf-bc-stub
@@ -608,6 +609,15 @@ org.aesh:readline
 org.amqphub.quarkus:quarkus-qpid-jms
 org.amqphub.quarkus:quarkus-qpid-jms-deployment
 org.antlr:antlr4-runtime
+org.apache.activemq:activemq-artemis-native
+org.apache.activemq:artemis-amqp-protocol
+org.apache.activemq:artemis-commons
+org.apache.activemq:artemis-core-client
+org.apache.activemq:artemis-jdbc-store
+org.apache.activemq:artemis-journal
+org.apache.activemq:artemis-quorum-api
+org.apache.activemq:artemis-selector
+org.apache.activemq:artemis-server
 org.apache.arrow:arrow-format
 org.apache.arrow:arrow-memory-core
 org.apache.arrow:arrow-memory-netty
@@ -1045,6 +1055,8 @@ org.apache.camel.quarkus:camel-quarkus-zipfile
 org.apache.camel.quarkus:camel-quarkus-zipfile-deployment
 org.apache.commons:commons-collections4
 org.apache.commons:commons-compress
+org.apache.commons:commons-configuration2
+org.apache.commons:commons-dbcp2
 org.apache.commons:commons-lang3
 org.apache.commons:commons-pool2
 org.apache.commons:commons-text
@@ -1224,6 +1236,7 @@ org.jboss.resteasy.microprofile:microprofile-rest-client
 org.jboss.resteasy.microprofile:microprofile-rest-client-base
 org.jboss.slf4j:slf4j-jboss-logmanager
 org.jboss.threads:jboss-threads
+org.jctools:jctools-core
 org.jetbrains:annotations
 org.jetbrains.kotlin:kotlin-reflect
 org.jetbrains.kotlin:kotlin-script-runtime
@@ -1239,6 +1252,7 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
+org.jgroups:jgroups
 org.jooq:joor
 org.json:json
 org.junit.jupiter:junit-jupiter
