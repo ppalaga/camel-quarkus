@@ -6677,6 +6677,11 @@
                 <artifactId>quarkus-artemis-jms-deployment</artifactId>
                 <version>${quarkiverse-artemis.version}</version>
             </dependency>
+            <dependency><!-- https://issues.redhat.com/browse/CEQ-9743 -->
+                <groupId>io.quarkiverse.artemis</groupId>
+                <artifactId>quarkus-test-artemis</artifactId>
+                <version>${quarkiverse-artemis.version}</version>
+            </dependency>
             <dependency>
                 <groupId>io.quarkiverse.freemarker</groupId>
                 <artifactId>quarkus-freemarker</artifactId>

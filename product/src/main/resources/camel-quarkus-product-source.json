@@ -600,6 +600,7 @@
         }
     },
     "additionalProductizedArtifacts": [
+        "io.quarkiverse.artemis:quarkus-test-artemis",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-messaging-common",

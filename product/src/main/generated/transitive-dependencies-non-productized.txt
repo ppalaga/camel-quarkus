@@ -203,6 +203,9 @@ io.projectreactor.netty:reactor-netty
 io.projectreactor.netty:reactor-netty-core
 io.projectreactor.netty:reactor-netty-http
 io.projectreactor.netty.incubator:reactor-netty-incubator-quic
+io.quarkiverse.artemis:quarkus-artemis-core
+io.quarkiverse.artemis:quarkus-artemis-core-deployment
+io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.cxf:quarkus-cxf-rt-features-logging
 io.quarkiverse.cxf:quarkus-cxf-rt-features-logging-deployment
 io.quarkiverse.freemarker:quarkus-freemarker
@@ -279,6 +282,7 @@ ognl:ognl
 org.antlr:ST4
 org.antlr:antlr-runtime
 org.apache.activemq:activemq-client-jakarta
+org.apache.activemq:artemis-jakarta-client
 org.apache.avro:avro-ipc-jetty
 org.apache.avro:avro-ipc-netty
 org.apache.avro:avro-protobuf
@@ -1110,7 +1114,6 @@ org.jetbrains.kotlin:kotlin-daemon-embeddable
 org.jetbrains.kotlin:kotlin-scripting-jvm-host
 org.jetbrains.kotlinx:kotlinx-coroutines-core
 org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
-org.jgroups:jgroups
 org.jgroups:jgroups-raft
 org.jodd:jodd-bean
 org.jodd:jodd-core
