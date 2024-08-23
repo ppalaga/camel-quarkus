@@ -28,8 +28,6 @@ ca.uhn.hapi.fhir:org.hl7.fhir.dstu3
 ca.uhn.hapi.fhir:org.hl7.fhir.r4
 ca.uhn.hapi.fhir:org.hl7.fhir.r5
 ca.uhn.hapi.fhir:org.hl7.fhir.utilities
-ch.qos.logback:logback-classic
-ch.qos.logback:logback-core
 co.elastic.clients:elasticsearch-java
 co.nstant.in:cbor
 com.aayushatharva.brotli4j:brotli4j
@@ -62,7 +60,6 @@ com.atlassian.sal:sal-api
 com.auth0:java-jwt
 com.azure:azure-core
 com.azure:azure-core-amqp
-com.azure:azure-core-http-netty
 com.azure:azure-core-http-vertx
 com.azure:azure-cosmos
 com.azure:azure-identity
@@ -168,10 +165,8 @@ com.github.mwiede:jsch
 com.github.openstack4j.core:openstack4j-core
 com.github.openstack4j.core.connectors:openstack4j-okhttp
 com.github.spullara.mustache.java:compiler
-com.github.stephenc.jcip:jcip-annotations
 com.github.virtuald:curvesapi
 com.github.waffle:waffle-jna
-com.google.android:annotations
 com.google.api:api-common
 com.google.api:gax
 com.google.api:gax-grpc
@@ -222,7 +217,6 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
-com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
@@ -320,8 +314,6 @@ com.squareup.wire:wire-schema
 com.squareup.wire:wire-schema-jvm
 com.squareup.wire:wire-swift-generator
 com.stumbleupon:async
-com.sun.activation:jakarta.activation
-com.sun.activation:javax.activation
 com.sun.istack:istack-commons-runtime
 com.sun.istack:istack-commons-tools
 com.sun.mail:mailapi
@@ -350,7 +342,6 @@ commons-digester:commons-digester
 commons-fileupload:commons-fileupload
 commons-io:commons-io
 commons-lang:commons-lang
-commons-logging:commons-logging
 commons-net:commons-net
 commons-pool:commons-pool
 commons-validator:commons-validator
@@ -471,8 +462,6 @@ io.netty:netty-handler
 io.netty:netty-handler-proxy
 io.netty:netty-resolver
 io.netty:netty-resolver-dns
-io.netty:netty-resolver-dns-classes-macos
-io.netty:netty-resolver-dns-native-macos
 io.netty:netty-tcnative-boringssl-static
 io.netty:netty-tcnative-classes
 io.netty:netty-transport
@@ -862,8 +851,6 @@ javax.annotation:javax.annotation-api
 javax.cache:cache-api
 javax.inject:javax.inject
 javax.jcr:jcr
-javax.validation:validation-api
-javax.ws.rs:javax.ws.rs-api
 jaxen:jaxen
 joda-time:joda-time
 net.bytebuddy:byte-buddy
@@ -2150,7 +2137,6 @@ org.bouncycastle:bcpg-jdk15on
 org.bouncycastle:bcpg-jdk18on
 org.bouncycastle:bcpkix-jdk15on
 org.bouncycastle:bcpkix-jdk18on
-org.bouncycastle:bcprov-debug-jdk18on
 org.bouncycastle:bcprov-ext-jdk15on
 org.bouncycastle:bcprov-ext-jdk18on
 org.bouncycastle:bcprov-jdk15on
@@ -2160,9 +2146,7 @@ org.bouncycastle:bcutil-jdk18on
 org.brotli:dec
 org.ccil.cowan.tagsoup:tagsoup
 org.checkerframework:checker-compat-qual
-org.checkerframework:checker-qual
 org.codehaus.jettison:jettison
-org.codehaus.mojo:animal-sniffer-annotations
 org.codehaus.woodstox:stax2-api
 org.codelibs:jhighlight
 org.cometd.java:cometd-java-api-client
@@ -2280,15 +2264,12 @@ org.glassfish.jaxb:jaxb-runtime
 org.glassfish.jaxb:jaxb-xjc
 org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
-org.graalvm.js:js
 org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
-org.graalvm.regex:regex
 org.graalvm.sdk:collections
 org.graalvm.sdk:graal-sdk
 org.graalvm.sdk:nativeimage
 org.graalvm.sdk:word
-org.graalvm.truffle:truffle-api
 org.hdrhistogram:HdrHistogram
 org.hibernate:quarkus-local-cache
 org.hibernate.common:hibernate-commons-annotations
@@ -2496,7 +2477,6 @@ org.robotframework:robotframework
 org.scala-lang:scala-library
 org.scala-lang.modules:scala-collection-compat_2.13
 org.schwering:irclib
-org.slf4j:jcl-over-slf4j
 org.slf4j:jul-to-slf4j
 org.slf4j:slf4j-api
 org.snakeyaml:snakeyaml-engine
