@@ -11,8 +11,6 @@ ca.uhn.hapi:hapi-structures-v24
 ca.uhn.hapi:hapi-structures-v25
 ca.uhn.hapi:hapi-structures-v251
 ca.uhn.hapi:hapi-structures-v26
-ch.qos.logback:logback-classic
-ch.qos.logback:logback-core
 co.elastic.clients:elasticsearch-java
 co.nstant.in:cbor
 com.adobe.xmp:xmpcore
@@ -29,7 +27,6 @@ com.arangodb:arangodb-java-driver
 com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
-com.azure:azure-core-http-netty
 com.azure:azure-cosmos
 com.azure:azure-messaging-eventhubs
 com.azure:azure-messaging-eventhubs-checkpointstore-blob
@@ -76,7 +73,6 @@ com.github.openstack4j.core.connectors:openstack4j-okhttp
 com.github.spullara.mustache.java:compiler
 com.github.virtuald:curvesapi
 com.github.waffle:waffle-jna
-com.google.android:annotations
 com.google.api.grpc:gapic-google-cloud-storage-v2
 com.google.api.grpc:grpc-google-cloud-storage-v2
 com.google.api.grpc:grpc-google-common-protos
@@ -148,7 +144,6 @@ com.squareup.retrofit2:converter-gson
 com.squareup.retrofit2:converter-jackson
 com.squareup.retrofit2:converter-moshi
 com.squareup.retrofit2:retrofit
-com.sun.activation:javax.activation
 com.thoughtworks.qdox:qdox
 com.twilio.sdk:twilio
 com.twitter:chill-java
@@ -161,7 +156,6 @@ commons-cli:commons-cli
 commons-dbcp:commons-dbcp
 commons-fileupload:commons-fileupload
 commons-lang:commons-lang
-commons-logging:commons-logging
 commons-pool:commons-pool
 concurrent:concurrent
 de.l3s.boilerpipe:boilerpipe
@@ -180,6 +174,7 @@ io.debezium:debezium-embedded
 io.debezium:debezium-storage-file
 io.debezium:debezium-storage-kafka
 io.dropwizard.metrics:dropwizard-core
+io.dropwizard.metrics:metrics-core
 io.dropwizard.metrics:metrics-jmx
 io.etcd:jetcd-api
 io.etcd:jetcd-common
@@ -195,8 +190,6 @@ io.jsonwebtoken:jjwt-jackson
 io.krakens:java-grok
 io.methvin:directory-watcher
 io.nats:jnats
-io.netty:netty-resolver-dns-classes-macos
-io.netty:netty-resolver-dns-native-macos
 io.netty.incubator:netty-incubator-codec-classes-quic
 io.netty.incubator:netty-incubator-codec-native-quic
 io.projectreactor.netty:reactor-netty
@@ -267,8 +260,6 @@ io.vavr:vavr-match
 javax.cache:cache-api
 javax.inject:javax.inject
 javax.jcr:jcr
-javax.validation:validation-api
-javax.ws.rs:javax.ws.rs-api
 jaxen:jaxen
 net.bytebuddy:byte-buddy-agent
 net.engio:mbassador
@@ -1020,13 +1011,11 @@ org.bitbucket.b_c:jose4j
 org.bouncycastle:bcmail-jdk18on
 org.bouncycastle:bcpg-jdk15on
 org.bouncycastle:bcpkix-jdk15on
-org.bouncycastle:bcprov-debug-jdk18on
 org.bouncycastle:bcprov-ext-jdk15on
 org.bouncycastle:bcprov-ext-jdk18on
 org.bouncycastle:bcprov-jdk15on
 org.bouncycastle:bcutil-jdk15on
 org.ccil.cowan.tagsoup:tagsoup
-org.codehaus.mojo:animal-sniffer-annotations
 org.codelibs:jhighlight
 org.cometd.java:cometd-java-api-server
 org.cometd.java:cometd-java-server-common
@@ -1088,11 +1077,8 @@ org.fusesource.hawtdispatch:hawtdispatch
 org.fusesource.hawtdispatch:hawtdispatch-transport
 org.fusesource.leveldbjni:leveldbjni-all
 org.fusesource.stompjms:stompjms-client
-org.graalvm.js:js
 org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
-org.graalvm.regex:regex
-org.graalvm.truffle:truffle-api
 org.igniterealtime.smack:smack-core
 org.igniterealtime.smack:smack-extensions
 org.igniterealtime.smack:smack-im
@@ -1177,8 +1163,11 @@ org.scala-lang.modules:scala-collection-compat_2.13
 org.schwering:irclib
 org.slf4j:jul-to-slf4j
 org.springframework:spring-aop
+org.springframework:spring-beans
 org.springframework:spring-context
+org.springframework:spring-core
 org.springframework:spring-expression
+org.springframework:spring-jcl
 org.springframework.amqp:spring-amqp
 org.springframework.amqp:spring-rabbit
 org.springframework.data:spring-data-keyvalue

@@ -92,7 +92,6 @@ com.github.jnr:jnr-x86asm
 com.github.luben:zstd-jni
 com.github.mifmif:generex
 com.github.mwiede:jsch
-com.github.stephenc.jcip:jcip-annotations
 com.google.api:api-common
 com.google.api:gax
 com.google.api:gax-grpc
@@ -122,7 +121,6 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
-com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
@@ -170,7 +168,6 @@ com.squareup.wire:wire-schema
 com.squareup.wire:wire-schema-jvm
 com.squareup.wire:wire-swift-generator
 com.stumbleupon:async
-com.sun.activation:jakarta.activation
 com.sun.istack:istack-commons-runtime
 com.sun.istack:istack-commons-tools
 com.sun.mail:mailapi
@@ -196,7 +193,6 @@ io.agroal:agroal-narayana
 io.agroal:agroal-pool
 io.atlassian.fugue:fugue
 io.atlassian.util.concurrent:atlassian-util-concurrent
-io.dropwizard.metrics:metrics-core
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-client-api
 io.fabric8:kubernetes-httpclient-vertx
@@ -1132,7 +1128,6 @@ org.bouncycastle:bcprov-jdk18on
 org.bouncycastle:bcutil-jdk18on
 org.brotli:dec
 org.checkerframework:checker-compat-qual
-org.checkerframework:checker-qual
 org.codehaus.jettison:jettison
 org.codehaus.woodstox:stax2-api
 org.cometd.java:cometd-java-api-client
@@ -1319,13 +1314,9 @@ org.quartz-scheduler:quartz
 org.reactivestreams:reactive-streams
 org.rnorth.duct-tape:duct-tape
 org.scala-lang:scala-library
-org.slf4j:jcl-over-slf4j
 org.slf4j:slf4j-api
 org.snakeyaml:snakeyaml-engine
 org.snmp4j:snmp4j
-org.springframework:spring-beans
-org.springframework:spring-core
-org.springframework:spring-jcl
 org.springframework:spring-jdbc
 org.springframework:spring-jms
 org.springframework:spring-messaging
