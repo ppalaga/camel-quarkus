@@ -303,6 +303,7 @@ io.opentelemetry.instrumentation:opentelemetry-instrumentation-annotations-suppo
 io.opentelemetry.instrumentation:opentelemetry-instrumentation-api
 io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv
 io.opentelemetry.semconv:opentelemetry-semconv
+io.opentelemetry.semconv:opentelemetry-semconv-incubating
 io.outfoxx:swiftpoet
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
