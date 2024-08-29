@@ -636,6 +636,7 @@
     "productizedCamelQuarkusArtifacts": "product/src/main/generated/productized-camel-quarkus-artifacts.txt",
     "additionalExtensionDependencies": {
         "camel-quarkus-jms": "io.quarkiverse.artemis:quarkus-artemis-jms, io.quarkiverse.messaginghub:quarkus-pooled-jms",
+        "camel-quarkus-mapstruct" : "org.mapstruct:mapstruct-processor",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
     },
     "transitiveDependencyReplacements": {

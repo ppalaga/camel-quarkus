@@ -1121,7 +1121,6 @@ org.kiwiproject:consul-client
 org.knowm.xchange:xchange-binance
 org.knowm.xchange:xchange-core
 org.lightcouch:lightcouch
-org.mapstruct:mapstruct-processor
 org.mariadb.jdbc:mariadb-java-client
 org.minidns:minidns-core
 org.mnode.ical4j:ical4j

@@ -1263,6 +1263,7 @@ org.jvnet.staxex:stax-ex
 org.latencyutils:LatencyUtils
 org.lz4:lz4-java
 org.mapstruct:mapstruct
+org.mapstruct:mapstruct-processor
 org.mongodb:bson
 org.mongodb:bson-record-codec
 org.mongodb:mongodb-crypt
