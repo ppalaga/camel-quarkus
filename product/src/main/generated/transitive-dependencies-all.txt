@@ -829,6 +829,7 @@ io.vertx:vertx-web-client
 io.vertx:vertx-web-common
 jakarta.activation:jakarta.activation-api
 jakarta.annotation:jakarta.annotation-api
+jakarta.ejb:jakarta.ejb-api
 jakarta.el:jakarta.el-api
 jakarta.enterprise:jakarta.enterprise.cdi-api
 jakarta.enterprise:jakarta.enterprise.lang-model
@@ -2388,6 +2389,7 @@ org.lz4:lz4-java
 org.mapstruct:mapstruct
 org.mapstruct:mapstruct-processor
 org.mariadb.jdbc:mariadb-java-client
+org.messaginghub:pooled-jms
 org.minidns:minidns-core
 org.mnode.ical4j:ical4j
 org.mockito:mockito-core

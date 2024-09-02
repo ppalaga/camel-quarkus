@@ -600,7 +600,9 @@
         }
     },
     "additionalProductizedArtifacts": [
+        "io.quarkiverse.artemis:quarkus-artemis-jms",
         "io.quarkiverse.artemis:quarkus-test-artemis",
+        "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-messaging-common",
@@ -635,7 +637,6 @@
     "requiredProductizedCamelArtifacts": "product/src/main/generated/required-productized-camel-artifacts.txt",
     "productizedCamelQuarkusArtifacts": "product/src/main/generated/productized-camel-quarkus-artifacts.txt",
     "additionalExtensionDependencies": {
-        "camel-quarkus-jms": "io.quarkiverse.artemis:quarkus-artemis-jms, io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "camel-quarkus-mapstruct" : "org.mapstruct:mapstruct-processor",
         "camel-quarkus-kudu": "org.apache.kudu:kudu-client"
     },

@@ -307,7 +307,10 @@ io.opentelemetry.semconv:opentelemetry-semconv-incubating
 io.outfoxx:swiftpoet
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
+io.quarkiverse.artemis:quarkus-artemis-core
+io.quarkiverse.artemis:quarkus-artemis-core-deployment
 io.quarkiverse.artemis:quarkus-artemis-jms
+io.quarkiverse.artemis:quarkus-artemis-jms-deployment
 io.quarkiverse.artemis:quarkus-test-artemis
 io.quarkiverse.cxf:quarkus-cxf
 io.quarkiverse.cxf:quarkus-cxf-axiom-api-stub
@@ -570,6 +573,7 @@ io.vertx:vertx-web-client
 io.vertx:vertx-web-common
 jakarta.activation:jakarta.activation-api
 jakarta.annotation:jakarta.annotation-api
+jakarta.ejb:jakarta.ejb-api
 jakarta.el:jakarta.el-api
 jakarta.enterprise:jakarta.enterprise.cdi-api
 jakarta.enterprise:jakarta.enterprise.lang-model
@@ -610,6 +614,7 @@ org.apache.activemq:activemq-artemis-native
 org.apache.activemq:artemis-amqp-protocol
 org.apache.activemq:artemis-commons
 org.apache.activemq:artemis-core-client
+org.apache.activemq:artemis-jakarta-client
 org.apache.activemq:artemis-jdbc-store
 org.apache.activemq:artemis-journal
 org.apache.activemq:artemis-quorum-api
@@ -1264,6 +1269,7 @@ org.latencyutils:LatencyUtils
 org.lz4:lz4-java
 org.mapstruct:mapstruct
 org.mapstruct:mapstruct-processor
+org.messaginghub:pooled-jms
 org.mongodb:bson
 org.mongodb:bson-record-codec
 org.mongodb:mongodb-crypt
