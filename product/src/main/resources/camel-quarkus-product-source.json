@@ -58,20 +58,25 @@
             "native": "supported",
             "comment": "tp(by mistake?)/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-azure-eventhubs": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-azure-servicebus": {
             "jvm": "techPreview",
             "native": "techPreview",
             "comment": "tp/tp since 3.2.0"
         },
         "camel-quarkus-azure-storage-blob": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "community/community since 2.2.0, tp/tp since 2.7.1 (bc. of the future change to vert.x Azure client)"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
-        "camel-quarkus-azure-storage-queue": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "community/community since 2.2.0, tp/tp since 2.7.1 (bc. of the future change to vert.x Azure client)"
+        "quarkus-azure-storage-queue": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-bean": {
             "jvm": "supported",
@@ -82,6 +87,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-beanio": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-bindy": {
             "jvm": "supported",
@@ -146,6 +156,11 @@
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
+        "camel-quarkus-elasticsearch-rest-client": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-fhir": {
             "jvm": "supported",
             "native": "supported",
@@ -158,6 +173,11 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-file"
             ]
+        },
+        "camel-quarkus-flink": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-ftp": {
             "jvm": "supported",
@@ -174,6 +194,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-graphql": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-grpc": {
             "jvm": "supported",
             "native": "supported",
@@ -186,6 +211,11 @@
             "allowedMixedTests": [
                 "camel-quarkus-integration-test-dataformats-json"
             ]
+        },
+        "camel-quarkus-hashicorp-vault": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-hl7": {
             "jvm": "supported",
@@ -261,6 +291,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
+        },
+        "camel-quarkus-jq": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.15.0"
         },
         "camel-quarkus-jslt": {
             "jvm": "supported",
@@ -428,6 +463,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.7.1"
         },
+        "camel-quarkus-qute": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-ref": {
             "jvm": "supported",
             "native": "supported",
@@ -483,6 +523,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
+        "camel-quarkus-smb": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-snmp": {
             "jvm": "supported",
             "native": "techPreview",
@@ -502,6 +547,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 3.8.0"
+        },
+        "camel-quarkus-spring-rabbitmq": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-sql": {
             "jvm": "supported",
@@ -551,6 +601,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/supported since CEQ 2.13.3; Required by Camel K"
+        },
+        "camel-quarkus-xml-jaxb": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-xml-jaxp": {
             "jvm": "supported",
