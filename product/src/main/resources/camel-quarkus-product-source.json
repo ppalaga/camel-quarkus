@@ -233,11 +233,6 @@
             "native": "supported",
             "comment": "supported since CEQ 3.8.0"
         },
-        "camel-quarkus-java-joor-dsl": {
-            "jvm": "community",
-            "native": "community",
-            "comment": "Required by Camel K; community/community since CEQ 2.2.0"
-        },
         "camel-quarkus-jaxb": {
             "jvm": "supported",
             "native": "supported",
