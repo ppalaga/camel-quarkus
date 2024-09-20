@@ -1,0 +1,391 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+def MAVEN_PARAMS = '-B -e -s $MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true'
+
+pipeline {
+
+    agent none
+
+    tools {
+        jdk 'java-17'
+    }
+
+    environment {
+        MAVEN_OPTS = '-Xmx3g'
+        TESTCONTAINERS_RYUK_DISABLED = 'true'
+    }
+
+    options {
+        buildDiscarder(
+            logRotator(artifactNumToKeepStr: '5', numToKeepStr: '10')
+        )
+    }
+
+    stages {
+        stage('Initial') {
+            agent {
+                label "rhel||pipeline||pipeline-large"
+            }
+            steps {
+                // Clean up any orphaned containers that may be lingering
+                sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                sh "df -h"
+                sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                sh "docker system prune -a -f"
+                sh "df -h"
+                sh "git --version"
+                configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+
+                    //Fail if there are uncommitted changes after building
+                    sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
+
+                    sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*"
+                    stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
+                    sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                }
+            }
+        }
+
+        stage('Tests') {
+            parallel {
+                // %generated-stages-start%
+                stage('Product :: Group 01') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Product :: Group 02') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Product :: Group 03') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-product/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Product :: Group 04') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-product/group-04 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Product :: Group 05') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-product/group-05 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Allowed :: Group 01') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed JVM :: Group 01') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 01') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 02') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                stage('Mixed Native :: Group 03') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                            }
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
+                // %generated-stages-end%
+            }
+        }
+    }
+}
