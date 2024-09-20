@@ -6858,6 +6858,16 @@
                 <version>${reactor-netty.version}</version>
             </dependency>
             <dependency>
+                <groupId>io.quarkiverse.artemis</groupId>
+                <artifactId>quarkus-artemis-jms</artifactId>
+                <version>${quarkiverse-artemis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.quarkiverse.artemis</groupId>
+                <artifactId>quarkus-artemis-jms-deployment</artifactId>
+                <version>${quarkiverse-artemis.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>io.quarkiverse.freemarker</groupId>
                 <artifactId>quarkus-freemarker</artifactId>
                 <version>${quarkiverse-freemarker.version}</version>
