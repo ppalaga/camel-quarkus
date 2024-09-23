@@ -35,76 +35,76 @@
 
     <modules>
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
-        <module>asn1</module>
-        <module>asterisk</module>
-        <module>aws-secrets-manager</module>
-        <module>aws-xray</module>
-        <module>azure-cosmosdb</module>
+        <!-- <module>asn1</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>asterisk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws-secrets-manager</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>aws-xray</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>azure-cosmosdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>azure-servicebus</module>
-        <module>azure-storage-datalake</module>
-        <module>barcode</module>
+        <!-- <module>azure-storage-datalake</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>barcode</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>beanio</module>
-        <module>bonita</module>
-        <module>chatscript</module>
-        <module>chunk</module>
+        <!-- <module>bonita</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>chatscript</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>chunk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cli-connector</module>
-        <module>cm-sms</module>
-        <module>coap</module>
-        <module>cometd</module>
+        <!-- <module>cm-sms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>coap</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>cometd</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>console</module>
-        <module>couchbase</module>
-        <module>djl</module>
-        <module>dns</module>
-        <module>drill</module>
-        <module>dsl-modeline</module>
-        <module>ehcache</module>
-        <module>elasticsearch</module>
-        <module>etcd3</module>
-        <module>fastjson</module>
+        <!-- <module>couchbase</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>djl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dns</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>drill</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>dsl-modeline</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>ehcache</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>elasticsearch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>etcd3</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>fastjson</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>flink</module>
-        <module>google-functions</module>
-        <module>google-secret-manager</module>
-        <module>guava-eventbus</module>
-        <module>huaweicloud-smn</module>
-        <module>iec60870</module>
-        <module>ignite</module>
-        <module>irc</module>
-        <module>javascript</module>
-        <module>jcr</module>
-        <module>jgroups</module>
-        <module>jgroups-raft</module>
-        <module>jooq</module>
-        <module>json-patch</module>
-        <module>jsonapi</module>
-        <module>langchain4j-embeddings</module>
-        <module>langchain4j-tokenizer</module>
-        <module>langchain4j-tools</module>
-        <module>langchain4j-web-search</module>
-        <module>ldif</module>
-        <module>lucene</module>
-        <module>mail-microsoft-oauth</module>
-        <module>milvus</module>
-        <module>mvel</module>
-        <module>opensearch</module>
-        <module>printer</module>
-        <module>pulsar</module>
-        <module>quickfix</module>
-        <module>redis</module>
-        <module>robotframework</module>
-        <module>schematron</module>
-        <module>smpp</module>
+        <!-- <module>google-functions</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>google-secret-manager</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>guava-eventbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>huaweicloud-smn</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>iec60870</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>ignite</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>irc</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>javascript</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jcr</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jgroups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jgroups-raft</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jooq</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>json-patch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>jsonapi</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>langchain4j-embeddings</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>langchain4j-tokenizer</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>langchain4j-tools</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>langchain4j-web-search</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>ldif</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>lucene</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>mail-microsoft-oauth</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>milvus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>mvel</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>opensearch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>printer</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>pulsar</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>quickfix</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>redis</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>robotframework</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>schematron</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>smpp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>snmp</module>
-        <module>spring-redis</module>
-        <module>stitch</module>
-        <module>stomp</module>
-        <module>stub</module>
-        <module>thrift</module>
-        <module>web3j</module>
-        <module>wordpress</module>
-        <module>workday</module>
-        <module>xmpp</module>
-        <module>zookeeper</module>
-        <module>zookeeper-master</module>
+        <!-- <module>spring-redis</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>stitch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>stomp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>stub</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>thrift</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>web3j</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>wordpress</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>workday</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>xmpp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>zookeeper</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>zookeeper-master</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>sap</module>
     </modules>
 

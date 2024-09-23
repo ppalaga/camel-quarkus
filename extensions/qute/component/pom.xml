@@ -34,7 +34,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-mock</artifactId>
-                <version>${camel.version}</version>
+                <version>${camel-community.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
