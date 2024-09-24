@@ -44,6 +44,7 @@
         <module>../../../integration-test-groups/aws2/aws2-sqs-sns</module>
         <module>../../../integration-test-groups/azure/azure-eventhubs</module>
         <module>../../../integration-test-groups/azure/azure-storage-blob</module>
+        <module>../../../integration-test-groups/azure/azure-storage-queue</module>
         <module>../../../integration-test-groups/compression/zip-deflater</module>
         <module>../../../integration-test-groups/compression/zipfile</module>
         <module>../../../integration-test-groups/cxf-soap/cxf-soap-client</module>
@@ -65,6 +66,5 @@
         <module>../../../integration-test-groups/foundation/controlbus</module>
         <module>../../../integration-test-groups/foundation/core</module>
         <module>../../../integration-test-groups/foundation/core-annotations</module>
-        <module>../../../integration-test-groups/foundation/core-languages</module>
     </modules>
 </project>

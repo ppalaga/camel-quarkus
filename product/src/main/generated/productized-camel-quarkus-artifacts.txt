@@ -38,6 +38,9 @@ camel-quarkus-azure-servicebus-parent
 camel-quarkus-azure-storage-blob
 camel-quarkus-azure-storage-blob-deployment
 camel-quarkus-azure-storage-blob-parent
+camel-quarkus-azure-storage-queue
+camel-quarkus-azure-storage-queue-deployment
+camel-quarkus-azure-storage-queue-parent
 camel-quarkus-bean
 camel-quarkus-bean-deployment
 camel-quarkus-bean-parent
@@ -158,6 +161,7 @@ camel-quarkus-integration-test-aws2-sqs-sns-quarkus-client
 camel-quarkus-integration-test-azure-eventhubs
 camel-quarkus-integration-test-azure-servicebus
 camel-quarkus-integration-test-azure-storage-blob
+camel-quarkus-integration-test-azure-storage-queue
 camel-quarkus-integration-test-bean
 camel-quarkus-integration-test-bean-validator
 camel-quarkus-integration-test-beanio

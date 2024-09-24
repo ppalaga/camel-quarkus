@@ -1933,7 +1933,6 @@ org.apache.camel.quarkus:camel-quarkus-zookeeper
 org.apache.camel.quarkus:camel-quarkus-zookeeper-deployment
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master-deployment
-org.apache.camel.quarkus:quarkus-azure-storage-queue-deployment
 org.apache.commons:commons-collections4
 org.apache.commons:commons-compress
 org.apache.commons:commons-csv

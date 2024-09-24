@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/github</module>
         <module>../../../integration-tests/google</module>
         <module>../../../integration-tests/google-storage</module>
         <module>../../../integration-tests/grok</module>

@@ -40,6 +40,7 @@ com.azure:azure-storage-blob
 com.azure:azure-storage-blob-changefeed
 com.azure:azure-storage-common
 com.azure:azure-storage-internal-avro
+com.azure:azure-storage-queue
 com.azure:azure-xml
 com.carrotsearch.thirdparty:simple-xml-safe
 com.cronutils:cron-utils
@@ -624,6 +625,7 @@ org.apache.camel:camel-aws2-sqs
 org.apache.camel:camel-azure-eventhubs
 org.apache.camel:camel-azure-servicebus
 org.apache.camel:camel-azure-storage-blob
+org.apache.camel:camel-azure-storage-queue
 org.apache.camel:camel-base
 org.apache.camel:camel-base-engine
 org.apache.camel:camel-bean
@@ -793,6 +795,8 @@ org.apache.camel.quarkus:camel-quarkus-azure-servicebus
 org.apache.camel.quarkus:camel-quarkus-azure-servicebus-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-blob
 org.apache.camel.quarkus:camel-quarkus-azure-storage-blob-deployment
+org.apache.camel.quarkus:camel-quarkus-azure-storage-queue
+org.apache.camel.quarkus:camel-quarkus-azure-storage-queue-deployment
 org.apache.camel.quarkus:camel-quarkus-bean
 org.apache.camel.quarkus:camel-quarkus-bean-deployment
 org.apache.camel.quarkus:camel-quarkus-bean-validator
@@ -1058,7 +1062,6 @@ org.apache.camel.quarkus:camel-quarkus-zip-deflater
 org.apache.camel.quarkus:camel-quarkus-zip-deflater-deployment
 org.apache.camel.quarkus:camel-quarkus-zipfile
 org.apache.camel.quarkus:camel-quarkus-zipfile-deployment
-org.apache.camel.quarkus:quarkus-azure-storage-queue-deployment
 org.apache.commons:commons-collections4
 org.apache.commons:commons-compress
 org.apache.commons:commons-lang3

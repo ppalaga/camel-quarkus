@@ -65,7 +65,7 @@
         <module>azure-eventhubs</module>
         <!-- <module>azure-key-vault</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>azure-storage-blob</module>
-        <!-- <module>azure-storage-queue</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>azure-storage-queue</module>
         <!-- <module>base64</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>bean</module>
         <module>bean-validator</module>

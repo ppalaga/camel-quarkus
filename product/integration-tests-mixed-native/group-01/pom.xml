@@ -36,7 +36,6 @@
         <module>../../../integration-test-groups/aws2-quarkus-client/aws2-ses</module>
         <module>../../../integration-test-groups/aws2/aws2-ses</module>
         <module>../../../integration-test-groups/azure/azure-key-vault</module>
-        <module>../../../integration-test-groups/azure/azure-storage-queue</module>
         <module>../../../integration-test-groups/compression/lzf</module>
         <module>../../../integration-test-groups/dataformats-json/json-jsonb</module>
         <module>../../../integration-test-groups/foundation/customized-log-component</module>
@@ -69,5 +68,6 @@
         <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
+        <module>../../../integration-tests/github</module>
     </modules>
 </project>

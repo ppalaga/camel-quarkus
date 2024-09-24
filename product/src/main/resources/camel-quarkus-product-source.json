@@ -71,12 +71,12 @@
         "camel-quarkus-azure-storage-blob": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 3.15.0"
+            "comment": "community/community since 2.2.0, tp/tp since 2.7.1 (bc. of the future change to vert.x Azure client), supported since CEQ 3.15.0"
         },
-        "quarkus-azure-storage-queue": {
+        "camel-quarkus-azure-storage-queue": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported since CEQ 3.15.0"
+            "comment": "community/community since 2.2.0, tp/tp since 2.7.1 (bc. of the future change to vert.x Azure client), supported since CEQ 3.15.0"
         },
         "camel-quarkus-bean": {
             "jvm": "supported",

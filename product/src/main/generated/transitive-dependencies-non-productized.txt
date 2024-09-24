@@ -28,7 +28,6 @@ com.arangodb:jackson-serde-json
 com.azure:azure-cosmos
 com.azure:azure-security-keyvault-secrets
 com.azure:azure-storage-file-datalake
-com.azure:azure-storage-queue
 com.bazaarvoice.jolt:jolt-core
 com.bazaarvoice.jolt:json-utils
 com.beanit:asn1bean
@@ -305,7 +304,6 @@ org.apache.camel:camel-aws2-translate
 org.apache.camel:camel-azure-cosmosdb
 org.apache.camel:camel-azure-key-vault
 org.apache.camel:camel-azure-storage-datalake
-org.apache.camel:camel-azure-storage-queue
 org.apache.camel:camel-barcode
 org.apache.camel:camel-base64
 org.apache.camel:camel-bonita
@@ -522,8 +520,6 @@ org.apache.camel.quarkus:camel-quarkus-azure-key-vault
 org.apache.camel.quarkus:camel-quarkus-azure-key-vault-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake-deployment
-org.apache.camel.quarkus:camel-quarkus-azure-storage-queue
-org.apache.camel.quarkus:camel-quarkus-azure-storage-queue-deployment
 org.apache.camel.quarkus:camel-quarkus-barcode
 org.apache.camel.quarkus:camel-quarkus-barcode-deployment
 org.apache.camel.quarkus:camel-quarkus-base64
