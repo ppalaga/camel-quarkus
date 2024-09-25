@@ -34,6 +34,7 @@
 
     <modules>
         <module>maven-plugin</module>
+        <!-- <module>perf-regression</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>test-list</module>
     </modules>
 
@@ -51,18 +52,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <profiles>
-        <profile>
-            <id>standard-build</id>
-            <activation>
-                <property>
-                    <name>!apache-release</name>
-                </property>
-            </activation>
-            <modules>
-                <module>perf-regression</module>
-            </modules>
-        </profile>
-    </profiles>
 </project>
