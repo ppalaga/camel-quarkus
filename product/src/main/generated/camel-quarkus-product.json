@@ -1,0 +1,1095 @@
+{
+  "extensions": [
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-amqp",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-attachments",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-avro",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-cw",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-ddb",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-kinesis",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-lambda",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-s3",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-sns",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws2-sqs",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-azure-eventhubs",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-azure-servicebus",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-azure-storage-blob",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-azure-storage-queue",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-bean",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-bean-validator",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-beanio",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-bindy",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-browse",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-cassandraql",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-cli-connector",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-controlbus",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-core",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-cron",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-crypto",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-cxf-soap",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-dataformat",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-dataset",
+      "metadata": {
+        "redhat-support": [
+          "dev-support"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-direct",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-elasticsearch-rest-client",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-fhir",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-file",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-flink",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-ftp",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-google-bigquery",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-google-pubsub",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-graphql",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-grpc",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-gson",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-hashicorp-vault",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-hl7",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-http",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-infinispan",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jackson",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jackson-avro",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jackson-protobuf",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jacksonxml",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jasypt",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jaxb",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jdbc",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jira",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jms",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jpa",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jq",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jslt",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jsonpath",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jt400",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jta",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-kafka",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-kamelet",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-kubernetes",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-kudu",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-language",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-ldap",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-log",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-lra",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mail",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-management",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mapstruct",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-master",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-micrometer",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-microprofile-fault-tolerance",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-microprofile-health",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-minio",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mllp",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mock",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mongodb",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-mybatis",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-netty",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-netty-http",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-openapi-java",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-opentelemetry",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-paho",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-paho-mqtt5",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-platform-http",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-quartz",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-qute",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-ref",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-rest",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-rest-openapi",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-saga",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-salesforce",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-sap",
+      "metadata": {
+        "redhat-support": [
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-saxon",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-scheduler",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-seda",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-servlet",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-slack",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-smb",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-snmp",
+      "metadata": {
+        "redhat-support": [
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-soap",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-splunk",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-splunk-hec",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-spring-rabbitmq",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-sql",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-telegram",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-timer",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-validator",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-velocity",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-vertx-http",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-vertx-websocket",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xj",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xml-io-dsl",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xml-jaxb",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xml-jaxp",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xpath",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xslt",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-xslt-saxon",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-yaml-dsl",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-zip-deflater",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-zipfile",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    }
+  ]
+}
