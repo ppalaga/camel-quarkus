@@ -173,7 +173,7 @@ public class CqCatalog {
     }
 
     public Stream<ArtifactModel<?>> models(Kind kind) {
-        return catalog.findNames(kind).stream().map(name -> (ArtifactModel<?>) catalog.model(kind, name));
+            return catalog.findNames(kind).stream().map(name -> (ArtifactModel<?>) catalog.model(kind, name));
     }
 
     public void addComponent(String name, String className, String jsonSchema) {
@@ -346,6 +346,7 @@ public class CqCatalog {
         private static final String LANGUAGE_CATALOG = CQ_CATALOG_DIR + "/languages.properties";
         private static final String TRANSFORMER_CATALOG = CQ_CATALOG_DIR + "/transformers.properties";
         private static final String OTHER_CATALOG = CQ_CATALOG_DIR + "/others.properties";
+        private static final String BEANS_CATALOG = CQ_CATALOG_DIR + "/beans.properties";
         private static final String CAPABILITIES_CATALOG = "org/apache/camel/catalog/capabilities.properties";
 
         private CamelCatalog camelCatalog;
@@ -436,6 +437,10 @@ public class CqCatalog {
 
         protected String getOtherCatalog() {
             return OTHER_CATALOG;
+        }
+
+        protected String getBeansCatalog() {
+            return BEANS_CATALOG;
         }
 
         protected String getCapabilitiesCatalog() {
@@ -529,7 +534,7 @@ public class CqCatalog {
         @Override
         public List<String> findBeansNames() {
             List<String> names = new ArrayList<>();
-            InputStream is = getCamelCatalog().getVersionManager().getResourceAsStream(getPojoBeanJSonSchemaDirectory());
+            InputStream is = getCamelCatalog().getVersionManager().getResourceAsStream(getBeansCatalog());
             if (is != null) {
                 try {
                     CatalogHelper.loadLines(is, names);
