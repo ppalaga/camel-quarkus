@@ -49,7 +49,7 @@ pipeline {
                 sh "df -h"
                 sh "git --version"
                 configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly -pl '!:camel-quarkus-integration-test-grpc'"
 
                     //Fail if there are uncommitted changes after building
                     sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
