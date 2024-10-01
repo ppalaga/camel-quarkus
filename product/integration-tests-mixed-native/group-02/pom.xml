@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/google</module>
         <module>../../../integration-tests/google-storage</module>
         <module>../../../integration-tests/grok</module>
         <module>../../../integration-tests/groovy</module>
@@ -59,6 +58,7 @@
         <module>../../../integration-tests/lumberjack</module>
         <module>../../../integration-tests/main</module>
         <module>../../../integration-tests/main-collector</module>
+        <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/master-file</module>
         <module>../../../integration-tests/master-openshift</module>

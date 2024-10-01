@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
+        <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/jpa</module>
         <module>../../../integration-tests/jq</module>
@@ -57,7 +58,6 @@
         <module>../../../integration-tests/main-unknown-args-fail</module>
         <module>../../../integration-tests/main-unknown-args-ignore</module>
         <module>../../../integration-tests/main-xml-io</module>
-        <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/management</module>
         <module>../../../integration-tests/mapstruct</module>
         <module>../../../integration-tests/master</module>

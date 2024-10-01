@@ -26,7 +26,6 @@ com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
 com.azure:azure-cosmos
-com.azure:azure-security-keyvault-secrets
 com.azure:azure-storage-file-datalake
 com.bazaarvoice.jolt:jolt-core
 com.bazaarvoice.jolt:json-utils
@@ -75,26 +74,21 @@ com.github.virtuald:curvesapi
 com.github.waffle:waffle-jna
 com.google.api.grpc:gapic-google-cloud-storage-v2
 com.google.api.grpc:grpc-google-cloud-storage-v2
-com.google.api.grpc:grpc-google-common-protos
 com.google.api.grpc:grpc-google-iam-v1
 com.google.api.grpc:proto-google-cloud-functions-v1
 com.google.api.grpc:proto-google-cloud-functions-v2
 com.google.api.grpc:proto-google-cloud-functions-v2alpha
 com.google.api.grpc:proto-google-cloud-functions-v2beta
 com.google.api.grpc:proto-google-cloud-monitoring-v3
-com.google.api.grpc:proto-google-cloud-secretmanager-v1
-com.google.api.grpc:proto-google-cloud-secretmanager-v1beta2
 com.google.api.grpc:proto-google-cloud-storage-v2
 com.google.apis:google-api-services-calendar
 com.google.apis:google-api-services-drive
 com.google.apis:google-api-services-gmail
 com.google.apis:google-api-services-sheets
 com.google.apis:google-api-services-storage
-com.google.auto.value:auto-value-annotations
 com.google.cloud:google-cloud-core-grpc
 com.google.cloud:google-cloud-functions
 com.google.cloud:google-cloud-monitoring
-com.google.cloud:google-cloud-secretmanager
 com.google.cloud:google-cloud-storage
 com.google.cloud.opentelemetry:detector-resources-support
 com.google.cloud.opentelemetry:exporter-metrics
@@ -287,7 +281,6 @@ org.apache.camel:camel-asn1
 org.apache.camel:camel-asterisk
 org.apache.camel:camel-atom
 org.apache.camel:camel-aws-bedrock
-org.apache.camel:camel-aws-secrets-manager
 org.apache.camel:camel-aws-xray
 org.apache.camel:camel-aws2-athena
 org.apache.camel:camel-aws2-ec2
@@ -302,7 +295,6 @@ org.apache.camel:camel-aws2-ses
 org.apache.camel:camel-aws2-sts
 org.apache.camel:camel-aws2-translate
 org.apache.camel:camel-azure-cosmosdb
-org.apache.camel:camel-azure-key-vault
 org.apache.camel:camel-azure-storage-datalake
 org.apache.camel:camel-barcode
 org.apache.camel:camel-base64
@@ -354,7 +346,6 @@ org.apache.camel:camel-google-calendar
 org.apache.camel:camel-google-drive
 org.apache.camel:camel-google-functions
 org.apache.camel:camel-google-mail
-org.apache.camel:camel-google-secret-manager
 org.apache.camel:camel-google-sheets
 org.apache.camel:camel-google-storage
 org.apache.camel:camel-grok
@@ -486,8 +477,6 @@ org.apache.camel.quarkus:camel-quarkus-atom
 org.apache.camel.quarkus:camel-quarkus-atom-deployment
 org.apache.camel.quarkus:camel-quarkus-aws-bedrock
 org.apache.camel.quarkus:camel-quarkus-aws-bedrock-deployment
-org.apache.camel.quarkus:camel-quarkus-aws-secrets-manager
-org.apache.camel.quarkus:camel-quarkus-aws-secrets-manager-deployment
 org.apache.camel.quarkus:camel-quarkus-aws-xray
 org.apache.camel.quarkus:camel-quarkus-aws-xray-deployment
 org.apache.camel.quarkus:camel-quarkus-aws2-athena
@@ -516,8 +505,6 @@ org.apache.camel.quarkus:camel-quarkus-aws2-translate
 org.apache.camel.quarkus:camel-quarkus-aws2-translate-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-cosmosdb
 org.apache.camel.quarkus:camel-quarkus-azure-cosmosdb-deployment
-org.apache.camel.quarkus:camel-quarkus-azure-key-vault
-org.apache.camel.quarkus:camel-quarkus-azure-key-vault-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake
 org.apache.camel.quarkus:camel-quarkus-azure-storage-datalake-deployment
 org.apache.camel.quarkus:camel-quarkus-barcode
@@ -618,8 +605,6 @@ org.apache.camel.quarkus:camel-quarkus-google-functions
 org.apache.camel.quarkus:camel-quarkus-google-functions-deployment
 org.apache.camel.quarkus:camel-quarkus-google-mail
 org.apache.camel.quarkus:camel-quarkus-google-mail-deployment
-org.apache.camel.quarkus:camel-quarkus-google-secret-manager
-org.apache.camel.quarkus:camel-quarkus-google-secret-manager-deployment
 org.apache.camel.quarkus:camel-quarkus-google-sheets
 org.apache.camel.quarkus:camel-quarkus-google-sheets-deployment
 org.apache.camel.quarkus:camel-quarkus-google-storage
@@ -857,6 +842,8 @@ org.apache.camel.quarkus:camel-quarkus-workday
 org.apache.camel.quarkus:camel-quarkus-workday-deployment
 org.apache.camel.quarkus:camel-quarkus-xchange
 org.apache.camel.quarkus:camel-quarkus-xchange-deployment
+org.apache.camel.quarkus:camel-quarkus-xml-jaxb
+org.apache.camel.quarkus:camel-quarkus-xml-jaxb-deployment
 org.apache.camel.quarkus:camel-quarkus-xmlsecurity
 org.apache.camel.quarkus:camel-quarkus-xmlsecurity-deployment
 org.apache.camel.quarkus:camel-quarkus-xmpp
@@ -1202,7 +1189,6 @@ software.amazon.awssdk:bedrock
 software.amazon.awssdk:bedrockagent
 software.amazon.awssdk:bedrockagentruntime
 software.amazon.awssdk:bedrockruntime
-software.amazon.awssdk:cloudtrail
 software.amazon.awssdk:ec2
 software.amazon.awssdk:ecs
 software.amazon.awssdk:eks
@@ -1211,7 +1197,6 @@ software.amazon.awssdk:iam
 software.amazon.awssdk:kafka
 software.amazon.awssdk:kms
 software.amazon.awssdk:mq
-software.amazon.awssdk:secretsmanager
 software.amazon.awssdk:ses
 software.amazon.awssdk:translate
 tech.tablesaw:tablesaw-core

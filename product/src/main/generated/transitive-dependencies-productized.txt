@@ -36,6 +36,7 @@ com.azure:azure-json
 com.azure:azure-messaging-eventhubs
 com.azure:azure-messaging-eventhubs-checkpointstore-blob
 com.azure:azure-messaging-servicebus
+com.azure:azure-security-keyvault-secrets
 com.azure:azure-storage-blob
 com.azure:azure-storage-blob-changefeed
 com.azure:azure-storage-common
@@ -97,22 +98,27 @@ com.google.api-client:google-api-client
 com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1
 com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta1
 com.google.api.grpc:grpc-google-cloud-bigquerystorage-v1beta2
+com.google.api.grpc:grpc-google-common-protos
 com.google.api.grpc:proto-google-cloud-bigquerystorage-v1
 com.google.api.grpc:proto-google-cloud-bigquerystorage-v1alpha
 com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta1
 com.google.api.grpc:proto-google-cloud-bigquerystorage-v1beta2
 com.google.api.grpc:proto-google-cloud-pubsub-v1
+com.google.api.grpc:proto-google-cloud-secretmanager-v1
+com.google.api.grpc:proto-google-cloud-secretmanager-v1beta2
 com.google.api.grpc:proto-google-common-protos
 com.google.api.grpc:proto-google-iam-v1
 com.google.apis:google-api-services-bigquery
 com.google.auth:google-auth-library-credentials
 com.google.auth:google-auth-library-oauth2-http
 com.google.auto.value:auto-value
+com.google.auto.value:auto-value-annotations
 com.google.cloud:google-cloud-bigquery
 com.google.cloud:google-cloud-bigquerystorage
 com.google.cloud:google-cloud-core
 com.google.cloud:google-cloud-core-http
 com.google.cloud:google-cloud-pubsub
+com.google.cloud:google-cloud-secretmanager
 com.google.code.findbugs:jsr305
 com.google.code.gson:gson
 com.google.errorprone:error_prone_annotations
@@ -615,6 +621,7 @@ org.apache.camel:camel-amqp
 org.apache.camel:camel-api
 org.apache.camel:camel-attachments
 org.apache.camel:camel-avro
+org.apache.camel:camel-aws-secrets-manager
 org.apache.camel:camel-aws2-cw
 org.apache.camel:camel-aws2-ddb
 org.apache.camel:camel-aws2-kinesis
@@ -623,6 +630,7 @@ org.apache.camel:camel-aws2-s3
 org.apache.camel:camel-aws2-sns
 org.apache.camel:camel-aws2-sqs
 org.apache.camel:camel-azure-eventhubs
+org.apache.camel:camel-azure-key-vault
 org.apache.camel:camel-azure-servicebus
 org.apache.camel:camel-azure-storage-blob
 org.apache.camel:camel-azure-storage-queue
@@ -665,6 +673,7 @@ org.apache.camel:camel-flink
 org.apache.camel:camel-ftp
 org.apache.camel:camel-google-bigquery
 org.apache.camel:camel-google-pubsub
+org.apache.camel:camel-google-secret-manager
 org.apache.camel:camel-graphql
 org.apache.camel:camel-grpc
 org.apache.camel:camel-gson
@@ -775,6 +784,8 @@ org.apache.camel.quarkus:camel-quarkus-attachments
 org.apache.camel.quarkus:camel-quarkus-attachments-deployment
 org.apache.camel.quarkus:camel-quarkus-avro
 org.apache.camel.quarkus:camel-quarkus-avro-deployment
+org.apache.camel.quarkus:camel-quarkus-aws-secrets-manager
+org.apache.camel.quarkus:camel-quarkus-aws-secrets-manager-deployment
 org.apache.camel.quarkus:camel-quarkus-aws2-cw
 org.apache.camel.quarkus:camel-quarkus-aws2-cw-deployment
 org.apache.camel.quarkus:camel-quarkus-aws2-ddb
@@ -791,6 +802,8 @@ org.apache.camel.quarkus:camel-quarkus-aws2-sqs
 org.apache.camel.quarkus:camel-quarkus-aws2-sqs-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-eventhubs
 org.apache.camel.quarkus:camel-quarkus-azure-eventhubs-deployment
+org.apache.camel.quarkus:camel-quarkus-azure-key-vault
+org.apache.camel.quarkus:camel-quarkus-azure-key-vault-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-servicebus
 org.apache.camel.quarkus:camel-quarkus-azure-servicebus-deployment
 org.apache.camel.quarkus:camel-quarkus-azure-storage-blob
@@ -846,6 +859,8 @@ org.apache.camel.quarkus:camel-quarkus-google-bigquery
 org.apache.camel.quarkus:camel-quarkus-google-bigquery-deployment
 org.apache.camel.quarkus:camel-quarkus-google-pubsub
 org.apache.camel.quarkus:camel-quarkus-google-pubsub-deployment
+org.apache.camel.quarkus:camel-quarkus-google-secret-manager
+org.apache.camel.quarkus:camel-quarkus-google-secret-manager-deployment
 org.apache.camel.quarkus:camel-quarkus-graphql
 org.apache.camel.quarkus:camel-quarkus-graphql-deployment
 org.apache.camel.quarkus:camel-quarkus-grpc
@@ -1046,8 +1061,6 @@ org.apache.camel.quarkus:camel-quarkus-xj
 org.apache.camel.quarkus:camel-quarkus-xj-deployment
 org.apache.camel.quarkus:camel-quarkus-xml-io-dsl
 org.apache.camel.quarkus:camel-quarkus-xml-io-dsl-deployment
-org.apache.camel.quarkus:camel-quarkus-xml-jaxb
-org.apache.camel.quarkus:camel-quarkus-xml-jaxb-deployment
 org.apache.camel.quarkus:camel-quarkus-xml-jaxp
 org.apache.camel.quarkus:camel-quarkus-xml-jaxp-deployment
 org.apache.camel.quarkus:camel-quarkus-xpath
@@ -1386,6 +1399,7 @@ software.amazon.awssdk:aws-query-protocol
 software.amazon.awssdk:aws-xml-protocol
 software.amazon.awssdk:checksums
 software.amazon.awssdk:checksums-spi
+software.amazon.awssdk:cloudtrail
 software.amazon.awssdk:cloudwatch
 software.amazon.awssdk:crt-core
 software.amazon.awssdk:dynamodb
@@ -1410,6 +1424,7 @@ software.amazon.awssdk:retries
 software.amazon.awssdk:retries-spi
 software.amazon.awssdk:s3
 software.amazon.awssdk:sdk-core
+software.amazon.awssdk:secretsmanager
 software.amazon.awssdk:sns
 software.amazon.awssdk:sqs
 software.amazon.awssdk:sts

@@ -29,6 +29,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-aws-secrets-manager",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-aws2-cw",
       "metadata": {
         "redhat-support": [
@@ -96,6 +105,15 @@
       "metadata": {
         "redhat-support": [
           "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-azure-key-vault",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
         ]
       }
     },
@@ -321,6 +339,15 @@
       "metadata": {
         "redhat-support": [
           "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-google-secret-manager",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
         ]
       }
     },
@@ -1013,15 +1040,6 @@
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-xml-io-dsl",
-      "metadata": {
-        "redhat-support": [
-          "supported"
-        ]
-      }
-    },
-    {
-      "group-id": "org.apache.camel.quarkus",
-      "artifact-id": "camel-quarkus-xml-jaxb",
       "metadata": {
         "redhat-support": [
           "supported"

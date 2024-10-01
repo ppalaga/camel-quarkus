@@ -63,7 +63,7 @@
         <!-- <module>aws2-sts</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>aws2-translate</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>azure-eventhubs</module>
-        <!-- <module>azure-key-vault</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>azure-key-vault</module>
         <module>azure-storage-blob</module>
         <module>azure-storage-queue</module>
         <!-- <module>base64</module> disabled by cq-prod-maven-plugin:prod-excludes -->

@@ -1,6 +1,7 @@
 camel-amqp
 camel-attachments
 camel-avro
+camel-aws-secrets-manager
 camel-aws2-cw
 camel-aws2-ddb
 camel-aws2-kinesis
@@ -9,6 +10,7 @@ camel-aws2-s3
 camel-aws2-sns
 camel-aws2-sqs
 camel-azure-eventhubs
+camel-azure-key-vault
 camel-azure-servicebus
 camel-azure-storage-blob
 camel-azure-storage-queue
@@ -44,6 +46,7 @@ camel-flink
 camel-ftp
 camel-google-bigquery
 camel-google-pubsub
+camel-google-secret-manager
 camel-graphql
 camel-grpc
 camel-gson
@@ -126,7 +129,6 @@ camel-webhook
 camel-xj
 camel-xml-io
 camel-xml-io-dsl
-camel-xml-jaxb
 camel-xml-jaxp
 camel-xpath
 camel-xslt

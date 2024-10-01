@@ -35,7 +35,6 @@
     <modules>
         <module>../../../integration-tests-jvm/asn1</module>
         <module>../../../integration-tests-jvm/asterisk</module>
-        <module>../../../integration-tests-jvm/aws-secrets-manager</module>
         <module>../../../integration-tests-jvm/aws-xray</module>
         <module>../../../integration-tests-jvm/azure-cosmosdb</module>
         <module>../../../integration-tests-jvm/azure-storage-datalake</module>
@@ -56,7 +55,6 @@
         <module>../../../integration-tests-jvm/etcd3</module>
         <module>../../../integration-tests-jvm/fastjson</module>
         <module>../../../integration-tests-jvm/google-functions</module>
-        <module>../../../integration-tests-jvm/google-secret-manager</module>
         <module>../../../integration-tests-jvm/guava-eventbus</module>
         <module>../../../integration-tests-jvm/huaweicloud-smn</module>
         <module>../../../integration-tests-jvm/iec60870</module>

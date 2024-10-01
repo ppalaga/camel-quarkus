@@ -8,6 +8,9 @@ camel-quarkus-attachments-parent
 camel-quarkus-avro
 camel-quarkus-avro-deployment
 camel-quarkus-avro-parent
+camel-quarkus-aws-secrets-manager
+camel-quarkus-aws-secrets-manager-deployment
+camel-quarkus-aws-secrets-manager-parent
 camel-quarkus-aws2-cw
 camel-quarkus-aws2-cw-deployment
 camel-quarkus-aws2-cw-parent
@@ -32,6 +35,9 @@ camel-quarkus-aws2-sqs-parent
 camel-quarkus-azure-eventhubs
 camel-quarkus-azure-eventhubs-deployment
 camel-quarkus-azure-eventhubs-parent
+camel-quarkus-azure-key-vault
+camel-quarkus-azure-key-vault-deployment
+camel-quarkus-azure-key-vault-parent
 camel-quarkus-azure-servicebus
 camel-quarkus-azure-servicebus-deployment
 camel-quarkus-azure-servicebus-parent
@@ -122,6 +128,9 @@ camel-quarkus-google-bigquery-parent
 camel-quarkus-google-pubsub
 camel-quarkus-google-pubsub-deployment
 camel-quarkus-google-pubsub-parent
+camel-quarkus-google-secret-manager
+camel-quarkus-google-secret-manager-deployment
+camel-quarkus-google-secret-manager-parent
 camel-quarkus-graphql
 camel-quarkus-graphql-deployment
 camel-quarkus-graphql-parent
@@ -149,6 +158,7 @@ camel-quarkus-infinispan-deployment
 camel-quarkus-infinispan-parent
 camel-quarkus-integration-test-amqp
 camel-quarkus-integration-test-avro
+camel-quarkus-integration-test-aws-secrets-manager
 camel-quarkus-integration-test-aws2-cw
 camel-quarkus-integration-test-aws2-ddb
 camel-quarkus-integration-test-aws2-ddb-quarkus-client
@@ -159,6 +169,7 @@ camel-quarkus-integration-test-aws2-sqs-quarkus-client
 camel-quarkus-integration-test-aws2-sqs-sns
 camel-quarkus-integration-test-aws2-sqs-sns-quarkus-client
 camel-quarkus-integration-test-azure-eventhubs
+camel-quarkus-integration-test-azure-key-vault
 camel-quarkus-integration-test-azure-servicebus
 camel-quarkus-integration-test-azure-storage-blob
 camel-quarkus-integration-test-azure-storage-queue
@@ -199,6 +210,7 @@ camel-quarkus-integration-test-flink
 camel-quarkus-integration-test-ftp
 camel-quarkus-integration-test-google-bigquery
 camel-quarkus-integration-test-google-pubsub
+camel-quarkus-integration-test-google-secret-manager
 camel-quarkus-integration-test-graphql
 camel-quarkus-integration-test-groups
 camel-quarkus-integration-test-grpc
@@ -241,7 +253,6 @@ camel-quarkus-integration-test-main-discovery-disabled
 camel-quarkus-integration-test-main-unknown-args-fail
 camel-quarkus-integration-test-main-unknown-args-ignore
 camel-quarkus-integration-test-main-xml-io
-camel-quarkus-integration-test-main-xml-jaxb
 camel-quarkus-integration-test-management
 camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master
@@ -615,9 +626,6 @@ camel-quarkus-xj-parent
 camel-quarkus-xml-io-dsl
 camel-quarkus-xml-io-dsl-deployment
 camel-quarkus-xml-io-dsl-parent
-camel-quarkus-xml-jaxb
-camel-quarkus-xml-jaxb-deployment
-camel-quarkus-xml-jaxb-parent
 camel-quarkus-xml-jaxp
 camel-quarkus-xml-jaxp-deployment
 camel-quarkus-xml-jaxp-parent

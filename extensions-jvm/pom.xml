@@ -37,7 +37,7 @@
         <!-- extensions a..z; do not remove this comment, it is important when sorting via  mvn process-resources -Pformat -->
         <!-- <module>asn1</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>asterisk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>aws-secrets-manager</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>aws-secrets-manager</module>
         <!-- <module>aws-xray</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>azure-cosmosdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>azure-servicebus</module>
@@ -63,7 +63,7 @@
         <!-- <module>fastjson</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>flink</module>
         <!-- <module>google-functions</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>google-secret-manager</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>google-secret-manager</module>
         <!-- <module>guava-eventbus</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>huaweicloud-smn</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>iec60870</module> disabled by cq-prod-maven-plugin:prod-excludes -->

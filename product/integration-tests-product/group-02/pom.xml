@@ -65,6 +65,7 @@
         <module>../../../integration-test-groups/xml/jvm/xslt-file</module>
         <module>../../../integration-test-groups/xml/jvm/xslt-http</module>
         <module>../../../integration-test-groups/xml/jvm/xslt-ref</module>
+        <module>../../../integration-tests-jvm/aws-secrets-manager</module>
         <module>../../../integration-tests-jvm/azure-servicebus</module>
     </modules>
 </project>

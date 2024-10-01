@@ -43,6 +43,7 @@
         <module>../../../integration-test-groups/aws2/aws2-sqs</module>
         <module>../../../integration-test-groups/aws2/aws2-sqs-sns</module>
         <module>../../../integration-test-groups/azure/azure-eventhubs</module>
+        <module>../../../integration-test-groups/azure/azure-key-vault</module>
         <module>../../../integration-test-groups/azure/azure-storage-blob</module>
         <module>../../../integration-test-groups/azure/azure-storage-queue</module>
         <module>../../../integration-test-groups/compression/zip-deflater</module>

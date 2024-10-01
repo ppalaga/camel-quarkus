@@ -38,6 +38,7 @@
         <module>../../../integration-tests-jvm/console</module>
         <module>../../../integration-tests-jvm/controlbus-statistics</module>
         <module>../../../integration-tests-jvm/flink</module>
+        <module>../../../integration-tests-jvm/google-secret-manager</module>
         <module>../../../integration-tests-jvm/sap</module>
         <module>../../../integration-tests-jvm/snmp</module>
         <module>../../../integration-tests/amqp</module>
@@ -65,6 +66,5 @@
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jms-artemis-client</module>
-        <module>../../../integration-tests/jms-ibmmq-client</module>
     </modules>
 </project>
