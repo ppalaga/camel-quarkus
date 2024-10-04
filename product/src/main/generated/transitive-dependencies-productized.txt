@@ -325,7 +325,6 @@ io.quarkiverse.cxf:quarkus-cxf-woodstox
 io.quarkiverse.cxf:quarkus-cxf-woodstox-deployment
 io.quarkiverse.jackson-jq:quarkus-jackson-jq
 io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
-io.quarkiverse.jackson-jq:quarkus-jackson-jq-extra
 io.quarkiverse.jsch:quarkus-jsch
 io.quarkiverse.jsch:quarkus-jsch-deployment
 io.quarkiverse.messaginghub:quarkus-pooled-jms

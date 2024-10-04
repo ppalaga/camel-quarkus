@@ -539,7 +539,6 @@ io.quarkiverse.groovy:quarkus-groovy
 io.quarkiverse.groovy:quarkus-groovy-deployment
 io.quarkiverse.jackson-jq:quarkus-jackson-jq
 io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
-io.quarkiverse.jackson-jq:quarkus-jackson-jq-extra
 io.quarkiverse.jgit:quarkus-jgit
 io.quarkiverse.jgit:quarkus-jgit-deployment
 io.quarkiverse.jsch:quarkus-jsch
