@@ -125,6 +125,7 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
+com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
