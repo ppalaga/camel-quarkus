@@ -223,6 +223,8 @@ io.quarkiverse.tika:quarkus-tika
 io.quarkiverse.tika:quarkus-tika-deployment
 io.quarkus:quarkus-awt
 io.quarkus:quarkus-awt-deployment
+io.quarkus:quarkus-cache-deployment-spi
+io.quarkus:quarkus-cache-runtime-spi
 io.quarkus:quarkus-devservices-mssql
 io.quarkus:quarkus-devservices-mysql
 io.quarkus:quarkus-devservices-postgresql
@@ -241,10 +243,13 @@ io.quarkus:quarkus-kotlin-deployment
 io.quarkus:quarkus-messaging
 io.quarkus:quarkus-messaging-deployment
 io.quarkus:quarkus-messaging-kotlin
+io.quarkus:quarkus-qute
+io.quarkus:quarkus-qute-deployment
 io.quarkus:quarkus-security
 io.quarkus:quarkus-security-deployment
 io.quarkus:quarkus-vertx-http-dev-console-runtime-spi
 io.quarkus:quarkus-vertx-http-dev-console-spi
+io.quarkus.qute:qute-generator
 io.r2dbc:r2dbc-spi
 io.reactivex.rxjava2:rxjava
 io.smallrye:smallrye-fault-tolerance-kotlin
@@ -748,6 +753,9 @@ org.apache.camel.quarkus:camel-quarkus-qdrant
 org.apache.camel.quarkus:camel-quarkus-qdrant-deployment
 org.apache.camel.quarkus:camel-quarkus-quickfix
 org.apache.camel.quarkus:camel-quarkus-quickfix-deployment
+org.apache.camel.quarkus:camel-quarkus-qute
+org.apache.camel.quarkus:camel-quarkus-qute-component
+org.apache.camel.quarkus:camel-quarkus-qute-deployment
 org.apache.camel.quarkus:camel-quarkus-reactive-executor
 org.apache.camel.quarkus:camel-quarkus-reactive-executor-deployment
 org.apache.camel.quarkus:camel-quarkus-reactive-streams

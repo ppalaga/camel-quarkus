@@ -68,5 +68,6 @@
         <module>../../../integration-tests/oaipmh</module>
         <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/olingo4</module>
+        <module>../../../integration-tests/openstack</module>
     </modules>
 </project>

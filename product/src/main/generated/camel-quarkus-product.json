@@ -803,15 +803,6 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
-      "artifact-id": "camel-quarkus-qute",
-      "metadata": {
-        "redhat-support": [
-          "supported"
-        ]
-      }
-    },
-    {
-      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-ref",
       "metadata": {
         "redhat-support": [

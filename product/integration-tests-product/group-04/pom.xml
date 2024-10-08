@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
+        <module>../../../integration-tests/jms-artemis-client</module>
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/jpa</module>
@@ -65,6 +66,5 @@
         <module>../../../integration-tests/microprofile-fault-tolerance</module>
         <module>../../../integration-tests/microprofile-health</module>
         <module>../../../integration-tests/minio</module>
-        <module>../../../integration-tests/mllp</module>
     </modules>
 </project>

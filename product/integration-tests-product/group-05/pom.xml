@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 05</name>
 
     <modules>
+        <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/mybatis</module>
         <module>../../../integration-tests/netty</module>
         <module>../../../integration-tests/openapi-java</module>
@@ -44,7 +45,6 @@
         <module>../../../integration-tests/platform-http-proxy-ssl</module>
         <module>../../../integration-tests/quartz</module>
         <module>../../../integration-tests/quartz-clustered</module>
-        <module>../../../integration-tests/qute</module>
         <module>../../../integration-tests/rest</module>
         <module>../../../integration-tests/rest-openapi</module>
         <module>../../../integration-tests/saga</module>

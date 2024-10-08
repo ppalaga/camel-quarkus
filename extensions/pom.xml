@@ -212,7 +212,7 @@
         <!-- <module>pubnub</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>qdrant</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>quartz</module>
-        <module>qute</module>
+        <!-- <module>qute</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>reactive-streams</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>ref</module>
         <module>rest</module>

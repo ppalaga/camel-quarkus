@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/optaplanner</module>
         <module>../../../integration-tests/pdf</module>
         <module>../../../integration-tests/pg-replication-slot</module>
@@ -42,6 +41,7 @@
         <module>../../../integration-tests/protobuf</module>
         <module>../../../integration-tests/pubnub</module>
         <module>../../../integration-tests/qdrant</module>
+        <module>../../../integration-tests/qute</module>
         <module>../../../integration-tests/reactive-streams</module>
         <module>../../../integration-tests/sap-netweaver</module>
         <module>../../../integration-tests/servicenow</module>

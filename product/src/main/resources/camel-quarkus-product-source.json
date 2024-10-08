@@ -478,11 +478,12 @@
             "native": "supported",
             "comment": "supported since CEQ 2.7.1"
         },
-        "camel-quarkus-qute": {
-            "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.15.0"
-        },
+//      temporarily removed for the PNC purposes
+//        "camel-quarkus-qute": {
+//            "jvm": "supported",
+//            "native": "supported",
+//            "comment": "supported since CEQ 3.15.0"
+//        },
         "camel-quarkus-ref": {
             "jvm": "supported",
             "native": "supported",

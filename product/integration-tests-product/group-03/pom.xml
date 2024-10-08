@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 03</name>
 
     <modules>
+        <module>../../../integration-tests-jvm/azure-servicebus</module>
         <module>../../../integration-tests-jvm/beanio</module>
         <module>../../../integration-tests-jvm/cli-connector</module>
         <module>../../../integration-tests-jvm/console</module>
@@ -65,6 +66,5 @@
         <module>../../../integration-tests/jasypt</module>
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
-        <module>../../../integration-tests/jms-artemis-client</module>
     </modules>
 </project>

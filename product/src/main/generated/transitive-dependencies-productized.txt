@@ -349,8 +349,6 @@ io.quarkus:quarkus-bootstrap-app-model
 io.quarkus:quarkus-bootstrap-core
 io.quarkus:quarkus-bootstrap-runner
 io.quarkus:quarkus-builder
-io.quarkus:quarkus-cache-deployment-spi
-io.quarkus:quarkus-cache-runtime-spi
 io.quarkus:quarkus-caffeine
 io.quarkus:quarkus-caffeine-deployment
 io.quarkus:quarkus-class-change-agent
@@ -427,8 +425,6 @@ io.quarkus:quarkus-panache-hibernate-common
 io.quarkus:quarkus-panache-hibernate-common-deployment
 io.quarkus:quarkus-quartz
 io.quarkus:quarkus-quartz-deployment
-io.quarkus:quarkus-qute
-io.quarkus:quarkus-qute-deployment
 io.quarkus:quarkus-rest-client-config
 io.quarkus:quarkus-rest-client-config-deployment
 io.quarkus:quarkus-rest-server-spi-deployment
@@ -484,7 +480,6 @@ io.quarkus.http:quarkus-http-http-core
 io.quarkus.http:quarkus-http-servlet
 io.quarkus.http:quarkus-http-vertx-backend
 io.quarkus.qute:qute-core
-io.quarkus.qute:qute-generator
 io.quarkus.resteasy.reactive:resteasy-reactive
 io.quarkus.resteasy.reactive:resteasy-reactive-common
 io.quarkus.resteasy.reactive:resteasy-reactive-common-processor
@@ -967,9 +962,6 @@ org.apache.camel.quarkus:camel-quarkus-platform-http
 org.apache.camel.quarkus:camel-quarkus-platform-http-deployment
 org.apache.camel.quarkus:camel-quarkus-quartz
 org.apache.camel.quarkus:camel-quarkus-quartz-deployment
-org.apache.camel.quarkus:camel-quarkus-qute
-org.apache.camel.quarkus:camel-quarkus-qute-component
-org.apache.camel.quarkus:camel-quarkus-qute-deployment
 org.apache.camel.quarkus:camel-quarkus-ref
 org.apache.camel.quarkus:camel-quarkus-ref-deployment
 org.apache.camel.quarkus:camel-quarkus-rest
