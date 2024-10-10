@@ -7833,7 +7833,7 @@
                     <dependency>
                         <groupId>io.quarkus</groupId>
                         <artifactId>quarkus-enforcer-rules</artifactId>
-                        <version>${quarkus.version}</version>
+                        <version>${quarkus-community.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
