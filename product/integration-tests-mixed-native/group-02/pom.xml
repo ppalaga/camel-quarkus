@@ -60,7 +60,6 @@
         <module>../../../integration-tests/main-collector</module>
         <module>../../../integration-tests/main-xml-jaxb</module>
         <module>../../../integration-tests/main-yaml</module>
-        <module>../../../integration-tests/master-file</module>
         <module>../../../integration-tests/master-openshift</module>
         <module>../../../integration-tests/mustache</module>
         <module>../../../integration-tests/nats</module>

@@ -588,8 +588,6 @@ org.apache.camel.quarkus:camel-quarkus-exec
 org.apache.camel.quarkus:camel-quarkus-exec-deployment
 org.apache.camel.quarkus:camel-quarkus-fastjson
 org.apache.camel.quarkus:camel-quarkus-fastjson-deployment
-org.apache.camel.quarkus:camel-quarkus-file-cluster-service
-org.apache.camel.quarkus:camel-quarkus-file-cluster-service-deployment
 org.apache.camel.quarkus:camel-quarkus-file-watch
 org.apache.camel.quarkus:camel-quarkus-file-watch-deployment
 org.apache.camel.quarkus:camel-quarkus-flatpack

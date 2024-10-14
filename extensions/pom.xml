@@ -102,7 +102,7 @@
         <!-- <module>exec</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>fhir</module>
         <module>file</module>
-        <!-- <module>file-cluster-service</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>file-cluster-service</module>
         <!-- <module>file-watch</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>flatpack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>fop</module> disabled by cq-prod-maven-plugin:prod-excludes -->

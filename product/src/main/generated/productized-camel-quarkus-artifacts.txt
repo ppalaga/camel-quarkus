@@ -114,6 +114,9 @@ camel-quarkus-fhir
 camel-quarkus-fhir-deployment
 camel-quarkus-fhir-parent
 camel-quarkus-file
+camel-quarkus-file-cluster-service
+camel-quarkus-file-cluster-service-deployment
+camel-quarkus-file-cluster-service-parent
 camel-quarkus-file-deployment
 camel-quarkus-file-parent
 camel-quarkus-flink
@@ -256,6 +259,7 @@ camel-quarkus-integration-test-main-xml-io
 camel-quarkus-integration-test-management
 camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master
+camel-quarkus-integration-test-master-file
 camel-quarkus-integration-test-messaging
 camel-quarkus-integration-test-messaging-common
 camel-quarkus-integration-test-messaging-jms

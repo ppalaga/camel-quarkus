@@ -844,6 +844,8 @@ org.apache.camel.quarkus:camel-quarkus-elasticsearch-rest-client-deployment
 org.apache.camel.quarkus:camel-quarkus-fhir
 org.apache.camel.quarkus:camel-quarkus-fhir-deployment
 org.apache.camel.quarkus:camel-quarkus-file
+org.apache.camel.quarkus:camel-quarkus-file-cluster-service
+org.apache.camel.quarkus:camel-quarkus-file-cluster-service-deployment
 org.apache.camel.quarkus:camel-quarkus-file-deployment
 org.apache.camel.quarkus:camel-quarkus-flink
 org.apache.camel.quarkus:camel-quarkus-flink-deployment

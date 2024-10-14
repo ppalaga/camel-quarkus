@@ -184,6 +184,11 @@
                 "camel-quarkus-integration-test-file"
             ]
         },
+        "camel-quarkus-file-cluster-service": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.15.0"
+        },
         "camel-quarkus-flink": {
             "jvm": "supported",
             "native": "supported",
