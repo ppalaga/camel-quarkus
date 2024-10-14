@@ -100,8 +100,8 @@
         },
         "camel-quarkus-beanio": {
             "jvm": "supported",
-            "native": "supported",
-            "comment": "supported since CEQ 3.15.0"
+            "native": "techPreview",
+            "comment": "supported/tp since CEQ 3.15.0"
         },
         "camel-quarkus-bindy": {
             "jvm": "supported",

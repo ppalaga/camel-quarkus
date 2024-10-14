@@ -167,8 +167,9 @@
       "artifact-id": "camel-quarkus-beanio",
       "metadata": {
         "redhat-support": [
-          "supported"
-        ]
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
       }
     },
     {
