@@ -196,6 +196,8 @@ io.krakens:java-grok
 io.methvin:directory-watcher
 io.milvus:milvus-sdk-java
 io.nats:jnats
+io.netty:netty-tcnative-boringssl-static
+io.netty:netty-tcnative-classes
 io.netty.incubator:netty-incubator-codec-classes-quic
 io.netty.incubator:netty-incubator-codec-native-quic
 io.opentelemetry.contrib:opentelemetry-gcp-resources
