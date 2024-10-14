@@ -166,7 +166,7 @@
         <!-- <module>kotlin</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>kotlin-dsl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>kubernetes</module>
-        <!-- <module>kubernetes-cluster-service</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>kubernetes-cluster-service</module>
         <module>kudu</module>
         <!-- <module>langchain4j-chat</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>language</module>

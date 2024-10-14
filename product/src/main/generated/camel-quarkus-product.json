@@ -588,6 +588,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-kubernetes-cluster-service",
+      "metadata": {
+        "redhat-support": [
+          "tech-preview"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-kudu",
       "metadata": {
         "redhat-support": [

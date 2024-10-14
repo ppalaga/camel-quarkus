@@ -260,6 +260,7 @@ camel-quarkus-integration-test-management
 camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master
 camel-quarkus-integration-test-master-file
+camel-quarkus-integration-test-master-openshift
 camel-quarkus-integration-test-messaging
 camel-quarkus-integration-test-messaging-common
 camel-quarkus-integration-test-messaging-jms
@@ -410,6 +411,9 @@ camel-quarkus-kamelet
 camel-quarkus-kamelet-deployment
 camel-quarkus-kamelet-parent
 camel-quarkus-kubernetes
+camel-quarkus-kubernetes-cluster-service
+camel-quarkus-kubernetes-cluster-service-deployment
+camel-quarkus-kubernetes-cluster-service-parent
 camel-quarkus-kubernetes-deployment
 camel-quarkus-kubernetes-parent
 camel-quarkus-kudu

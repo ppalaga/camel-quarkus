@@ -912,6 +912,8 @@ org.apache.camel.quarkus:camel-quarkus-kafka-deployment
 org.apache.camel.quarkus:camel-quarkus-kamelet
 org.apache.camel.quarkus:camel-quarkus-kamelet-deployment
 org.apache.camel.quarkus:camel-quarkus-kubernetes
+org.apache.camel.quarkus:camel-quarkus-kubernetes-cluster-service
+org.apache.camel.quarkus:camel-quarkus-kubernetes-cluster-service-deployment
 org.apache.camel.quarkus:camel-quarkus-kubernetes-deployment
 org.apache.camel.quarkus:camel-quarkus-kudu
 org.apache.camel.quarkus:camel-quarkus-kudu-client

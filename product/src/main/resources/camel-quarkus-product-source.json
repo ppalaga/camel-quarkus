@@ -358,6 +358,11 @@
             "native": "techPreview",
             "comment": "TP since CEQ 2.13.1"
         },
+        "camel-quarkus-kubernetes-cluster-service": {
+            "jvm": "techPreview",
+            "native": "techPreview",
+            "comment": "TP since CEQ 3.15.0"
+        },
         "camel-quarkus-kudu": {
             "jvm": "supported",
             "native": "supported",

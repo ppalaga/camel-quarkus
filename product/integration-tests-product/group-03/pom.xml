@@ -66,5 +66,6 @@
         <module>../../../integration-tests/jaxb</module>
         <module>../../../integration-tests/jira</module>
         <module>../../../integration-tests/jms-artemis-client</module>
+        <module>../../../integration-tests/jms-ibmmq-client</module>
     </modules>
 </project>

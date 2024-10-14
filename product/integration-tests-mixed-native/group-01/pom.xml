@@ -68,6 +68,5 @@
         <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
         <module>../../../integration-tests/github</module>
-        <module>../../../integration-tests/google</module>
     </modules>
 </project>
