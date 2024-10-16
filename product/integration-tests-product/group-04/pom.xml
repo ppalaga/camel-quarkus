@@ -66,5 +66,6 @@
         <module>../../../integration-tests/microprofile-fault-tolerance</module>
         <module>../../../integration-tests/microprofile-health</module>
         <module>../../../integration-tests/minio</module>
+        <module>../../../integration-tests/mllp</module>
     </modules>
 </project>

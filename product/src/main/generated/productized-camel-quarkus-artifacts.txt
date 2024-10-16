@@ -282,6 +282,7 @@ camel-quarkus-integration-test-platform-http-proxy
 camel-quarkus-integration-test-platform-http-proxy-ssl
 camel-quarkus-integration-test-quartz
 camel-quarkus-integration-test-quartz-clustered
+camel-quarkus-integration-test-qute
 camel-quarkus-integration-test-ref
 camel-quarkus-integration-test-rest
 camel-quarkus-integration-test-rest-openapi
@@ -494,6 +495,10 @@ camel-quarkus-poms
 camel-quarkus-quartz
 camel-quarkus-quartz-deployment
 camel-quarkus-quartz-parent
+camel-quarkus-qute
+camel-quarkus-qute-component
+camel-quarkus-qute-deployment
+camel-quarkus-qute-parent
 camel-quarkus-ref
 camel-quarkus-ref-deployment
 camel-quarkus-ref-parent

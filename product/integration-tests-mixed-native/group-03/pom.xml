@@ -41,7 +41,6 @@
         <module>../../../integration-tests/protobuf</module>
         <module>../../../integration-tests/pubnub</module>
         <module>../../../integration-tests/qdrant</module>
-        <module>../../../integration-tests/qute</module>
         <module>../../../integration-tests/reactive-streams</module>
         <module>../../../integration-tests/sap-netweaver</module>
         <module>../../../integration-tests/servicenow</module>

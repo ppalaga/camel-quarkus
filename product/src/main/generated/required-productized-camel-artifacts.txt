@@ -118,6 +118,7 @@ camel-splunk-hec
 camel-spring-rabbitmq
 camel-sql
 camel-stub
+camel-support
 camel-telegram
 camel-timer
 camel-validator
