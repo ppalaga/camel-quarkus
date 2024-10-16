@@ -32,6 +32,7 @@
 
     <properties>
         <camel.quarkus.jvmSince>2.8.0</camel.quarkus.jvmSince>
+        <quarkus.metadata.unlisted>false</quarkus.metadata.unlisted>
     </properties>
 
     <dependencies>
