@@ -332,6 +332,7 @@ com.sun.xml.bind.external:relaxng-datatype
 com.sun.xml.bind.external:rngom
 com.sun.xml.dtd-parser:dtd-parser
 com.sun.xml.messaging.saaj:saaj-impl
+com.thoughtworks.paranamer:paranamer
 com.thoughtworks.qdox:qdox
 com.twilio.sdk:twilio
 com.twitter:chill-java
@@ -386,8 +387,10 @@ io.etcd:jetcd-api
 io.etcd:jetcd-common
 io.etcd:jetcd-core
 io.etcd:jetcd-grpc
+io.fabric8:generator-annotations
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-client-api
+io.fabric8:kubernetes-httpclient-okhttp
 io.fabric8:kubernetes-httpclient-vertx
 io.fabric8:kubernetes-model-admissionregistration
 io.fabric8:kubernetes-model-apiextensions
@@ -1244,6 +1247,10 @@ org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
 org.apache.camel:camel-zookeeper
 org.apache.camel:camel-zookeeper-master
+org.apache.camel.k:camel-k-crds
+org.apache.camel.kamelets:camel-kamelets
+org.apache.camel.kamelets:camel-kamelets-catalog
+org.apache.camel.kamelets:camel-kamelets-utils
 org.apache.camel.quarkus:camel-quarkus-activemq
 org.apache.camel.quarkus:camel-quarkus-activemq-deployment
 org.apache.camel.quarkus:camel-quarkus-amqp
@@ -2162,6 +2169,8 @@ org.bouncycastle:bcutil-jdk18on
 org.brotli:dec
 org.ccil.cowan.tagsoup:tagsoup
 org.checkerframework:checker-compat-qual
+org.codehaus.jackson:jackson-core-asl
+org.codehaus.jackson:jackson-mapper-asl
 org.codehaus.jettison:jettison
 org.codehaus.plexus:plexus-utils
 org.codehaus.woodstox:stax2-api

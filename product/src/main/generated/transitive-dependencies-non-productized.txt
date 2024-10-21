@@ -141,7 +141,6 @@ com.pubnub:pubnub-gson-impl
 com.rometools:rome
 com.rometools:rome-utils
 com.squareup.moshi:moshi
-com.squareup.okhttp3:logging-interceptor
 com.squareup.okhttp3:okhttp-urlconnection
 com.squareup.retrofit2:converter-gson
 com.squareup.retrofit2:converter-jackson
@@ -1169,7 +1168,6 @@ org.testcontainers:jdbc
 org.testcontainers:mssqlserver
 org.testcontainers:mysql
 org.testcontainers:postgresql
-org.tukaani:xz
 org.twitter4j:twitter4j-core
 org.unbescape:unbescape
 org.web3j:abi

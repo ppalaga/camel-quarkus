@@ -672,6 +672,8 @@
     "additionalProductizedArtifacts": [
         "io.quarkiverse.artemis:quarkus-artemis-jms",
         "io.quarkiverse.messaginghub:quarkus-pooled-jms",
+        "org.apache.camel.kamelets:camel-kamelets-catalog",
+        "org.apache.camel.kamelets:camel-kamelets-utils",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-messaging-common",

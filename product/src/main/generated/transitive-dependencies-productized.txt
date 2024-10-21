@@ -159,6 +159,7 @@ com.slack.api:slack-api-model
 com.squareup:javapoet
 com.squareup:kotlinpoet
 com.squareup:protoparser
+com.squareup.okhttp3:logging-interceptor
 com.squareup.okhttp3:mockwebserver
 com.squareup.okhttp3:okhttp
 com.squareup.okio:okio
@@ -183,6 +184,7 @@ com.sun.xml.bind.external:relaxng-datatype
 com.sun.xml.bind.external:rngom
 com.sun.xml.dtd-parser:dtd-parser
 com.sun.xml.messaging.saaj:saaj-impl
+com.thoughtworks.paranamer:paranamer
 com.twitter:chill-java
 com.typesafe:config
 commons-beanutils:commons-beanutils
@@ -201,8 +203,10 @@ io.agroal:agroal-narayana
 io.agroal:agroal-pool
 io.atlassian.fugue:fugue
 io.atlassian.util.concurrent:atlassian-util-concurrent
+io.fabric8:generator-annotations
 io.fabric8:kubernetes-client
 io.fabric8:kubernetes-client-api
+io.fabric8:kubernetes-httpclient-okhttp
 io.fabric8:kubernetes-httpclient-vertx
 io.fabric8:kubernetes-model-admissionregistration
 io.fabric8:kubernetes-model-apiextensions
@@ -777,6 +781,10 @@ org.apache.camel:camel-yaml-dsl-common
 org.apache.camel:camel-yaml-dsl-deserializers
 org.apache.camel:camel-zip-deflater
 org.apache.camel:camel-zipfile
+org.apache.camel.k:camel-k-crds
+org.apache.camel.kamelets:camel-kamelets
+org.apache.camel.kamelets:camel-kamelets-catalog
+org.apache.camel.kamelets:camel-kamelets-utils
 org.apache.camel.quarkus:camel-quarkus-amqp
 org.apache.camel.quarkus:camel-quarkus-amqp-deployment
 org.apache.camel.quarkus:camel-quarkus-attachments
@@ -1151,6 +1159,8 @@ org.bouncycastle:bcprov-jdk18on
 org.bouncycastle:bcutil-jdk18on
 org.brotli:dec
 org.checkerframework:checker-compat-qual
+org.codehaus.jackson:jackson-core-asl
+org.codehaus.jackson:jackson-mapper-asl
 org.codehaus.jettison:jettison
 org.codehaus.woodstox:stax2-api
 org.cometd.java:cometd-java-api-client
@@ -1357,6 +1367,7 @@ org.testcontainers:testcontainers
 org.testcontainers:toxiproxy
 org.threeten:threeten-extra
 org.threeten:threetenbp
+org.tukaani:xz
 org.wildfly.common:wildfly-common
 org.wildfly.security:wildfly-elytron-asn1
 org.wildfly.security:wildfly-elytron-auth
