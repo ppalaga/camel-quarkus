@@ -42,5 +42,5 @@
             "comment": "supported/supported since CEQ 2.13.3/QCXF 1.5"
         }
     },
-    "guideUrlTemplate": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/${productMajorMinorVersion}/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-${artifactId}"
+    "guideUrlTemplate": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/${productMajorMinorVersion}/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#${artifactId}"
 }

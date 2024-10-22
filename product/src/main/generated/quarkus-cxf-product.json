@@ -7,7 +7,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf"
       }
     },
     {
@@ -17,7 +17,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-integration-tracing-opentelemetry"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-integration-tracing-opentelemetry"
       }
     },
     {
@@ -27,7 +27,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-rt-features-metrics"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-features-metrics"
       }
     },
     {
@@ -37,7 +37,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-rt-transports-http-hc5"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-transports-http-hc5"
       }
     },
     {
@@ -47,7 +47,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-rt-ws-rm"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-rm"
       }
     },
     {
@@ -57,7 +57,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-rt-ws-security"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-security"
       }
     },
     {
@@ -67,7 +67,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-services-sts"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-services-sts"
       }
     },
     {
@@ -77,7 +77,7 @@
         "redhat-support": [
           "supported"
         ],
-        "guide": "https://access.redhat.com/documentation/en-us/red_hat_build_of_apache_camel/4.8/html/red_hat_build_of_quarkus_cxf_reference/quarkus-cxf-extensions-reference#extensions-quarkus-cxf-xjc-plugins"
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.8/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-xjc-plugins"
       }
     }
   ]
