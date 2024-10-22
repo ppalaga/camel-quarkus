@@ -1112,6 +1112,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-yaml-io",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-zip-deflater",
       "metadata": {
         "redhat-support": [

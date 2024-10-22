@@ -57,6 +57,7 @@
         <module>../../../integration-tests/main-unknown-args-fail</module>
         <module>../../../integration-tests/main-unknown-args-ignore</module>
         <module>../../../integration-tests/main-xml-io</module>
+        <module>../../../integration-tests/main-yaml</module>
         <module>../../../integration-tests/management</module>
         <module>../../../integration-tests/mapstruct</module>
         <module>../../../integration-tests/master</module>
@@ -66,6 +67,5 @@
         <module>../../../integration-tests/microprofile-fault-tolerance</module>
         <module>../../../integration-tests/microprofile-health</module>
         <module>../../../integration-tests/minio</module>
-        <module>../../../integration-tests/mllp</module>
     </modules>
 </project>

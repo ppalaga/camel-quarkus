@@ -256,6 +256,7 @@ camel-quarkus-integration-test-main-discovery-disabled
 camel-quarkus-integration-test-main-unknown-args-fail
 camel-quarkus-integration-test-main-unknown-args-ignore
 camel-quarkus-integration-test-main-xml-io
+camel-quarkus-integration-test-main-yaml
 camel-quarkus-integration-test-management
 camel-quarkus-integration-test-mapstruct
 camel-quarkus-integration-test-master
@@ -649,6 +650,9 @@ camel-quarkus-xslt-saxon-parent
 camel-quarkus-yaml-dsl
 camel-quarkus-yaml-dsl-deployment
 camel-quarkus-yaml-dsl-parent
+camel-quarkus-yaml-io
+camel-quarkus-yaml-io-deployment
+camel-quarkus-yaml-io-parent
 camel-quarkus-zip-deflater
 camel-quarkus-zip-deflater-deployment
 camel-quarkus-zip-deflater-parent

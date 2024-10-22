@@ -134,5 +134,6 @@ camel-xpath
 camel-xslt
 camel-xslt-saxon
 camel-yaml-dsl
+camel-yaml-io
 camel-zip-deflater
 camel-zipfile

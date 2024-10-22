@@ -42,7 +42,7 @@
         <!-- <module>xml-jaxb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>xml-jaxp</module>
         <module>yaml-dsl</module>
-        <!-- <module>yaml-io</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>yaml-io</module>
     </modules>
 
     <dependencyManagement>
