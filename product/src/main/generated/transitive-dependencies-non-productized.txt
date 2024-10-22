@@ -15,6 +15,7 @@ com.adobe.xmp:xmpcore
 com.alibaba:fastjson
 com.alibaba.fastjson2:fastjson2
 com.alibaba.fastjson2:fastjson2-extension
+com.amazon.redshift:redshift-jdbc42
 com.amazonaws:aws-java-sdk-xray
 com.amazonaws:aws-xray-recorder-sdk-apache-http
 com.amazonaws:aws-xray-recorder-sdk-aws-sdk
@@ -26,6 +27,7 @@ com.arangodb:core
 com.arangodb:http-protocol
 com.arangodb:jackson-serde-json
 com.azure:azure-cosmos
+com.azure:azure-data-schemaregistry-apacheavro
 com.azure:azure-storage-file-datalake
 com.bazaarvoice.jolt:jolt-core
 com.bazaarvoice.jolt:json-utils
@@ -125,6 +127,7 @@ com.lihaoyi:sourcecode_2.13
 com.lihaoyi:ujson_2.13
 com.lihaoyi:upickle-core_2.13
 com.lmax:disruptor
+com.microsoft.azure:azure-schemaregistry-kafka-avro
 com.microsoft.sqlserver:mssql-jdbc
 com.myjeeva.digitalocean:digitalocean-api-client
 com.networknt:json-schema-validator
@@ -266,6 +269,7 @@ net.bytebuddy:byte-buddy-agent
 net.i2p.crypto:eddsa
 net.jcip:jcip-annotations
 net.sf.flatpack:flatpack
+net.snowflake:snowflake-jdbc
 oauth.signpost:signpost-core
 ognl:ognl
 org.antlr:ST4
@@ -854,6 +858,7 @@ org.apache.camel.quarkus:camel-quarkus-zookeeper-deployment
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master
 org.apache.camel.quarkus:camel-quarkus-zookeeper-master-deployment
 org.apache.commons:commons-csv
+org.apache.commons:commons-dbcp2
 org.apache.commons:commons-exec
 org.apache.curator:curator-client
 org.apache.curator:curator-framework

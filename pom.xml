@@ -87,6 +87,8 @@
         <azure-core.version>1.51.0</azure-core.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-core -->
         <azure-identity.version>1.13.2</azure-identity.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-identity -->
         <azure-core-http-vertx.version>1.0.0-beta.21</azure-core-http-vertx.version> <!-- TODO: https://github.com/apache/camel-quarkus/issues/4181 -->
+        <azure-data-schemaregistry-apacheavro.version>1.1.20</azure-data-schemaregistry-apacheavro.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-data-schemaregistry-apacheavro -->
+        <azure-schemaregistry-kafka-avro.version>1.1.1</azure-schemaregistry-kafka-avro.version><!-- @sync org.apache.camel.kamelets:camel-kamelets-parent:${camel-kamelets.version} prop:version.com.microsoft.azure.azure-schemaregistry-kafka-avro -->
         <cassandra-driver-test.version>3.7.1</cassandra-driver-test.version><!-- Keep in sync with testcontainers instead of Debezium bom -->
         <bouncycastle.version>1.78.1.redhat-00002</bouncycastle.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.bouncycastle:bcprov-jdk18on -->
         <brotli.version>0.1.2</brotli.version><!-- @sync org.apache.httpcomponents.client5:httpclient5-parent:${httpclient5.version} prop:brotli.version -->
@@ -95,6 +97,7 @@
         <commons-cli.version>1.8.0</commons-cli.version><!-- keep in sync with Quarkus, via quarkus-bootstrap-core -->
         <commons-collections.version>${commons-collections-version}</commons-collections.version>
         <commons-collections4.version>${commons-collections4-version}</commons-collections4.version>
+        <commons-dbcp2.version>${commons-dbcp2-version}</commons-dbcp2.version>
         <commons-exec.version>${commons-exec-version}</commons-exec.version>
         <commons-validator.version>${commons-validator-version}</commons-validator.version>
         <dropwizard-metrics.version>${metrics-version}</dropwizard-metrics.version>
@@ -158,11 +161,13 @@
         <re2j.version>1.7</re2j.version><!-- Used by google-cloud-pubsub and amazon-kinesis-client -->
         <reactor-core.version>3.4.38</reactor-core.version><!-- @sync com.azure:azure-core:${azure-core.version} dep:io.projectreactor:reactor-core -->
         <reactor-netty.version>${reactor-netty-version}</reactor-netty.version>
+        <redshift-jdbc42.version>2.1.0.30</redshift-jdbc42.version><!-- @sync org.apache.camel.kamelets:camel-kamelets-parent:${camel-kamelets.version} prop:version.com.amazon.redshift.redshift-jdbc42 -->
         <retrofit.version>2.9.0</retrofit.version><!-- @sync org.influxdb:influxdb-java:${influxdb.version} dep:com.squareup.retrofit2:retrofit -->
         <rxjava3.version>3.1.8</rxjava3.version><!-- Used by amazon-kinesis-client and infinispan-client-hotrod-jakarta -->
         <smallrye.reactive.messaging.camel.version>4.24.0</smallrye.reactive.messaging.camel.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.smallrye.reactive:smallrye-reactive-messaging-provider -->
         <snakeyaml.version>2.2.0.redhat-00001</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
         <snakeyaml-engine.version>${snakeyaml-engine-version}</snakeyaml-engine.version><!-- Resolve conflict between camel-snakeyaml & kubernetes-client -->
+        <snowflake-jdbc.version>3.19.0</snowflake-jdbc.version><!-- @sync org.apache.camel.kamelets:camel-kamelets-parent:${camel-kamelets.version} prop:version.net.snowflake.snowflake-jdbc -->
         <spring.version>${spring-version}</spring.version>
         <spring.data.redis.version>${spring-data-redis-version}</spring.data.redis.version>
         <swagger.version>${swagger-openapi3-version}</swagger.version>
@@ -1441,7 +1446,7 @@
         </profile>
 
         <profile>
-            <!-- Analyze possible dependency conflicts between primary depedency projects, such as Camel and Quarkus -->
+            <!-- Analyze possible dependency conflicts between primary dependency projects, such as Camel and Quarkus -->
             <!-- Invoke through ./mvnw -Pda -N -->
             <id>da</id>
             <build>

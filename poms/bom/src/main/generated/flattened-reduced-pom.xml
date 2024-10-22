@@ -6669,9 +6669,19 @@
         <version>6.3.23</version>
       </dependency>
       <dependency>
+        <groupId>com.amazon.redshift</groupId>
+        <artifactId>redshift-jdbc42</artifactId>
+        <version>2.1.0.30</version>
+      </dependency>
+      <dependency>
         <groupId>com.azure</groupId>
         <artifactId>azure-core-http-vertx</artifactId>
         <version>1.0.0-beta.21</version>
+      </dependency>
+      <dependency>
+        <groupId>com.azure</groupId>
+        <artifactId>azure-data-schemaregistry-apacheavro</artifactId>
+        <version>1.1.20</version>
       </dependency>
       <dependency>
         <groupId>com.esotericsoftware.kryo</groupId>
@@ -6803,6 +6813,11 @@
         <groupId>com.lihaoyi</groupId>
         <artifactId>geny_2.13</artifactId>
         <version>0.6.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.microsoft.azure</groupId>
+        <artifactId>azure-schemaregistry-kafka-avro</artifactId>
+        <version>1.1.1</version>
       </dependency>
       <dependency>
         <groupId>com.microsoft.azure</groupId>
@@ -7195,6 +7210,11 @@
         <version>2.5.0.redhat-00001</version>
       </dependency>
       <dependency>
+        <groupId>net.snowflake</groupId>
+        <artifactId>snowflake-jdbc</artifactId>
+        <version>3.19.0</version>
+      </dependency>
+      <dependency>
         <groupId>org.antlr</groupId>
         <artifactId>antlr-runtime</artifactId>
         <version>3.5.2</version>
@@ -7203,6 +7223,17 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-collections4</artifactId>
         <version>4.4</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-dbcp2</artifactId>
+        <version>2.12.0</version>
+        <exclusions>
+          <exclusion>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.apache.jackrabbit</groupId>
@@ -8578,8 +8609,18 @@
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>
+        <artifactId>azure-core-http-netty</artifactId>
+        <version>1.15.3</version>
+      </dependency>
+      <dependency>
+        <groupId>com.azure</groupId>
         <artifactId>azure-cosmos</artifactId>
         <version>4.63.2</version>
+      </dependency>
+      <dependency>
+        <groupId>com.azure</groupId>
+        <artifactId>azure-data-schemaregistry</artifactId>
+        <version>1.4.9</version>
       </dependency>
       <dependency>
         <groupId>com.azure</groupId>
