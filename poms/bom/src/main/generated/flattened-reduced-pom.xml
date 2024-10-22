@@ -3728,20 +3728,8 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-crypto</artifactId>
-        <version>3.15.0.fuse-SNAPSHOT</version>
-        <classifier>bcfips</classifier>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-crypto-deployment</artifactId>
         <version>3.15.0.fuse-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-crypto-deployment</artifactId>
-        <version>3.15.0.fuse-SNAPSHOT</version>
-        <classifier>bcfips</classifier>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
