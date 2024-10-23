@@ -18,6 +18,7 @@ package org.apache.camel.quarkus.component.kubernetes.cluster;
 
 import java.util.Map;
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
@@ -67,7 +68,8 @@ public class KubernetesClusterServiceRuntimeConfig {
     public Optional<String> podName;
 
     /**
-     * The jitter factor to apply in order to prevent all pods to call Kubernetes APIs in the same instant (defaults to 1.2).
+     * The jitter factor to apply in order to prevent all pods to call Kubernetes APIs in the same instant (defaults to
+     * 1.2).
      *
      * @asciidoclet
      */
@@ -83,7 +85,8 @@ public class KubernetesClusterServiceRuntimeConfig {
     public Optional<Long> leaseDurationMillis;
 
     /**
-     * The deadline after which the leader must stop its services because it may have lost the leadership (defaults to 10000).
+     * The deadline after which the leader must stop its services because it may have lost the leadership (defaults to
+     * 10000).
      *
      * @asciidoclet
      */
@@ -91,7 +94,8 @@ public class KubernetesClusterServiceRuntimeConfig {
     public Optional<Long> renewDeadlineMillis;
 
     /**
-     * The time between two subsequent attempts to check and acquire the leadership. It is randomized using the jitter factor (defaults to 2000).
+     * The time between two subsequent attempts to check and acquire the leadership. It is randomized using the jitter
+     * factor (defaults to 2000).
      *
      * @asciidoclet
      */
@@ -107,7 +111,8 @@ public class KubernetesClusterServiceRuntimeConfig {
     public Optional<Integer> order;
 
     /**
-     * The name of the lease resource used to do optimistic locking (defaults to 'leaders'). The resource name is used as prefix when the underlying Kubernetes resource can manage a single lock.
+     * The name of the lease resource used to do optimistic locking (defaults to 'leaders'). The resource name is used as
+     * prefix when the underlying Kubernetes resource can manage a single lock.
      *
      * @asciidoclet
      */

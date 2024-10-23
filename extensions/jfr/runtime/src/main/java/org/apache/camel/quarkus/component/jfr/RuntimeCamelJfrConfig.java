@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.component.jfr;
 
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
@@ -25,7 +26,8 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 public class RuntimeCamelJfrConfig {
 
     /**
-     * Directory to store the recording. By default the current directory will be used. Use false to turn off saving the recording to disk.
+     * Directory to store the recording. By default the current directory will be used. Use false to turn off saving the
+     * recording to disk.
      *
      * @asciidoclet
      */
@@ -33,7 +35,10 @@ public class RuntimeCamelJfrConfig {
     Optional<String> startupRecorderDir;
 
     /**
-     * How long time to run the startup recorder. Use 0 (default) to keep the recorder running until the JVM is exited. Use -1 to stop the recorder right after Camel has been started (to only focus on potential Camel startup performance bottlenecks) Use a positive value to keep recording for N seconds. When the recorder is stopped then the recording is auto saved to disk (note: save to disk can be disabled by setting startupRecorderDir to false).
+     * How long time to run the startup recorder. Use 0 (default) to keep the recorder running until the JVM is exited. Use
+     * -1 to stop the recorder right after Camel has been started (to only focus on potential Camel startup performance
+     * bottlenecks) Use a positive value to keep recording for N seconds. When the recorder is stopped then the recording is
+     * auto saved to disk (note: save to disk can be disabled by setting startupRecorderDir to false).
      *
      * @asciidoclet
      */
@@ -41,7 +46,8 @@ public class RuntimeCamelJfrConfig {
     Optional<Long> startupRecorderDuration;
 
     /**
-     * To filter our sub steps at a maximum depth. Use -1 for no maximum. Use 0 for no sub steps. Use 1 for max 1 sub step, and so forth. The default is -1.
+     * To filter our sub steps at a maximum depth. Use -1 for no maximum. Use 0 for no sub steps. Use 1 for max 1 sub step,
+     * and so forth. The default is -1.
      *
      * @asciidoclet
      */
@@ -57,7 +63,8 @@ public class RuntimeCamelJfrConfig {
     Optional<String> startupRecorderProfile;
 
     /**
-     * To enable Java Flight Recorder to start a recording and automatic dump the recording to disk after startup is complete. This requires that camel-jfr is on the classpath. The default is false.
+     * To enable Java Flight Recorder to start a recording and automatic dump the recording to disk after startup is
+     * complete. This requires that camel-jfr is on the classpath. The default is false.
      *
      * @asciidoclet
      */

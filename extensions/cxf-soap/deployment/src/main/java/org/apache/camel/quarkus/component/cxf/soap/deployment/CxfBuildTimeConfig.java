@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.component.cxf.soap.deployment;
 
 import java.util.List;
+
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
@@ -37,9 +38,12 @@ public class CxfBuildTimeConfig {
     public static class ClassGeneration {
 
         /**
-         * For CXF service interfaces to work properly, some ancillary classes (such as request and response wrappers) need to be generated at build time. Camel Quarkus lets the `quarkus-cxf` extension to do this for all service interfaces found in the class path except the ones matching the patterns in this property.
+         * For CXF service interfaces to work properly, some ancillary classes (such as request and response wrappers) need to
+         * be generated at build time. Camel Quarkus lets the `quarkus-cxf` extension to do this for all service interfaces
+         * found in the class path except the ones matching the patterns in this property.
          *
-         * `org.apache.cxf.ws.security.sts.provider.SecurityTokenService` is excluded by default due to link:https://issues.apache.org/jira/browse/CXF-8834[https://issues.apache.org/jira/browse/CXF-8834]
+         * `org.apache.cxf.ws.security.sts.provider.SecurityTokenService` is excluded by default due to
+         * link:https://issues.apache.org/jira/browse/CXF-8834[https://issues.apache.org/jira/browse/CXF-8834]
          *
          * @asciidoclet
          */

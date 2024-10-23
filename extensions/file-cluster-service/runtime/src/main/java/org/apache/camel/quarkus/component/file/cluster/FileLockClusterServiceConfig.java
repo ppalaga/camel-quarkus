@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.component.file.cluster;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.BooleanSupplier;
+
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigRoot;
 
@@ -26,10 +27,11 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 public class FileLockClusterServiceConfig {
 
     /**
-     * Whether a File Lock Cluster Service should be automatically configured according to 'quarkus.camel.cluster.file.++*++' configurations.
+     * Whether a File Lock Cluster Service should be automatically configured according to
+     * 'quarkus.camel.cluster.file.++*++' configurations.
      *
-     * @deprecated this property is no longer needed as the FileLock implementation of the Camel CLuster Service API has
-     *             been moved to a dedicated extension.
+     * @deprecated  this property is no longer needed as the FileLock implementation of the Camel CLuster Service API has
+     *              been moved to a dedicated extension.
      * @asciidoclet
      */
     @Deprecated(since = "3.10.0", forRemoval = true)

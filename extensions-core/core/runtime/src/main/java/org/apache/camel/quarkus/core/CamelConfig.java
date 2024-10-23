@@ -18,6 +18,7 @@ package org.apache.camel.quarkus.core;
 
 import java.util.List;
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
@@ -144,7 +145,12 @@ public class CamelConfig {
         public boolean enabled;
 
         /**
-         * Used for exclusive filtering scanning of RouteBuilder classes. The exclusive filtering takes precedence over inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by comma. For example to exclude all classes starting with Bar use: ++**++/Bar++*++ To exclude all routes form a specific package use: com/mycompany/bar/++*++ To exclude all routes form a specific package and its sub-packages use double wildcards: com/mycompany/bar/++**++ And to exclude all routes from two specific packages use: com/mycompany/bar/++*++,com/mycompany/stuff/++*++
+         * Used for exclusive filtering scanning of RouteBuilder classes. The exclusive filtering takes precedence over
+         * inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by
+         * comma. For example to exclude all classes starting with Bar use: ++**++/Bar++*++ To exclude all routes form a
+         * specific package use: com/mycompany/bar/++*++ To exclude all routes form a specific package and its sub-packages use
+         * double wildcards: com/mycompany/bar/++**++ And to exclude all routes from two specific packages use:
+         * com/mycompany/bar/++*++,com/mycompany/stuff/++*++
          *
          * @asciidoclet
          */
@@ -152,7 +158,12 @@ public class CamelConfig {
         public Optional<List<String>> excludePatterns;
 
         /**
-         * Used for inclusive filtering scanning of RouteBuilder classes. The exclusive filtering takes precedence over inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by comma. For example to include all classes starting with Foo use: ++**++/Foo++*++ To include all routes form a specific package use: com/mycompany/foo/++*++ To include all routes form a specific package and its sub-packages use double wildcards: com/mycompany/foo/++**++ And to include all routes from two specific packages use: com/mycompany/foo/++*++,com/mycompany/stuff/++*++
+         * Used for inclusive filtering scanning of RouteBuilder classes. The exclusive filtering takes precedence over
+         * inclusive filtering. The pattern is using Ant-path style pattern. Multiple patterns can be specified separated by
+         * comma. For example to include all classes starting with Foo use: ++**++/Foo++*++ To include all routes form a
+         * specific package use: com/mycompany/foo/++*++ To include all routes form a specific package and its sub-packages use
+         * double wildcards: com/mycompany/foo/++**++ And to include all routes from two specific packages use:
+         * com/mycompany/foo/++*++,com/mycompany/stuff/++*++
          *
          * @asciidoclet
          */
@@ -164,7 +175,8 @@ public class CamelConfig {
     public static class ServiceConfig {
 
         /**
-         * Build time configuration related to discoverability of Camel services via the `org.apache.camel.spi.FactoryFinder` mechanism
+         * Build time configuration related to discoverability of Camel services via the `org.apache.camel.spi.FactoryFinder`
+         * mechanism
          *
          * @asciidoclet
          */
@@ -184,9 +196,12 @@ public class CamelConfig {
     public static class ServiceDiscoveryConfig {
 
         /**
-         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The services defined in the matching files will *not* be discoverable via the **`org.apache.camel.spi.FactoryFinder` mechanism.
+         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The
+         * services defined in the matching files will *not* be discoverable via the **`org.apache.camel.spi.FactoryFinder`
+         * mechanism.
          *
-         * The excludes have higher precedence than includes. The excludes defined here can also be used to veto the discoverability of services included by Camel Quarkus extensions.
+         * The excludes have higher precedence than includes. The excludes defined here can also be used to veto the
+         * discoverability of services included by Camel Quarkus extensions.
          *
          * Example values: `META-INF/services/org/apache/camel/foo/++*++,META-INF/services/org/apache/camel/foo/++**++/bar`
          *
@@ -196,9 +211,12 @@ public class CamelConfig {
         public Optional<List<String>> excludePatterns;
 
         /**
-         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The services defined in the matching files will be discoverable via the `org.apache.camel.spi.FactoryFinder` mechanism unless the given file is excluded via `exclude-patterns`.
+         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The
+         * services defined in the matching files will be discoverable via the `org.apache.camel.spi.FactoryFinder` mechanism
+         * unless the given file is excluded via `exclude-patterns`.
          *
-         * Note that Camel Quarkus extensions may include some services by default. The services selected here added to those services and the exclusions defined in `exclude-patterns` are applied to the union set.
+         * Note that Camel Quarkus extensions may include some services by default. The services selected here added to those
+         * services and the exclusions defined in `exclude-patterns` are applied to the union set.
          *
          * Example values: `META-INF/services/org/apache/camel/foo/++*++,META-INF/services/org/apache/camel/foo/++**++/bar`
          *
@@ -212,9 +230,12 @@ public class CamelConfig {
     public static class ServiceRegistryConfig {
 
         /**
-         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The services defined in the matching files will *not* be added to Camel registry during application's static initialization.
+         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The
+         * services defined in the matching files will *not* be added to Camel registry during application's static
+         * initialization.
          *
-         * The excludes have higher precedence than includes. The excludes defined here can also be used to veto the registration of services included by Camel Quarkus extensions.
+         * The excludes have higher precedence than includes. The excludes defined here can also be used to veto the
+         * registration of services included by Camel Quarkus extensions.
          *
          * Example values: `META-INF/services/org/apache/camel/foo/++*++,META-INF/services/org/apache/camel/foo/++**++/bar`**
          *
@@ -224,9 +245,12 @@ public class CamelConfig {
         public Optional<List<String>> excludePatterns;
 
         /**
-         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The services defined in the matching files will be added to Camel registry during application's static initialization unless the given file is excluded via `exclude-patterns`.
+         * A comma-separated list of Ant-path style patterns to match Camel service definition files in the classpath. The
+         * services defined in the matching files will be added to Camel registry during application's static initialization
+         * unless the given file is excluded via `exclude-patterns`.
          *
-         * Note that Camel Quarkus extensions may include some services by default. The services selected here added to those services and the exclusions defined in `exclude-patterns` are applied to the union set.
+         * Note that Camel Quarkus extensions may include some services by default. The services selected here added to those
+         * services and the exclusions defined in `exclude-patterns` are applied to the union set.
          *
          * Example values: `META-INF/services/org/apache/camel/foo/++*++,META-INF/services/org/apache/camel/foo/++**++/bar`
          *
@@ -252,7 +276,9 @@ public class CamelConfig {
     public static class ReflectionConfig {
 
         /**
-         * A comma separated list of Ant-path style patterns to match class names that should be *excluded* from registering for reflection. Use the class name format as returned by the `java.lang.Class.getName()` method: package segments delimited by period `.` and inner classes by dollar sign `$`.
+         * A comma separated list of Ant-path style patterns to match class names that should be *excluded* from registering for
+         * reflection. Use the class name format as returned by the `java.lang.Class.getName()` method: package segments
+         * delimited by period `.` and inner classes by dollar sign `$`.
          *
          * This option narrows down the set selected by `include-patterns`. By default, no classes are excluded.
          *
@@ -264,19 +290,24 @@ public class CamelConfig {
         public Optional<List<String>> excludePatterns;
 
         /**
-         * A comma separated list of Ant-path style patterns to match class names that should be registered for reflection. Use the class name format as returned by the `java.lang.Class.getName()` method: package segments delimited by period `.` and inner classes by dollar sign `$`.
+         * A comma separated list of Ant-path style patterns to match class names that should be registered for reflection. Use
+         * the class name format as returned by the `java.lang.Class.getName()` method: package segments delimited by period `.`
+         * and inner classes by dollar sign `$`.
          *
          * By default, no classes are included. The set selected by this option can be narrowed down by `exclude-patterns`.
          *
-         * Note that Quarkus extensions typically register the required classes for reflection by themselves. This option is useful in situations when the built in functionality is not sufficient.
+         * Note that Quarkus extensions typically register the required classes for reflection by themselves. This option is
+         * useful in situations when the built in functionality is not sufficient.
          *
-         * Note that this option enables the full reflective access for constructors, fields and methods. If you need a finer grained control, consider using `io.quarkus.runtime.annotations.RegisterForReflection` annotation in your Java code.
+         * Note that this option enables the full reflective access for constructors, fields and methods. If you need a finer
+         * grained control, consider using `io.quarkus.runtime.annotations.RegisterForReflection` annotation in your Java code.
          *
          * For this option to work properly, at least one of the following conditions must be satisfied:
          *
-         *  - There are no wildcards (`++*++` or `/`) in the patterns
-         *  - The artifacts containing the selected classes contain a Jandex index (`META-INF/jandex.idx`)
-         *  - The artifacts containing the selected classes are registered for indexing using the `quarkus.index-dependency.++*++` family of options in `application.properties` - e.g.
+         * - There are no wildcards (`++*++` or `/`) in the patterns
+         * - The artifacts containing the selected classes contain a Jandex index (`META-INF/jandex.idx`)
+         * - The artifacts containing the selected classes are registered for indexing using the
+         * `quarkus.index-dependency.++*++` family of options in `application.properties` - e.g.
          *
          * [source,properties]
          * ----
@@ -292,7 +323,11 @@ public class CamelConfig {
         public Optional<List<String>> includePatterns;
 
         /**
-         * If `true`, basic classes are registered for serialization; otherwise basic classes won't be registered automatically for serialization in native mode. The list of classes automatically registered for serialization can be found in link:https://github.com/apache/camel-quarkus/blob/main/extensions-core/core/deployment/src/main/java/org/apache/camel/quarkus/core/deployment/CamelSerializationProcessor.java[CamelSerializationProcessor.BASE_SERIALIZATION_CLASSES]. Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `true` except for making the behavior consistent with native mode.
+         * If `true`, basic classes are registered for serialization; otherwise basic classes won't be registered automatically
+         * for serialization in native mode. The list of classes automatically registered for serialization can be found in
+         * link:https://github.com/apache/camel-quarkus/blob/main/extensions-core/core/deployment/src/main/java/org/apache/camel/quarkus/core/deployment/CamelSerializationProcessor.java[CamelSerializationProcessor.BASE_SERIALIZATION_CLASSES].
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `true` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -304,9 +339,12 @@ public class CamelConfig {
     public static class RuntimeCatalogConfig {
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel components available in the application; otherwise component JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel components
+         * available in the application; otherwise component JSON schemas will not be available in the Runtime Camel Catalog and
+         * any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -314,9 +352,12 @@ public class CamelConfig {
         public boolean components;
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel languages available in the application; otherwise language JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel languages
+         * available in the application; otherwise language JSON schemas will not be available in the Runtime Camel Catalog and
+         * any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -324,9 +365,12 @@ public class CamelConfig {
         public boolean languages;
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel data formats available in the application; otherwise data format JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel data formats
+         * available in the application; otherwise data format JSON schemas will not be available in the Runtime Camel Catalog
+         * and any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -334,9 +378,12 @@ public class CamelConfig {
         public boolean dataformats;
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel dev consoles available in the application; otherwise dev console JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel dev consoles
+         * available in the application; otherwise dev console JSON schemas will not be available in the Runtime Camel Catalog
+         * and any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -344,9 +391,12 @@ public class CamelConfig {
         public boolean devconsoles;
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel EIP models available in the application; otherwise EIP model JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel EIP models
+         * available in the application; otherwise EIP model JSON schemas will not be available in the Runtime Camel Catalog and
+         * any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -354,9 +404,12 @@ public class CamelConfig {
         public boolean models;
 
         /**
-         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel transformers available in the application; otherwise transformer JSON schemas will not be available in the Runtime Camel Catalog and any attempt to access those will result in a RuntimeException.
+         * If `true` the Runtime Camel Catalog embedded in the application will contain JSON schemas of Camel transformers
+         * available in the application; otherwise transformer JSON schemas will not be available in the Runtime Camel Catalog
+         * and any attempt to access those will result in a RuntimeException.
          *
-         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of setting this flag to `false` except for making the behavior consistent with native mode.
+         * Setting this to `false` helps to reduce the size of the native image. In JVM mode, there is no real benefit of
+         * setting this flag to `false` except for making the behavior consistent with native mode.
          *
          * @asciidoclet
          */
@@ -392,7 +445,8 @@ public class CamelConfig {
         public FailureRemedy onBuildTimeAnalysisFailure;
 
         /**
-         * Indicates whether the expression extraction from the route definitions at build time must be done. If disabled, the expressions are compiled at runtime.
+         * Indicates whether the expression extraction from the route definitions at build time must be done. If disabled, the
+         * expressions are compiled at runtime.
          *
          * @asciidoclet
          */
@@ -406,9 +460,12 @@ public class CamelConfig {
         /**
          * Whether to enable the bridging of Camel events to CDI events.
          *
-         * This allows CDI observers to be configured for Camel events. E.g. those belonging to the `org.apache.camel.quarkus.core.events`, `org.apache.camel.quarkus.main.events` & `org.apache.camel.impl.event` packages.
+         * This allows CDI observers to be configured for Camel events. E.g. those belonging to the
+         * `org.apache.camel.quarkus.core.events`, `org.apache.camel.quarkus.main.events` & `org.apache.camel.impl.event`
+         * packages.
          *
-         * Note that this configuration item only has any effect when observers configured for Camel events are present in the application.
+         * Note that this configuration item only has any effect when observers configured for Camel events are present in the
+         * application.
          *
          * @asciidoclet
          */
@@ -428,7 +485,8 @@ public class CamelConfig {
         public boolean enabled;
 
         /**
-         * To set the tracer in standby mode, where the tracer will be installed, but not automatically enabled. The tracer can then be enabled explicitly later from Java, JMX or tooling.
+         * To set the tracer in standby mode, where the tracer will be installed, but not automatically enabled. The tracer can
+         * then be enabled explicitly later from Java, JMX or tooling.
          *
          * @asciidoclet
          */
@@ -444,7 +502,8 @@ public class CamelConfig {
         public int backlogSize;
 
         /**
-         * Whether all traced messages should be removed when the tracer is dumping. By default, the messages are removed, which means that dumping will not contain previous dumped messages.
+         * Whether all traced messages should be removed when the tracer is dumping. By default, the messages are removed, which
+         * means that dumping will not contain previous dumped messages.
          *
          * @asciidoclet
          */
@@ -460,7 +519,8 @@ public class CamelConfig {
         public int bodyMaxChars;
 
         /**
-         * Whether to include the message body of stream based messages. If enabled then beware the stream may not be re-readable later. See more about Stream Caching.
+         * Whether to include the message body of stream based messages. If enabled then beware the stream may not be
+         * re-readable later. See more about Stream Caching.
          *
          * @asciidoclet
          */
@@ -468,7 +528,8 @@ public class CamelConfig {
         public boolean bodyIncludeStreams;
 
         /**
-         * Whether to include the message body of file based messages. The overhead is that the file content has to be read from the file.
+         * Whether to include the message body of file based messages. The overhead is that the file content has to be read from
+         * the file.
          *
          * @asciidoclet
          */
@@ -536,7 +597,8 @@ public class CamelConfig {
     public static class TypeConverterConfig {
 
         /**
-         * Whether type converter statistics are enabled. By default, type converter utilization statistics are disabled. Note that enabling statistics incurs a minor performance impact under very heavy load.
+         * Whether type converter statistics are enabled. By default, type converter utilization statistics are disabled. Note
+         * that enabling statistics incurs a minor performance impact under very heavy load.
          *
          * @asciidoclet
          */

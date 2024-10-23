@@ -138,7 +138,8 @@ quarkus.native.resources.includes=contract.json
 
 |icon:lock[title=Fixed at build time] [[quarkus.camel.openapi.codegen.enabled]]`link:#quarkus.camel.openapi.codegen.enabled[quarkus.camel.openapi.codegen.enabled]`
 
-If `true`, Camel Quarkus OpenAPI code generation is run for .json files discovered from the `openapi` directory. When `false`, code generation for .json files is disabled.
+If `true`, Camel Quarkus OpenAPI code generation is run for .json files discovered from the `openapi` directory. When
+`false`, code generation for .json files is disabled.
 | `boolean`
 | `true`
 

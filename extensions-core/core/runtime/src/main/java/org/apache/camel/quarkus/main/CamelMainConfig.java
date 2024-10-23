@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.main;
 
 import java.time.Duration;
+
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
@@ -58,7 +59,9 @@ public class CamelMainConfig {
     public static class ArgumentConfig {
 
         /**
-         * The action to take when `CamelMain` encounters an unknown argument. fail - Prints the `CamelMain` usage statement and throws a `RuntimeException` ignore - Suppresses any warnings and the application startup proceeds as normal warn - Prints the `CamelMain` usage statement but allows the application startup to proceed as normal
+         * The action to take when `CamelMain` encounters an unknown argument. fail - Prints the `CamelMain` usage statement and
+         * throws a `RuntimeException` ignore - Suppresses any warnings and the application startup proceeds as normal warn -
+         * Prints the `CamelMain` usage statement but allows the application startup to proceed as normal
          *
          * @asciidoclet
          */

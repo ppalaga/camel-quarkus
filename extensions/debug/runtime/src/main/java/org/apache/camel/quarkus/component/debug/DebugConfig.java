@@ -30,7 +30,8 @@ public class DebugConfig {
     public boolean enabled;
 
     /**
-     * Indicates whether the _suspend mode_ is enabled or not. If `true` the message processing is immediately suspended until the method `attach()` is called.
+     * Indicates whether the _suspend mode_ is enabled or not. If `true` the message processing is immediately suspended
+     * until the method `attach()` is called.
      *
      * @asciidoclet
      */

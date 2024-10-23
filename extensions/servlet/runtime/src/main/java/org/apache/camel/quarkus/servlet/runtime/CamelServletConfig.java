@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.servlet.runtime;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
@@ -57,7 +58,8 @@ public final class CamelServletConfig {
         public static final String DEFAULT_SERVLET_CLASS = "org.apache.camel.component.servlet.CamelHttpTransportServlet";
 
         /**
-         * A comma separated list of path patterns under which the CamelServlet should be accessible. Example path patterns: `/++*++`, `/services/++*++`
+         * A comma separated list of path patterns under which the CamelServlet should be accessible. Example path patterns:
+         * `/++*++`, `/services/++*++`
          *
          * @asciidoclet
          */
@@ -73,7 +75,8 @@ public final class CamelServletConfig {
         public String servletClass;
 
         /**
-         * A servletName as it would be defined in a `web.xml` file or in the `jakarta.servlet.annotation.WebServlet++#++name()` annotation.
+         * A servletName as it would be defined in a `web.xml` file or in the `jakarta.servlet.annotation.WebServlet++#++name()`
+         * annotation.
          *
          * @asciidoclet
          */
@@ -81,7 +84,9 @@ public final class CamelServletConfig {
         public String servletName;
 
         /**
-         * Sets the loadOnStartup priority on the Servlet. A loadOnStartup is a value greater than or equal to zero, indicates to the container the initialization priority of the Servlet. If loadOnStartup is a negative integer, the Servlet is initialized lazily.
+         * Sets the loadOnStartup priority on the Servlet. A loadOnStartup is a value greater than or equal to zero, indicates
+         * to the container the initialization priority of the Servlet. If loadOnStartup is a negative integer, the Servlet is
+         * initialized lazily.
          *
          * @asciidoclet
          */
@@ -97,7 +102,8 @@ public final class CamelServletConfig {
         public boolean async;
 
         /**
-         * When set to `true` used in conjunction with `quarkus.camel.servlet.async = true`, this will force route processing to run synchronously.
+         * When set to `true` used in conjunction with `quarkus.camel.servlet.async = true`, this will force route processing to
+         * run synchronously.
          *
          * @asciidoclet
          */
@@ -120,9 +126,9 @@ public final class CamelServletConfig {
         public MultipartConfig multipart;
 
         /**
-         * @return {@code true} if this {@link ServletConfig} is valid as a whole. This currently translates to
-         *         {@link #urlPatterns} being non-empty because {@link #servletClass} and {@link #servletName} have
-         *         default values. Otherwise returns {@code false}.
+         * @return      {@code true} if this {@link ServletConfig} is valid as a whole. This currently translates to
+         *              {@link #urlPatterns} being non-empty because {@link #servletClass} and {@link #servletName} have
+         *              default values. Otherwise returns {@code false}.
          * @asciidoclet
          */
         public boolean isValid() {
@@ -130,11 +136,14 @@ public final class CamelServletConfig {
         }
 
         /**
-         * Setting the servlet name is possible both via `servlet-name` and the key in the `org.apache.camel.quarkus.servlet.runtime.CamelServletConfig.ServletsConfig++#++namedServlets` map. This method sets the precedence: the `servlet-name` gets effective only if it has a non-default value; otherwise the `key` is returned as the servlet name.
+         * Setting the servlet name is possible both via `servlet-name` and the key in the
+         * `org.apache.camel.quarkus.servlet.runtime.CamelServletConfig.ServletsConfig++#++namedServlets` map. This method sets
+         * the precedence: the `servlet-name` gets effective only if it has a non-default value; otherwise the `key` is returned
+         * as the servlet name.
          *
-         * @param key the key used in
-         *             {@link org.apache.camel.quarkus.servlet.runtime.CamelServletConfig.ServletsConfig#namedServlets}
-         * @return the effective servlet name to use
+         * @param       key the key used in
+         *                  {@link org.apache.camel.quarkus.servlet.runtime.CamelServletConfig.ServletsConfig#namedServlets}
+         * @return          the effective servlet name to use
          * @asciidoclet
          */
         public String getEffectiveServletName(final String key) {
@@ -148,7 +157,8 @@ public final class CamelServletConfig {
         public static class MultipartConfig {
 
             /**
-             * An absolute path to a directory on the file system to store files temporarily while the parts are processed or when the size of the file exceeds the specified file-size-threshold configuration value.
+             * An absolute path to a directory on the file system to store files temporarily while the parts are processed or
+             * when the size of the file exceeds the specified file-size-threshold configuration value.
              *
              * @asciidoclet
              */
@@ -164,7 +174,8 @@ public final class CamelServletConfig {
             public long maxFileSize;
 
             /**
-             * The maximum size allowed in bytes for a multipart/form-data request. The default size (-1) allows an unlimited size.
+             * The maximum size allowed in bytes for a multipart/form-data request. The default size (-1) allows an unlimited
+             * size.
              *
              * @asciidoclet
              */

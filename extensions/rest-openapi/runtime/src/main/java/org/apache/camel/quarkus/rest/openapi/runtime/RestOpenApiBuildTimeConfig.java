@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.rest.openapi.runtime;
 
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigGroup;
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
@@ -37,7 +38,8 @@ public class RestOpenApiBuildTimeConfig {
     public static class CodeGenConfig {
 
         /**
-         * If `true`, Camel Quarkus OpenAPI code generation is run for .json files discovered from the `openapi` directory. When `false`, code generation for .json files is disabled.
+         * If `true`, Camel Quarkus OpenAPI code generation is run for .json files discovered from the `openapi` directory. When
+         * `false`, code generation for .json files is disabled.
          *
          * @asciidoclet
          */

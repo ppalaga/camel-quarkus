@@ -17,6 +17,7 @@
 package org.apache.camel.quarkus.component.opentelemetry;
 
 import java.util.Optional;
+
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
@@ -25,7 +26,9 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 public final class CamelOpenTelemetryConfig {
 
     /**
-     * Sets whether header names need to be encoded. Can be useful in situations where OpenTelemetry propagators potentially set header name values in formats that are not compatible with the target system. E.g for JMS where the specification mandates header names are valid Java identifiers.
+     * Sets whether header names need to be encoded. Can be useful in situations where OpenTelemetry propagators potentially
+     * set header name values in formats that are not compatible with the target system. E.g for JMS where the specification
+     * mandates header names are valid Java identifiers.
      *
      * @asciidoclet
      */
@@ -33,7 +36,8 @@ public final class CamelOpenTelemetryConfig {
     public boolean encoding;
 
     /**
-     * Sets whether to disable tracing for endpoint URIs or Processor ids that match the given comma separated patterns. The pattern can take the following forms:
+     * Sets whether to disable tracing for endpoint URIs or Processor ids that match the given comma separated patterns. The
+     * pattern can take the following forms:
      *
      * 1. An exact match on the endpoint URI. E.g platform-http:/some/path
      *
@@ -47,7 +51,8 @@ public final class CamelOpenTelemetryConfig {
     public Optional<String> excludePatterns;
 
     /**
-     * Sets whether to create new OpenTelemetry spans for each Camel Processor. Use the excludePatterns property to filter out Processors.
+     * Sets whether to create new OpenTelemetry spans for each Camel Processor. Use the excludePatterns property to filter
+     * out Processors.
      *
      * @asciidoclet
      */

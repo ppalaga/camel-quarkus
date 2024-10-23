@@ -39,7 +39,7 @@ public class TransformTest {
 
     }
 
-    @Test
+    //@Test
     void toAsciidoclet() throws IOException {
         final Path repoRoot = Paths.get("/home/ppalaga/orgs/cq/camel-quarkus");
         Stream.of("extensions", "extensions-core", "extensions-jvm", "extensions-support")

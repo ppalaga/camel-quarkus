@@ -32,7 +32,9 @@ public class CamelMicrometerConfig {
     public boolean enableRoutePolicy;
 
     /**
-     * Set whether to enable the MicrometerMessageHistoryFactory for capturing metrics on individual route node processing times. Depending on the number of configured route nodes, there is the potential to create a large volume of metrics. Therefore, this option is disabled by default.
+     * Set whether to enable the MicrometerMessageHistoryFactory for capturing metrics on individual route node processing
+     * times. Depending on the number of configured route nodes, there is the potential to create a large volume of metrics.
+     * Therefore, this option is disabled by default.
      *
      * @asciidoclet
      */
@@ -48,7 +50,8 @@ public class CamelMicrometerConfig {
     public boolean enableExchangeEventNotifier;
 
     /**
-     * Set whether to enable the MicrometerRouteEventNotifier for capturing metrics on the total number of routes and total number of routes running.
+     * Set whether to enable the MicrometerRouteEventNotifier for capturing metrics on the total number of routes and total
+     * number of routes running.
      *
      * @asciidoclet
      */
@@ -64,7 +67,8 @@ public class CamelMicrometerConfig {
     public boolean enableInstrumentedThreadPoolFactory;
 
     /**
-     * Controls the naming style to use for metrics. The available values are `default` and `legacy`. `default` uses the default Micrometer naming convention. `legacy` uses the legacy camel-case naming style.
+     * Controls the naming style to use for metrics. The available values are `default` and `legacy`. `default` uses the
+     * default Micrometer naming convention. `legacy` uses the legacy camel-case naming style.
      *
      * @asciidoclet
      */
@@ -72,7 +76,9 @@ public class CamelMicrometerConfig {
     public MetricsNamingStrategy namingStrategy;
 
     /**
-     * Sets the level of metrics to capture. The available values are `all` ,`context` and `route`. `all` captures metrics for both the camel context and routes. `route` captures metrics for routes only. `context` captures metrics for the camel context only.
+     * Sets the level of metrics to capture. The available values are `all` ,`context` and `route`. `all` captures metrics
+     * for both the camel context and routes. `route` captures metrics for routes only. `context` captures metrics for the
+     * camel context only.
      *
      * @asciidoclet
      */

@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.component.jasypt;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Optional;
 import java.util.Set;
+
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
 import io.smallrye.config.ConfigMapping;
@@ -49,9 +50,11 @@ public interface CamelJasyptConfig {
     String algorithm();
 
     /**
-     * The master password used by Jasypt for decrypting configuration values. This option supports prefixes which influence the master password lookup behaviour.
+     * The master password used by Jasypt for decrypting configuration values. This option supports prefixes which influence
+     * the master password lookup behaviour.
      *
-     * `sys:` will to look up the value from a JVM system property. `sysenv:` will look up the value from the OS system environment with the given key.
+     * `sys:` will to look up the value from a JVM system property. `sysenv:` will look up the value from the OS system
+     * environment with the given key.
      *
      * @asciidoclet
      */
@@ -74,7 +77,8 @@ public interface CamelJasyptConfig {
     String randomSaltGeneratorAlgorithm();
 
     /**
-     * The fully qualified class name of an org.apache.camel.quarkus.component.jasypt.JasyptConfigurationCustomizer implementation. This provides the optional capability of having full control over the Jasypt configuration.
+     * The fully qualified class name of an org.apache.camel.quarkus.component.jasypt.JasyptConfigurationCustomizer
+     * implementation. This provides the optional capability of having full control over the Jasypt configuration.
      *
      * @asciidoclet
      */
@@ -84,7 +88,10 @@ public interface CamelJasyptConfig {
 
     String SYS_ENV_CONFIG_PREFIX = "sysenv:";
 
-    Set<String> ALGORITHMS_THAT_REQUIRE_IV = Set.of("PBEWITHHMACSHA1ANDAES_128", "PBEWITHHMACSHA1ANDAES_256", "PBEWITHHMACSHA224ANDAES_128", "PBEWITHHMACSHA224ANDAES_256", "PBEWITHHMACSHA256ANDAES_128", "PBEWITHHMACSHA256ANDAES_256", "PBEWITHHMACSHA384ANDAES_128", "PBEWITHHMACSHA384ANDAES_256", "PBEWITHHMACSHA512ANDAES_128", "PBEWITHHMACSHA512ANDAES_256");
+    Set<String> ALGORITHMS_THAT_REQUIRE_IV = Set.of("PBEWITHHMACSHA1ANDAES_128", "PBEWITHHMACSHA1ANDAES_256",
+            "PBEWITHHMACSHA224ANDAES_128", "PBEWITHHMACSHA224ANDAES_256", "PBEWITHHMACSHA256ANDAES_128",
+            "PBEWITHHMACSHA256ANDAES_256", "PBEWITHHMACSHA384ANDAES_128", "PBEWITHHMACSHA384ANDAES_256",
+            "PBEWITHHMACSHA512ANDAES_128", "PBEWITHHMACSHA512ANDAES_256");
 
     default PBEConfig pbeConfig() {
         EnvironmentStringPBEConfig config = new EnvironmentStringPBEConfig();
@@ -102,14 +109,18 @@ public interface CamelJasyptConfig {
         }
         config.setPassword(password);
         config.setAlgorithm(algorithm());
-        config.setIvGenerator(ALGORITHMS_THAT_REQUIRE_IV.contains(algorithm().toUpperCase()) ? new RandomIvGenerator(randomIvGeneratorAlgorithm()) : new NoIvGenerator());
+        config.setIvGenerator(ALGORITHMS_THAT_REQUIRE_IV.contains(algorithm().toUpperCase())
+                ? new RandomIvGenerator(randomIvGeneratorAlgorithm()) : new NoIvGenerator());
         config.setSaltGenerator(new RandomSaltGenerator(randomSaltGeneratorAlgorithm()));
         if (configurationCustomizerClassName().isPresent()) {
             try {
-                Class<?> encryptorClass = Thread.currentThread().getContextClassLoader().loadClass(configurationCustomizerClassName().get());
-                JasyptConfigurationCustomizer customizer = (JasyptConfigurationCustomizer) encryptorClass.getDeclaredConstructor().newInstance();
+                Class<?> encryptorClass = Thread.currentThread().getContextClassLoader()
+                        .loadClass(configurationCustomizerClassName().get());
+                JasyptConfigurationCustomizer customizer = (JasyptConfigurationCustomizer) encryptorClass
+                        .getDeclaredConstructor().newInstance();
                 customizer.customize(config);
-            } catch (ClassNotFoundException | InvocationTargetException | InstantiationException | IllegalAccessException | NoSuchMethodException e) {
+            } catch (ClassNotFoundException | InvocationTargetException | InstantiationException | IllegalAccessException
+                    | NoSuchMethodException e) {
                 throw new RuntimeException(e);
             }
         }
