@@ -18,7 +18,6 @@ package org.apache.camel.quarkus.component.graphql;
 
 import java.util.List;
 import java.util.Optional;
-
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
@@ -27,12 +26,9 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 public class CamelGraphQLConfig {
 
     /**
-     * A comma separated list of paths to files containing GraphQL queries for use by GraphQL endpoints.
+     * A comma separated list of paths to files containing GraphQL queries for use by GraphQL endpoints. Query files that only need to be accessible from the classpath should be specified on this property. Paths can either be schemeless (E.g graphql/my-query.graphql) or be prefixed with the classpath: URI scheme (E.g classpath:graphql/my-query.graphql). Other URI schemes are not supported.
      *
-     * Query files that only need to be accessible from the classpath should be specified on this property.
-     *
-     * Paths can either be schemeless (E.g graphql/my-query.graphql) or be prefixed with the classpath: URI scheme (E.g
-     * classpath:graphql/my-query.graphql). Other URI schemes are not supported.
+     * @asciidoclet
      */
     @ConfigItem
     public Optional<List<String>> queryFiles;

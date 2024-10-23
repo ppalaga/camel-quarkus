@@ -17,32 +17,34 @@
 package org.apache.camel.quarkus.component.kubernetes.cluster;
 
 import java.util.function.BooleanSupplier;
-
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
 
 @ConfigRoot(name = "camel.cluster.kubernetes", phase = ConfigPhase.BUILD_AND_RUN_TIME_FIXED)
 public class KubernetesClusterServiceBuildTimeConfig {
+
     /**
-     * Whether a Kubernetes Cluster Service should be automatically configured
-     * according to 'quarkus.camel.cluster.kubernetes.*' configurations.
+     * Whether a Kubernetes Cluster Service should be automatically configured according to 'quarkus.camel.cluster.kubernetes.++*++' configurations.
      *
      * @deprecated this property is no longer needed as the Kubernetes implementation of the Camel CLuster Service API has
      *             been moved to a dedicated extension.
+     * @asciidoclet
      */
     @Deprecated(since = "3.10.0", forRemoval = true)
     @ConfigItem(defaultValue = "true")
     public boolean enabled;
 
     /**
-     * Whether the camel master namespace leaders should be distributed evenly
-     * across all the camel contexts in the cluster.
+     * Whether the camel master namespace leaders should be distributed evenly across all the camel contexts in the cluster.
+     *
+     * @asciidoclet
      */
     @ConfigItem(defaultValue = "true")
     public boolean rebalancing;
 
     public static final class Enabled implements BooleanSupplier {
+
         KubernetesClusterServiceBuildTimeConfig config;
 
         @Override

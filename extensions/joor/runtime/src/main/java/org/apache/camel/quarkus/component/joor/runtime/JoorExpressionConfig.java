@@ -17,7 +17,6 @@
 package org.apache.camel.quarkus.component.joor.runtime;
 
 import java.util.Optional;
-
 import io.quarkus.runtime.annotations.ConfigItem;
 import io.quarkus.runtime.annotations.ConfigPhase;
 import io.quarkus.runtime.annotations.ConfigRoot;
@@ -28,15 +27,27 @@ import io.quarkus.runtime.annotations.ConfigRoot;
 @ConfigRoot(name = "camel.joor", phase = ConfigPhase.BUILD_TIME)
 public class JoorExpressionConfig {
 
-    /** Indicates whether a jOOR expression can use single quotes instead of double quotes. */
+    /**
+     * Indicates whether a jOOR expression can use single quotes instead of double quotes.
+     *
+     * @asciidoclet
+     */
     @ConfigItem(defaultValue = "true")
     public boolean singleQuotes;
 
-    /** The specific location of the configuration of the jOOR language. */
+    /**
+     * The specific location of the configuration of the jOOR language.
+     *
+     * @asciidoclet
+     */
     @ConfigItem
     public Optional<String> configResource;
 
-    /** In JVM mode, indicates whether the expressions must be compiled at build time. */
+    /**
+     * In JVM mode, indicates whether the expressions must be compiled at build time.
+     *
+     * @asciidoclet
+     */
     @ConfigItem(defaultValue = "false")
     public boolean compileAtBuildTime;
 }
