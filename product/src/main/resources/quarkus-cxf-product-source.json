@@ -1,0 +1,46 @@
+{
+    "groupId": "io.quarkiverse.cxf",
+    "extensions": {
+        "quarkus-cxf": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3/QCXF 1.5"
+        },
+        "quarkus-cxf-integration-tracing-opentelemetry": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ/QCXF 3.8"
+        },
+        "quarkus-cxf-rt-features-metrics": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ/QCXF 3.8"
+        },
+        "quarkus-cxf-rt-transports-http-hc5": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ/QCXF 3.8"
+        },
+        "quarkus-cxf-rt-ws-rm": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ/QCXF 3.8"
+        },
+        "quarkus-cxf-rt-ws-security": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3/QCXF 1.5"
+        },
+        "quarkus-cxf-services-sts": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3/QCXF 1.5"
+        },
+        "quarkus-cxf-xjc-plugins": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ 2.13.3/QCXF 1.5"
+        }
+    },
+    "guideUrlTemplate": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/${productMajorMinorVersion}/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#${artifactId}"
+}

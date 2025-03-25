@@ -1,0 +1,6 @@
+The SAP extension does not support the packaging type `uber-jar` which causes the application to throw a runtime exception similar to this:
+
+[source, console, subs="attributes+"]
+----
+Caused by: java.lang.ExceptionInInitializerError: JCo initialization failed with java.lang.ExceptionInInitializerError: Illegal JCo archive "sap-1.0.0-SNAPSHOT-runner.jar". It is not allowed to rename or repackage the original archive "sapjco3.jar".
+----

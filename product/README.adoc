@@ -1,0 +1,110 @@
+= Camel Quarkus Product
+
+* This Maven Module should never leak to the ASF repo
+
+== `camel-quarkus-product-source.json` and `quarkus-cxf-product-source.json`
+
+* The format of these files is under our control and independent from `camel-quarkus-product.json` which is controlled by Quarkus.
+* We want to be able to have additional info in these files, that we can use e.g. when doing partial productization or generating parts of our documentation.
+* Both files have the same schema, but they are used slightly differently:
+** While `camel-quarkus-product-source.json` is used for three things, namely
+*** Transform the source tree of Camel Quarkus so that only supported extensions are built
+*** Change the versions in Camel Quarkus BOM so that supported extensions depend on productized transitives
+*** Override the Camel Quarkus extension metadata for the needs of the product (guide links, product support levels, etc.)
+    - see the section about link:#overrides[Overrides] below.
+** `quarkus-cxf-product-source.json` is used only for the last two items of the above.
+    Note that `quarkus-cxf-product-source.json` impacts the versions in Camel Quarkus BOM but not in Quarkus CXF BOM
+    (because changes are only done in the current Camel Quarkus source tree and we do not build Quarkus CXF partially
+    anyway).
+
+=== Schema
+
+* `extensions` - a map from extension artifactIds to extension metadata.
+  Only productized extensions are listed here.
+  This list actually controls which modules get unlinked from the source tree by `cq-prod-maven-plugin:prod-excludes` mojo.
+* `extensions.<artifactId>.allowedMixedTests` - if defined and set to a non-empty array of artifactIds,
+  accept the mixed tests covering the given extension.
+* `extensions.<artifactId>.[jvm|native]` - The support status: possible values: `community`, `techPreview`, `supported`
+* `extensions.<artifactId>.comment` - A free form comment
+* `additionalProductizedArtifacts` - an array of `[groupId:]artifactId` to include in the product build.
+  If `groupId:` is omitted, then `org.apache.camel.quarkus` is taken as default.
+  `[groupId:]artifactId` is supported since cq-maven-plugin 4.1.2
+  Unlike `extensions.<artifactId>`, these are not extensions.
+* `excludeTests` - an array of test module artifactIds.
+  The associated test modules won't be linked in any group under `product/integration-tests-*` and they also be excluded in the config of `rpkgtests-maven-plugin` in `tooling/test-list/pom.xml`
+* `versionTransformations` - a map from a version property (such as `kafka.version`) to a freemarker template that somehow transforms the version value.
+  The input version is available through the `version` key.
+  E.g. to remove the `.redhat*` suffix from a version, the freemarker template would look like the following `${version?replace('\\\\.redhat-.*$', '', 'r')}`. Note that four backslashes are there to first escape for JSON, then for Freemarker and finally for the Java regular expression.
+  `versionTransformations` is honored only by both `mvn cq:sync-versions -N -e` and `mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N`.
+* `guideUrlTemplate` - a template for generating a URL pointing at a guide of the given extension in the CEQ product documentation.
+  It allows for the following placeholders:
+** `${productMajorMinorVersion}` - the major version of the Red Hat Build of Apache Camel product, e.g. `4.4` for CEQ 3.8.0
+** `${artifactId}` - the artifactId of the given extension; e.g. `quarkus-cxf`
+** `${artifactIdBase}` - the base of the artifactId of the given extension; e.g. if the extension artifactId is `camel-quarkus-activemq` then the `artifactIdBase` would be `activemq`.
+* `additionalExtensionDependencies` - a map from `[groupdId:]artifactId` to `groupId:artifactId`. It allows multiple additional deps in a single string and separate them by comma or whitespace.
+* `transitiveDependencyReplacements` - a map from `groupId:artifactId` to `groupId:artifactId`. Any artifacts matching some given key will be replaced by the corresponding value when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`. The primary purpose of these replacement is to keep the report reproducible across operating systems, effectively replacing MacOS and Windows specific artifacts with the corresponding Linux ones.
+* `ignoredTransitiveDependencies` - a list of `groupId[:artifactId[:version]]` patterns (`*` wildcard allowed). All matching artifacts and their transitive dependencies will be ignored when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`.
+
+=== Updating the source tree after changing `camel-quarkus-product-source.json` or `quarkus-cxf-product-source.json`
+
+Run the following from the root directory of the source tree:
+
+[source,shell]
+----
+$ mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N
+# and rebuild the tree to trigger some additional source generators
+$ mvn clean install -DskipTests -Dquarkus.build.skip
+----
+
+and commit the changes.
+
+If `product/src/main/generated/required-productized-camel-artifacts.txt` was changed
+it needs to get copied to the corresponding Camel branch - the `product/README.adoc` in Camel.
+
+Note that the consistency of the source tree with `camel-quarkus-product-source.json` is checked by
+the `cq-prod-maven-plugin:prod-excludes-check` mojo bound to `validate` phase of the build.
+
+The `transitive-deps` mojo needs to be run after `install` because it relies on Camel Quarkus artifacts and all their transitive dependencies being available in the local Maven repo at least.
+
+=== The modified source tree
+
+==== Build and test the productized part
+
+The default profile-less build `mvn clean install` will include
+
+* All productized extensions
+* A mixed BOM
+* Tests that cover productized extensions and have no non-productized dependencies.
+  These tests can be run via `cd product/integration-tests-product && mvn verify -Pnative`.
+
+Note that the default profile-less build `mvn clean install` will *not* include all tests
+necessary to cover the productized extensions.
+This is the case because some productized extensions are covered by tests requiring non-productized artifacts.
+Those tests that are really essential for covering the productized extensions are called "allowed mixed tests".
+They are explicitly marked via `extensions.<artifactId>.allowedMixedTests` in `camel-quarkus-product-source.json`.
+To run them you need to
+
+[source,shell]
+----
+$ cd product/integration-tests-mixed-allowed && mvn clean verify -Pmixed,native
+----
+
+==== Run the rest of the mixed tests
+
+[source,shell]
+----
+$ cd product/integration-tests-mixed-jvm && mvn clean test -Pmixed
+$ cd product/integration-tests-mixed-native && mvn clean verify -Pmixed,native
+----
+
+[[overrides]]
+== `camel-quarkus-product.json` and `quarkus-cxf-product.json`
+
+* These files are generated by the `cq-prod-maven-plugin:platform-overrides` mojo.
+* They can be found in the `target` directory of the `product` module.
+* They contain a list of extensions supported (or being tech-preview) in CEQ.
+* They are leveraged by Quarkus tooling in https://github.com/quarkusio/quarkus-platform[Quarkus Platform]
+
+=== Testing documentation
+
+You can read about test categorization and how to run specific test in link:testing.adoc[Testing documentation].
