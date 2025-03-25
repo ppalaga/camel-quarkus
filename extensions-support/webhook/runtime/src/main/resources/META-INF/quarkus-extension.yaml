@@ -24,6 +24,6 @@ metadata:
   - "camel"
   - "cloud"
   - "webhook"
-  guide: "https://quarkus.io/guides/camel"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
   - "integration"

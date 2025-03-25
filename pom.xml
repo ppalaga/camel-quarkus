@@ -306,8 +306,8 @@
         <module>extensions-jvm</module>
         <module>catalog</module>
         <module>integration-tests-support</module>
-        <module>integration-tests</module>
-        <module>test-framework</module>
+        <!-- <module>integration-tests</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>test-framework</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>product</module>
     </modules>
 
@@ -1133,9 +1133,9 @@
                 </property>
             </activation>
             <modules>
-                <module>docs</module>
-                <module>integration-test-groups</module>
-                <module>integration-tests-jvm</module>
+                <!-- <module>docs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+                <!-- <module>integration-test-groups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+                <!-- <module>integration-tests-jvm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
             </modules>
         </profile>
         <profile>

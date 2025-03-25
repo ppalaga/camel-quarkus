@@ -28,7 +28,7 @@ metadata:
   sponsor: "Apache Software Foundation"
   keywords:
   - "Amazon"
-  guide: "https://camel.apache.org/camel-quarkus/latest/reference/extensions/aws2-kinesis.html"
+  guide: "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#extensions-aws2-kinesis"
   categories:
   - "integration"
   status:

@@ -23,6 +23,6 @@ metadata:
   keywords:
     - "camel"
     - "Google Pubsub"
-  guide: "https://quarkus.io/guides/camel"
+  guide: "https://camel.apache.org/camel-quarkus/latest/user-guide/index.html"
   categories:
     - "integration"
