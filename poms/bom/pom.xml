@@ -7759,6 +7759,7 @@
                                 <resolutionEntryPointInclude>com.squareup.okhttp3:mockwebserver</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>com.sun.xml.fastinfoset:FastInfoset</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>org.mapstruct:mapstruct-processor</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>org.apache.camel.kamelets:camel-kamelets</resolutionEntryPointInclude>
                             </resolutionEntryPointIncludes>
                             <resolutionExcludes>
                                 <!-- Exclude artifacts that we do not want in the flattened BOM -->

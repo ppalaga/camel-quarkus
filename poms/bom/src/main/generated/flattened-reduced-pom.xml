@@ -7547,6 +7547,11 @@
         <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.camel.kamelets</groupId>
+        <artifactId>camel-kamelets</artifactId>
+        <version>4.10.2.redhat-00001</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.cxf</groupId>
         <artifactId>cxf-core</artifactId>
         <version>4.1.1</version>
