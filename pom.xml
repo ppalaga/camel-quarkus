@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.10.2</version>
+        <version>4.10.2.redhat-00001</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,13 +41,13 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.10</camel.major.minor>
         <camel-community-version>${camel.major.minor}.2</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.2</camel.version>
+        <camel.version>${camel.major.minor}.2.redhat-00001</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.20.0</camel-quarkus-community.version>
         <camel-kamelets.version>4.8.0.redhat-00015</camel-kamelets.version>
-        <camel-sap.version>4.8.0.redhat-00015</camel-sap.version>
+        <camel-sap.version>4.10.2.redhat-00001</camel-sap.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>3.0.7.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
         <optaplanner.version>9.37.0.Final</optaplanner.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
