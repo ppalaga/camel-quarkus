@@ -239,7 +239,6 @@ io.quarkus:quarkus-jdbc-mysql
 io.quarkus:quarkus-jdbc-mysql-deployment
 io.quarkus:quarkus-jdbc-postgresql
 io.quarkus:quarkus-jdbc-postgresql-deployment
-io.quarkus:quarkus-jsonb
 io.quarkus:quarkus-jsonb-deployment
 io.quarkus:quarkus-jsonb-spi
 io.quarkus:quarkus-kotlin
@@ -266,7 +265,6 @@ io.vavr:vavr
 io.vavr:vavr-match
 it.unimi.dsi:fastutil
 jakarta.authentication:jakarta.authentication-api
-jakarta.json.bind:jakarta.json.bind-api
 javax.cache:cache-api
 javax.jcr:jcr
 jaxen:jaxen
@@ -1020,7 +1018,6 @@ org.drools:drools-tms
 org.drools:drools-util
 org.drools:drools-wiring-api
 org.drools:drools-wiring-static
-org.eclipse:yasson
 org.eclipse.californium:californium-core
 org.eclipse.californium:californium-legal
 org.eclipse.californium:element-connector

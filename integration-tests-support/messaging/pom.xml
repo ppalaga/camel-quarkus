@@ -34,7 +34,7 @@
     <modules>
         <module>common</module>
         <module>jms</module>
-        <module>sjms</module>
+        <!-- <module>sjms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
     </modules>
 
     <build>

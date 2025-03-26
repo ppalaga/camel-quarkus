@@ -1,0 +1,84 @@
+{
+  "extensions": [
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-integration-tracing-opentelemetry",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-integration-tracing-opentelemetry"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-rt-features-metrics",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-features-metrics"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-rt-transports-http-hc5",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-transports-http-hc5"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-rt-ws-rm",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-rm"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-rt-ws-security",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-ws-security"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-services-sts",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-services-sts"
+      }
+    },
+    {
+      "group-id": "io.quarkiverse.cxf",
+      "artifact-id": "quarkus-cxf-xjc-plugins",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ],
+        "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-xjc-plugins"
+      }
+    }
+  ]
+}

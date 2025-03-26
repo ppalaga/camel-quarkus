@@ -19,24 +19,27 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-extensions-support</artifactId>
+        <artifactId>camel-quarkus-product</artifactId>
         <version>3.20.0.fuse-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>camel-quarkus-support-spring-parent</artifactId>
-    <name>Camel Quarkus :: Support :: Spring</name>
+    <artifactId>camel-quarkus-integration-tests-mixed-native</artifactId>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>shade</module>
-        <module>deployment</module>
-        <module>runtime</module>
-        <!-- <module>integration-test</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-    </modules>
+    <name>Camel Quarkus :: Integration Tests :: Mixed Native</name>
 
+    <profiles>
+        <profile>
+            <id>mixed</id>
+            <modules>
+                <module>group-01</module>
+                <module>group-02</module>
+                <module>group-03</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>
