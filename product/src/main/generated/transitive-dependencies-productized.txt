@@ -138,6 +138,7 @@ com.google.protobuf:protoc
 com.google.re2j:re2j
 com.hierynomus:asn-one
 com.hierynomus:smbj
+com.ibm:ctgclient
 com.ibm.async:asyncutil
 com.ibm.icu:icu4j
 com.jayway.jsonpath:json-path
@@ -854,6 +855,8 @@ org.apache.camel.quarkus:camel-quarkus-browse-deployment
 org.apache.camel.quarkus:camel-quarkus-cassandraql
 org.apache.camel.quarkus:camel-quarkus-cassandraql-deployment
 org.apache.camel.quarkus:camel-quarkus-catalog
+org.apache.camel.quarkus:camel-quarkus-cics
+org.apache.camel.quarkus:camel-quarkus-cics-deployment
 org.apache.camel.quarkus:camel-quarkus-cli-connector
 org.apache.camel.quarkus:camel-quarkus-cli-connector-deployment
 org.apache.camel.quarkus:camel-quarkus-console
@@ -1272,6 +1275,7 @@ org.eclipse.sisu:org.eclipse.sisu.plexus
 org.eclipse.transformer:org.eclipse.transformer
 org.elasticsearch.client:elasticsearch-rest-client
 org.elasticsearch.client:elasticsearch-rest-client-sniffer
+org.fusesource:camel-cics
 org.fusesource:camel-sap
 org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.jansi:jansi

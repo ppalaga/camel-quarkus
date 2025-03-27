@@ -201,6 +201,16 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-cics",
+      "metadata": {
+        "redhat-support": [
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-cli-connector",
       "metadata": {
         "redhat-support": [

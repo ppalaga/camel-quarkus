@@ -118,6 +118,11 @@
             "native": "supported",
             "comment": "community/community since CEQ 2.2.0, since CEQ 2.7.1"
         },
+        "camel-quarkus-cics": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "supported/tp since CEQ 3.20.0"
+        },
         "camel-quarkus-cli-connector": {
             "jvm": "supported",
             "native": "supported",

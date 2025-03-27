@@ -44,6 +44,7 @@
         <!-- <module>bonita</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>chatscript</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>chunk</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>cics</module>
         <module>cli-connector</module>
         <!-- <module>cm-sms</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>coap</module> disabled by cq-prod-maven-plugin:prod-excludes -->

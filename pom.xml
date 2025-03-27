@@ -47,7 +47,7 @@
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.20.0</camel-quarkus-community.version>
         <camel-kamelets.version>4.10.2.redhat-00001</camel-kamelets.version>
-        <camel-sap.version>4.10.2.redhat-00001</camel-sap.version>
+        <camel-fusesource.version>4.10.2.redhat-00001</camel-fusesource.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>3.0.7.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
         <optaplanner.version>9.37.0.Final</optaplanner.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
@@ -93,6 +93,7 @@
         <commons-collections4.version>${commons-collections4-version}</commons-collections4.version>
         <commons-exec.version>${commons-exec-version}</commons-exec.version>
         <commons-validator.version>${commons-validator-version}</commons-validator.version>
+        <ctgClient.version>9.2</ctgClient.version>
         <cxf.version>4.1.1</cxf.version><!-- @sync io.quarkiverse.cxf:quarkus-cxf-parent:${quarkiverse-cxf.version} prop:cxf.version -->
         <dropwizard-metrics.version>${metrics-version}</dropwizard-metrics.version>
         <eddsa.version>${eddsa-version}</eddsa.version>
@@ -233,6 +234,7 @@
         <azurite.container.image>mcr.microsoft.com/azure-storage/azurite:3.33.0</azurite.container.image>
         <calculator-ws.container.image>quay.io/l2x6/calculator-ws:1.2</calculator-ws.container.image>
         <cassandra.container.image>mirror.gcr.io/cassandra:5.0.2</cassandra.container.image>
+        <cics.container.image>images.paas.redhat.com/fuseqe/ibm-cicstg-container-linux-x86-trial:10.1</cics.container.image>
         <consul.container.image>mirror.gcr.io/hashicorp/consul:1.19</consul.container.image>
         <couchbase.container.image>mirror.gcr.io/couchbase/server:7.2.5</couchbase.container.image>
         <couchdb.container.image>mirror.gcr.io/couchdb:2.3.1</couchdb.container.image>

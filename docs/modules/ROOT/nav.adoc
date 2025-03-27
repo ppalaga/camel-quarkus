@@ -78,6 +78,7 @@
 *** xref:reference/extensions/braintree.adoc[Braintree]
 *** xref:reference/extensions/browse.adoc[Browse]
 *** xref:reference/extensions/cbor.adoc[CBOR]
+*** xref:reference/extensions/cics.adoc[CICS]
 *** xref:reference/extensions/cli-connector.adoc[CLI Connector]
 *** xref:reference/extensions/cm-sms.adoc[CM SMS Gateway]
 *** xref:reference/extensions/csv.adoc[CSV]

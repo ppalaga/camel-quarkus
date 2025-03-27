@@ -70,6 +70,9 @@ camel-quarkus-cassandraql
 camel-quarkus-cassandraql-deployment
 camel-quarkus-cassandraql-parent
 camel-quarkus-catalog
+camel-quarkus-cics
+camel-quarkus-cics-deployment
+camel-quarkus-cics-parent
 camel-quarkus-cli-connector
 camel-quarkus-cli-connector-deployment
 camel-quarkus-cli-connector-parent
@@ -179,6 +182,7 @@ camel-quarkus-integration-test-beanio
 camel-quarkus-integration-test-bindy
 camel-quarkus-integration-test-browse
 camel-quarkus-integration-test-cassandraql
+camel-quarkus-integration-test-cics
 camel-quarkus-integration-test-cli-connector
 camel-quarkus-integration-test-component-name-resolver
 camel-quarkus-integration-test-console

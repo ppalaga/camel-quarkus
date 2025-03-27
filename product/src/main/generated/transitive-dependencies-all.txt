@@ -241,6 +241,7 @@ com.hierynomus:asn-one
 com.hierynomus:smbj
 com.huaweicloud.sdk:huaweicloud-sdk-core
 com.huaweicloud.sdk:huaweicloud-sdk-smn
+com.ibm:ctgclient
 com.ibm.async:asyncutil
 com.ibm.cloud:cloudant
 com.ibm.cloud:cloudant-common
@@ -1392,6 +1393,8 @@ org.apache.camel.quarkus:camel-quarkus-chatscript
 org.apache.camel.quarkus:camel-quarkus-chatscript-deployment
 org.apache.camel.quarkus:camel-quarkus-chunk
 org.apache.camel.quarkus:camel-quarkus-chunk-deployment
+org.apache.camel.quarkus:camel-quarkus-cics
+org.apache.camel.quarkus:camel-quarkus-cics-deployment
 org.apache.camel.quarkus:camel-quarkus-cli-connector
 org.apache.camel.quarkus:camel-quarkus-cli-connector-deployment
 org.apache.camel.quarkus:camel-quarkus-cloudevents
@@ -2318,6 +2321,7 @@ org.ehcache:ehcache
 org.elasticsearch.client:elasticsearch-rest-client
 org.elasticsearch.client:elasticsearch-rest-client-sniffer
 org.freemarker:freemarker
+org.fusesource:camel-cics
 org.fusesource:camel-sap
 org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.hawtbuf:hawtbuf
