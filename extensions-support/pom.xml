@@ -39,7 +39,7 @@
         <module>aws2</module>
         <module>azure-core</module>
         <module>azure-core-http-client-vertx</module>
-        <!-- <module>bouncycastle</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>bouncycastle</module>
         <module>commons-logging</module>
         <!-- <module>consul-client</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>debezium</module> disabled by cq-prod-maven-plugin:prod-excludes -->
@@ -52,7 +52,7 @@
         <module>jackson-dataformat-xml</module>
         <module>jdbc</module>
         <module>jetty</module>
-        <!-- <module>language</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>language</module>
         <module>mail</module>
         <module>mongodb</module>
         <!-- <module>reactor-netty</module> disabled by cq-prod-maven-plugin:prod-excludes -->

@@ -1302,7 +1302,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-groovy</artifactId>
-        <version>4.10.2</version>
+        <version>4.10.2.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel</groupId>
@@ -2569,7 +2569,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-ssh</artifactId>
-        <version>4.10.2</version>
+        <version>4.10.2.redhat-00001</version>
         <exclusions>
           <exclusion>
             <groupId>org.slf4j</groupId>
@@ -4131,12 +4131,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-groovy</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-groovy-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -4466,12 +4466,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-jolokia</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-jolokia-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -5086,12 +5086,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-observability-services</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-observability-services-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -5661,12 +5661,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-ssh</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-ssh-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -5781,12 +5781,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-support-bouncycastle</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-support-bouncycastle-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -5911,12 +5911,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-support-language</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-support-language-deployment</artifactId>
-        <version>3.20.0</version>
+        <version>3.20.0.fuse-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
@@ -7122,7 +7122,7 @@
       <dependency>
         <groupId>net.i2p.crypto</groupId>
         <artifactId>eddsa</artifactId>
-        <version>0.3.0</version>
+        <version>0.3.0.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>net.java.dev.jna</groupId>
@@ -7270,7 +7270,7 @@
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcpg-jdk18on</artifactId>
-        <version>1.80.0</version>
+        <version>1.80.0.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>

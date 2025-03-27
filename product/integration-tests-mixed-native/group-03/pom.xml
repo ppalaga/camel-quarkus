@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/pdf</module>
         <module>../../../integration-tests/pg-replication-slot</module>
         <module>../../../integration-tests/pgevent</module>
         <module>../../../integration-tests/pinecone</module>
@@ -50,7 +49,6 @@
         <module>../../../integration-tests/sjms2-qpid-amqp-client</module>
         <module>../../../integration-tests/smallrye-reactive-messaging</module>
         <module>../../../integration-tests/solr</module>
-        <module>../../../integration-tests/ssh</module>
         <module>../../../integration-tests/stax</module>
         <module>../../../integration-tests/stringtemplate</module>
         <module>../../../integration-tests/swift</module>

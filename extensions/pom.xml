@@ -125,7 +125,7 @@
         <!-- <module>google-storage</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>graphql</module>
         <!-- <module>grok</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>groovy</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>groovy</module>
         <module>grpc</module>
         <module>gson</module>
         <module>hashicorp-vault</module>
@@ -148,7 +148,7 @@
         <!-- <module>jfr</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jira</module>
         <module>jms</module>
-        <!-- <module>jolokia</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>jolokia</module>
         <!-- <module>jolt</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>joor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>jpa</module>
@@ -197,7 +197,7 @@
         <module>netty-http</module>
         <!-- <module>nitrite</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>oaipmh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>observability-services</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>observability-services</module>
         <!-- <module>ognl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>olingo4</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>openapi-java</module>
@@ -242,7 +242,7 @@
         <module>splunk-hec</module>
         <module>spring-rabbitmq</module>
         <module>sql</module>
-        <!-- <module>ssh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>ssh</module>
         <!-- <module>stax</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>stream</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>stringtemplate</module> disabled by cq-prod-maven-plugin:prod-excludes -->

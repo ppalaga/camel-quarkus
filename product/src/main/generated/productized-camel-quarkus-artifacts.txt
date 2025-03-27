@@ -140,6 +140,9 @@ camel-quarkus-google-secret-manager-parent
 camel-quarkus-graphql
 camel-quarkus-graphql-deployment
 camel-quarkus-graphql-parent
+camel-quarkus-groovy
+camel-quarkus-groovy-deployment
+camel-quarkus-groovy-parent
 camel-quarkus-grpc
 camel-quarkus-grpc-codegen
 camel-quarkus-grpc-deployment
@@ -216,6 +219,7 @@ camel-quarkus-integration-test-google-bigquery
 camel-quarkus-integration-test-google-pubsub
 camel-quarkus-integration-test-google-secret-manager
 camel-quarkus-integration-test-graphql
+camel-quarkus-integration-test-groovy
 camel-quarkus-integration-test-groups
 camel-quarkus-integration-test-grpc
 camel-quarkus-integration-test-hashicorp-vault
@@ -233,6 +237,7 @@ camel-quarkus-integration-test-jms-artemis-client
 camel-quarkus-integration-test-jms-artemis-jms-ra
 camel-quarkus-integration-test-jms-ibmmq-client
 camel-quarkus-integration-test-jms-qpid-amqp-client
+camel-quarkus-integration-test-jolokia
 camel-quarkus-integration-test-jpa
 camel-quarkus-integration-test-jq
 camel-quarkus-integration-test-jslt
@@ -274,6 +279,7 @@ camel-quarkus-integration-test-mock
 camel-quarkus-integration-test-mongodb
 camel-quarkus-integration-test-mybatis
 camel-quarkus-integration-test-netty
+camel-quarkus-integration-test-observability-services
 camel-quarkus-integration-test-openapi-java
 camel-quarkus-integration-test-opentelemetry
 camel-quarkus-integration-test-paho
@@ -303,6 +309,7 @@ camel-quarkus-integration-test-splunk
 camel-quarkus-integration-test-splunk-hec
 camel-quarkus-integration-test-spring-rabbitmq
 camel-quarkus-integration-test-sql
+camel-quarkus-integration-test-ssh
 camel-quarkus-integration-test-support
 camel-quarkus-integration-test-telegram
 camel-quarkus-integration-test-timer
@@ -391,6 +398,9 @@ camel-quarkus-jira-parent
 camel-quarkus-jms
 camel-quarkus-jms-deployment
 camel-quarkus-jms-parent
+camel-quarkus-jolokia
+camel-quarkus-jolokia-deployment
+camel-quarkus-jolokia-parent
 camel-quarkus-jpa
 camel-quarkus-jpa-deployment
 camel-quarkus-jpa-parent
@@ -480,6 +490,9 @@ camel-quarkus-netty-http
 camel-quarkus-netty-http-deployment
 camel-quarkus-netty-http-parent
 camel-quarkus-netty-parent
+camel-quarkus-observability-services
+camel-quarkus-observability-services-deployment
+camel-quarkus-observability-services-parent
 camel-quarkus-openapi-java
 camel-quarkus-openapi-java-deployment
 camel-quarkus-openapi-java-parent
@@ -557,6 +570,9 @@ camel-quarkus-spring-rabbitmq-parent
 camel-quarkus-sql
 camel-quarkus-sql-deployment
 camel-quarkus-sql-parent
+camel-quarkus-ssh
+camel-quarkus-ssh-deployment
+camel-quarkus-ssh-parent
 camel-quarkus-support-aws2
 camel-quarkus-support-aws2-deployment
 camel-quarkus-support-aws2-parent
@@ -566,6 +582,9 @@ camel-quarkus-support-azure-core-http-client-vertx
 camel-quarkus-support-azure-core-http-client-vertx-deployment
 camel-quarkus-support-azure-core-http-client-vertx-parent
 camel-quarkus-support-azure-core-parent
+camel-quarkus-support-bouncycastle
+camel-quarkus-support-bouncycastle-deployment
+camel-quarkus-support-bouncycastle-parent
 camel-quarkus-support-commons-logging
 camel-quarkus-support-commons-logging-deployment
 camel-quarkus-support-commons-logging-parent
@@ -593,6 +612,9 @@ camel-quarkus-support-jdbc-parent
 camel-quarkus-support-jetty
 camel-quarkus-support-jetty-deployment
 camel-quarkus-support-jetty-parent
+camel-quarkus-support-language
+camel-quarkus-support-language-deployment
+camel-quarkus-support-language-parent
 camel-quarkus-support-mail
 camel-quarkus-support-mail-deployment
 camel-quarkus-support-mail-parent

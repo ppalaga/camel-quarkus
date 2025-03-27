@@ -20,9 +20,9 @@
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
         },
         "camel-quarkus-aws-secrets-manager": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "tp/tp since 3.15.0"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "tp/tp since 3.15.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-aws2-cw": {
             "jvm": "supported",
@@ -69,14 +69,14 @@
             "comment": "supported since CEQ 3.15.0"
         },
         "camel-quarkus-azure-key-vault": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "tp/tp since CEQ 3.15.0"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "tp/tp since CEQ 3.15.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-azure-servicebus": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "tp/tp since 3.2.0"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "tp/tp since 3.2.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-azure-storage-blob": {
             "jvm": "supported",
@@ -100,8 +100,8 @@
         },
         "camel-quarkus-beanio": {
             "jvm": "supported",
-            "native": "techPreview",
-            "comment": "supported/tp since CEQ 3.15.0"
+            "native": "supported",
+            "comment": "supported/tp since CEQ 3.15.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-bindy": {
             "jvm": "supported",
@@ -215,14 +215,19 @@
             "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-google-secret-manager": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "tp/tp since CEQ 3.15.0"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "tp/tp since CEQ 3.15.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-graphql": {
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 3.15.0"
+        },
+        "camel-quarkus-groovy": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-grpc": {
             "jvm": "supported",
@@ -312,15 +317,20 @@
                 "camel-quarkus-integration-test-jms-qpid-amqp-client"
             ]
         },
+        "camel-quarkus-jolokia": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.20.0"
+        },
         "camel-quarkus-jpa": {
             "jvm": "supported",
             "native": "supported",
             "comment": "supported since CEQ 2.13.1"
         },
         "camel-quarkus-jq": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "TP since CEQ 3.15.0"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "TP since CEQ 3.15.0, supported since CEQ 3.20.0"
         },
         "camel-quarkus-jslt": {
             "jvm": "supported",
@@ -359,9 +369,9 @@
             ]
         },
         "camel-quarkus-kubernetes": {
-            "jvm": "techPreview",
-            "native": "techPreview",
-            "comment": "TP since CEQ 2.13.1"
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "TP since CEQ 2.13.1, supported since CEQ 3.20.0"
         },
         "camel-quarkus-kubernetes-cluster-service": {
             "jvm": "techPreview",
@@ -462,6 +472,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "community/community since CEQ 2.13.3 - see https://issues.redhat.com/browse/SUPPORTEX-13732, supported since CEQ 3.2.0"
+        },
+        "camel-quarkus-observability-services": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-openapi-java": {
             "jvm": "supported",
@@ -587,6 +602,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1: still need to productize some transitives https://issues.redhat.com/browse/ENTESB-18817"
+        },
+        "camel-quarkus-ssh": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.20.0"
         },
         "camel-quarkus-telegram": {
             "jvm": "supported",

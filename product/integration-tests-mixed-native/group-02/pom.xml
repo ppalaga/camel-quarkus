@@ -33,18 +33,17 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
+        <module>../../../integration-tests/git</module>
         <module>../../../integration-tests/github</module>
         <module>../../../integration-tests/google</module>
         <module>../../../integration-tests/google-storage</module>
         <module>../../../integration-tests/grok</module>
-        <module>../../../integration-tests/groovy</module>
         <module>../../../integration-tests/hazelcast</module>
         <module>../../../integration-tests/headersmap</module>
         <module>../../../integration-tests/influxdb</module>
         <module>../../../integration-tests/java-joor-dsl</module>
         <module>../../../integration-tests/jcache</module>
         <module>../../../integration-tests/jfr</module>
-        <module>../../../integration-tests/jolokia</module>
         <module>../../../integration-tests/jolt</module>
         <module>../../../integration-tests/joor</module>
         <module>../../../integration-tests/jsch</module>
@@ -62,10 +61,10 @@
         <module>../../../integration-tests/nats</module>
         <module>../../../integration-tests/nitrite</module>
         <module>../../../integration-tests/oaipmh</module>
-        <module>../../../integration-tests/observability-services</module>
         <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/olingo4</module>
         <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/optaplanner</module>
+        <module>../../../integration-tests/pdf</module>
     </modules>
 </project>

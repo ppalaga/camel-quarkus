@@ -263,6 +263,7 @@ io.grpc:protoc-gen-grpc-java
 io.micrometer:micrometer-commons
 io.micrometer:micrometer-core
 io.micrometer:micrometer-observation
+io.micrometer:micrometer-registry-prometheus-simpleclient
 io.minio:minio
 io.mvnpm:importmap
 io.netty:netty-buffer
@@ -311,6 +312,11 @@ io.opentelemetry.semconv:opentelemetry-semconv-incubating
 io.outfoxx:swiftpoet
 io.perfmark:perfmark-api
 io.projectreactor:reactor-core
+io.prometheus:simpleclient
+io.prometheus:simpleclient_common
+io.prometheus:simpleclient_tracer_common
+io.prometheus:simpleclient_tracer_otel
+io.prometheus:simpleclient_tracer_otel_agent
 io.quarkiverse.artemis:quarkus-artemis-core
 io.quarkiverse.artemis:quarkus-artemis-core-deployment
 io.quarkiverse.artemis:quarkus-artemis-jms
@@ -322,6 +328,8 @@ io.quarkiverse.cxf:quarkus-cxf-saaj
 io.quarkiverse.cxf:quarkus-cxf-saaj-deployment
 io.quarkiverse.cxf:quarkus-cxf-woodstox
 io.quarkiverse.cxf:quarkus-cxf-woodstox-deployment
+io.quarkiverse.groovy:quarkus-groovy
+io.quarkiverse.groovy:quarkus-groovy-deployment
 io.quarkiverse.jackson-jq:quarkus-jackson-jq
 io.quarkiverse.jackson-jq:quarkus-jackson-jq-deployment
 io.quarkiverse.jsch:quarkus-jsch
@@ -415,6 +423,8 @@ io.quarkus:quarkus-kubernetes-service-binding-spi
 io.quarkus:quarkus-kubernetes-spi
 io.quarkus:quarkus-micrometer
 io.quarkus:quarkus-micrometer-deployment
+io.quarkus:quarkus-micrometer-registry-prometheus
+io.quarkus:quarkus-micrometer-registry-prometheus-deployment
 io.quarkus:quarkus-mongodb-client
 io.quarkus:quarkus-mongodb-client-deployment
 io.quarkus:quarkus-mutiny
@@ -461,6 +471,8 @@ io.quarkus:quarkus-scheduler-common
 io.quarkus:quarkus-scheduler-deployment
 io.quarkus:quarkus-scheduler-kotlin
 io.quarkus:quarkus-scheduler-spi
+io.quarkus:quarkus-security
+io.quarkus:quarkus-security-deployment
 io.quarkus:quarkus-security-runtime-spi
 io.quarkus:quarkus-security-spi
 io.quarkus:quarkus-smallrye-context-propagation
@@ -620,6 +632,7 @@ javax.inject:javax.inject
 joda-time:joda-time
 net.bytebuddy:byte-buddy
 net.engio:mbassador
+net.i2p.crypto:eddsa
 net.java.dev.jna:jna
 net.java.dev.jna:jna-platform
 net.minidev:accessors-smart
@@ -704,6 +717,7 @@ org.apache.camel:camel-google-bigquery
 org.apache.camel:camel-google-pubsub
 org.apache.camel:camel-google-secret-manager
 org.apache.camel:camel-graphql
+org.apache.camel:camel-groovy
 org.apache.camel:camel-grpc
 org.apache.camel:camel-gson
 org.apache.camel:camel-hashicorp-vault
@@ -779,6 +793,7 @@ org.apache.camel:camel-splunk
 org.apache.camel:camel-splunk-hec
 org.apache.camel:camel-spring-rabbitmq
 org.apache.camel:camel-sql
+org.apache.camel:camel-ssh
 org.apache.camel:camel-support
 org.apache.camel:camel-telegram
 org.apache.camel:camel-timer
@@ -899,6 +914,8 @@ org.apache.camel.quarkus:camel-quarkus-google-secret-manager
 org.apache.camel.quarkus:camel-quarkus-google-secret-manager-deployment
 org.apache.camel.quarkus:camel-quarkus-graphql
 org.apache.camel.quarkus:camel-quarkus-graphql-deployment
+org.apache.camel.quarkus:camel-quarkus-groovy
+org.apache.camel.quarkus:camel-quarkus-groovy-deployment
 org.apache.camel.quarkus:camel-quarkus-grpc
 org.apache.camel.quarkus:camel-quarkus-grpc-codegen
 org.apache.camel.quarkus:camel-quarkus-grpc-deployment
@@ -935,6 +952,8 @@ org.apache.camel.quarkus:camel-quarkus-jira
 org.apache.camel.quarkus:camel-quarkus-jira-deployment
 org.apache.camel.quarkus:camel-quarkus-jms
 org.apache.camel.quarkus:camel-quarkus-jms-deployment
+org.apache.camel.quarkus:camel-quarkus-jolokia
+org.apache.camel.quarkus:camel-quarkus-jolokia-deployment
 org.apache.camel.quarkus:camel-quarkus-jpa
 org.apache.camel.quarkus:camel-quarkus-jpa-deployment
 org.apache.camel.quarkus:camel-quarkus-jq
@@ -994,6 +1013,8 @@ org.apache.camel.quarkus:camel-quarkus-netty
 org.apache.camel.quarkus:camel-quarkus-netty-deployment
 org.apache.camel.quarkus:camel-quarkus-netty-http
 org.apache.camel.quarkus:camel-quarkus-netty-http-deployment
+org.apache.camel.quarkus:camel-quarkus-observability-services
+org.apache.camel.quarkus:camel-quarkus-observability-services-deployment
 org.apache.camel.quarkus:camel-quarkus-openapi-java
 org.apache.camel.quarkus:camel-quarkus-openapi-java-deployment
 org.apache.camel.quarkus:camel-quarkus-opentelemetry
@@ -1045,12 +1066,16 @@ org.apache.camel.quarkus:camel-quarkus-spring-rabbitmq
 org.apache.camel.quarkus:camel-quarkus-spring-rabbitmq-deployment
 org.apache.camel.quarkus:camel-quarkus-sql
 org.apache.camel.quarkus:camel-quarkus-sql-deployment
+org.apache.camel.quarkus:camel-quarkus-ssh
+org.apache.camel.quarkus:camel-quarkus-ssh-deployment
 org.apache.camel.quarkus:camel-quarkus-support-aws2
 org.apache.camel.quarkus:camel-quarkus-support-aws2-deployment
 org.apache.camel.quarkus:camel-quarkus-support-azure-core
 org.apache.camel.quarkus:camel-quarkus-support-azure-core-deployment
 org.apache.camel.quarkus:camel-quarkus-support-azure-core-http-client-vertx
 org.apache.camel.quarkus:camel-quarkus-support-azure-core-http-client-vertx-deployment
+org.apache.camel.quarkus:camel-quarkus-support-bouncycastle
+org.apache.camel.quarkus:camel-quarkus-support-bouncycastle-deployment
 org.apache.camel.quarkus:camel-quarkus-support-commons-logging
 org.apache.camel.quarkus:camel-quarkus-support-commons-logging-deployment
 org.apache.camel.quarkus:camel-quarkus-support-google-cloud
@@ -1069,6 +1094,8 @@ org.apache.camel.quarkus:camel-quarkus-support-jdbc
 org.apache.camel.quarkus:camel-quarkus-support-jdbc-deployment
 org.apache.camel.quarkus:camel-quarkus-support-jetty
 org.apache.camel.quarkus:camel-quarkus-support-jetty-deployment
+org.apache.camel.quarkus:camel-quarkus-support-language
+org.apache.camel.quarkus:camel-quarkus-support-language-deployment
 org.apache.camel.quarkus:camel-quarkus-support-mail
 org.apache.camel.quarkus:camel-quarkus-support-mail-deployment
 org.apache.camel.quarkus:camel-quarkus-support-mongodb
@@ -1162,6 +1189,7 @@ org.apache.flink:flink-shaded-jackson
 org.apache.flink:flink-shaded-netty
 org.apache.flink:flink-shaded-zookeeper-3
 org.apache.flink:flink-streaming-java
+org.apache.groovy:groovy
 org.apache.httpcomponents:httpasyncclient
 org.apache.httpcomponents:httpasyncclient-cache
 org.apache.httpcomponents:httpclient
@@ -1209,11 +1237,13 @@ org.apache.qpid:proton-j
 org.apache.qpid:qpid-jms-client
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.splunk
 org.apache.sshd:sshd-common
+org.apache.sshd:sshd-core
 org.apache.velocity:velocity-engine-core
 org.apache.ws.xmlschema:xmlschema-core
 org.apache.yetus:audience-annotations
 org.apiguardian:apiguardian-api
 org.assertj:assertj-core
+org.bouncycastle:bcpg-jdk18on
 org.bouncycastle:bcpkix-jdk18on
 org.bouncycastle:bcprov-jdk18on
 org.bouncycastle:bcutil-jdk18on
@@ -1351,6 +1381,17 @@ org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
 org.jfree:jfreechart
 org.jgroups:jgroups
+org.jolokia:jolokia-agent-jvm
+org.jolokia:jolokia-json
+org.jolokia:jolokia-server-core
+org.jolokia:jolokia-server-detector
+org.jolokia:jolokia-service-discovery
+org.jolokia:jolokia-service-history
+org.jolokia:jolokia-service-jmx
+org.jolokia:jolokia-service-jsr160
+org.jolokia:jolokia-service-notif-pull
+org.jolokia:jolokia-service-notif-sse
+org.jolokia:jolokia-service-serializer
 org.jruby.jcodings:jcodings
 org.jruby.joni:joni
 org.json:json

@@ -33,8 +33,8 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 05</name>
 
     <modules>
-        <module>../../../integration-tests/mybatis</module>
         <module>../../../integration-tests/netty</module>
+        <module>../../../integration-tests/observability-services</module>
         <module>../../../integration-tests/openapi-java</module>
         <module>../../../integration-tests/opentelemetry</module>
         <module>../../../integration-tests/paho</module>
@@ -58,6 +58,7 @@
         <module>../../../integration-tests/splunk-hec</module>
         <module>../../../integration-tests/spring-rabbitmq</module>
         <module>../../../integration-tests/sql</module>
+        <module>../../../integration-tests/ssh</module>
         <module>../../../integration-tests/telegram</module>
         <module>../../../integration-tests/validator</module>
         <module>../../../integration-tests/velocity</module>

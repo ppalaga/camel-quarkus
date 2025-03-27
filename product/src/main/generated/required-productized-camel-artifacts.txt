@@ -48,6 +48,7 @@ camel-google-bigquery
 camel-google-pubsub
 camel-google-secret-manager
 camel-graphql
+camel-groovy
 camel-grpc
 camel-gson
 camel-hashicorp-vault
@@ -117,6 +118,7 @@ camel-splunk
 camel-splunk-hec
 camel-spring-rabbitmq
 camel-sql
+camel-ssh
 camel-stub
 camel-support
 camel-telegram

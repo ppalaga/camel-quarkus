@@ -32,7 +32,7 @@
       "artifact-id": "camel-quarkus-aws-secrets-manager",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
@@ -113,7 +113,7 @@
       "artifact-id": "camel-quarkus-azure-key-vault",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
@@ -122,7 +122,7 @@
       "artifact-id": "camel-quarkus-azure-servicebus",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
@@ -167,9 +167,8 @@
       "artifact-id": "camel-quarkus-beanio",
       "metadata": {
         "redhat-support": [
-          "supported-in-jvm"
-        ],
-        "unlisted": "false"
+          "supported"
+        ]
       }
     },
     {
@@ -367,13 +366,22 @@
       "artifact-id": "camel-quarkus-google-secret-manager",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-graphql",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-groovy",
       "metadata": {
         "redhat-support": [
           "supported"
@@ -517,6 +525,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-jolokia",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-jpa",
       "metadata": {
         "redhat-support": [
@@ -529,7 +546,7 @@
       "artifact-id": "camel-quarkus-jq",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
@@ -592,7 +609,7 @@
       "artifact-id": "camel-quarkus-kubernetes",
       "metadata": {
         "redhat-support": [
-          "tech-preview"
+          "supported"
         ]
       }
     },
@@ -770,6 +787,15 @@
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-netty-http",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-observability-services",
       "metadata": {
         "redhat-support": [
           "supported"
@@ -997,6 +1023,15 @@
     {
       "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-sql",
+      "metadata": {
+        "redhat-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-ssh",
       "metadata": {
         "redhat-support": [
           "supported"
