@@ -213,6 +213,7 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
+com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
@@ -2336,14 +2337,10 @@ org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
 org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
-org.graalvm.polyglot:polyglot
-org.graalvm.regex:regex
 org.graalvm.sdk:collections
 org.graalvm.sdk:graal-sdk
 org.graalvm.sdk:nativeimage
 org.graalvm.sdk:word
-org.graalvm.shadowed:icu4j
-org.graalvm.truffle:truffle-api
 org.hamcrest:hamcrest
 org.hdrhistogram:HdrHistogram
 org.hibernate:quarkus-local-cache
@@ -2427,6 +2424,7 @@ org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
+org.jfree:jfreechart
 org.jgroups:jgroups
 org.jgroups:jgroups-raft
 org.jodd:jodd-util

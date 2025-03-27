@@ -102,6 +102,10 @@
         <version>4.10.2</version>
         <exclusions>
           <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
           </exclusion>
@@ -838,6 +842,10 @@
         <version>4.10.2</version>
         <exclusions>
           <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
           </exclusion>
@@ -1037,6 +1045,10 @@
         <artifactId>camel-fury</artifactId>
         <version>4.10.2</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
@@ -1424,6 +1436,10 @@
         <version>4.10.2</version>
         <exclusions>
           <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
           </exclusion>
@@ -1792,6 +1808,10 @@
         <artifactId>camel-leveldb</artifactId>
         <version>4.10.2</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
@@ -2202,6 +2222,10 @@
         <artifactId>camel-pulsar</artifactId>
         <version>4.10.2</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>com.sun.activation</groupId>
             <artifactId>javax.activation</artifactId>
@@ -2897,6 +2921,10 @@
         <version>4.10.2</version>
         <exclusions>
           <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
           </exclusion>
@@ -2907,6 +2935,10 @@
         <artifactId>camel-zookeeper-master</artifactId>
         <version>4.10.2</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
@@ -6810,6 +6842,10 @@
         <version>8.5.17</version>
         <exclusions>
           <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
           </exclusion>
@@ -6834,7 +6870,7 @@
       <dependency>
         <groupId>io.perfmark</groupId>
         <artifactId>perfmark-api</artifactId>
-        <version>0.27.0</version>
+        <version>0.27.0.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.projectreactor</groupId>
@@ -6861,6 +6897,10 @@
         <artifactId>quarkus-fury</artifactId>
         <version>0.2.1</version>
         <exclusions>
+          <exclusion>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+          </exclusion>
           <exclusion>
             <groupId>org.checkerframework</groupId>
             <artifactId>checker-qual</artifactId>
@@ -7200,17 +7240,17 @@
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcmail-jdk18on</artifactId>
-        <version>1.80</version>
+        <version>1.80.0</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcpg-jdk18on</artifactId>
-        <version>1.80</version>
+        <version>1.80.0</version>
       </dependency>
       <dependency>
         <groupId>org.bouncycastle</groupId>
         <artifactId>bcutil-jdk18on</artifactId>
-        <version>1.80</version>
+        <version>1.80.0.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.angus</groupId>
@@ -7220,7 +7260,7 @@
       <dependency>
         <groupId>org.graalvm.js</groupId>
         <artifactId>js-language</artifactId>
-        <version>23.1.2</version>
+        <version>23.1.2.0-3</version>
       </dependency>
       <dependency>
         <groupId>org.influxdb</groupId>
