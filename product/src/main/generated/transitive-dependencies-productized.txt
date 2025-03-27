@@ -112,7 +112,6 @@ com.google.apis:google-api-services-bigquery
 com.google.auth:google-auth-library-credentials
 com.google.auth:google-auth-library-oauth2-http
 com.google.auto.value:auto-value
-com.google.auto.value:auto-value-annotations
 com.google.cloud:google-cloud-bigquery
 com.google.cloud:google-cloud-bigquerystorage
 com.google.cloud:google-cloud-core
