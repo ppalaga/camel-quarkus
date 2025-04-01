@@ -2478,7 +2478,7 @@
       <dependency>
         <groupId>org.apache.camel</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-smooks</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.10.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.10.3.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>com.google.code.findbugs</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -5551,12 +5551,12 @@
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-quarkus-smooks</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.20.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.20.0.fuse-SNAPSHOT</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-quarkus-smooks-deployment</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>3.20.0</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>3.20.0.fuse-SNAPSHOT</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -7593,7 +7593,7 @@
       <dependency>
         <groupId>org.fusesource</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-sap</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.10.3.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.10.2.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <exclusions>
           <exclusion>
             <groupId>org.eclipse</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
@@ -7614,7 +7614,7 @@
       <dependency>
         <groupId>org.fusesource</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
         <artifactId>camel-cics</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
-        <version>4.10.3.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.10.2.redhat-00001</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->

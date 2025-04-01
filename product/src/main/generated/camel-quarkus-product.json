@@ -976,6 +976,16 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-smooks",
+      "metadata": {
+        "redhat-support": [
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-snmp",
       "metadata": {
         "redhat-support": [

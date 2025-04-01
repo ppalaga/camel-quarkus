@@ -2558,7 +2558,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-smooks</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>com.google.code.findbugs</groupId>
@@ -5643,12 +5643,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-smooks</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-smooks-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

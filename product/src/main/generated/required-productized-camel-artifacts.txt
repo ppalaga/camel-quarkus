@@ -112,6 +112,7 @@ camel-seda
 camel-servlet
 camel-slack
 camel-smb
+camel-smooks
 camel-snmp
 camel-soap
 camel-splunk

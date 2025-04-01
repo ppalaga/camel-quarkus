@@ -89,7 +89,7 @@
         <!-- <module>redis</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>robotframework</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>schematron</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>smooks</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>smooks</module>
         <!-- <module>smpp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>snmp</module>
         <!-- <module>spring-redis</module> disabled by cq-prod-maven-plugin:prod-excludes -->
