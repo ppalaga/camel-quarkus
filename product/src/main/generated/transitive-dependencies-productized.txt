@@ -1271,17 +1271,6 @@ org.eclipse.angus:angus-activation
 org.eclipse.angus:angus-mail
 org.eclipse.collections:eclipse-collections
 org.eclipse.collections:eclipse-collections-api
-org.eclipse.core:contenttype
-org.eclipse.core:jobs
-org.eclipse.core:runtime
-org.eclipse.emf:org.eclipse.emf.common
-org.eclipse.emf:org.eclipse.emf.ecore
-org.eclipse.emf:org.eclipse.emf.ecore.xmi
-org.eclipse.emf:org.eclipse.emf.edit
-org.eclipse.equinox:app
-org.eclipse.equinox:common
-org.eclipse.equinox:preferences
-org.eclipse.equinox:registry
 org.eclipse.jetty:jetty-alpn-client
 org.eclipse.jetty:jetty-client
 org.eclipse.jetty:jetty-http
@@ -1307,7 +1296,6 @@ org.elasticsearch.client:elasticsearch-rest-client
 org.elasticsearch.client:elasticsearch-rest-client-sniffer
 org.fusesource:camel-cics
 org.fusesource:camel-sap
-org.fusesource:org.fusesource.camel.component.sap.model
 org.fusesource.jansi:jansi
 org.glassfish.expressly:expressly
 org.glassfish.jaxb:codemodel
