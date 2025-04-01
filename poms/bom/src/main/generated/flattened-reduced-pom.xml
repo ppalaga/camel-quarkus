@@ -7285,7 +7285,7 @@
       <dependency>
         <groupId>org.graalvm.js</groupId>
         <artifactId>js-language</artifactId>
-        <version>23.1.2.0-3</version>
+        <version>23.1.2</version>
       </dependency>
       <dependency>
         <groupId>org.influxdb</groupId>
