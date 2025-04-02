@@ -44,3 +44,7 @@ quarkus.log*
 
 # Camel Quarkus Performance Regression Reports
 perf-regression-report@*.txt
+
+# Midstream CI
+build.metadata
+
