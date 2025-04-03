@@ -254,9 +254,7 @@ com.jayway.jsonpath:json-path
 com.kjetland:mbknor-jackson-jsonschema_2.12
 com.lihaoyi:fansi_2.13
 com.lihaoyi:fastparse_2.13
-com.lihaoyi:geny_2.12
 com.lihaoyi:geny_2.13
-com.lihaoyi:os-lib_2.12
 com.lihaoyi:pprint_2.13
 com.lihaoyi:scalatags_2.13
 com.lihaoyi:sourcecode_2.13
@@ -332,7 +330,6 @@ com.twilio.sdk:twilio
 com.twitter:chill-java
 com.typesafe:config
 com.typesafe.netty:netty-reactive-streams
-com.typesafe.scala-logging:scala-logging_2.12
 com.typesafe.scala-logging:scala-logging_2.13
 com.univocity:univocity-parsers
 com.x5dev:chunk-templates
@@ -2026,15 +2023,6 @@ org.apache.cxf:cxf-tools-validator
 org.apache.cxf:cxf-tools-wsdlto-core
 org.apache.cxf:cxf-tools-wsdlto-databinding-jaxb
 org.apache.cxf:cxf-tools-wsdlto-frontend-jaxws
-org.apache.daffodil:daffodil-core_2.12
-org.apache.daffodil:daffodil-io_2.12
-org.apache.daffodil:daffodil-japi_2.12
-org.apache.daffodil:daffodil-lib_2.12
-org.apache.daffodil:daffodil-runtime1-layers_2.12
-org.apache.daffodil:daffodil-runtime1-unparser_2.12
-org.apache.daffodil:daffodil-runtime1_2.12
-org.apache.daffodil:daffodil-schematron_2.12
-org.apache.daffodil:daffodil-udf_2.12
 org.apache.directory.api:api-asn1-api
 org.apache.directory.api:api-asn1-ber
 org.apache.directory.api:api-i18n
@@ -2579,8 +2567,6 @@ org.robotframework:robotframework
 org.scala-lang:scala-library
 org.scala-lang:scala-reflect
 org.scala-lang.modules:scala-collection-compat_2.13
-org.scala-lang.modules:scala-parser-combinators_2.12
-org.scala-lang.modules:scala-xml_2.12
 org.schwering:irclib
 org.semver4j:semver4j
 org.slf4j:jul-to-slf4j
@@ -2589,10 +2575,7 @@ org.slf4j:slf4j-ext
 org.smooks:smooks-api
 org.smooks:smooks-commons
 org.smooks:smooks-core
-org.smooks.cartridges:smooks-dfdl-cartridge
 org.smooks.cartridges:smooks-javabean-cartridge
-org.smooks.cartridges.edi:edi-schemas
-org.smooks.cartridges.edi:smooks-edi-cartridge
 org.snakeyaml:snakeyaml-engine
 org.snmp4j:snmp4j
 org.springframework:spring-aop
@@ -2745,7 +2728,6 @@ uk.co.jemos.podam:podam
 wsdl4j:wsdl4j
 xalan:serializer
 xalan:xalan
-xerces:xercesImpl
 xml-apis:xml-apis-ext
 xml-resolver:xml-resolver
 xmlpull:xmlpull

@@ -1096,6 +1096,7 @@ org.reflections:reflections
 org.roaringbitmap:RoaringBitmap
 org.roaringbitmap:shims
 org.robotframework:robotframework
+org.scala-lang:scala-reflect
 org.scala-lang.modules:scala-collection-compat_2.13
 org.schwering:irclib
 org.semver4j:semver4j
