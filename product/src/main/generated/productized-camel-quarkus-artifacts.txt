@@ -234,7 +234,7 @@ camel-quarkus-integration-test-jasypt
 camel-quarkus-integration-test-jaxb
 camel-quarkus-integration-test-jira
 camel-quarkus-integration-test-jms-artemis-client
-camel-quarkus-integration-test-jms-artemis-jms-ra
+camel-quarkus-integration-test-jms-artemis-ra
 camel-quarkus-integration-test-jms-ibmmq-client
 camel-quarkus-integration-test-jms-qpid-amqp-client
 camel-quarkus-integration-test-jolokia
