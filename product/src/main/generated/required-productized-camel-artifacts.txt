@@ -95,6 +95,7 @@ camel-mongodb
 camel-mybatis
 camel-netty
 camel-netty-http
+camel-olingo4
 camel-openapi-java
 camel-opentelemetry
 camel-paho

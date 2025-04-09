@@ -773,6 +773,8 @@ org.apache.camel:camel-mybatis
 org.apache.camel:camel-netty
 org.apache.camel:camel-netty-http
 org.apache.camel:camel-observability-services
+org.apache.camel:camel-olingo4
+org.apache.camel:camel-olingo4-api
 org.apache.camel:camel-openapi-java
 org.apache.camel:camel-opentelemetry
 org.apache.camel:camel-paho
@@ -1020,6 +1022,8 @@ org.apache.camel.quarkus:camel-quarkus-netty-http
 org.apache.camel.quarkus:camel-quarkus-netty-http-deployment
 org.apache.camel.quarkus:camel-quarkus-observability-services
 org.apache.camel.quarkus:camel-quarkus-observability-services-deployment
+org.apache.camel.quarkus:camel-quarkus-olingo4
+org.apache.camel.quarkus:camel-quarkus-olingo4-deployment
 org.apache.camel.quarkus:camel-quarkus-openapi-java
 org.apache.camel.quarkus:camel-quarkus-openapi-java-deployment
 org.apache.camel.quarkus:camel-quarkus-opentelemetry
@@ -1240,6 +1244,12 @@ org.apache.maven.wagon:wagon-http
 org.apache.maven.wagon:wagon-http-shared
 org.apache.maven.wagon:wagon-provider-api
 org.apache.neethi:neethi
+org.apache.olingo:odata-client-api
+org.apache.olingo:odata-client-core
+org.apache.olingo:odata-commons-api
+org.apache.olingo:odata-commons-core
+org.apache.olingo:odata-server-api
+org.apache.olingo:odata-server-core
 org.apache.qpid:proton-j
 org.apache.qpid:qpid-jms-client
 org.apache.servicemix.bundles:org.apache.servicemix.bundles.splunk

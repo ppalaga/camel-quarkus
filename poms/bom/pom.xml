@@ -2120,7 +2120,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-olingo4</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -2131,7 +2131,7 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-olingo4-api</artifactId>
-                <version>${camel-community-version}</version>
+                <version>${camel.version}</version>
                 <exclusions>
                     <exclusion>
                         <groupId>commons-logging</groupId>
@@ -5202,12 +5202,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-olingo4</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-olingo4-deployment</artifactId>
-                <version>${camel-quarkus-community.version}</version>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>

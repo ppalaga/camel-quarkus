@@ -478,6 +478,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.20.0"
         },
+        "camel-quarkus-olingo4": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.20.0"
+        },
         "camel-quarkus-openapi-java": {
             "jvm": "supported",
             "native": "supported",

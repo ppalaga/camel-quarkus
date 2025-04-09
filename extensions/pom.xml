@@ -199,7 +199,7 @@
         <!-- <module>oaipmh</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>observability-services</module>
         <!-- <module>ognl</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>olingo4</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>olingo4</module>
         <module>openapi-java</module>
         <!-- <module>openstack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>opentelemetry</module>

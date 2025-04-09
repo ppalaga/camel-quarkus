@@ -280,6 +280,7 @@ camel-quarkus-integration-test-mongodb
 camel-quarkus-integration-test-mybatis
 camel-quarkus-integration-test-netty
 camel-quarkus-integration-test-observability-services
+camel-quarkus-integration-test-olingo4
 camel-quarkus-integration-test-openapi-java
 camel-quarkus-integration-test-opentelemetry
 camel-quarkus-integration-test-paho
@@ -494,6 +495,9 @@ camel-quarkus-netty-parent
 camel-quarkus-observability-services
 camel-quarkus-observability-services-deployment
 camel-quarkus-observability-services-parent
+camel-quarkus-olingo4
+camel-quarkus-olingo4-deployment
+camel-quarkus-olingo4-parent
 camel-quarkus-openapi-java
 camel-quarkus-openapi-java-deployment
 camel-quarkus-openapi-java-parent

@@ -396,8 +396,6 @@ org.apache.camel:camel-nats
 org.apache.camel:camel-nitrite
 org.apache.camel:camel-oaipmh
 org.apache.camel:camel-ognl
-org.apache.camel:camel-olingo4
-org.apache.camel:camel-olingo4-api
 org.apache.camel:camel-opensearch
 org.apache.camel:camel-openstack
 org.apache.camel:camel-optaplanner
@@ -699,8 +697,6 @@ org.apache.camel.quarkus:camel-quarkus-oaipmh
 org.apache.camel.quarkus:camel-quarkus-oaipmh-deployment
 org.apache.camel.quarkus:camel-quarkus-ognl
 org.apache.camel.quarkus:camel-quarkus-ognl-deployment
-org.apache.camel.quarkus:camel-quarkus-olingo4
-org.apache.camel.quarkus:camel-quarkus-olingo4-deployment
 org.apache.camel.quarkus:camel-quarkus-opensearch
 org.apache.camel.quarkus:camel-quarkus-opensearch-deployment
 org.apache.camel.quarkus:camel-quarkus-openstack
@@ -882,12 +878,6 @@ org.apache.lucene:lucene-queries
 org.apache.lucene:lucene-queryparser
 org.apache.lucene:lucene-sandbox
 org.apache.mina:mina-core
-org.apache.olingo:odata-client-api
-org.apache.olingo:odata-client-core
-org.apache.olingo:odata-commons-api
-org.apache.olingo:odata-commons-core
-org.apache.olingo:odata-server-api
-org.apache.olingo:odata-server-core
 org.apache.opennlp:opennlp-tools
 org.apache.pdfbox:fontbox
 org.apache.pdfbox:pdfbox

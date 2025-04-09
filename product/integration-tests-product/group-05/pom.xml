@@ -35,6 +35,7 @@
     <modules>
         <module>../../../integration-tests/netty</module>
         <module>../../../integration-tests/observability-services</module>
+        <module>../../../integration-tests/olingo4</module>
         <module>../../../integration-tests/openapi-java</module>
         <module>../../../integration-tests/opentelemetry</module>
         <module>../../../integration-tests/paho</module>
