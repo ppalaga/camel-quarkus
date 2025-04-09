@@ -2044,6 +2044,9 @@ org.apache.flink:flink-annotations
 org.apache.flink:flink-clients
 org.apache.flink:flink-connector-datagen
 org.apache.flink:flink-core
+org.apache.flink:flink-core-api
+org.apache.flink:flink-datastream
+org.apache.flink:flink-datastream-api
 org.apache.flink:flink-file-sink-common
 org.apache.flink:flink-hadoop-fs
 org.apache.flink:flink-java
@@ -2720,6 +2723,7 @@ software.amazon.kinesis:amazon-kinesis-client
 tech.allegro.schema.json2avro:converter
 tech.tablesaw:tablesaw-core
 tech.tablesaw:tablesaw-jsplot
+tools.profiler:async-profiler
 uk.co.jemos.podam:podam
 wsdl4j:wsdl4j
 xalan:serializer
