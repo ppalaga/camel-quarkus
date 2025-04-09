@@ -160,7 +160,6 @@ com.slack.api:slack-api-model
 com.squareup:javapoet
 com.squareup:kotlinpoet
 com.squareup:protoparser
-com.squareup.okhttp3:mockwebserver
 com.squareup.okhttp3:okhttp
 com.squareup.okio:okio
 com.squareup.okio:okio-fakefilesystem

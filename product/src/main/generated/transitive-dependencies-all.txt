@@ -295,7 +295,6 @@ com.squareup:kotlinpoet
 com.squareup:protoparser
 com.squareup.moshi:moshi
 com.squareup.okhttp3:logging-interceptor
-com.squareup.okhttp3:mockwebserver
 com.squareup.okhttp3:okhttp
 com.squareup.okhttp3:okhttp-urlconnection
 com.squareup.okio:okio
