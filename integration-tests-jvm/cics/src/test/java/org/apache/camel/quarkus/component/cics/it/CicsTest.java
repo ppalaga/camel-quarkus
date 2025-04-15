@@ -25,6 +25,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import io.smallrye.certs.Format;
 import io.smallrye.certs.junit5.Certificate;
+import org.apache.camel.quarkus.test.DisabledOnArm;
 import org.apache.camel.quarkus.test.support.certificate.TestCertificates;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
@@ -34,6 +35,7 @@ import org.junit.jupiter.api.Test;
         @Certificate(name = "wrong", formats = { Format.PKCS12 }, password = "changeit") })
 @QuarkusTestResource(CicsTestResource.class)
 @QuarkusTest
+@DisabledOnArm
 class CicsTest {
 
     int sslPort, tcpPort;
