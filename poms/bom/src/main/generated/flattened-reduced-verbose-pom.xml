@@ -8927,6 +8927,21 @@
         <artifactId>quarkus-hazelcast-client-deployment</artifactId><!-- com.hazelcast:quarkus-hazelcast-client-bom:4.0.0 -->
         <version>4.0.0</version><!-- com.hazelcast:quarkus-hazelcast-client-bom:4.0.0 -->
       </dependency>
+      <dependency>
+        <groupId>org.smooks</groupId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <artifactId>smooks-core</artifactId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <version>2.2.1.redhat-00001</version><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+      </dependency>
+      <dependency>
+        <groupId>org.smooks</groupId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <artifactId>smooks-commons</artifactId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <version>2.2.1.redhat-00001</version><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+      </dependency>
+      <dependency>
+        <groupId>org.smooks.cartridges</groupId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <artifactId>smooks-javabean-cartridge</artifactId><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+        <version>2.0.3</version><!-- org.smooks:smooks-bom:2.2.1.redhat-00001 -->
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
