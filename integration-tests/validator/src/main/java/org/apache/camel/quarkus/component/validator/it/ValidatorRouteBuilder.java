@@ -55,6 +55,9 @@ public class ValidatorRouteBuilder extends RouteBuilder {
         from("direct:classpathFailFalse")
                 .to("validator:message.xsd?failOnNullBody=false");
 
+        from("direct:xsd-1.1.xsd")
+                .to("validator:xsd-1.1.xsd?schemaFactory=#sf");
+
     }
 
     public String createTempXsd(String sourceXsd) {

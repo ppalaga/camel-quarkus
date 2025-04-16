@@ -16,8 +16,14 @@
  */
 package org.apache.camel.quarkus.component.validator.it;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import javax.xml.validation.SchemaFactory;
+
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.POST;
 import jakarta.ws.rs.Path;
@@ -27,7 +33,6 @@ import jakarta.ws.rs.QueryParam;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.apache.camel.ProducerTemplate;
-import org.apache.camel.support.processor.validation.NoXmlHeaderValidationException;
 
 @Path("/validator")
 @ApplicationScoped
@@ -55,11 +60,17 @@ public class ValidatorResource {
             return Response.ok().entity(producerTemplate.requestBody("direct:" + directName, body, String.class)).build();
 
         } catch (Exception e) {
-            if (e.getCause() instanceof NoXmlHeaderValidationException) {
-                return Response.serverError().entity(e.getCause().getMessage()).build();
-            }
-
-            return Response.serverError().entity(e.getMessage()).build();
+            final StringWriter w = new StringWriter();
+            final PrintWriter pw = new PrintWriter(w);
+            e.printStackTrace(pw);
+            return Response.serverError().entity(w.toString()).build();
         }
+    }
+
+    @jakarta.enterprise.inject.Produces
+    @ApplicationScoped
+    @Named("sf")
+    javax.xml.validation.SchemaFactory createSchemaFactory() {
+        return new org.apache.xerces.jaxp.validation.XMLSchema11Factory();
     }
 }

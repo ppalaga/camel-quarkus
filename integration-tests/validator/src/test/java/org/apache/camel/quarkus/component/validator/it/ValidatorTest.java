@@ -131,4 +131,30 @@ class ValidatorTest {
                 .statusCode(200);
 
     }
+
+    @Test
+    public void xsd_1_1() {
+
+        final String body = "<message><id>1</id></message>";
+        RestAssured.given()
+                .contentType(ContentType.XML)
+                .body(body)
+                .post("/validator/validate/xsd-1.1.xsd")
+                .then()
+                .statusCode(200)
+                .assertThat()
+                .body(org.hamcrest.Matchers.is(body));
+
+        final String badBody = "<message><id>2</id></message>";
+        RestAssured.given()
+                .contentType(ContentType.XML)
+                .body(badBody)
+                .post("/validator/validate/xsd-1.1.xsd")
+                .then()
+                .statusCode(500)
+                .assertThat()
+                .body(org.hamcrest.Matchers
+                        .containsString("Value '2' is not facet-valid with respect to assertion '$value mod 2 = 1'"));
+
+    }
 }
