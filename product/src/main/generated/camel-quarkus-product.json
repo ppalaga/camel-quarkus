@@ -330,8 +330,9 @@
       "artifact-id": "camel-quarkus-flink",
       "metadata": {
         "redhat-support": [
-          "supported"
-        ]
+          "supported-in-jvm"
+        ],
+        "unlisted": "false"
       }
     },
     {
