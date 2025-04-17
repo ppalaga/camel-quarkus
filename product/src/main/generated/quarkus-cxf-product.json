@@ -35,7 +35,7 @@
       "artifact-id": "quarkus-cxf-rt-transports-http-hc5",
       "metadata": {
         "redhat-support": [
-          "supported"
+          "deprecated"
         ],
         "guide": "https://docs.redhat.com/en/documentation/red_hat_build_of_apache_camel/4.10/html-single/red_hat_build_of_apache_camel_for_quarkus_reference/camel-quarkus-extensions-reference#quarkus-cxf-rt-transports-http-hc5"
       }
