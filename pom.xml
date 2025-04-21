@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.10.3.redhat-00010</version>
+        <version>4.10.3.redhat-00012</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,13 +41,13 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.10</camel.major.minor>
         <camel-community-version>${camel.major.minor}.3</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.3.redhat-00010</camel.version>
+        <camel.version>${camel.major.minor}.3.redhat-00012</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.20.0</camel-quarkus-community.version>
-        <camel-kamelets.version>4.10.3.redhat-00007</camel-kamelets.version>
-        <camel-fusesource.version>4.10.3.redhat-00007</camel-fusesource.version>
+        <camel-kamelets.version>4.10.3.redhat-00009</camel-kamelets.version>
+        <camel-fusesource.version>4.10.3.redhat-00009</camel-fusesource.version>
         <cassandra-quarkus.version>1.2.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>3.0.7.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
         <optaplanner.version>9.37.0.Final</optaplanner.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/optaplanner/optaplanner-quarkus/ -->
@@ -167,7 +167,7 @@
         <retrofit.version>2.9.0</retrofit.version><!-- @sync org.influxdb:influxdb-java:${influxdb.version} dep:com.squareup.retrofit2:retrofit -->
         <rxjava3.version>3.1.8</rxjava3.version><!-- Used by amazon-kinesis-client and infinispan-client-hotrod-jakarta -->
         <smallrye.reactive.messaging.camel.version>4.27.0</smallrye.reactive.messaging.camel.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:io.smallrye.reactive:smallrye-reactive-messaging-provider -->
-        <smooks.version>2.2.1.redhat-00001</smooks.version><!-- @sync org.apache.camel:camel-parent:${camel.version} prop:smooks-version -->
+        <smooks.version>2.2.1.redhat-00002</smooks.version><!-- @sync org.apache.camel:camel-parent:${camel.version} prop:smooks-version -->
         <snakeyaml.version>2.3.0.redhat-00001</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
         <snakeyaml-engine.version>${snakeyaml-engine-version}</snakeyaml-engine.version><!-- Resolve conflict between camel-snakeyaml & kubernetes-client -->
         <spring.version>${spring-version}</spring.version>
