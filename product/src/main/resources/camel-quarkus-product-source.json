@@ -757,5 +757,6 @@
         "net.openhft:affinity",
         "io.quarkus:quarkus-test-common",
         "io.fabric8:kubernetes-httpclient-okhttp"
-    ]
+    ],
+    "platformOverridesSupportAttributeName": "redhat-support"
 }
