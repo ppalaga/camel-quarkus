@@ -44,6 +44,13 @@
 * `additionalExtensionDependencies` - a map from `[groupdId:]artifactId` to `groupId:artifactId`. It allows multiple additional deps in a single string and separate them by comma or whitespace.
 * `transitiveDependencyReplacements` - a map from `groupId:artifactId` to `groupId:artifactId`. Any artifacts matching some given key will be replaced by the corresponding value when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`. The primary purpose of these replacement is to keep the report reproducible across operating systems, effectively replacing MacOS and Windows specific artifacts with the corresponding Linux ones.
 * `ignoredTransitiveDependencies` - a list of `groupId[:artifactId[:version]]` patterns (`*` wildcard allowed). All matching artifacts and their transitive dependencies will be ignored when compiling the reports in `product/src/main/generated/transitive-dependencies-*.txt`.
+* `platformOverridesSupportAttributeName` - the name of attribute under `<extension>.metadata` in platform overrides files
+  (`org.apache.camel.quarkus:camel-quarkus-product::json:${version}`, `org.apache.camel.quarkus:camel-quarkus-product:cxf:json:${version}`).
+  Used when transforming product files `camel-quarkus-product-source.json` and `quarkus-cxf-product-source.json` to platform overrides files.
+  For CEQ versions before 3.27.0, the value `redhat-support` should be used.
+  For 3.27.0+ versions, the name for the Red Hat CEQ product should be `redhat-camel-support`.
+  See also https://github.com/l2x6/cq-maven-plugin/issues/717.
+  Since cq-prod-maven-plugin 4.18.0
 
 === Updating the source tree after changing `camel-quarkus-product-source.json` or `quarkus-cxf-product-source.json`
 
