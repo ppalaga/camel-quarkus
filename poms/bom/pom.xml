@@ -22,7 +22,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-poms</artifactId>
-        <version>3.26.0</version>
+        <version>3.26.0.rhbac-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>camel-quarkus-bom</artifactId>
@@ -31,7 +31,7 @@
     <properties>
         <!-- This property is kept in sync with project.version by the release plugin -->
         <!-- Do not change to project.version because otherwise the end user apps having our BOM as parent (rather than importing it) will stop working -->
-        <camel-quarkus.version>3.26.0</camel-quarkus.version>
+        <camel-quarkus.version>3.26.0.rhbac-SNAPSHOT</camel-quarkus.version>
         <allow-findbugs>true</allow-findbugs>
     </properties>
     <dependencyManagement>
@@ -62,6 +62,13 @@
                 <groupId>software.amazon.awssdk</groupId>
                 <artifactId>bom</artifactId>
                 <version>${awssdk.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.quarkiverse.artemis</groupId>
+                <artifactId>quarkus-artemis-bom</artifactId>
+                <version>${quarkiverse-artemis.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -7719,12 +7726,12 @@
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js-language</artifactId>
-                <version>${graalvm.version}</version>
+                <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js-scriptengine</artifactId>
-                <version>${graalvm.version}</version>
+                <version>${graalvm-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.influxdb</groupId>
@@ -8050,6 +8057,58 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-fusesource.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.eclipse</groupId>
+                        <artifactId>osgi</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap-deployment</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-cics</artifactId>
+                <version>${camel-fusesource.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.eclipse</groupId>
+                        <artifactId>osgi</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-cics</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-cics-deployment</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.ibm</groupId>
+                <artifactId>ctgclient</artifactId>
+                <version>${ctgClient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.kamelets</groupId>
+                <artifactId>camel-kamelets</artifactId>
+                <version>${camel-kamelets.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
@@ -8061,7 +8120,7 @@
                     <dependency>
                         <groupId>io.quarkus</groupId>
                         <artifactId>quarkus-enforcer-rules</artifactId>
-                        <version>${quarkus.version}</version>
+                        <version>${quarkus-community.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
@@ -8087,6 +8146,7 @@
                                 <!-- whose dependencies we want to cover in the flattened BOM -->
                                 <resolutionEntryPointInclude>org.apache.camel.quarkus:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>ca.uhn.hapi:*</resolutionEntryPointInclude>
+                                <resolutionEntryPointInclude>io.quarkiverse.artemis:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.cxf:*</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.minio:minio-native</resolutionEntryPointInclude>
                                 <resolutionEntryPointInclude>io.quarkiverse.messaginghub:*</resolutionEntryPointInclude>
