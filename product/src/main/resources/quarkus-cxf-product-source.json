@@ -11,14 +11,14 @@
             "native": "supported",
             "comment": "supported/supported since CEQ/QCXF 3.8"
         },
+        "quarkus-cxf-jaxb-plugins": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported/supported since CEQ/QCXF 3.27"
+        },
         "quarkus-cxf-rt-features-metrics": {
             "jvm": "supported",
             "native": "supported",
-            "comment": "supported/supported since CEQ/QCXF 3.8"
-        },
-        "quarkus-cxf-rt-transports-http-hc5": {
-            "jvm": "deprecated",
-            "native": "deprecated",
             "comment": "supported/supported since CEQ/QCXF 3.8"
         },
         "quarkus-cxf-rt-ws-rm": {

@@ -78,6 +78,11 @@
             "native": "supported",
             "comment": "tp/tp since 3.2.0, supported since CEQ 3.20.0"
         },
+        "camel-quarkus-azure-storage-datalake": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.27.0"
+        },
         "camel-quarkus-azure-storage-blob": {
             "jvm": "supported",
             "native": "supported",
@@ -408,6 +413,11 @@
             "native": "supported",
             "comment": "supported since CEQ 2.7.1"
         },
+        "camel-quarkus-mail-microsoft-oauth": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.27.0"
+        },
         "camel-quarkus-management": {
             "jvm": "supported",
             "native": "supported",
@@ -487,6 +497,11 @@
             "jvm": "supported",
             "native": "supported",
             "comment": "supported/tp since CEQ 2.2.0, supported since CEQ 2.7.1"
+        },
+        "camel-quarkus-opensearch": {
+            "jvm": "supported",
+            "native": "techPreview",
+            "comment": "JVM supported since CEQ 3.27.0"
         },
         "camel-quarkus-opentelemetry": {
             "jvm": "supported",
