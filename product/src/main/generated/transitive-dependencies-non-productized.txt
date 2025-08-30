@@ -1051,11 +1051,6 @@ org.fusesource.hawtdispatch:hawtdispatch-transport
 org.fusesource.stompjms:stompjms-client
 org.graalvm.js:js-language
 org.graalvm.js:js-scriptengine
-org.graalvm.polyglot:polyglot
-org.graalvm.regex:regex
-org.graalvm.sdk:collections
-org.graalvm.shadowed:icu4j
-org.graalvm.truffle:truffle-api
 org.hamcrest:hamcrest
 org.igniterealtime.smack:smack-core
 org.igniterealtime.smack:smack-extensions
