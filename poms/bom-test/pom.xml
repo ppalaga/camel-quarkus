@@ -43,8 +43,15 @@
         <dependencies>
             <dependency>
                 <groupId>io.quarkus</groupId>
-                <artifactId>quarkus-bom-test</artifactId>
+                <artifactId>quarkus-bom</artifactId>
                 <version>${quarkus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.quarkus</groupId>
+                <artifactId>quarkus-bom-test</artifactId>
+                <version>${quarkus-community.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -86,7 +93,7 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-test-support-custom-dataformat</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -160,17 +167,17 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-custom-type-converter</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-debezium</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-debezium</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
@@ -267,12 +274,12 @@
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-messaging-sjms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-integration-tests-support-messaging-sjms</artifactId>
-                <version>${camel-quarkus.version}</version>
+                <version>${camel-quarkus-community.version}</version>
                 <type>test-jar</type>
             </dependency>
             <dependency>
