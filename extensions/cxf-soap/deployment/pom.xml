@@ -41,6 +41,12 @@
         <dependency>
             <groupId>io.quarkiverse.cxf</groupId>
             <artifactId>quarkus-cxf-deployment</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.quarkus</groupId>
+                    <artifactId>quarkus-devtools-utilities</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
