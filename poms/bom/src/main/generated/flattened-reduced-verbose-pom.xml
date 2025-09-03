@@ -7900,6 +7900,11 @@
         <version>9.2</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
       </dependency>
       <dependency>
+        <groupId>org.apache.camel.kamelets</groupId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <artifactId>camel-kamelets</artifactId><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+        <version>4.14.0.redhat-00003</version><!-- org.apache.camel.quarkus:camel-quarkus-bom:${project.version} -->
+      </dependency>
+      <dependency>
         <groupId>io.quarkiverse.jgit</groupId><!-- io.quarkiverse.jgit:quarkus-jgit-bom:3.6.0 -->
         <artifactId>quarkus-jgit</artifactId><!-- io.quarkiverse.jgit:quarkus-jgit-bom:3.6.0 -->
         <version>3.6.0</version><!-- io.quarkiverse.jgit:quarkus-jgit-bom:3.6.0 -->
