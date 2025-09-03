@@ -54,7 +54,11 @@ pipeline {
                     //Fail if there are uncommitted changes after building
                     sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
 
-                    sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*"
+                    sh """
+                        LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                        echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                        cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*
+                    """
                     stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
                     sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
                 }
@@ -76,8 +80,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -85,6 +87,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -108,8 +116,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -117,6 +123,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -140,8 +152,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -149,6 +159,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-product/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -172,8 +188,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -181,6 +195,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-product/group-04 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -204,8 +224,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -213,6 +231,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-product/group-05 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -236,8 +260,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -245,6 +267,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -268,8 +296,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -277,6 +303,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -300,8 +332,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -309,6 +339,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -332,8 +368,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -341,6 +375,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
@@ -364,8 +404,6 @@ pipeline {
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -373,6 +411,12 @@ pipeline {
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }

@@ -10,8 +10,6 @@
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
@@ -19,6 +17,12 @@
                             }
 
                             configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
+                                sh """
+                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                                """
                                 sh "cd ${groupDirectory} && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                             }
                         }
