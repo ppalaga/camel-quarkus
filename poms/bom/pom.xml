@@ -7743,12 +7743,12 @@
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js-language</artifactId>
-                <version>${graalvm-community.version}</version>
+                <version>${graalvm.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
                 <artifactId>js-scriptengine</artifactId>
-                <version>${graalvm-community.version}</version>
+                <version>${graalvm.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.influxdb</groupId>
