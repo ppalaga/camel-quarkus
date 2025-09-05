@@ -16,14 +16,26 @@
  */
 package org.apache.camel.quarkus.messaging.sjms.util;
 
+import java.lang.reflect.InvocationTargetException;
+
 import jakarta.inject.Singleton;
-import org.apache.camel.component.sjms.SjmsMessage;
+import jakarta.jms.Message;
 import org.apache.camel.quarkus.component.messaging.it.util.resolver.JmsMessageResolver;
 
 public class JmsMessageResolverProducer {
 
     @Singleton
     public JmsMessageResolver messageResolver() {
-        return exchange -> exchange.getMessage(SjmsMessage.class).getJmsMessage();
+        return exchange -> {
+            try {
+                final Class<?> sjmsMessageClass = Class.forName("org.apache.camel.component.sjms.SjmsMessage");
+                final Object sjmsMessage = exchange.getMessage(sjmsMessageClass);
+                return (Message) sjmsMessageClass.getDeclaredMethod("getJmsMessage").invoke(sjmsMessage);
+            } catch (ClassNotFoundException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
+                    | NoSuchMethodException | SecurityException e) {
+                throw new RuntimeException("Could not load or invoke org.apache.camel.component.sjms.SjmsMessage reflexively",
+                        e);
+            }
+        };
     }
 }
