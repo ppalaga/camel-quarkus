@@ -1595,6 +1595,7 @@ org.apache.camel.quarkus:camel-quarkus-influxdb-deployment
 org.apache.camel.quarkus:camel-quarkus-integration-test-support
 org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq
 org.apache.camel.quarkus:camel-quarkus-integration-tests-support-messaging-common
+org.apache.camel.quarkus:camel-quarkus-integration-tests-support-messaging-sjms
 org.apache.camel.quarkus:camel-quarkus-irc
 org.apache.camel.quarkus:camel-quarkus-irc-deployment
 org.apache.camel.quarkus:camel-quarkus-iso8583

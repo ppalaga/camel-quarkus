@@ -373,6 +373,7 @@ camel-quarkus-integration-tests-support-kafka
 camel-quarkus-integration-tests-support-messaging
 camel-quarkus-integration-tests-support-messaging-common
 camel-quarkus-integration-tests-support-messaging-jms
+camel-quarkus-integration-tests-support-messaging-sjms
 camel-quarkus-integration-tests-support-mongodb
 camel-quarkus-integration-tests-support-splunk
 camel-quarkus-integration-tests-support-xslt

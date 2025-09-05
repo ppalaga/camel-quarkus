@@ -949,6 +949,7 @@ org.apache.camel.quarkus:camel-quarkus-infinispan-deployment
 org.apache.camel.quarkus:camel-quarkus-integration-test-support
 org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq
 org.apache.camel.quarkus:camel-quarkus-integration-tests-support-messaging-common
+org.apache.camel.quarkus:camel-quarkus-integration-tests-support-messaging-sjms
 org.apache.camel.quarkus:camel-quarkus-jackson
 org.apache.camel.quarkus:camel-quarkus-jackson-avro
 org.apache.camel.quarkus:camel-quarkus-jackson-avro-deployment
