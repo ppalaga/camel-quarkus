@@ -32,10 +32,20 @@
     <name>Camel Quarkus :: Integration Tests :: SAP</name>
     <description>Integration tests for Camel Quarkus SAP extension</description>
 
-    <properties>
-        <sapjco3.version>3.1.4</sapjco3.version>
-        <sapidoc.version>3.1.1</sapidoc.version>
-    </properties>
+    <dependencyManagement>
+        <dependencies>
+           <dependency>
+                <groupId>com.sap.conn.jco</groupId>
+                <artifactId>sapjco3</artifactId>
+                <version>${sapjco3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sap.conn.idoc</groupId>
+                <artifactId>sapidoc3</artifactId>
+                <version>${sapidoc.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
@@ -59,6 +69,17 @@
             <artifactId>rest-assured</artifactId>
             <scope>test</scope>
         </dependency>
+       <dependency>
+            <groupId>com.sap.conn.jco</groupId>
+            <artifactId>sapjco3</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.conn.idoc</groupId>
+            <artifactId>sapidoc3</artifactId>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <profiles>
@@ -83,42 +104,6 @@
                             <artifactId>*</artifactId>
                         </exclusion>
                     </exclusions>
-                </dependency>
-            </dependencies>
-        </profile>
-
-        <profile>
-            <id>sapjco3</id>
-            <activation>
-                <file>
-                    <exists>${basedir}/lib/sapjco3.jar</exists>
-                </file>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>com.sap.conn.jco</groupId>
-                    <artifactId>sapjco3</artifactId>
-                    <version>${sapjco3.version}</version>
-                    <scope>system</scope>
-                    <systemPath>${basedir}/lib/sapjco3.jar</systemPath>
-                </dependency>
-            </dependencies>
-        </profile>
-
-        <profile>
-            <id>sapidoc3</id>
-            <activation>
-                <file>
-                    <exists>${basedir}/lib/sapidoc3.jar</exists>
-                </file>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>com.sap.conn.idoc</groupId>
-                    <artifactId>sapidoc3</artifactId>
-                    <version>${sapidoc.version}</version>
-                    <scope>system</scope>
-                    <systemPath>${basedir}/lib/sapidoc3.jar</systemPath>
                 </dependency>
             </dependencies>
         </profile>
