@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-def MAVEN_PARAMS = '-B -e -s $MAVEN_SETTINGS -Djava.net.preferIPv4Stack=true'
+def MAVEN_PARAMS = '-B -e -s ${WORKSPACE}/product/settings.xml -Djava.net.preferIPv4Stack=true'
 
 pipeline {
 
@@ -43,25 +43,24 @@ pipeline {
             steps {
                 // Clean up any orphaned containers that may be lingering
                 sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME}'"
+                sh "ls -l ${WORKSPACE}/product/settings.xml"
                 sh "df -h"
                 sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
                 sh "docker system prune -a -f"
                 sh "df -h"
                 sh "git --version"
-                configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                    sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
+                sh "./mvnw ${MAVEN_PARAMS} clean install -Dquickly"
 
-                    //Fail if there are uncommitted changes after building
-                    sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
+                //Fail if there are uncommitted changes after building
+                sh "[[ -z \$(git status --porcelain | grep -v antora.yml) ]] || { echo 'There are uncommitted changes. You may want to run mvn mvn org.l2x6.cq:cq-prod-maven-plugin:prod-excludes -N'; git diff; git status; exit 1; }"
 
-                    sh """
-                        LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                        echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                        cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*
-                    """
-                    stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
-                    sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
-                }
+                sh """
+                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar cfz ${WORKSPACE}/cq-artifacts.tgz camel-quarkus*
+                """
+                stash name: 'cq-artifacts', includes: 'cq-artifacts.tgz'
+                sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
             }
         }
 
@@ -86,15 +85,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-product/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -122,15 +119,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-product/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -158,15 +153,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-product/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-product/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -194,15 +187,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-product/group-04 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-product/group-04 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -230,15 +221,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-product/group-05 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-product/group-05 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -266,15 +255,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-mixed-allowed/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -302,15 +289,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-mixed-jvm/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -338,15 +323,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-mixed-native/group-01 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -374,15 +357,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-mixed-native/group-02 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
@@ -410,15 +391,13 @@ pipeline {
                                 MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
                             }
 
-                            configFileProvider([configFile(fileId: 'fuse-maven-settings', variable: 'MAVEN_SETTINGS')]) {
-                                sh """
-                                    LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
-                                    echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
-                                    mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
-                                    cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
-                                """
-                                sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
-                            }
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd product/integration-tests-mixed-native/group-03 && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
                         }
                     }
                     post {
