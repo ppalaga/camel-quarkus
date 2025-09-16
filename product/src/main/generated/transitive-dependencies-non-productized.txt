@@ -328,7 +328,6 @@ org.apache.camel:camel-cometd
 org.apache.camel:camel-consul
 org.apache.camel:camel-couchbase
 org.apache.camel:camel-couchdb
-org.apache.camel:camel-crypto-pgp
 org.apache.camel:camel-csv
 org.apache.camel:camel-datasonnet
 org.apache.camel:camel-debezium-common
@@ -551,8 +550,6 @@ org.apache.camel.quarkus:camel-quarkus-couchbase
 org.apache.camel.quarkus:camel-quarkus-couchbase-deployment
 org.apache.camel.quarkus:camel-quarkus-couchdb
 org.apache.camel.quarkus:camel-quarkus-couchdb-deployment
-org.apache.camel.quarkus:camel-quarkus-crypto-pgp
-org.apache.camel.quarkus:camel-quarkus-crypto-pgp-deployment
 org.apache.camel.quarkus:camel-quarkus-csimple
 org.apache.camel.quarkus:camel-quarkus-csimple-deployment
 org.apache.camel.quarkus:camel-quarkus-csv

@@ -43,6 +43,7 @@
         <module>../../../integration-tests/bindy</module>
         <module>../../../integration-tests/cassandraql</module>
         <module>../../../integration-tests/crypto</module>
+        <module>../../../integration-tests/crypto-pgp</module>
         <module>../../../integration-tests/debug</module>
         <module>../../../integration-tests/elasticsearch-rest-client</module>
         <module>../../../integration-tests/fhir</module>
@@ -68,6 +69,5 @@
         <module>../../../integration-tests/jms-ibmmq-client</module>
         <module>../../../integration-tests/jms-qpid-amqp-client</module>
         <module>../../../integration-tests/jolokia</module>
-        <module>../../../integration-tests/jpa</module>
     </modules>
 </project>

@@ -55,7 +55,6 @@
         <module>../../../integration-tests/cbor</module>
         <module>../../../integration-tests/consul</module>
         <module>../../../integration-tests/couchdb</module>
-        <module>../../../integration-tests/crypto-pgp</module>
         <module>../../../integration-tests/csimple</module>
         <module>../../../integration-tests/csv</module>
         <module>../../../integration-tests/datasonnet</module>
@@ -68,5 +67,6 @@
         <module>../../../integration-tests/fory</module>
         <module>../../../integration-tests/freemarker</module>
         <module>../../../integration-tests/geocoder</module>
+        <module>../../../integration-tests/git</module>
     </modules>
 </project>

@@ -264,6 +264,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-crypto-pgp",
+      "metadata": {
+        "redhat-camel-support": [
+          "supported"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-cxf-soap",
       "metadata": {
         "redhat-camel-support": [

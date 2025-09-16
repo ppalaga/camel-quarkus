@@ -97,6 +97,9 @@ camel-quarkus-cron-parent
 camel-quarkus-crypto
 camel-quarkus-crypto-deployment
 camel-quarkus-crypto-parent
+camel-quarkus-crypto-pgp
+camel-quarkus-crypto-pgp-deployment
+camel-quarkus-crypto-pgp-parent
 camel-quarkus-cxf-soap
 camel-quarkus-cxf-soap-deployment
 camel-quarkus-cxf-soap-parent
@@ -203,6 +206,7 @@ camel-quarkus-integration-test-core-annotations
 camel-quarkus-integration-test-core-languages
 camel-quarkus-integration-test-core-threadpools
 camel-quarkus-integration-test-crypto
+camel-quarkus-integration-test-crypto-pgp
 camel-quarkus-integration-test-cxf-soap-client
 camel-quarkus-integration-test-cxf-soap-converter
 camel-quarkus-integration-test-cxf-soap-metrics

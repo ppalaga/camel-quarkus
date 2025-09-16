@@ -705,6 +705,7 @@ org.apache.camel:camel-core-processor
 org.apache.camel:camel-core-reifier
 org.apache.camel:camel-cron
 org.apache.camel:camel-crypto
+org.apache.camel:camel-crypto-pgp
 org.apache.camel:camel-cxf-common
 org.apache.camel:camel-cxf-soap
 org.apache.camel:camel-cxf-transport
@@ -903,6 +904,8 @@ org.apache.camel.quarkus:camel-quarkus-cron
 org.apache.camel.quarkus:camel-quarkus-cron-deployment
 org.apache.camel.quarkus:camel-quarkus-crypto
 org.apache.camel.quarkus:camel-quarkus-crypto-deployment
+org.apache.camel.quarkus:camel-quarkus-crypto-pgp
+org.apache.camel.quarkus:camel-quarkus-crypto-pgp-deployment
 org.apache.camel.quarkus:camel-quarkus-cxf-soap
 org.apache.camel.quarkus:camel-quarkus-cxf-soap-deployment
 org.apache.camel.quarkus:camel-quarkus-dataformat
