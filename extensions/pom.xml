@@ -86,7 +86,7 @@
         <!-- <module>couchdb</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cron</module>
         <module>crypto</module>
-        <!-- <module>crypto-pgp</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>crypto-pgp</module>
         <!-- <module>csimple</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>csv</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>cxf-soap</module>

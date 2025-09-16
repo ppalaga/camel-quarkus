@@ -33,6 +33,7 @@
     <name>Camel Quarkus :: Integration Tests :: Product :: Group 04</name>
 
     <modules>
+        <module>../../../integration-tests/jpa</module>
         <module>../../../integration-tests/jq</module>
         <module>../../../integration-tests/jslt</module>
         <module>../../../integration-tests/jsonpath</module>

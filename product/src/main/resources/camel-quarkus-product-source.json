@@ -153,6 +153,11 @@
             "native": "supported",
             "comment": "supported since CEQ 3.2.0"
         },
+        "camel-quarkus-crypto-pgp": {
+            "jvm": "supported",
+            "native": "supported",
+            "comment": "supported since CEQ 3.27.0"
+        },
         "camel-quarkus-cxf-soap": {
             "jvm": "supported",
             "native": "supported",
