@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 03</name>
 
     <modules>
-        <module>../../../integration-tests/pdf</module>
         <module>../../../integration-tests/pg-replication-slot</module>
         <module>../../../integration-tests/pgevent</module>
         <module>../../../integration-tests/pinecone</module>

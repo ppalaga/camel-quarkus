@@ -710,6 +710,7 @@ org.apache.camel:camel-cxf-soap
 org.apache.camel:camel-cxf-transport
 org.apache.camel:camel-dataformat
 org.apache.camel:camel-dataset
+org.apache.camel:camel-debug
 org.apache.camel:camel-direct
 org.apache.camel:camel-dsl-support
 org.apache.camel:camel-elasticsearch-rest-client
@@ -908,6 +909,8 @@ org.apache.camel.quarkus:camel-quarkus-dataformat
 org.apache.camel.quarkus:camel-quarkus-dataformat-deployment
 org.apache.camel.quarkus:camel-quarkus-dataset
 org.apache.camel.quarkus:camel-quarkus-dataset-deployment
+org.apache.camel.quarkus:camel-quarkus-debug
+org.apache.camel.quarkus:camel-quarkus-debug-deployment
 org.apache.camel.quarkus:camel-quarkus-direct
 org.apache.camel.quarkus:camel-quarkus-direct-deployment
 org.apache.camel.quarkus:camel-quarkus-elasticsearch-rest-client

@@ -337,7 +337,6 @@ org.apache.camel:camel-debezium-mysql
 org.apache.camel:camel-debezium-oracle
 org.apache.camel:camel-debezium-postgres
 org.apache.camel:camel-debezium-sqlserver
-org.apache.camel:camel-debug
 org.apache.camel:camel-dfdl
 org.apache.camel:camel-digitalocean
 org.apache.camel:camel-disruptor
@@ -570,8 +569,6 @@ org.apache.camel.quarkus:camel-quarkus-debezium-postgres
 org.apache.camel.quarkus:camel-quarkus-debezium-postgres-deployment
 org.apache.camel.quarkus:camel-quarkus-debezium-sqlserver
 org.apache.camel.quarkus:camel-quarkus-debezium-sqlserver-deployment
-org.apache.camel.quarkus:camel-quarkus-debug
-org.apache.camel.quarkus:camel-quarkus-debug-deployment
 org.apache.camel.quarkus:camel-quarkus-dfdl
 org.apache.camel.quarkus:camel-quarkus-dfdl-deployment
 org.apache.camel.quarkus:camel-quarkus-digitalocean

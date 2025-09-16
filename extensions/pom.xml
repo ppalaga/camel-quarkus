@@ -98,7 +98,7 @@
         <!-- <module>debezium-oracle</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>debezium-postgres</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>debezium-sqlserver</module> disabled by cq-prod-maven-plugin:prod-excludes -->
-        <!-- <module>debug</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <module>debug</module>
         <!-- <module>digitalocean</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>direct</module>
         <!-- <module>disruptor</module> disabled by cq-prod-maven-plugin:prod-excludes -->
