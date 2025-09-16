@@ -37,6 +37,7 @@ camel-crypto
 camel-cxf-soap
 camel-dataformat
 camel-dataset
+camel-debug
 camel-dependencies-generator
 camel-direct
 camel-elasticsearch-rest-client

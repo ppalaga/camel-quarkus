@@ -33,7 +33,6 @@
     <name>Camel Quarkus :: Integration Tests :: Mixed Native :: Group 02</name>
 
     <modules>
-        <module>../../../integration-tests/geocoder</module>
         <module>../../../integration-tests/git</module>
         <module>../../../integration-tests/github</module>
         <module>../../../integration-tests/google</module>
@@ -68,5 +67,6 @@
         <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/openstack</module>
         <module>../../../integration-tests/optaplanner</module>
+        <module>../../../integration-tests/pdf</module>
     </modules>
 </project>

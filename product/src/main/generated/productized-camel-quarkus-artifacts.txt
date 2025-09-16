@@ -106,6 +106,9 @@ camel-quarkus-dataformat-parent
 camel-quarkus-dataset
 camel-quarkus-dataset-deployment
 camel-quarkus-dataset-parent
+camel-quarkus-debug
+camel-quarkus-debug-deployment
+camel-quarkus-debug-parent
 camel-quarkus-direct
 camel-quarkus-direct-deployment
 camel-quarkus-direct-parent
@@ -212,6 +215,7 @@ camel-quarkus-integration-test-cxf-soap-ws-security-client
 camel-quarkus-integration-test-cxf-soap-ws-security-server
 camel-quarkus-integration-test-cxf-soap-ws-trust
 camel-quarkus-integration-test-dataset
+camel-quarkus-integration-test-debug
 camel-quarkus-integration-test-direct
 camel-quarkus-integration-test-eip
 camel-quarkus-integration-test-elasticsearch-rest-client
