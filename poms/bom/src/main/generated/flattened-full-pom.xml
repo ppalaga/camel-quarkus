@@ -10993,184 +10993,184 @@
         <version>2.32.4</version><!-- software.amazon.awssdk:bom:2.32.4 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4.temporary-redhat-00002</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4.redhat-00001</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-core-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4.temporary-redhat-00002</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-core-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4.redhat-00001</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-jms</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4.temporary-redhat-00002</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-jms</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4.redhat-00001</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-jms-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4.temporary-redhat-00002</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-jms-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4.redhat-00001</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-jms-ra</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-jms-ra</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-artemis-jms-ra-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-artemis-jms-ra-deployment</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>quarkus-test-artemis</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>io.quarkiverse.artemis</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>quarkus-test-artemis</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>3.8.4</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-core-client</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-core-client</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-jakarta-client</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-jakarta-client</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>commons-logging</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>commons-logging</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>io.micrometer</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>micrometer-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>io.micrometer</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>micrometer-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>jakarta.json</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>jakarta.json-api</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.geronimo.specs</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>geronimo-json_1.0_spec</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.johnzon</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>johnzon-core</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.checkerframework</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>checker-qual</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.checkerframework</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>checker-qual</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
           <exclusion>
-            <groupId>org.jboss.logmanager</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>jboss-logmanager</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.jboss.logmanager</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>jboss-logmanager</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-amqp-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-amqp-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-hornetq-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-hornetq-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-hqclient-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-hqclient-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-mqtt-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-mqtt-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-openwire-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-openwire-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
       <dependency>
-        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <artifactId>artemis-stomp-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+        <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <artifactId>artemis-stomp-protocol</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+        <version>2.40.0.redhat-00006</version><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
         <exclusions>
           <exclusion>
-            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
-            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.temporary-redhat-00002 -->
+            <groupId>org.apache.activemq</groupId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
+            <artifactId>artemis-server</artifactId><!-- io.quarkiverse.artemis:quarkus-artemis-bom:3.8.4.redhat-00001 -->
           </exclusion>
         </exclusions>
       </dependency>
