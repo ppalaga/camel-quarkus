@@ -578,6 +578,7 @@ io.quarkus:quarkus-apache-httpclient-deployment
 io.quarkus:quarkus-arc
 io.quarkus:quarkus-arc-deployment
 io.quarkus:quarkus-arc-dev
+io.quarkus:quarkus-arc-test-supplement
 io.quarkus:quarkus-assistant-deployment-spi
 io.quarkus:quarkus-assistant-dev
 io.quarkus:quarkus-avro

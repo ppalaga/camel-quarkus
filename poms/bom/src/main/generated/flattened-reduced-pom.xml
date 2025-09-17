@@ -8755,22 +8755,22 @@
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core</artifactId>
-        <version>3.8.4.temporary-redhat-00002</version>
+        <version>3.8.4.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core-deployment</artifactId>
-        <version>3.8.4.temporary-redhat-00002</version>
+        <version>3.8.4.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms</artifactId>
-        <version>3.8.4.temporary-redhat-00002</version>
+        <version>3.8.4.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms-deployment</artifactId>
-        <version>3.8.4.temporary-redhat-00002</version>
+        <version>3.8.4.redhat-00001</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
