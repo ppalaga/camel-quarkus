@@ -75,7 +75,7 @@
 
         <!-- Compile dependency versions (keep sorted alphabetically) -->
         <!-- Items annotated with @sync can be updated by running mvn cq:sync-versions -N -e -->
-        <aalto-xml.version>1.3.3</aalto-xml.version><!-- @sync org.smooks:smooks-core:${smooks-version} dep:com.fasterxml:aalto-xml -->
+        <aalto-xml.version>1.3.3.redhat-00001</aalto-xml.version><!-- @sync org.smooks:smooks-core:${smooks-version} dep:com.fasterxml:aalto-xml -->
         <antlr3.version>3.5.2</antlr3.version><!-- Spark, Stringtemplate and probably others -->
         <audience-annotations.version>${yetus-audience-annotations-version}</audience-annotations.version>
         <avro.version>1.12.0</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
@@ -319,8 +319,8 @@
         <module>extensions-jvm</module>
         <module>catalog</module>
         <module>integration-tests-support</module>
-        <module>integration-tests</module>
-        <module>test-framework</module>
+        <!-- <module>integration-tests</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+        <!-- <module>test-framework</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>product</module>
     </modules>
 
@@ -1147,9 +1147,9 @@
                 </property>
             </activation>
             <modules>
-                <module>docs</module>
-                <module>integration-test-groups</module>
-                <module>integration-tests-jvm</module>
+                <!-- <module>docs</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+                <!-- <module>integration-test-groups</module> disabled by cq-prod-maven-plugin:prod-excludes -->
+                <!-- <module>integration-tests-jvm</module> disabled by cq-prod-maven-plugin:prod-excludes -->
             </modules>
         </profile>
         <profile>

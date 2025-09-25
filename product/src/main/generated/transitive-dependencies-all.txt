@@ -211,7 +211,6 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
-com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
@@ -234,6 +233,8 @@ com.googlecode.javaewah:JavaEWAH
 com.googlecode.libphonenumber:libphonenumber
 com.h2database:h2-mvstore
 com.hazelcast:hazelcast
+com.hazelcast:quarkus-hazelcast-client
+com.hazelcast:quarkus-hazelcast-client-deployment
 com.hierynomus:asn-one
 com.hierynomus:smbj
 com.huaweicloud.sdk:huaweicloud-sdk-core
@@ -558,9 +559,6 @@ io.quarkiverse.jgit:quarkus-jgit
 io.quarkiverse.jgit:quarkus-jgit-deployment
 io.quarkiverse.jsch:quarkus-jsch
 io.quarkiverse.jsch:quarkus-jsch-deployment
-io.quarkiverse.langchain4j:quarkus-langchain4j-core
-io.quarkiverse.langchain4j:quarkus-langchain4j-core-deployment
-io.quarkiverse.langchain4j:quarkus-langchain4j-core-runtime-spi
 io.quarkiverse.messaginghub:quarkus-pooled-jms
 io.quarkiverse.messaginghub:quarkus-pooled-jms-deployment
 io.quarkiverse.minio:quarkus-minio
@@ -1682,12 +1680,10 @@ org.apache.camel.quarkus:camel-quarkus-kubernetes-deployment
 org.apache.camel.quarkus:camel-quarkus-kudu
 org.apache.camel.quarkus:camel-quarkus-kudu-client
 org.apache.camel.quarkus:camel-quarkus-kudu-deployment
-org.apache.camel.quarkus:camel-quarkus-langchain4j
 org.apache.camel.quarkus:camel-quarkus-langchain4j-agent
 org.apache.camel.quarkus:camel-quarkus-langchain4j-agent-deployment
 org.apache.camel.quarkus:camel-quarkus-langchain4j-chat
 org.apache.camel.quarkus:camel-quarkus-langchain4j-chat-deployment
-org.apache.camel.quarkus:camel-quarkus-langchain4j-deployment
 org.apache.camel.quarkus:camel-quarkus-langchain4j-embeddings
 org.apache.camel.quarkus:camel-quarkus-langchain4j-embeddings-deployment
 org.apache.camel.quarkus:camel-quarkus-langchain4j-tokenizer
@@ -2469,7 +2465,6 @@ org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
-org.jfree:jfreechart
 org.jgroups:jgroups
 org.jgroups:jgroups-raft
 org.jodd:jodd-util
