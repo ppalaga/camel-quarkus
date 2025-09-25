@@ -1,0 +1,34 @@
+                stage('${stageName}') {
+                    agent {
+                        label "rhel||pipeline||pipeline-large"
+                    }
+                    steps {
+                        script {
+                            sh "echo 'ws: ${WORKSPACE} node: ${NODE_NAME} stage: ${env.STAGE_NAME}'"
+                            sh "df -h"
+                            sh "rm -f ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "docker system prune -a -f"
+                            sh "df -h"
+                            unstash name: 'cq-artifacts'
+
+                            def MAVEN_EXTRA_ARGS = ""
+                            if (env.STAGE_NAME =~ /^Mixed.*/) {
+                                MAVEN_EXTRA_ARGS = "-DnoVirtualDependencies -Pmixed"
+                            }
+
+                            sh """
+                                LOCAL_MAVEN_REPO=\$(./mvnw ${MAVEN_PARAMS} help:evaluate -Dexpression=settings.localRepository -q -DforceStdout)
+                                echo "LOCAL_MAVEN_REPO=\$LOCAL_MAVEN_REPO"
+                                mkdir -p \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus
+                                cd \$LOCAL_MAVEN_REPO/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz
+                            """
+                            sh "cd ${groupDirectory} && ../../../mvnw ${MAVEN_PARAMS} ${MAVEN_EXTRA_ARGS} test -fae"
+                        }
+                    }
+                    post {
+                        always {
+                            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
+                            junit allowEmptyResults: true, testResults: '**/target/failsafe-reports/*.xml'
+                        }
+                    }
+                }
