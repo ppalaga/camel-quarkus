@@ -97,6 +97,9 @@ camel-quarkus-cron-parent
 camel-quarkus-crypto
 camel-quarkus-crypto-deployment
 camel-quarkus-crypto-parent
+camel-quarkus-crypto-pgp
+camel-quarkus-crypto-pgp-deployment
+camel-quarkus-crypto-pgp-parent
 camel-quarkus-cxf-soap
 camel-quarkus-cxf-soap-deployment
 camel-quarkus-cxf-soap-parent
@@ -106,6 +109,9 @@ camel-quarkus-dataformat-parent
 camel-quarkus-dataset
 camel-quarkus-dataset-deployment
 camel-quarkus-dataset-parent
+camel-quarkus-debug
+camel-quarkus-debug-deployment
+camel-quarkus-debug-parent
 camel-quarkus-direct
 camel-quarkus-direct-deployment
 camel-quarkus-direct-parent
@@ -200,6 +206,7 @@ camel-quarkus-integration-test-core-annotations
 camel-quarkus-integration-test-core-languages
 camel-quarkus-integration-test-core-threadpools
 camel-quarkus-integration-test-crypto
+camel-quarkus-integration-test-crypto-pgp
 camel-quarkus-integration-test-cxf-soap-client
 camel-quarkus-integration-test-cxf-soap-converter
 camel-quarkus-integration-test-cxf-soap-metrics
@@ -212,6 +219,7 @@ camel-quarkus-integration-test-cxf-soap-ws-security-client
 camel-quarkus-integration-test-cxf-soap-ws-security-server
 camel-quarkus-integration-test-cxf-soap-ws-trust
 camel-quarkus-integration-test-dataset
+camel-quarkus-integration-test-debug
 camel-quarkus-integration-test-direct
 camel-quarkus-integration-test-eip
 camel-quarkus-integration-test-elasticsearch-rest-client

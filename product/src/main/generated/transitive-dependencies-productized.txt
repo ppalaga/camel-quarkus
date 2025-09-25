@@ -123,7 +123,6 @@ com.google.errorprone:error_prone_annotations
 com.google.flatbuffers:flatbuffers-java
 com.google.guava:failureaccess
 com.google.guava:guava
-com.google.guava:listenablefuture
 com.google.http-client:google-http-client
 com.google.http-client:google-http-client-apache-v2
 com.google.http-client:google-http-client-appengine
@@ -704,11 +703,13 @@ org.apache.camel:camel-core-processor
 org.apache.camel:camel-core-reifier
 org.apache.camel:camel-cron
 org.apache.camel:camel-crypto
+org.apache.camel:camel-crypto-pgp
 org.apache.camel:camel-cxf-common
 org.apache.camel:camel-cxf-soap
 org.apache.camel:camel-cxf-transport
 org.apache.camel:camel-dataformat
 org.apache.camel:camel-dataset
+org.apache.camel:camel-debug
 org.apache.camel:camel-direct
 org.apache.camel:camel-dsl-support
 org.apache.camel:camel-elasticsearch-rest-client
@@ -901,12 +902,16 @@ org.apache.camel.quarkus:camel-quarkus-cron
 org.apache.camel.quarkus:camel-quarkus-cron-deployment
 org.apache.camel.quarkus:camel-quarkus-crypto
 org.apache.camel.quarkus:camel-quarkus-crypto-deployment
+org.apache.camel.quarkus:camel-quarkus-crypto-pgp
+org.apache.camel.quarkus:camel-quarkus-crypto-pgp-deployment
 org.apache.camel.quarkus:camel-quarkus-cxf-soap
 org.apache.camel.quarkus:camel-quarkus-cxf-soap-deployment
 org.apache.camel.quarkus:camel-quarkus-dataformat
 org.apache.camel.quarkus:camel-quarkus-dataformat-deployment
 org.apache.camel.quarkus:camel-quarkus-dataset
 org.apache.camel.quarkus:camel-quarkus-dataset-deployment
+org.apache.camel.quarkus:camel-quarkus-debug
+org.apache.camel.quarkus:camel-quarkus-debug-deployment
 org.apache.camel.quarkus:camel-quarkus-direct
 org.apache.camel.quarkus:camel-quarkus-direct-deployment
 org.apache.camel.quarkus:camel-quarkus-elasticsearch-rest-client
@@ -1388,7 +1393,6 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
-org.jfree:jfreechart
 org.jgroups:jgroups
 org.jolokia:jolokia-agent-jvm
 org.jolokia:jolokia-json
