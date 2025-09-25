@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus</artifactId>
-        <version>3.27.0</version>
+        <version>3.27.0.rhbac-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -102,5 +102,7 @@
         <module>xmpp</module>
         <module>zookeeper</module>
         <module>zookeeper-master</module>
+        <module>cics</module>
+        <module>sap</module>
     </modules>
 </project>

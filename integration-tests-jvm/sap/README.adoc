@@ -1,0 +1,4 @@
+== SAP
+
+To run the SAP integration tests you have to store the required SAP libraries under
+`lib/sapjco3.jar` and `lib/sapidoc3.jar` in the current Maven module. 
