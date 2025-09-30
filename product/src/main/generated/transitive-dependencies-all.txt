@@ -432,6 +432,7 @@ io.grpc:grpc-googleapis
 io.grpc:grpc-grpclb
 io.grpc:grpc-inprocess
 io.grpc:grpc-netty
+io.grpc:grpc-netty-shaded
 io.grpc:grpc-opentelemetry
 io.grpc:grpc-protobuf
 io.grpc:grpc-protobuf-lite

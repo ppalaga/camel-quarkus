@@ -42,10 +42,6 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-grpc-common-deployment</artifactId>
         </dependency>
-        <dependency>
-            <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-netty-deployment</artifactId>
-        </dependency>
     </dependencies>
 
     <build>

@@ -1236,10 +1236,6 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                     <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
-                    </exclusion>
-                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -1315,10 +1311,6 @@
                     <exclusion>
                         <groupId>commons-logging</groupId>
                         <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
@@ -2024,10 +2016,6 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                     <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
-                    </exclusion>
-                    <exclusion>
                         <groupId>javax.servlet</groupId>
                         <artifactId>javax.servlet-api</artifactId>
                     </exclusion>
@@ -2375,10 +2363,6 @@
                     <exclusion>
                         <groupId>com.google.code.findbugs</groupId>
                         <artifactId>jsr305</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
@@ -6762,10 +6746,6 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                     <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
-                    </exclusion>
-                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -6801,10 +6781,6 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                     <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
-                    </exclusion>
-                    <exclusion>
                         <groupId>org.checkerframework</groupId>
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
@@ -6838,10 +6814,6 @@
                     <exclusion>
                         <groupId>commons-logging</groupId>
                         <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty-shaded</artifactId>
                     </exclusion>
                     <exclusion>
                         <groupId>org.checkerframework</groupId>
