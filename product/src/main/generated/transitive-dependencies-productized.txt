@@ -22,7 +22,6 @@ com.aayushatharva.brotli4j:service
 com.amazonaws:aws-java-sdk-core
 com.amazonaws:aws-java-sdk-sts
 com.amazonaws:jmespath-java
-com.arcmutate:pitest-annotations
 com.atlassian.event:atlassian-event
 com.atlassian.httpclient:atlassian-httpclient-api
 com.atlassian.httpclient:atlassian-httpclient-library
