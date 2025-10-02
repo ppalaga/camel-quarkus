@@ -8082,6 +8082,11 @@
                 <artifactId>camel-kamelets</artifactId>
                 <version>${camel-kamelets.version}</version>
             </dependency>
+            <dependency>
+                <groupId>tools.profiler</groupId>
+                <artifactId>async-profiler</artifactId>
+                <version>${async-profiler.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>

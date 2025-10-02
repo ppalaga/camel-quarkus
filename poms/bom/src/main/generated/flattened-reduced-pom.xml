@@ -7868,6 +7868,11 @@
         <version>4.14.0.redhat-00008</version>
       </dependency>
       <dependency>
+        <groupId>tools.profiler</groupId>
+        <artifactId>async-profiler</artifactId>
+        <version>2.9</version>
+      </dependency>
+      <dependency>
         <groupId>io.quarkiverse.jgit</groupId>
         <artifactId>quarkus-jgit</artifactId>
         <version>3.6.0</version>
