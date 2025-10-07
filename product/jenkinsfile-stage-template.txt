@@ -10,8 +10,8 @@
                             sh "docker system prune -a -f"
                             sh "df -h"
                             unstash name: 'cq-artifacts'
-                            sh "mkdir -p /home/jenkins/.m2/repository/org/apache/camel/quarkus"
-                            sh "cd /home/jenkins/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
+                            sh "mkdir -p ${env.HOME}/.m2/repository/org/apache/camel/quarkus"
+                            sh "cd ${env.HOME}/.m2/repository/org/apache/camel/quarkus && tar xfz ${WORKSPACE}/cq-artifacts.tgz"
 
                             def MAVEN_EXTRA_ARGS = ""
                             if (env.STAGE_NAME =~ /^Mixed.*/) {
