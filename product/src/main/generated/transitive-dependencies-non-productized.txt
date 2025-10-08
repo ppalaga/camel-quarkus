@@ -185,7 +185,6 @@ io.debezium:mysql-binlog-connector-java
 io.dropwizard.metrics:dropwizard-core
 io.dropwizard.metrics:metrics-core
 io.dropwizard.metrics:metrics-jmx
-io.github.crac:org-crac
 io.github.resilience4j:resilience4j-core
 io.github.resilience4j:resilience4j-ratelimiter
 io.github.resilience4j:resilience4j-retry
@@ -232,7 +231,6 @@ io.quarkus:quarkus-devservices-mssql
 io.quarkus:quarkus-devservices-mysql
 io.quarkus:quarkus-devservices-oracle
 io.quarkus:quarkus-devservices-postgresql
-io.quarkus:quarkus-devtools-utilities
 io.quarkus:quarkus-grpc-codegen
 io.quarkus:quarkus-grpc-protoc-plugin
 io.quarkus:quarkus-jdbc-mssql
@@ -251,7 +249,6 @@ io.quarkus:quarkus-messaging
 io.quarkus:quarkus-messaging-deployment
 io.quarkus:quarkus-messaging-dev
 io.quarkus:quarkus-messaging-kotlin
-io.quarkus:quarkus-vertx-http-dev-ui-spi
 io.r2dbc:r2dbc-spi
 io.reactivex.rxjava2:rxjava
 io.smallrye:smallrye-fault-tolerance-kotlin
