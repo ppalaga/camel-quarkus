@@ -418,6 +418,7 @@ org.apache.camel:camel-nitrite
 org.apache.camel:camel-oaipmh
 org.apache.camel:camel-ognl
 org.apache.camel:camel-openstack
+org.apache.camel:camel-opentelemetry2
 org.apache.camel:camel-optaplanner
 org.apache.camel:camel-pdf
 org.apache.camel:camel-pg-replication-slot
@@ -455,6 +456,7 @@ org.apache.camel:camel-stub
 org.apache.camel:camel-swift
 org.apache.camel:camel-syslog
 org.apache.camel:camel-tarfile
+org.apache.camel:camel-telemetry
 org.apache.camel:camel-telemetry-dev
 org.apache.camel:camel-test-junit5
 org.apache.camel:camel-threadpoolfactory-vertx
@@ -723,6 +725,8 @@ org.apache.camel.quarkus:camel-quarkus-ognl
 org.apache.camel.quarkus:camel-quarkus-ognl-deployment
 org.apache.camel.quarkus:camel-quarkus-openstack
 org.apache.camel.quarkus:camel-quarkus-openstack-deployment
+org.apache.camel.quarkus:camel-quarkus-opentelemetry2
+org.apache.camel.quarkus:camel-quarkus-opentelemetry2-deployment
 org.apache.camel.quarkus:camel-quarkus-optaplanner
 org.apache.camel.quarkus:camel-quarkus-optaplanner-deployment
 org.apache.camel.quarkus:camel-quarkus-pdf

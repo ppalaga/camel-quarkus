@@ -65,6 +65,7 @@
         <module>../../../integration-tests/oaipmh</module>
         <module>../../../integration-tests/ognl</module>
         <module>../../../integration-tests/openstack</module>
+        <module>../../../integration-tests/opentelemetry2</module>
         <module>../../../integration-tests/optaplanner</module>
         <module>../../../integration-tests/pdf</module>
     </modules>

@@ -210,7 +210,7 @@
         <module>openapi-java</module>
         <!-- <module>openstack</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>opentelemetry</module>
-        <module>opentelemetry2</module>
+        <!-- <module>opentelemetry2</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <!-- <module>optaplanner</module> disabled by cq-prod-maven-plugin:prod-excludes -->
         <module>paho</module>
         <module>paho-mqtt5</module>

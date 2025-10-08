@@ -779,7 +779,6 @@ org.apache.camel:camel-olingo4-api
 org.apache.camel:camel-openapi-java
 org.apache.camel:camel-opensearch
 org.apache.camel:camel-opentelemetry
-org.apache.camel:camel-opentelemetry2
 org.apache.camel:camel-paho
 org.apache.camel:camel-paho-mqtt5
 org.apache.camel:camel-platform-http
@@ -806,7 +805,6 @@ org.apache.camel:camel-sql
 org.apache.camel:camel-ssh
 org.apache.camel:camel-support
 org.apache.camel:camel-telegram
-org.apache.camel:camel-telemetry
 org.apache.camel:camel-timer
 org.apache.camel:camel-tooling-model
 org.apache.camel:camel-tooling-util
@@ -1043,8 +1041,6 @@ org.apache.camel.quarkus:camel-quarkus-opensearch
 org.apache.camel.quarkus:camel-quarkus-opensearch-deployment
 org.apache.camel.quarkus:camel-quarkus-opentelemetry
 org.apache.camel.quarkus:camel-quarkus-opentelemetry-deployment
-org.apache.camel.quarkus:camel-quarkus-opentelemetry2
-org.apache.camel.quarkus:camel-quarkus-opentelemetry2-deployment
 org.apache.camel.quarkus:camel-quarkus-paho
 org.apache.camel.quarkus:camel-quarkus-paho-deployment
 org.apache.camel.quarkus:camel-quarkus-paho-mqtt5
