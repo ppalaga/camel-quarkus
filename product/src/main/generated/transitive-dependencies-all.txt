@@ -427,7 +427,6 @@ io.fabric8:openshift-model-tuned
 io.fabric8:openshift-model-whereabouts
 io.fabric8:zjsonpatch
 io.github.classgraph:classgraph
-io.github.crac:org-crac
 io.github.dmlloyd:jdk-classfile-backport
 io.github.resilience4j:resilience4j-core
 io.github.resilience4j:resilience4j-ratelimiter
@@ -608,7 +607,6 @@ io.quarkus:quarkus-devservices-mssql
 io.quarkus:quarkus-devservices-mysql
 io.quarkus:quarkus-devservices-oracle
 io.quarkus:quarkus-devservices-postgresql
-io.quarkus:quarkus-devtools-utilities
 io.quarkus:quarkus-devui-deployment-spi
 io.quarkus:quarkus-elasticsearch-rest-client-common
 io.quarkus:quarkus-elasticsearch-rest-client-common-deployment
@@ -751,7 +749,6 @@ io.quarkus:quarkus-vertx-deployment-spi
 io.quarkus:quarkus-vertx-http
 io.quarkus:quarkus-vertx-http-deployment
 io.quarkus:quarkus-vertx-http-deployment-spi
-io.quarkus:quarkus-vertx-http-dev-ui-spi
 io.quarkus:quarkus-vertx-latebound-mdc-provider
 io.quarkus:quarkus-virtual-threads
 io.quarkus:quarkus-virtual-threads-deployment
