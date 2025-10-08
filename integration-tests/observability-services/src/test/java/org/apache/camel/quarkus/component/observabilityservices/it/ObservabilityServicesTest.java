@@ -102,22 +102,25 @@ class ObservabilityServicesTest {
 
             await().atMost(30, TimeUnit.SECONDS).pollDelay(50, TimeUnit.MILLISECONDS).until(() -> getSpans().size() == 5);
             List<Map<String, String>> spans = getSpans();
-
             assertEquals(spans.get(0).get("parentId"), spans.get(1).get("spanId"));
             assertEquals("seda://next", spans.get(0).get("camel.uri"));
             assertEquals("INTERNAL", spans.get(0).get("kind"));
 
             assertEquals(spans.get(1).get("parentId"), spans.get(2).get("spanId"));
             assertEquals("seda://next", spans.get(1).get("camel.uri"));
-            assertEquals("INTERNAL", spans.get(1).get("kind"));
+            assertEquals("CLIENT", spans.get(1).get("kind"));
 
             assertEquals(spans.get(2).get("parentId"), spans.get(3).get("spanId"));
             assertEquals("direct://start", spans.get(2).get("camel.uri"));
             assertEquals("INTERNAL", spans.get(2).get("kind"));
 
-            assertEquals("0000000000000000", spans.get(3).get("parentId"));
+            assertEquals(spans.get(3).get("parentId"), spans.get(4).get("spanId"));
             assertEquals("direct://start", spans.get(3).get("camel.uri"));
-            assertEquals("INTERNAL", spans.get(3).get("kind"));
+            assertEquals("CLIENT", spans.get(3).get("kind"));
+
+            assertEquals("0000000000000000", spans.get(4).get("parentId"));
+            assertEquals("trace", spans.get(4).get("code.function"));
+            assertEquals("/observability-services/trace", spans.get(4).get("url.path"));
         } finally {
             RestAssured.given()
                     .post("/spans/reset")

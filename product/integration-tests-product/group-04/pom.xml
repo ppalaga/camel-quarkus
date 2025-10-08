@@ -68,6 +68,5 @@
         <module>../../../integration-tests/minio</module>
         <module>../../../integration-tests/mllp</module>
         <module>../../../integration-tests/mybatis</module>
-        <module>../../../integration-tests/netty</module>
     </modules>
 </project>

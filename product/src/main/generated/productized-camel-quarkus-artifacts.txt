@@ -295,7 +295,6 @@ camel-quarkus-integration-test-olingo4
 camel-quarkus-integration-test-openapi-java
 camel-quarkus-integration-test-opensearch
 camel-quarkus-integration-test-opentelemetry
-camel-quarkus-integration-test-opentelemetry2
 camel-quarkus-integration-test-paho
 camel-quarkus-integration-test-paho-mqtt5
 camel-quarkus-integration-test-platform-http
@@ -524,9 +523,6 @@ camel-quarkus-opensearch-parent
 camel-quarkus-opentelemetry
 camel-quarkus-opentelemetry-deployment
 camel-quarkus-opentelemetry-parent
-camel-quarkus-opentelemetry2
-camel-quarkus-opentelemetry2-deployment
-camel-quarkus-opentelemetry2-parent
 camel-quarkus-paho
 camel-quarkus-paho-deployment
 camel-quarkus-paho-mqtt5
