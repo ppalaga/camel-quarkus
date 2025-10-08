@@ -103,7 +103,6 @@ camel-olingo4
 camel-openapi-java
 camel-opensearch
 camel-opentelemetry
-camel-opentelemetry2
 camel-paho
 camel-paho-mqtt5
 camel-platform-http-vertx
