@@ -2463,6 +2463,7 @@ org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-coroutines-jdk8
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
+org.jfree:jfreechart
 org.jgroups:jgroups
 org.jgroups:jgroups-raft
 org.jodd:jodd-util

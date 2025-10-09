@@ -239,7 +239,6 @@ io.fabric8:openshift-model-tuned
 io.fabric8:openshift-model-whereabouts
 io.fabric8:zjsonpatch
 io.github.classgraph:classgraph
-io.github.crac:org-crac
 io.github.dmlloyd:jdk-classfile-backport
 io.github.x-stream:mxparser
 io.grpc:grpc-alts
@@ -374,7 +373,6 @@ io.quarkus:quarkus-datasource-dev
 io.quarkus:quarkus-development-mode-spi
 io.quarkus:quarkus-devservices-common
 io.quarkus:quarkus-devservices-deployment
-io.quarkus:quarkus-devtools-utilities
 io.quarkus:quarkus-devui-deployment-spi
 io.quarkus:quarkus-elasticsearch-rest-client-common
 io.quarkus:quarkus-elasticsearch-rest-client-common-deployment
@@ -499,7 +497,6 @@ io.quarkus:quarkus-vertx-deployment-spi
 io.quarkus:quarkus-vertx-http
 io.quarkus:quarkus-vertx-http-deployment
 io.quarkus:quarkus-vertx-http-deployment-spi
-io.quarkus:quarkus-vertx-http-dev-ui-spi
 io.quarkus:quarkus-vertx-latebound-mdc-provider
 io.quarkus:quarkus-virtual-threads
 io.quarkus:quarkus-virtual-threads-deployment
@@ -1352,7 +1349,6 @@ org.jboss:jboss-transaction-spi
 org.jboss.invocation:jboss-invocation
 org.jboss.logging:commons-logging-jboss-logging
 org.jboss.logging:jboss-logging
-org.jboss.logging:jboss-logging-annotations
 org.jboss.logmanager:jboss-logmanager
 org.jboss.logmanager:log4j-jboss-logmanager
 org.jboss.logmanager:log4j2-jboss-logmanager
@@ -1388,6 +1384,7 @@ org.jetbrains.kotlin:kotlin-stdlib-jdk8
 org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm
 org.jetbrains.kotlinx:kotlinx-datetime-jvm
 org.jetbrains.kotlinx:kotlinx-serialization-core-jvm
+org.jfree:jfreechart
 org.jgroups:jgroups
 org.jolokia:jolokia-agent-jvm
 org.jolokia:jolokia-json
