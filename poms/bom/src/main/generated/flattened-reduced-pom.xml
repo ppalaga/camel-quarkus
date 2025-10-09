@@ -8702,22 +8702,22 @@
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core</artifactId>
-        <version>3.8.4.temporary-redhat-00003</version>
+        <version>3.8.4.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-core-deployment</artifactId>
-        <version>3.8.4.temporary-redhat-00003</version>
+        <version>3.8.4.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms</artifactId>
-        <version>3.8.4.temporary-redhat-00003</version>
+        <version>3.8.4.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
         <artifactId>quarkus-artemis-jms-deployment</artifactId>
-        <version>3.8.4.temporary-redhat-00003</version>
+        <version>3.8.4.redhat-00002</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.artemis</groupId>
@@ -8737,7 +8737,7 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-core-client</artifactId>
-        <version>2.40.0.redhat-00006</version>
+        <version>2.40.0.redhat-00008</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.json</groupId>
@@ -8760,7 +8760,7 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-jakarta-client</artifactId>
-        <version>2.40.0.redhat-00006</version>
+        <version>2.40.0.redhat-00008</version>
         <exclusions>
           <exclusion>
             <groupId>jakarta.json</groupId>
@@ -8829,7 +8829,7 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-hqclient-protocol</artifactId>
-        <version>2.40.0.redhat-00006</version>
+        <version>2.40.0.redhat-00008</version>
         <exclusions>
           <exclusion>
             <groupId>org.apache.activemq</groupId>
@@ -8840,7 +8840,7 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-commons</artifactId>
-        <version>2.40.0.redhat-00006</version>
+        <version>2.40.0.redhat-00008</version>
       </dependency>
       <dependency>
         <groupId>org.apache.activemq</groupId>
@@ -8870,7 +8870,7 @@
       <dependency>
         <groupId>org.apache.activemq</groupId>
         <artifactId>artemis-selector</artifactId>
-        <version>2.40.0.redhat-00006</version>
+        <version>2.40.0.redhat-00008</version>
       </dependency>
       <dependency>
         <groupId>org.apache.qpid</groupId>
