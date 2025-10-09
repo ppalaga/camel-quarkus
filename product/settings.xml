@@ -26,7 +26,7 @@
                     </releases>
                 </repository>
                 <repository>
-                    <id>indy-static</id>
+                    <id>indy</id>
                     <url>https://indy.corp.redhat.com/api/content/maven/group/static/</url>
                     <name>indy-static</name>
                     <snapshots>
