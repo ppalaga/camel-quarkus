@@ -300,6 +300,15 @@
     },
     {
       "group-id": "org.apache.camel.quarkus",
+      "artifact-id": "camel-quarkus-debug",
+      "metadata": {
+        "redhat-camel-support": [
+          "dev-support"
+        ]
+      }
+    },
+    {
+      "group-id": "org.apache.camel.quarkus",
       "artifact-id": "camel-quarkus-direct",
       "metadata": {
         "redhat-camel-support": [
