@@ -176,6 +176,11 @@
             "native": "devSupport",
             "comment": "devSupport since CEQ 2.13.1"
         },
+        "camel-quarkus-debug": {
+            "jvm": "devSupport",
+            "native": "devSupport",
+            "comment": "devSupport since CEQ 3.27.0"
+        },
         "camel-quarkus-direct": {
             "jvm": "supported",
             "native": "supported",
@@ -734,7 +739,6 @@
         "io.quarkiverse.messaginghub:quarkus-pooled-jms",
         "org.apache.camel.kamelets:camel-kamelets",
         "org.apache.camel.quarkus:camel-quarkus-catalog",
-        "org.apache.camel.quarkus:camel-quarkus-debug-deployment",
         "org.apache.camel.quarkus:camel-quarkus-integration-test-support",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-activemq",
         "org.apache.camel.quarkus:camel-quarkus-integration-tests-support-messaging-common",
