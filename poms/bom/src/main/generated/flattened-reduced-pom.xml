@@ -3714,6 +3714,16 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-cics</artifactId>
+        <version>3.27.1.rhbac-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-cics-deployment</artifactId>
+        <version>3.27.1.rhbac-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-cli-connector</artifactId>
         <version>3.27.1.rhbac-SNAPSHOT</version>
       </dependency>
@@ -5704,6 +5714,16 @@
       </dependency>
       <dependency>
         <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap</artifactId>
+        <version>3.27.1.rhbac-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
+        <artifactId>camel-quarkus-sap-deployment</artifactId>
+        <version>3.27.1.rhbac-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>org.apache.camel.quarkus</groupId>
         <artifactId>camel-quarkus-sap-netweaver</artifactId>
         <version>3.27.1</version>
       </dependency>
@@ -7061,6 +7081,11 @@
         <version>1.7</version>
       </dependency>
       <dependency>
+        <groupId>com.ibm</groupId>
+        <artifactId>ctgclient</artifactId>
+        <version>9.2</version>
+      </dependency>
+      <dependency>
         <groupId>com.ibm.icu</groupId>
         <artifactId>icu4j</artifactId>
         <version>77.1</version>
@@ -7415,6 +7440,11 @@
         <version>3.5.2</version>
       </dependency>
       <dependency>
+        <groupId>org.apache.camel.kamelets</groupId>
+        <artifactId>camel-kamelets</artifactId>
+        <version>4.14.1.redhat-00010</version>
+      </dependency>
+      <dependency>
         <groupId>org.apache.cassandra</groupId>
         <artifactId>java-driver-query-builder</artifactId>
         <version>4.19.0</version>
@@ -7591,6 +7621,28 @@
         <groupId>org.apache.zookeeper</groupId>
         <artifactId>zookeeper-jute</artifactId>
         <version>3.9.3</version>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-cics</artifactId>
+        <version>4.14.1.redhat-00010</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.eclipse</groupId>
+            <artifactId>osgi</artifactId>
+          </exclusion>
+        </exclusions>
+      </dependency>
+      <dependency>
+        <groupId>org.fusesource</groupId>
+        <artifactId>camel-sap</artifactId>
+        <version>4.14.1.redhat-00010</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.eclipse</groupId>
+            <artifactId>osgi</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.graalvm.js</groupId>
@@ -7881,6 +7933,11 @@
         <version>0.38.1</version>
       </dependency>
       <dependency>
+        <groupId>tools.profiler</groupId>
+        <artifactId>async-profiler</artifactId>
+        <version>2.9</version>
+      </dependency>
+      <dependency>
         <groupId>xalan</groupId>
         <artifactId>xalan</artifactId>
         <version>2.7.3.redhat-00001</version>
@@ -7890,63 +7947,6 @@
             <artifactId>xml-apis</artifactId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.fusesource</groupId>
-        <artifactId>camel-sap</artifactId>
-        <version>4.14.1.redhat-00010</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.eclipse</groupId>
-            <artifactId>osgi</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-sap</artifactId>
-        <version>3.27.1.rhbac-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-sap-deployment</artifactId>
-        <version>3.27.1.rhbac-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.fusesource</groupId>
-        <artifactId>camel-cics</artifactId>
-        <version>4.14.1.redhat-00010</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.eclipse</groupId>
-            <artifactId>osgi</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-cics</artifactId>
-        <version>3.27.1.rhbac-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.quarkus</groupId>
-        <artifactId>camel-quarkus-cics-deployment</artifactId>
-        <version>3.27.1.rhbac-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>com.ibm</groupId>
-        <artifactId>ctgclient</artifactId>
-        <version>9.2</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.camel.kamelets</groupId>
-        <artifactId>camel-kamelets</artifactId>
-        <version>4.14.1.redhat-00010</version>
-      </dependency>
-      <dependency>
-        <groupId>tools.profiler</groupId>
-        <artifactId>async-profiler</artifactId>
-        <version>2.9</version>
       </dependency>
       <dependency>
         <groupId>io.quarkiverse.jgit</groupId>

@@ -138,6 +138,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-activemq6</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-allcomponents</artifactId>
                 <version>${camel.version}</version>
                 <type>pom</type>
@@ -195,6 +200,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-atmosphere-websocket</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-atom</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
@@ -214,12 +224,27 @@
                 <artifactId>camel-avro</artifactId>
                 <version>${camel.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-avro-rpc</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
             <!--<dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-avro-rpc</artifactId>
                 <version>${camel.version}</version>
+            </dependency>-->
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-avro-rpc-jetty</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-avro-rpc-spi</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <!--<dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-avro-rpc-spi</artifactId>
                 <version>${camel.version}</version>
@@ -227,6 +252,28 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-aws-bedrock</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws-cloudtrail</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws-config</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
                     <exclusion>
@@ -426,6 +473,17 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws2-redshift</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-aws2-s3</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
@@ -470,7 +528,29 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws2-step-functions</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-aws2-sts</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-aws2-timestream</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
                     <exclusion>
@@ -531,6 +611,21 @@
                     <exclusion>
                         <groupId>com.azure</groupId>
                         <artifactId>azure-core-http-netty</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-azure-schema-registry</artifactId>
+                <version>${camel-community-version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.azure</groupId>
+                        <artifactId>azure-core-http-netty</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>commons-logging</groupId>
+                        <artifactId>commons-logging</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -718,6 +813,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-clickup</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-cloud</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -810,6 +910,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-core-xml</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-couchbase</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -847,6 +952,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-csimple-joor</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-csv</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -857,13 +967,43 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-cxf-rest</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-cxf-soap</artifactId>
                 <version>${camel.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-cxf-spring-common</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-cxf-spring-rest</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-cxf-spring-soap</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-cxf-spring-transport</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-cxf-transport</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-dapr</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -919,6 +1059,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-debezium-db2</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-debezium-mongodb</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -970,6 +1115,16 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-dhis2</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-dhis2-api</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-digitalocean</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
@@ -1003,6 +1158,11 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-dns</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-docker</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -1099,6 +1259,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-dynamic-router</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-ehcache</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -1127,6 +1292,11 @@
                         <artifactId>commons-logging</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-elytron</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1195,6 +1365,11 @@
                         <artifactId>jsr305</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-flowable</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1393,6 +1568,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-google-pubsub-lite</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-google-secret-manager</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
@@ -1471,6 +1651,11 @@
                         <artifactId>animal-sniffer-annotations</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-grape</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1613,6 +1798,36 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-dms</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-frs</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-functiongraph</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-iam</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-imagerecognition</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-huaweicloud-obs</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-huaweicloud-smn</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -1666,12 +1881,27 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-infinispan-embedded</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-influxdb</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-influxdb2</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-irc</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-ironmq</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -1698,6 +1928,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-jacksonxml</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jandex</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1764,6 +1999,16 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jetty</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jetty-common</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-jfr</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -1814,6 +2059,11 @@
                         <artifactId>spring-context</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jmx</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -1918,6 +2168,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-jte</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-kafka</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -1950,6 +2205,11 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-knative-http</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-kserve</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2118,8 +2378,18 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-metrics</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-micrometer</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-micrometer-prometheus</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2197,6 +2467,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-mina</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-minio</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
@@ -2248,6 +2523,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-neo4j</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-netty</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -2280,12 +2560,32 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-oauth</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-observability-services</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-observation</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-ognl</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-olingo2</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-olingo2-api</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2324,6 +2624,11 @@
                         <artifactId>checker-qual</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-openapi-validator</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2404,6 +2709,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-parquet-avro</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-pdf</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
@@ -2459,6 +2769,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-platform-http-jolokia</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-platform-http-main</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -2466,6 +2781,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-platform-http-vertx</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-plc4x</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2594,12 +2914,22 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-reactive-executor-tomcat</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-reactive-executor-vertx</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-reactive-streams</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-reactor</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2611,6 +2941,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-ref</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-resilience4j</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2644,7 +2979,17 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-rocketmq</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-rss</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-rxjava</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2678,6 +3023,11 @@
                         <artifactId>*</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-salesforce-codegen</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2715,6 +3065,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-seda</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-service</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -2829,6 +3184,36 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-batch</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-cloud-config</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-jdbc</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-ldap</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-main</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-spring-rabbitmq</artifactId>
                 <version>${camel.version}</version>
                 <exclusions>
@@ -2845,6 +3230,21 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-spring-redis</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-security</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-ws</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-spring-xml</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2916,6 +3316,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-tahu</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-tarfile</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
@@ -2936,6 +3341,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-tensorflow-serving</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-test-junit5</artifactId>
                 <version>${camel-community-version}</version>
                 <exclusions>
@@ -2947,12 +3357,27 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-test-main-junit5</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-test-spring-junit5</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-threadpoolfactory-vertx</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-thrift</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-thymeleaf</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -2988,6 +3413,11 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
+                <artifactId>camel-torchserve</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
                 <artifactId>camel-tracing</artifactId>
                 <version>${camel.version}</version>
             </dependency>
@@ -3013,6 +3443,16 @@
             <dependency>
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-twitter</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-undertow</artifactId>
+                <version>${camel-community-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-undertow-spring-security</artifactId>
                 <version>${camel-community-version}</version>
             </dependency>
             <dependency>
@@ -3059,6 +3499,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-vertx-websocket</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-wal</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -3116,6 +3561,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-webhook</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-whatsapp</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -3245,6 +3695,11 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-yaml-io</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel</groupId>
+                <artifactId>camel-zeebe</artifactId>
+                <version>${camel-community-version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -3839,6 +4294,16 @@
                 <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-chunk-deployment</artifactId>
                 <version>${camel-quarkus-community.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-cics</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-cics-deployment</artifactId>
+                <version>${camel-quarkus.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
@@ -5832,6 +6297,16 @@
             </dependency>
             <dependency>
                 <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
+                <artifactId>camel-quarkus-sap-deployment</artifactId>
+                <version>${camel-quarkus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.camel.quarkus</groupId>
                 <artifactId>camel-quarkus-sap-netweaver</artifactId>
                 <version>${camel-quarkus-community.version}</version>
             </dependency>
@@ -7191,6 +7666,11 @@
                 <version>${re2j.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.ibm</groupId>
+                <artifactId>ctgclient</artifactId>
+                <version>${ctgClient.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.ibm.icu</groupId>
                 <artifactId>icu4j</artifactId>
                 <version>${icu4j.version}</version>
@@ -7590,6 +8070,11 @@
                 <version>${avro.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.camel.kamelets</groupId>
+                <artifactId>camel-kamelets</artifactId>
+                <version>${camel-kamelets.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.cassandra</groupId>
                 <artifactId>java-driver-query-builder</artifactId>
                 <version>${java-driver-query-builder.version}</version>
@@ -7766,6 +8251,28 @@
                 <groupId>org.apache.zookeeper</groupId>
                 <artifactId>zookeeper-jute</artifactId>
                 <version>${zookeeper.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-cics</artifactId>
+                <version>${camel-fusesource.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.eclipse</groupId>
+                        <artifactId>osgi</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.fusesource</groupId>
+                <artifactId>camel-sap</artifactId>
+                <version>${camel-fusesource.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.eclipse</groupId>
+                        <artifactId>osgi</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.graalvm.js</groupId>
@@ -8096,6 +8603,11 @@
                 <version>${awscrt.version}</version>
             </dependency>
             <dependency>
+                <groupId>tools.profiler</groupId>
+                <artifactId>async-profiler</artifactId>
+                <version>${async-profiler.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>xalan</groupId>
                 <artifactId>xalan</artifactId>
                 <version>${xalan.version}</version>
@@ -8105,518 +8617,6 @@
                         <artifactId>xml-apis</artifactId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.fusesource</groupId>
-                <artifactId>camel-sap</artifactId>
-                <version>${camel-fusesource.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.eclipse</groupId>
-                        <artifactId>osgi</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.quarkus</groupId>
-                <artifactId>camel-quarkus-sap</artifactId>
-                <version>${camel-quarkus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.quarkus</groupId>
-                <artifactId>camel-quarkus-sap-deployment</artifactId>
-                <version>${camel-quarkus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.fusesource</groupId>
-                <artifactId>camel-cics</artifactId>
-                <version>${camel-fusesource.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>org.eclipse</groupId>
-                        <artifactId>osgi</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.quarkus</groupId>
-                <artifactId>camel-quarkus-cics</artifactId>
-                <version>${camel-quarkus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.quarkus</groupId>
-                <artifactId>camel-quarkus-cics-deployment</artifactId>
-                <version>${camel-quarkus.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.ibm</groupId>
-                <artifactId>ctgclient</artifactId>
-                <version>${ctgClient.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel.kamelets</groupId>
-                <artifactId>camel-kamelets</artifactId>
-                <version>${camel-kamelets.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>tools.profiler</groupId>
-                <artifactId>async-profiler</artifactId>
-                <version>${async-profiler.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-activemq6</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-atmosphere-websocket</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-avro-rpc</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-avro-rpc-jetty</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-avro-rpc-spi</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws-cloudtrail</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws-config</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws2-redshift</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws2-step-functions</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-aws2-timestream</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-azure-schema-registry</artifactId>
-                <version>${camel-community-version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.azure</groupId>
-                        <artifactId>azure-core-http-netty</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>commons-logging</groupId>
-                        <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-clickup</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-core-xml</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-csimple-joor</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-cxf-rest</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-cxf-spring-common</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-cxf-spring-rest</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-cxf-spring-soap</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-cxf-spring-transport</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-dapr</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-debezium-db2</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-dhis2</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-dhis2-api</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-docker</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-dynamic-router</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-elytron</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-flowable</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-google-pubsub-lite</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-grape</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-dms</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-frs</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-functiongraph</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-iam</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-imagerecognition</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-huaweicloud-obs</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-infinispan-embedded</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-influxdb2</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-ironmq</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-jandex</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-jetty</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-jetty-common</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-jmx</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-jte</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-kserve</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-metrics</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-micrometer-prometheus</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-mina</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-neo4j</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-oauth</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-observation</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-olingo2</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-olingo2-api</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-openapi-validator</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-parquet-avro</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-platform-http-jolokia</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-plc4x</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-reactive-executor-tomcat</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-reactor</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-resilience4j</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-rocketmq</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-rxjava</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-salesforce-codegen</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-service</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-batch</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-cloud-config</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-jdbc</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-ldap</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-main</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-security</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-ws</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-spring-xml</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-tahu</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-tensorflow-serving</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-test-main-junit5</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-test-spring-junit5</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-thymeleaf</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-torchserve</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-undertow</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-undertow-spring-security</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-wal</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-whatsapp</artifactId>
-                <version>${camel-community-version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.camel</groupId>
-                <artifactId>camel-zeebe</artifactId>
-                <version>${camel-community-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
