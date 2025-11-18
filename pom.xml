@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.14.1.redhat-00011</version>
+        <version>4.14.2.redhat-00002</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,15 +41,15 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.14</camel.major.minor>
         <camel-community-version>${camel.major.minor}.2</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.1.redhat-00011</camel.version>
+        <camel.version>${camel.major.minor}.2.redhat-00002</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
         <camel-quarkus-community.version>3.27.1</camel-quarkus-community.version>
-        <camel-fusesource.version>4.14.1.redhat-00010</camel-fusesource.version>
+        <camel-fusesource.version>4.14.2.redhat-00002</camel-fusesource.version>
         <sapjco3.version>3.1.12</sapjco3.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.jco:sapjco3 -->
         <sapidoc.version>3.1.4</sapidoc.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.idoc:sapidoc3 -->
-        <camel-kamelets.version>4.14.1.redhat-00010</camel-kamelets.version>
+        <camel-kamelets.version>4.14.2.redhat-00002</camel-kamelets.version>
         <async-profiler.version>2.9</async-profiler.version>
         <cassandra-quarkus.version>1.3.0</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
         <debezium.version>3.2.1.Final</debezium.version> <!-- This should be in sync with quarkus-platform https://github.com/quarkusio/quarkus-platform-->
@@ -76,7 +76,7 @@
 
         <!-- Compile dependency versions (keep sorted alphabetically) -->
         <!-- Items annotated with @sync can be updated by running mvn cq:sync-versions -N -e -->
-        <aalto-xml.version>1.3.3.redhat-00002</aalto-xml.version><!-- @sync org.smooks:smooks-core:${smooks-version} dep:com.fasterxml:aalto-xml -->
+        <aalto-xml.version>1.3.3.redhat-00002</aalto-xml.version><!-- @sync org.smooks:smooks-core:${smooks.version} dep:com.fasterxml:aalto-xml -->
         <antlr3.version>3.5.2</antlr3.version><!-- Spark, Stringtemplate and probably others -->
         <audience-annotations.version>${yetus-audience-annotations-version}</audience-annotations.version>
         <avro.version>1.12.0.redhat-00001</avro.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.apache.avro:avro -->
@@ -167,7 +167,8 @@
         <reactor-netty.version>${reactor-netty-version}</reactor-netty.version>
         <retrofit.version>2.9.0</retrofit.version><!-- @sync org.influxdb:influxdb-java:${influxdb.version} dep:com.squareup.retrofit2:retrofit -->
         <rxjava3.version>3.1.8</rxjava3.version><!-- Used by amazon-kinesis-client and infinispan-client-hotrod-jakarta -->
-        <smooks.version>${smooks-version}</smooks.version>
+        <smooks-bom.version>${smooks-version}</smooks-bom.version>
+        <smooks.version>2.2.1.redhat-00003</smooks.version><!-- @sync org.smooks:smooks-bom:${smooks-bom.version} prop:smooks.version -->
         <snakeyaml.version>2.4.0.redhat-00001</snakeyaml.version><!-- @sync io.quarkus:quarkus-bom:${quarkus.version} dep:org.yaml:snakeyaml -->
         <snakeyaml-engine.version>${snakeyaml-engine-version}</snakeyaml-engine.version><!-- Resolve conflict between camel-snakeyaml & kubernetes-client -->
         <spring.version>${spring-version}</spring.version>
