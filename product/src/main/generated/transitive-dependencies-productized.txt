@@ -1,4 +1,5 @@
 aopalliance:aopalliance
+at.yawk.lz4:lz4-java
 biz.aQute.bnd:biz.aQute.bnd.transform
 ca.uhn.hapi:hapi-base
 ca.uhn.hapi.fhir:hapi-fhir-base
