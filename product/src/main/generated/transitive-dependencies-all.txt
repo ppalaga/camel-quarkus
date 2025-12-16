@@ -1,6 +1,7 @@
 ai.djl:api
 ai.djl:basicdataset
 ai.djl.timeseries:timeseries
+at.yawk.lz4:lz4-java
 biz.aQute.bnd:biz.aQute.bnd.transform
 ca.uhn.hapi:hapi-base
 ca.uhn.hapi:hapi-structures-v21
@@ -2507,7 +2508,6 @@ org.kiwiproject:consul-client
 org.knowm.xchange:xchange-binance
 org.knowm.xchange:xchange-core
 org.latencyutils:LatencyUtils
-org.lz4:lz4-java
 org.mapstruct:mapstruct
 org.mapstruct:mapstruct-processor
 org.messaginghub:pooled-jms
