@@ -39,7 +39,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FileLockClusterServiceConfigDefaultEnabledTest {
+class FileLockClusterServiceConfigAcquireLeadershipBackoffTest {
 
     @RegisterExtension
     static final QuarkusUnitTest CONFIG = new QuarkusUnitTest()
@@ -50,6 +50,7 @@ public class FileLockClusterServiceConfigDefaultEnabledTest {
         Writer writer = new StringWriter();
 
         Properties props = new Properties();
+        props.put("quarkus.camel.cluster.file.acquire-leadership-backoff", "5000");
 
         try {
             props.store(writer, "");
@@ -64,7 +65,7 @@ public class FileLockClusterServiceConfigDefaultEnabledTest {
     CamelContext camelContext;
 
     @Test
-    public void defaultEnabledConfigShouldAutoConfigureWithDefaults() {
+    void acquireLeadershipBackoff() {
         FileLockClusterService[] flcs = camelContext.getCamelContextExtension()
                 .getServices()
                 .stream()
@@ -85,7 +86,7 @@ public class FileLockClusterServiceConfigDefaultEnabledTest {
         assertEquals(10L, service.getAcquireLockInterval());
         assertEquals(TimeUnit.SECONDS, service.getAcquireLockIntervalUnit());
         assertEquals(5, service.getHeartbeatTimeoutMultiplier());
-        assertEquals(0, service.getAcquireLeadershipBackoff());
-        assertEquals(TimeUnit.SECONDS, service.getAcquireLeadershipBackoffIntervalUnit());
+        assertEquals(5000, service.getAcquireLeadershipBackoff());
+        assertEquals(TimeUnit.MILLISECONDS, service.getAcquireLeadershipBackoffIntervalUnit());
     }
 }

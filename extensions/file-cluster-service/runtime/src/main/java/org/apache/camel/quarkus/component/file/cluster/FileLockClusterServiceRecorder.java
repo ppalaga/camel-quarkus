@@ -37,6 +37,10 @@ public class FileLockClusterServiceRecorder {
         config.acquireLockInterval().ifPresent(interval -> {
             flcs.setAcquireLockInterval(TimePatternConverter.toMilliSeconds(interval), TimeUnit.MILLISECONDS);
         });
+        config.acquireLeadershipBackoff().ifPresent(acquireLeadershipBackoff -> {
+            flcs.setAcquireLeadershipBackoff(TimePatternConverter.toMilliSeconds(acquireLeadershipBackoff));
+            flcs.setAcquireLeadershipBackoffIntervalUnit(TimeUnit.MILLISECONDS);
+        });
         config.heartbeatTimeoutMultiplier().ifPresent(flcs::setHeartbeatTimeoutMultiplier);
 
         config.attributes().forEach(flcs::setAttribute);

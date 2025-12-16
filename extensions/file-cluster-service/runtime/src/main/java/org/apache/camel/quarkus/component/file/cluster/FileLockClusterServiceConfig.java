@@ -93,6 +93,16 @@ public interface FileLockClusterServiceConfig {
      */
     Optional<Integer> heartbeatTimeoutMultiplier();
 
+    /**
+     * The time to wait before a cluster member broadcasts acquisition of gaining cluster leadership. A value of 0ms (the
+     * default) disables the backoff wait period. This option can be useful to introduce a delay to ensure that the cluster
+     * leader has fully surrendered its leadership. A sensible value is acquireLockDelay + 5 seconds. Or whatever is
+     * approprite for your environment and requirements.
+     *
+     * @asciidoclet
+     */
+    Optional<String> acquireLeadershipBackoff();
+
     final class Enabled implements BooleanSupplier {
         FileLockClusterServiceConfig config;
 
