@@ -2474,7 +2474,6 @@ org.kiwiproject:consul-client
 org.knowm.xchange:xchange-binance
 org.knowm.xchange:xchange-core
 org.latencyutils:LatencyUtils
-org.lz4:lz4-java
 org.mapstruct:mapstruct
 org.mapstruct:mapstruct-processor
 org.messaginghub:pooled-jms

@@ -1423,7 +1423,6 @@ org.junit.platform:junit-platform-launcher
 org.jvnet.mimepull:mimepull
 org.jvnet.staxex:stax-ex
 org.latencyutils:LatencyUtils
-org.lz4:lz4-java
 org.mapstruct:mapstruct
 org.mapstruct:mapstruct-processor
 org.messaginghub:pooled-jms
