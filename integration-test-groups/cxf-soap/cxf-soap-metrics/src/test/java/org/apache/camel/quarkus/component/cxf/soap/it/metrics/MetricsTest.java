@@ -74,7 +74,7 @@ public class MetricsTest {
         }
 
         final Config config = ConfigProvider.getConfig();
-        final int port = config.getValue("quarkus.http.test-port", Integer.class);
+        final int port = 8081; //config.getValue("quarkus.http.test-port", Integer.class);
 
         /* Now send a request using the in-app client */
         given()

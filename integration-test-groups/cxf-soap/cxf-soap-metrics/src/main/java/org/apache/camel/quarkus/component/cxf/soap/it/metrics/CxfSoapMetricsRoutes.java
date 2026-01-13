@@ -32,8 +32,8 @@ import org.eclipse.microprofile.config.inject.ConfigProperty;
 @ApplicationScoped
 public class CxfSoapMetricsRoutes extends RouteBuilder {
 
-    @ConfigProperty(name = "quarkus.http.test-port")
-    String port;
+    //@ConfigProperty(name = "quarkus.http.test-port")
+    String port = "8081";
 
     @Override
     public void configure() {

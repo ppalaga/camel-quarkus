@@ -41,11 +41,11 @@ import org.jboss.logging.Logger;
 public class GeocoderNominationResource {
     private static final Logger LOG = Logger.getLogger(GeocoderNominationResource.class);
 
-    @ConfigProperty(name = "quarkus.http.test-port")
-    Optional<Integer> httpTestPort;
-
-    @ConfigProperty(name = "quarkus.http.port")
-    Optional<Integer> httpPort;
+//    @ConfigProperty(name = "quarkus.http.test-port")
+//    Optional<Integer> httpTestPort;
+//
+//    @ConfigProperty(name = "quarkus.http.port")
+//    Optional<Integer> httpPort;
 
     @Inject
     ProducerTemplate producerTemplate;
@@ -117,7 +117,9 @@ public class GeocoderNominationResource {
         Config config = ConfigProvider.getConfig();
         Optional<String> wiremockUrl = config.getOptionalValue("wiremock.url", String.class);
         if (wiremockUrl.isPresent()) {
-            int port = LaunchMode.current().equals(LaunchMode.TEST) ? httpTestPort.get() : httpPort.get();
+            int port = LaunchMode.current().equals(LaunchMode.TEST)
+                    ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                            : 8080;
             return String.format("http://localhost:%d/fake/nominatim/api", port);
         }
         return "https://nominatim.openstreetmap.org";

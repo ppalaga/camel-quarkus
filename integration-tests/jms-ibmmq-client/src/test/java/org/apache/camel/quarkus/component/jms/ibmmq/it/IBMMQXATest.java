@@ -17,6 +17,7 @@
 
 package org.apache.camel.quarkus.component.jms.ibmmq.it;
 
+import io.quarkus.runtime.LaunchMode;
 import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.TestProfile;
@@ -55,7 +56,9 @@ public class IBMMQXATest {
 
         RestAssured.given()
                 // see AbstractMessagingTest#beforeAll
-                .port(ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class))
+                .port(LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                                : 8080)
                 .get("/messaging/jms/ibmmq/routes/startXA");
     }
 

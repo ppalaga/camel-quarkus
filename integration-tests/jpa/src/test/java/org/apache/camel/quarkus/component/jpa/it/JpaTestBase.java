@@ -19,6 +19,7 @@ package org.apache.camel.quarkus.component.jpa.it;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
+import io.quarkus.runtime.LaunchMode;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import jakarta.json.bind.Jsonb;
@@ -44,7 +45,9 @@ public class JpaTestBase {
     @BeforeAll
     public static void storeFruits() {
         final Config config = ConfigProvider.getConfig();
-        int port = config.getValue("quarkus.http.test-port", int.class);
+        int port = LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080;
         RestAssured.port = port;
         for (String fruit : FRUITS) {
             RestAssured.given()

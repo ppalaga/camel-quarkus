@@ -22,6 +22,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import io.quarkus.runtime.LaunchMode;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import jakarta.json.bind.JsonbBuilder;
@@ -49,7 +50,9 @@ public abstract class AbstractMessagingTest {
         // see https://github.com/quarkusio/quarkus/issues/7690#issuecomment-596543310
         // The comment states it does not work in native, however it seems to work fine
         RestAssured.given()
-                .port(ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class))
+                .port(LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                                : 8080)
                 .get("/messaging/routes/start");
     }
 

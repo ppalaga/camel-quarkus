@@ -23,21 +23,26 @@ import org.apache.camel.builder.LambdaRouteBuilder;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import org.jboss.logging.Logger;
 
+import io.quarkus.runtime.LaunchMode;
+
 @ApplicationScoped
 public class TimerProducers {
 
     private static final Logger LOG = Logger.getLogger(TimerProducers.class);
 
     public static final String LOG_MESSAGE = "Lets's fool io.quarkus.test.common.LauncherUtil.CaptureListeningDataReader: Listening on: http://0.0.0.0:";
-    @ConfigProperty(name = "quarkus.http.test-port")
-    Optional<Integer> httpTestPort;
-    @ConfigProperty(name = "quarkus.http.port")
-    Optional<Integer> httpPort;
+//    @ConfigProperty(name = "quarkus.http.test-port")
+//    Optional<Integer> httpTestPort;
+//    @ConfigProperty(name = "quarkus.http.port")
+//    Optional<Integer> httpPort;
 
     private int getEffectivePort() {
-        final boolean isNativeMode = "executable".equals(System.getProperty("org.graalvm.nativeimage.kind"));
-        Optional<Integer> portSource = isNativeMode ? httpPort : httpTestPort;
-        return portSource.isPresent() ? portSource.get().intValue() : 0;
+//        final boolean isNativeMode = "executable".equals(System.getProperty("org.graalvm.nativeimage.kind"));
+//        Optional<Integer> portSource = isNativeMode ? httpPort : httpTestPort;
+//        return portSource.isPresent() ? portSource.get().intValue() : 0;
+        return LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080 ; //config.getValue("quarkus.http.port", Integer.class);
     }
 
     @jakarta.enterprise.inject.Produces

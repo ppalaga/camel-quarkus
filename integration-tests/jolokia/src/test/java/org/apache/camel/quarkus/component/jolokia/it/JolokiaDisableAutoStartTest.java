@@ -21,13 +21,13 @@ import java.net.SocketTimeoutException;
 import java.time.Duration;
 import java.util.Map;
 
+import io.quarkus.runtime.LaunchMode;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.QuarkusTestProfile;
 import io.quarkus.test.junit.TestProfile;
 import io.restassured.RestAssured;
 import io.restassured.config.HttpClientConfig;
 import org.awaitility.Awaitility;
-import org.eclipse.microprofile.config.ConfigProvider;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.Matchers.equalTo;
@@ -52,7 +52,9 @@ class JolokiaDisableAutoStartTest {
         });
 
         // Manually start Jolokia
-        RestAssured.port = ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class);
+        RestAssured.port = LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080;
         RestAssured.post("/jolokia/start")
                 .then()
                 .statusCode(204);
@@ -68,7 +70,9 @@ class JolokiaDisableAutoStartTest {
         });
 
         // Verify stop. We don't bother putting this in a finally block since a shutdown hook will take care of stopping Jolokia in case of test failure
-        RestAssured.port = ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class);
+        RestAssured.port = LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080;
         RestAssured.post("/jolokia/stop")
                 .then()
                 .statusCode(204);

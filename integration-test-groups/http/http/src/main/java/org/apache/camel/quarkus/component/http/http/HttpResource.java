@@ -36,6 +36,8 @@ import org.apache.camel.quarkus.component.http.common.AbstractHttpResource;
 import org.eclipse.microprofile.config.Config;
 import org.eclipse.microprofile.config.ConfigProvider;
 
+import io.quarkus.runtime.LaunchMode;
+
 @Path("/test/client/http")
 @ApplicationScoped
 public class HttpResource extends AbstractHttpResource {
@@ -173,7 +175,9 @@ public class HttpResource extends AbstractHttpResource {
     public String compression() {
         return producerTemplate
                 .toF("http://localhost:%d/service/common/compress",
-                        ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class))
+                        LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                        : 8080)
                 .withHeader(Exchange.HTTP_METHOD, "GET")
                 .withHeader("Accept-Encoding", "gzip, deflate")
                 .request(String.class);

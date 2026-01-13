@@ -18,6 +18,7 @@ package org.apache.camel.quarkus.component.http.vertx;
 
 import java.nio.charset.StandardCharsets;
 
+import io.quarkus.runtime.LaunchMode;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.ext.web.multipart.MultipartForm;
 import jakarta.enterprise.context.ApplicationScoped;
@@ -112,7 +113,9 @@ public class VertxResource extends AbstractHttpResource {
     public String compression() {
         return producerTemplate
                 .toF("vertx-http:http://localhost:%d/service/common/compress?useCompression=true",
-                        ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class))
+                        LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                        : 8080)
                 .withHeader(Exchange.HTTP_METHOD, "GET")
                 .withHeader("Accept-Encoding", "gzip, deflate")
                 .request(String.class);

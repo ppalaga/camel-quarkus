@@ -19,6 +19,8 @@ package org.apache.camel.quarkus.component.http.http;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.http.base.HttpOperationFailedException;
 
+import io.quarkus.runtime.LaunchMode;
+
 public class HttpRoutes extends RouteBuilder {
     @Override
     public void configure() throws Exception {
@@ -31,6 +33,8 @@ public class HttpRoutes extends RouteBuilder {
                 .setBody().constant("Handled HttpOperationFailedException")
                 .to("seda:dlq")
                 .end()
-                .to("http://localhost:{{quarkus.http.test-port}}/service/common/error");
+                .toF("http://localhost:%d/service/common/error", LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                                : 8080);
     }
 }

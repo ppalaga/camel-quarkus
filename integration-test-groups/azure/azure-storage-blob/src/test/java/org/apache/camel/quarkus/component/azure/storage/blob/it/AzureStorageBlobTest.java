@@ -64,7 +64,7 @@ class AzureStorageBlobTest {
     static void beforeAll() {
         final Config config = ConfigProvider.getConfig();
         String containerName = config.getValue("azure.blob.container.name", String.class);
-        int port = config.getValue("quarkus.http.test-port", int.class);
+        int port = 8081; //config.getValue("quarkus.http.test-port", int.class);
         RestAssured.port = port;
         RestAssured.given()
                 .queryParam("containerName", containerName)

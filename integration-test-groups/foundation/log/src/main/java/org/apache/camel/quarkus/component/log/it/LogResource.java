@@ -36,20 +36,25 @@ import org.apache.camel.component.log.LogComponent;
 import org.apache.camel.quarkus.main.events.AfterStart;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
+import io.quarkus.runtime.LaunchMode;
+
 @ApplicationScoped
 @Path("/log")
 public class LogResource {
     @Inject
     ProducerTemplate producerTemplate;
 
-    @ConfigProperty(name = "quarkus.http.test-port")
-    Optional<Integer> httpTestPort;
-    @ConfigProperty(name = "quarkus.http.port")
-    Optional<Integer> httpPort;
+//    @ConfigProperty(name = "quarkus.http.test-port")
+//    Optional<Integer> httpTestPort;
+//    @ConfigProperty(name = "quarkus.http.port")
+//    Optional<Integer> httpPort;
 
     private int getEffectivePort() {
-        Optional<Integer> portSource = LogUtils.isNativeMode() ? httpPort : httpTestPort;
-        return portSource.orElse(0);
+//        Optional<Integer> portSource = LogUtils.isNativeMode() ? httpPort : httpTestPort;
+//        return portSource.orElse(0);
+        return LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080 ; //config.getValue("quarkus.http.port", Integer.class);
     }
 
     public void afterApplicationStartup(@Observes AfterStart event) {

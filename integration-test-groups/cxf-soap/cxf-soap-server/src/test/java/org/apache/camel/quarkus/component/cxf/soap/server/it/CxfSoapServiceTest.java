@@ -50,8 +50,9 @@ class CxfSoapServiceTest {
 
     private static String getServerUrl() {
         Config config = ConfigProvider.getConfig();
-        final int port = LaunchMode.current().equals(LaunchMode.TEST) ? config.getValue("quarkus.http.test-port", Integer.class)
-                : config.getValue("quarkus.http.port", Integer.class);
+        final int port = LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080 ; //config.getValue("quarkus.http.port", Integer.class);
         return String.format("http://localhost:%d", port);
     }
 

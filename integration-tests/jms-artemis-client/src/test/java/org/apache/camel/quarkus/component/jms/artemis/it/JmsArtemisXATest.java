@@ -16,10 +16,10 @@
  */
 package org.apache.camel.quarkus.component.jms.artemis.it;
 
+import io.quarkus.runtime.LaunchMode;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.TestProfile;
 import io.restassured.RestAssured;
-import org.eclipse.microprofile.config.ConfigProvider;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -32,7 +32,9 @@ public class JmsArtemisXATest {
     public static void startRoutes() {
         RestAssured.given()
                 // see AbstractMessagingTest#beforeAll
-                .port(ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class))
+                .port(LaunchMode.current().equals(LaunchMode.TEST)
+                        ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                        : 8080)
                 .get("/messaging/jms/artemis/routes/start");
     }
 

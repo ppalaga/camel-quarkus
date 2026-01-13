@@ -16,12 +16,12 @@
  */
 package org.apache.camel.quarkus.component.jolokia.it;
 
+import io.quarkus.runtime.LaunchMode;
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import org.apache.camel.quarkus.jolokia.restrictor.CamelJolokiaRestrictor;
-import org.eclipse.microprofile.config.ConfigProvider;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -43,7 +43,9 @@ class JolokiaTest {
     @ValueSource(strings = { "/jolokia/", "/q/jolokia" })
     void defaultConfiguration(String path) {
         if (path.startsWith("/q")) {
-            RestAssured.port = ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class);
+            RestAssured.port = LaunchMode.current().equals(LaunchMode.TEST)
+                    ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                    : 8080;
         }
 
         RestAssured.given()
@@ -69,7 +71,9 @@ class JolokiaTest {
                 .statusCode(200)
                 .body("status", equalTo(200));
 
-        RestAssured.port = ConfigProvider.getConfig().getValue("quarkus.http.test-port", Integer.class);
+        RestAssured.port = LaunchMode.current().equals(LaunchMode.TEST)
+                ? 8081 //config.getValue("quarkus.http.test-port", Integer.class)
+                : 8080;
 
         RestAssured.get("/jolokia/message/get")
                 .then()
