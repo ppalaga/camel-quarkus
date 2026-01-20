@@ -981,7 +981,6 @@ org.apache.zookeeper:zookeeper-jute
 org.asteriskjava:asterisk-java
 org.asynchttpclient:async-http-client
 org.asynchttpclient:async-http-client-netty-utils
-org.awaitility:awaitility
 org.bitbucket.b_c:jose4j
 org.bouncycastle:bcmail-jdk18on
 org.bouncycastle:bcprov-jdk15on
@@ -1053,7 +1052,6 @@ org.graalvm.regex:regex
 org.graalvm.sdk:collections
 org.graalvm.shadowed:icu4j
 org.graalvm.truffle:truffle-api
-org.hamcrest:hamcrest
 org.igniterealtime.smack:smack-core
 org.igniterealtime.smack:smack-extensions
 org.igniterealtime.smack:smack-im

@@ -1259,6 +1259,7 @@ org.apache.ws.xmlschema:xmlschema-core
 org.apache.yetus:audience-annotations
 org.apiguardian:apiguardian-api
 org.assertj:assertj-core
+org.awaitility:awaitility
 org.bouncycastle:bcpg-jdk18on
 org.bouncycastle:bcpkix-jdk18on
 org.bouncycastle:bcprov-jdk18on
@@ -1328,6 +1329,7 @@ org.glassfish.jaxb:txw2
 org.glassfish.jaxb:xsom
 org.graalvm.sdk:nativeimage
 org.graalvm.sdk:word
+org.hamcrest:hamcrest
 org.hdrhistogram:HdrHistogram
 org.hibernate:quarkus-local-cache
 org.hibernate.models:hibernate-models
