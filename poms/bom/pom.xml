@@ -552,6 +552,10 @@
                         <groupId>com.azure</groupId>
                         <artifactId>azure-core-http-netty</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>org.awaitility</groupId>
+                        <artifactId>awaitility</artifactId>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
@@ -8212,6 +8216,13 @@
                                 <bomEntryTransformation>
                                     <gavPattern>org.apache.camel:camel-azure*</gavPattern>
                                     <addExclusions>com.azure:azure-core-http-netty</addExclusions>
+                                </bomEntryTransformation>
+                                <bomEntryTransformation>
+                                    <!-- Workaroung missing test scope of org.awaitility:awaitility in camel-azure-storage-blob
+                                         https://github.com/jboss-fuse/camel/commit/119bd6d3ce2c92a2ea2743ad966a49aa0c2bfffd#diff-a79c57380d313fc6e4ea0a10de1ebbfdd60537fa5bfe83bff58e580352d13b85
+                                         Remove once https://github.com/jboss-fuse/camel/pull/2965 reaches us -->
+                                    <gavPattern>org.apache.camel:camel-azure-storage-blob</gavPattern>
+                                    <addExclusions>org.awaitility:awaitility</addExclusions>
                                 </bomEntryTransformation>
                                 <bomEntryTransformation>
                                     <gavPattern>org.apache.camel:camel-pgevent</gavPattern>
