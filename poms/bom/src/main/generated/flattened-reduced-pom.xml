@@ -462,6 +462,10 @@
             <groupId>com.azure</groupId>
             <artifactId>azure-core-http-netty</artifactId>
           </exclusion>
+          <exclusion>
+            <groupId>org.awaitility</groupId>
+            <artifactId>awaitility</artifactId>
+          </exclusion>
         </exclusions>
       </dependency>
       <dependency>
