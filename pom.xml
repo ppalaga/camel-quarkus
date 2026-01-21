@@ -240,7 +240,7 @@
         <arangodb.container.image>mirror.gcr.io/arangodb:3.12.0</arangodb.container.image>
         <azurite.container.image>mcr.microsoft.com/azure-storage/azurite:3.35.0</azurite.container.image>
         <calculator-ws.container.image>quay.io/l2x6/calculator-ws:1.2</calculator-ws.container.image>
-        <cics.container.image>images.paas.redhat.com/fuseqe/ibm-cicstg-container-linux-x86-trial:10.1trial</cics.container.image>
+        <cics.container.image>images.paas.redhat.com/fuseqe/ibm-cicstg-container-linux-x86-trial:10.1</cics.container.image>
         <cassandra.container.image>mirror.gcr.io/cassandra:5.0.2</cassandra.container.image>
         <consul.container.image>mirror.gcr.io/hashicorp/consul:1.19</consul.container.image>
         <couchbase.container.image>mirror.gcr.io/couchbase/server:7.2.5</couchbase.container.image>
