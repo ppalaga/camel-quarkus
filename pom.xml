@@ -69,8 +69,8 @@
         <quarkiverse-minio.version>3.8.6</quarkiverse-minio.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/minio/quarkus-minio-parent/ -->
         <quarkiverse-mybatis.version>2.4.1</quarkiverse-mybatis.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/mybatis/quarkus-mybatis-parent/ -->
         <quarkiverse-pooled-jms.version>2.8.0.redhat-00001</quarkiverse-pooled-jms.version><!-- https://repo1.maven.org/maven2/io/quarkiverse/messaginghub/quarkus-pooled-jms-parent/ -->
-        <quarkus.version>3.27.1.redhat-00001</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
-        <quarkus-community.version>3.27.0</quarkus-community.version>
+        <quarkus.version>3.27.2.redhat-00001</quarkus.version><!-- https://repo1.maven.org/maven2/io/quarkus/quarkus-bom/ -->
+        <quarkus-community.version>3.27.2</quarkus-community.version>
         <quarkus-hazelcast-client.version>4.1.0</quarkus-hazelcast-client.version><!-- https://repo1.maven.org/maven2/com/hazelcast/quarkus-hazelcast-client-bom/ -->
         <quarkus-qpid-jms.version>2.10.0</quarkus-qpid-jms.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/org/amqphub/quarkus/quarkus-qpid-jms-bom/ -->
 
@@ -87,7 +87,7 @@
         <azure-sdk-bom.version>1.2.37</azure-sdk-bom.version>
         <azure-core.version>1.55.5</azure-core.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-core -->
         <azure-identity.version>1.16.2</azure-identity.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-identity -->
-        <caffeine.version>3.2.2</caffeine.version><!-- @sync io.quarkus:quarkus-bom:${quarkus-community.version} dep:com.github.ben-manes.caffeine:caffeine -->
+        <caffeine.version>3.2.3</caffeine.version><!-- @sync io.quarkus:quarkus-bom:${quarkus-community.version} dep:com.github.ben-manes.caffeine:caffeine -->
         <chicory.version>${chicory-version}</chicory.version>
         <commons-beanutils.version>${commons-beanutils-version}</commons-beanutils.version>
         <commons-cli.version>1.8.0</commons-cli.version><!-- keep in sync with Quarkus, via quarkus-bootstrap-core -->
@@ -297,7 +297,7 @@
 
         <!-- maven-enforcer-plugin -->
         <min-maven-version>3.8.2</min-maven-version>
-        <target-maven-version>3.9.9</target-maven-version><!-- @sync io.quarkus:quarkus-build-parent:${quarkus.version} prop:proposed-maven-version -->
+        <target-maven-version>3.9.11</target-maven-version><!-- @sync io.quarkus:quarkus-build-parent:${quarkus.version} prop:proposed-maven-version -->
         <supported-maven-versions>[${min-maven-version},)</supported-maven-versions>
 
         <!-- maven-release-plugin -->
