@@ -54,13 +54,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - name: Rebase branch main onto quarkus-main
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git fetch origin main
-          git rebase origin/main
-          git rev-parse origin/main > ~/build-data/main-sha.txt
       - name: Build Quarkus
         run: |
           cd ../
@@ -157,7 +150,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Reclaim Disk Space
         run: .github/reclaim-disk-space.sh
@@ -244,7 +237,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -346,7 +339,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -400,7 +393,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -455,7 +448,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -515,7 +508,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -585,34 +578,3 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Download Maven Repo
-        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
-        with:
-          name: maven-repo
-          path: ..
-      - name: Extract Maven Repo
-        shell: bash
-        run: |
-          df -h /
-          tar -xzf ../maven-repo.tgz -C ~
-          rm -f ../maven-repo.tgz
-          df -h /
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          ref: quarkus-main
-          fetch-depth: 0
-      - name: Rebase branch main onto quarkus-main
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git fetch origin main
-          git rebase $(cat ~/build-data/main-sha.txt)
-      - name: Report build status
-        id: report
-        run: |
-          ./mvnw ${CQ_MAVEN_ARGS} verify -N -Pbuild-notification -Dstatus=verify -DissueId=${{ env.ISSUE_ID }} -Dtoken=${{ secrets.GITHUB_TOKEN }} -DbuildId=$(cat ~/build-data/build-id.txt) -Drepo=${GITHUB_REPOSITORY} -Dbranch=quarkus-main -Dbranch-commit=$(cat ~/build-data/main-sha.txt)
-      - name: Sync branch main to quarkus-main
-        if: steps.report.outputs.overall_build_status == 'success'
-        run: |
-          git push --force-with-lease origin quarkus-main
