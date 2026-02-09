@@ -18,9 +18,7 @@
 name: Daily Build Quarkus main
 
 on:
-  schedule:
-    # Run every day at 2AM
-    - cron:  '0 2 * * *'
+  workflow_dispatch:
 
 env:
   LANG: en_US.UTF-8
@@ -31,7 +29,6 @@ env:
 
 jobs:
   initial-mvn-install:
-    if: github.repository == 'apache/camel-quarkus'
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-native-matrix.outputs.matrix }}
@@ -55,7 +52,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: quarkus-main
+          ref: main
           fetch-depth: 0
       - name: Rebase branch main onto quarkus-main
         run: |
@@ -67,7 +64,7 @@ jobs:
       - name: Build Quarkus
         run: |
           cd ../
-          git clone --depth 1 --branch main https://github.com/quarkusio/quarkus.git \
+          git clone --depth 1 --branch i52484 https://github.com/ppalaga/quarkus.git \
             && cd quarkus \
             && echo "Current Quarkus commit:" $(git rev-parse HEAD) \
             && sed -i '/<module>integration-tests<\/module>/d' pom.xml \
@@ -410,7 +407,7 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git fetch origin main
-          git rebase $(cat ~/build-data/main-sha.txt)          
+          git rebase $(cat ~/build-data/main-sha.txt)
       - name: Reclaim Disk Space
         run: .github/reclaim-disk-space.sh
       - name: Set up JDK 21
