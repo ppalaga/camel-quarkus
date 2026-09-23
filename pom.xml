@@ -135,10 +135,10 @@
         <jakarta.jms-api.version>${jakarta-jms-api-version}</jakarta.jms-api.version>
         <java-driver-query-builder.version>4.19.2</java-driver-query-builder.version><!-- @sync com.datastax.oss.quarkus:cassandra-quarkus-parent:${cassandra-quarkus.version} prop:java-driver.version -->
         <java-json-tools.json-patch.version>${json-patch-version}</java-json-tools.json-patch.version><!-- A replacement for com.github.fge:json-patch -->
-        <jgroups.version>5.3.13.Final</jgroups.version><!-- The version used by quarkus-artemis -> org.apache.artemis:artemis-core-client - see https://redhat.atlassian.net/browse/CEQ-12839 -->
         <jodatime.version>${jodatime2-version}</jodatime.version><!-- Mess in transitive dependencies of Splunk -->
         <javassist.version>${javassist-version}</javassist.version><!-- debezium -->
         <jetty.version>12.1.12.redhat-00001</jetty.version>
+        <jgroups.version>5.3.13.Final</jgroups.version><!-- The major.minor stream used by quarkus-artemis -> org.apache.artemis:artemis-core-client - see https://redhat.atlassian.net/browse/CEQ-12839 -->
         <jira-rest-client.version>${jira-rest-client-api-version}</jira-rest-client.version>
         <jnr-constants.version>0.9.11</jnr-constants.version><!-- Mess in web3j transitive deps -->
         <jnr-ffi.version>2.2.13</jnr-ffi.version><!-- Mess in web3j transitive deps -->
