@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.18.3.redhat-00001</version>
+        <version>4.18.4.redhat-00007</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -40,15 +40,15 @@
 
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.18</camel.major.minor>
-        <camel-community-version>${camel.major.minor}.3</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.3.redhat-00001</camel.version>
+        <camel-community-version>${camel.major.minor}.4</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
+        <camel.version>${camel.major.minor}.4.redhat-00007</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
-        <camel-fusesource.version>4.18.3.redhat-00001</camel-fusesource.version>
+        <camel-fusesource.version>4.18.4.redhat-00006</camel-fusesource.version>
         <sapjco3.version>3.1.12</sapjco3.version>
         <sapidoc.version>3.1.4</sapidoc.version>
-        <camel-kamelets.version>4.18.3.redhat-00001</camel-kamelets.version>
+        <camel-kamelets.version>4.18.4.redhat-00006</camel-kamelets.version>
         <async-profiler.version>2.9</async-profiler.version>
         <camel-quarkus-community.version>3.33.0</camel-quarkus-community.version>
         <cassandra-quarkus.version>1.4.1</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
@@ -138,7 +138,7 @@
         <jgroups.version>5.3.13.Final</jgroups.version><!-- The version used by quarkus-artemis -> org.apache.artemis:artemis-core-client - see https://redhat.atlassian.net/browse/CEQ-12839 -->
         <jodatime.version>${jodatime2-version}</jodatime.version><!-- Mess in transitive dependencies of Splunk -->
         <javassist.version>${javassist-version}</javassist.version><!-- debezium -->
-        <jetty.version>12.1.11.redhat-00001</jetty.version>
+        <jetty.version>12.1.12.redhat-00001</jetty.version>
         <jira-rest-client.version>${jira-rest-client-api-version}</jira-rest-client.version>
         <jnr-constants.version>0.9.11</jnr-constants.version><!-- Mess in web3j transitive deps -->
         <jnr-ffi.version>2.2.13</jnr-ffi.version><!-- Mess in web3j transitive deps -->
