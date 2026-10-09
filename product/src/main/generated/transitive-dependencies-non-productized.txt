@@ -1282,6 +1282,5 @@ software.amazon.awssdk:ses
 software.amazon.awssdk:translate
 tech.tablesaw:tablesaw-core
 tech.tablesaw:tablesaw-jsplot
-tools.jackson.core:jackson-databind
 xerces:xercesImpl
 xml-apis:xml-apis-ext

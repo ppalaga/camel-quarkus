@@ -2921,8 +2921,6 @@ software.amazon.kinesis:amazon-kinesis-client
 tech.allegro.schema.json2avro:converter
 tech.tablesaw:tablesaw-core
 tech.tablesaw:tablesaw-jsplot
-tools.jackson.core:jackson-core
-tools.jackson.core:jackson-databind
 tools.profiler:async-profiler
 wsdl4j:wsdl4j
 xalan:serializer

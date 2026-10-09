@@ -1637,7 +1637,6 @@ software.amazon.glue:schema-registry-common
 software.amazon.glue:schema-registry-serde
 software.amazon.kinesis:amazon-kinesis-client
 tech.allegro.schema.json2avro:converter
-tools.jackson.core:jackson-core
 tools.profiler:async-profiler
 wsdl4j:wsdl4j
 xalan:serializer
