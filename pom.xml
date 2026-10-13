@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-dependencies</artifactId>
-        <version>4.22.1.redhat-00004</version>
+        <version>4.22.1.redhat-00008</version>
     </parent>
 
     <groupId>org.apache.camel.quarkus</groupId>
@@ -41,14 +41,14 @@
         <!-- Primary dependencies - maintained manually -->
         <camel.major.minor>4.22</camel.major.minor>
         <camel-community-version>${camel.major.minor}.1</camel-community-version> <!-- run after each change: cd docs && mvnd validate -->
-        <camel.version>${camel.major.minor}.1.redhat-00004</camel.version>
+        <camel.version>${camel.major.minor}.1.redhat-00008</camel.version>
         <camel.docs.components.version>${camel.major.minor}.x</camel.docs.components.version><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.components.xref>${camel.docs.components.version}@components</camel.docs.components.xref><!-- the version in Camel's docs/components/antora.yml -->
         <camel.docs.branch>camel-${camel.major.minor}.x</camel.docs.branch><!-- The stable camel branch on which our Antora docs depends -->
-        <camel-fusesource.version>4.22.1.redhat-00004</camel-fusesource.version>
+        <camel-fusesource.version>4.22.1.redhat-00008</camel-fusesource.version>
         <sapjco3.version>3.1.13</sapjco3.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.jco:sapjco3 -->
         <sapidoc.version>3.1.4</sapidoc.version><!-- @sync org.fusesource:camel-sap-parent:${camel-fusesource.version} dep:com.sap.conn.idoc:sapidoc3 -->
-        <camel-kamelets.version>4.22.1.redhat-00004</camel-kamelets.version>
+        <camel-kamelets.version>4.22.1.redhat-00008</camel-kamelets.version>
         <async-profiler.version>2.9</async-profiler.version>
         <camel-quarkus-community.version>3.40.0</camel-quarkus-community.version>
         <cassandra-quarkus.version>1.4.1</cassandra-quarkus.version><!-- This should be in sync with quarkus-platform https://repo1.maven.org/maven2/com/datastax/oss/quarkus/cassandra-quarkus-bom/ -->
