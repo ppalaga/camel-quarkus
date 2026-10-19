@@ -137,7 +137,7 @@
         <java-json-tools.json-patch.version>${json-patch-version}</java-json-tools.json-patch.version><!-- A replacement for com.github.fge:json-patch -->
         <jodatime.version>${jodatime2-version}</jodatime.version><!-- Mess in transitive dependencies of Splunk -->
         <javassist.version>${javassist-version}</javassist.version><!-- debezium -->
-        <jetty.version>12.1.12.redhat-00001</jetty.version>
+        <jetty.version>12.1.14.redhat-00001</jetty.version>
         <jgroups.version>5.3.13.Final</jgroups.version><!-- The major.minor stream used by quarkus-artemis -> org.apache.artemis:artemis-core-client - see https://redhat.atlassian.net/browse/CEQ-12839 -->
         <jira-rest-client.version>${jira-rest-client-api-version}</jira-rest-client.version>
         <jnr-constants.version>0.9.11</jnr-constants.version><!-- Mess in web3j transitive deps -->
