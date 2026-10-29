@@ -90,6 +90,7 @@
         <azure-sdk-bom.version>${azure-sdk-bom-version}</azure-sdk-bom.version>
         <azure-core.version>1.57.0</azure-core.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-core -->
         <azure-identity.version>1.18.1</azure-identity.version><!-- @sync com.azure:azure-sdk-bom:${azure-sdk-bom.version} dep:com.azure:azure-identity -->
+        <bcel.version>6.13.0</bcel.version><!-- Force bcel 6.13.0+ due to CVE-2026-105111 CVE-2026-94114. It is pulled transitively (but only on prod side) via camel-quarkus-support-xalan -> xalan:xalan:2.7.3.redhat-00001 -> xalan:serializer:2.7.3.redhat-00001 -->
         <caffeine.version>3.2.4</caffeine.version><!-- @sync io.quarkus:quarkus-bom:${quarkus-community.version} dep:com.github.ben-manes.caffeine:caffeine -->
         <commons-beanutils.version>${commons-beanutils-version}</commons-beanutils.version>
         <commons-cli.version>1.8.0</commons-cli.version><!-- keep in sync with Quarkus, via quarkus-bootstrap-core -->

@@ -8172,6 +8172,11 @@
                 <version>${antlr3.version}</version>
             </dependency>
             <dependency>
+                <groupId>org.apache.bcel</groupId>
+                <artifactId>bcel</artifactId>
+                <version>${bcel.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.apache.camel.kamelets</groupId>
                 <artifactId>camel-kamelets</artifactId>
                 <version>${camel-kamelets.version}</version>
